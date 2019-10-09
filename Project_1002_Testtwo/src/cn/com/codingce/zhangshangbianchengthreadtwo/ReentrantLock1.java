@@ -4,9 +4,9 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @Author: Jiangjun
- * @Date: 2019/10/9 16:15
+ * @Date: 2019/10/9 16:44
  */
-public class Ta {
+public class ReentrantLock1 {
 
     /**
      * java高并发编程设计
@@ -36,7 +36,7 @@ public class Ta {
     }
 
     public static void main(String[] args) {
-        Ta t1 = new Ta();
+        ReentrantLock1 t1 = new ReentrantLock1();
         new Thread(t1::m1).start();
         try{
             TimeUnit.SECONDS.sleep(1);
@@ -45,5 +45,6 @@ public class Ta {
         }
         new Thread(t1::m2).start();
     }
+
 
 }

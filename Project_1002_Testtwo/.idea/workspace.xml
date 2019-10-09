@@ -5,53 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/Ta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Ta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Td.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Te.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Th.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Ti.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/TiTi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tj$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tj.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/To.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Ts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/mashibingthread/Tu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Ta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Ta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Td.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Td.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Te.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Te.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Th.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Th.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Ti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Ti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/To.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/To.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Ts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Ts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/Ta.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,33 +20,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="-234">
               <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
@@ -98,30 +31,80 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="-390">
               <caret line="21" column="29" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Ta.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Th.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="-103">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Ti.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/Ta.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tj.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-              <folding>
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="389">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Td.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Te.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -142,8 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/testannotation/MyAnnotation.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/testannotation/Person.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/myselfannotation/MyAnnotation.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/myselfannotation/TestMain.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/myselfannotation/Person.java" />
@@ -193,6 +174,8 @@
         <option value="$PROJECT_DIR$/src/cn/com/codingce/mashibingthread/Tu.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/mashibingthreadtwo/Ta.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/Ta.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock1.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock2.java" />
       </list>
     </option>
   </component>
@@ -202,7 +185,9 @@
     <option name="width" value="1936" />
     <option name="height" value="882" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -241,6 +226,34 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="codingce" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangshangbianchengthread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangshangbianchengthread" type="462c0819:PsiDirectoryNode" />
+              <item name="Ti.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangshangbianchengthreadtwo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -252,7 +265,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570610172865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570611695847" />
     <property name="last_opened_file_path" value="E:/毕业设计/WJL1985JSPJYSSH2XWFBXTBYSJ_40abce09-6b3c-46d4-96b8-cc3c7b7c755a" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -272,9 +285,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ta">
-    <configuration name="Ta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthreadtwo.Ta" />
+  <component name="RunManager" selected="Application.ReentrantLock1">
+    <configuration name="ReentrantLock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthreadtwo.ReentrantLock1" />
       <module name="Project_1002_Testtwo" />
       <extension name="coverage">
         <pattern>
@@ -286,12 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthread.Tm" />
+    <configuration name="ReentrantLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthreadtwo.ReentrantLock2" />
       <module name="Project_1002_Testtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.codingce.zhangshangbianchengthread.*" />
+          <option name="PATTERN" value="cn.com.codingce.zhangshangbianchengthreadtwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +312,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthread.Ts" />
+    <configuration name="Ta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthreadtwo.Ta" />
       <module name="Project_1002_Testtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.codingce.zhangshangbianchengthread.*" />
+          <option name="PATTERN" value="cn.com.codingce.zhangshangbianchengthreadtwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantLock1" />
+        <item itemvalue="Application.ReentrantLock2" />
         <item itemvalue="Application.Ta" />
         <item itemvalue="Application.Tu" />
         <item itemvalue="Application.Tt" />
-        <item itemvalue="Application.Ts" />
-        <item itemvalue="Application.Tm" />
       </list>
     </recent_temporary>
   </component>
@@ -369,15 +382,24 @@
       <workItem from="1570584279455" duration="669000" />
       <workItem from="1570585988194" duration="3108000" />
       <workItem from="1570591502210" duration="10113000" />
-      <workItem from="1570605315966" duration="3541000" />
+      <workItem from="1570605315966" duration="5005000" />
     </task>
+    <task id="LOCAL-00001" summary="java高并发编程设计">
+      <created>1570610207302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570610207302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94192000" />
+    <option name="totallyTimeSpent" value="95656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -388,7 +410,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18080357" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.087053575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39174107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,7 +422,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32924107" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32924107" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.46875" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -448,36 +470,14 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="java高并发编程设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="java高并发编程设计" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/testconstructor/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/testconstructor/TestConstructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/myselfannotation/MyAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="16" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -698,70 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Td.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Te.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Ti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Th.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -844,20 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
@@ -878,6 +800,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Ta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -885,14 +822,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/Ta.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="544">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Td.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Te.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Th.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Ti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthread/Tj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
