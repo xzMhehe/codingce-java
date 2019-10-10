@@ -16,7 +16,7 @@ public class ReentrantLock2 {
      * 这是复习synchronized最原始的语义.
      *
      * 使用reentrantLock可以完成同样功能
-     * 需要注意的是,必须要必须要必须要手动释放锁(重要的事情说三遍)
+     * 需要注意的是,   必须要必须要必须要手动释放锁(重要的事情说三遍)
      * 使用synchronized锁定的话如果遇到异常,jvm就会自动释放锁,但是lock必须手动释放,因此经常在finally中进行锁的释放
      */
 
