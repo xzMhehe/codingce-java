@@ -30,7 +30,7 @@ public class SimpleQuartzApp {
                 //加入 scheduler之后立刻执行
                 .startNow()
                 //定时 ，每个1秒钟执行一次
-                .withSchedule(SimpleScheduleBuilder.simpleSchedule().withIntervalInSeconds(3).repeatForever())
+                .withSchedule(SimpleScheduleBuilder.simpleSchedule().withIntervalInSeconds(40).repeatForever())
                 //job需要传递的内容
                 //.usingJobData("name", "sdas")
                 //重复执行
