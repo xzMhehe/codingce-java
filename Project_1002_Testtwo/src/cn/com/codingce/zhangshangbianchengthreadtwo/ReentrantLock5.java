@@ -10,6 +10,7 @@ public class ReentrantLock5 extends Thread{
 
     /**
      * ReentrantLock还可以指定为公平锁
+     * ReentrantLock  和synchronized  面试常问
      */
 
     private static ReentrantLock lock = new ReentrantLock(true);  //参数为true表示为公平锁,请对比输出结果

@@ -20,7 +20,7 @@ public class Tu {
      * 使用await 和countdown 方法代替wait 和notify
      * CountDownLatch不涉及锁定,当count的值为零时前线程继续运行.
      * 当不涉及同步,只是涉及线程通信的时候,用synchronized + wait/notify 就显得太重要了.
-     * 这是应该考虑countDownlatch/cyclibarrier/semaphore.
+     * 这是应该考虑   countDownlatch/cyclibarrier/semaphore.
      */
 
     volatile List lists = new ArrayList();
