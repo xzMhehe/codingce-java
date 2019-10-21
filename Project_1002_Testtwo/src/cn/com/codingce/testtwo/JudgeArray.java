@@ -3,6 +3,7 @@ package cn.com.codingce.testtwo;
 import java.util.Arrays;
 
 /**
+ * 判断两个数组元素是否相同
  * @Author: Jiangjun
  * @Date: 2019/10/20 0:04
  */
@@ -12,6 +13,7 @@ public class JudgeArray {
         String [] array2 = {"3","2"};
         Arrays.sort(array1);
         Arrays.sort(array2);
+
         for(String s:array1)
         {
             System.out.println(s);

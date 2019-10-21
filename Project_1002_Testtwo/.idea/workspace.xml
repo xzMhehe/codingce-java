@@ -4,13 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/src/cn/com/codingce/myselfannotation/TestMain.java" line="32" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="java高并发编程设计">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadthree/MyContainera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../young-quartz/src/main/java/com/young/quartz/job/TimeRemindJob.java" afterDir="false" />
+    <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="java高并发编程设计&amp;判断两数组元素是否相同">
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/streamtest/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/streamtest/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadone/Tu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadone/Tu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../young-quartz/src/main/java/com/young/quartz/job/HelloQuartz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../young-quartz/src/main/java/com/young/quartz/job/HelloQuartz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/testtwo/JudgeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/testtwo/JudgeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +21,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/testtwo/JudgeArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="156">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-109">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding>
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/PersonDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../young-quartz/src/main/java/com/young/quartz/job/HelloQuartz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -33,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="1241" column="4" lean-forward="true" selection-start-line="1241" selection-start-column="4" selection-end-line="1241" selection-end-column="4" />
+            <state relative-caret-position="71344">
+              <caret line="2815" column="26" selection-start-line="2815" selection-start-column="26" selection-end-line="2815" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -55,11 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/iocannotation/User.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/iocannotation/Question.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/iocannotation/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/TestMain.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/TestVolatile.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/VolatileDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/LockFairThread.java" />
@@ -106,11 +185,16 @@
         <option value="$PROJECT_DIR$/src/cn/com/codingce/crawl/test.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/crawl/PriceCheckUtil.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/testtwo/JudgeArray.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/testtwo/SteamTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/SteamTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/Person.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/PersonDTO.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="32" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -123,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,18 +240,37 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="codingce" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+              <item name="streamtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+              <item name="testtwo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571501923905" />
-    <property name="last_opened_file_path" value="F:/Company_Project/magiccode-manage-backend" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571621129846" />
+    <property name="last_opened_file_path" value="F:/LeadingCode/solo-v3.6.5" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -198,7 +300,7 @@
       <module name="Project_1002_Testtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.codingce.testtwo.*" />
+          <option name="PATTERN" value="cn.com.codingce.streamtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,7 +400,10 @@
       <workItem from="1571213793482" duration="2735000" />
       <workItem from="1571272798787" duration="1393000" />
       <workItem from="1571285933760" duration="724000" />
-      <workItem from="1571500927014" duration="926000" />
+      <workItem from="1571500927014" duration="2272000" />
+      <workItem from="1571555220374" duration="72000" />
+      <workItem from="1571561393228" duration="322000" />
+      <workItem from="1571620052493" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="java高并发编程设计">
       <created>1570610207302</created>
@@ -314,17 +419,31 @@
       <option name="project" value="LOCAL" />
       <updated>1570611766928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="java高并发编程设计&amp;判断两数组元素是否相同">
+      <created>1571501992124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571501992124</updated>
+    </task>
+    <task id="LOCAL-00004" summary="java高并发编程设计&amp;判断两数组元素是否相同">
+      <created>1571502493838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571502493838</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110002000" />
+    <option name="totallyTimeSpent" value="112817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -333,7 +452,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04910714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04910714" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47433037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,11 +460,11 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.46875" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32924107" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.46875" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" visible="true" weight="0.16852678" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -408,52 +527,14 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="java高并发编程设计" />
-    <option name="LAST_COMMIT_MESSAGE" value="java高并发编程设计" />
+    <MESSAGE value="java高并发编程设计&amp;判断两数组元素是否相同" />
+    <option name="LAST_COMMIT_MESSAGE" value="java高并发编程设计&amp;判断两数组元素是否相同" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1369">
-          <caret line="263" column="4" selection-start-line="263" selection-start-column="4" selection-end-line="263" selection-end-column="4" />
-          <folding>
-            <element signature="e#19132#19133#0" expanded="true" />
-            <element signature="e#19175#19176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2679">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="288" column="22" selection-start-line="288" selection-start-column="22" selection-end-line="288" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -726,13 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/crawl/ShopProductParity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/crawl/ShopProductParity.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadone/Ta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -768,20 +843,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/crawl/JsoupUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/crawl/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/crawl/JsoupUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/crawl/test.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/zhangshangbianchengthreadtwo/ReentrantLock5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -789,24 +852,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/crawl/PriceCheckUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/crawl/PriceCheckUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/testtwo/JudgeArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="156">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../young-quartz/src/main/java/com/young/quartz/job/HelloQuartz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="1241" column="4" lean-forward="true" selection-start-line="1241" selection-start-column="4" selection-end-line="1241" selection-end-column="4" />
+        <state relative-caret-position="71344">
+          <caret line="2815" column="26" selection-start-line="2815" selection-start-column="26" selection-end-line="2815" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/testtwo/JudgeArray.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="-109">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/PersonDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
