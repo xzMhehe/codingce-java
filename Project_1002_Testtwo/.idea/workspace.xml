@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/testtwo/JudgeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/testtwo/JudgeArray.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +27,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="364">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Predicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -134,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/TestVolatile.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/VolatileDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/LockFairThread.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/ThreadDemo.java" />
@@ -185,10 +216,11 @@
         <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/Person.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/PersonDTO.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2390" />
     <option name="y" value="40" />
     <option name="width" value="2420" />
@@ -202,15 +234,69 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+              <item name="streamdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+              <item name="streamtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571621338505" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571800908902" />
     <property name="last_opened_file_path" value="F:/LeadingCode/solo-v3.6.5" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -235,13 +321,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JudgeArray">
-    <configuration name="JudgeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.testtwo.JudgeArray" />
+  <component name="RunManager" selected="Application.DemoA">
+    <configuration name="DemoA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.streamdemo.DemoA" />
       <module name="Project_1002_Testtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.codingce.streamtest.*" />
+          <option name="PATTERN" value="cn.com.codingce.streamdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLock1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthreadtwo.ReentrantLock1" />
+    <configuration name="JudgeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.testtwo.JudgeArray" />
       <module name="Project_1002_Testtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.codingce.zhangshangbianchengthreadtwo.*" />
+          <option name="PATTERN" value="cn.com.codingce.streamtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,11 +389,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoA" />
         <item itemvalue="Application.JudgeArray" />
         <item itemvalue="Application.ReentrantLock5" />
         <item itemvalue="Application.ReentrantLock4" />
         <item itemvalue="Application.ReentrantLock3" />
-        <item itemvalue="Application.ReentrantLock1" />
       </list>
     </recent_temporary>
   </component>
@@ -347,6 +433,9 @@
       <workItem from="1571620052493" duration="1290000" />
       <workItem from="1571621356141" duration="183000" />
       <workItem from="1571705469718" duration="1315000" />
+      <workItem from="1571729313532" duration="801000" />
+      <workItem from="1571791007195" duration="2318000" />
+      <workItem from="1571800960437" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="java高并发编程设计">
       <created>1570610207302</created>
@@ -394,13 +483,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114530000" />
+    <option name="totallyTimeSpent" value="117683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="32" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -409,7 +497,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.04910714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04575893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47433037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,27 +581,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="166" column="19" lean-forward="true" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/threaddemo/VolatileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -818,6 +885,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1274">
@@ -889,10 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="221">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
