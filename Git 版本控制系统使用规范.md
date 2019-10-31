@@ -10,7 +10,7 @@ Git 版本控制系统使用规范旨在帮助每一个人规范操作流程，�
 - develop 长期开发分支，该分支代码代码主要来自于feature-name格式创建的分支，在每个新功能开发完成后，经严格测试后，合并到develop分支，并做系统继承测试，系统集成测试通过后，发布版本，并合并到master分支上。
 - bug 错误分支，该分支大多数情况下是修复master分支上面的错误，在错误修复完成后，在合并回master分支。
 
-[点击查看](https://www.tapd.cn/35928159/markdown_wikis/view/#1135928159001000265)Git分支管理策略详情
+[点击查看](http://www.ruanyifeng.com/blog/2012/07/git.html)Git分支管理策略详情
 
 ## 提交要求
 
