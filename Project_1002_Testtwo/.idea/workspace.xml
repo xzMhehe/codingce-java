@@ -4,18 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/cn/com/codingce/myselfannotation/TestMain.java" line="32" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="A:时间转换">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/util/PageableTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/util/SortDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/util/SortTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/feature/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jpa/src/test/java/cn/com/codingce/jpa/JpaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/src/test/java/cn/com/codingce/jpa/JpaApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -317,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572491351810" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572491619617" />
     <property name="last_opened_file_path" value="F:/LeadingCode/solo-v3.6.5" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -459,7 +448,7 @@
       <workItem from="1571800960437" duration="34000" />
       <workItem from="1572310306287" duration="2126000" />
       <workItem from="1572335740280" duration="1677000" />
-      <workItem from="1572490491910" duration="739000" />
+      <workItem from="1572490491910" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="java高并发编程设计">
       <created>1570610207302</created>
@@ -517,16 +506,23 @@
       <option name="project" value="LOCAL" />
       <updated>1572491017039</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="A:修改或添加新功能">
+      <created>1572491451408</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572491451408</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122225000" />
+    <option name="totallyTimeSpent" value="122483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27412868" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27412868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -547,7 +543,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32924107" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" weight="0.64411765" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" visible="true" weight="0.64411765" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -614,7 +610,8 @@
     <MESSAGE value="Stream作为Java 8的一大特点" />
     <MESSAGE value="时间转换" />
     <MESSAGE value="A:丰富时间转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="A:丰富时间转换" />
+    <MESSAGE value="A:修改或添加新功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="A:修改或添加新功能" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
