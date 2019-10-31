@@ -1,14 +1,10 @@
 package cn.com.codingce.jpa;
 
 import cn.com.codingce.jpa.entity.Person;
-import cn.com.codingce.jpa.repository.PersonRepository;
-import cn.com.codingce.jpa.service.PersonService;
+import cn.com.codingce.jpa.feature.service.PersonService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.time.LocalDateTime;
-import java.util.Optional;
 
 @SpringBootTest
 class JpaApplicationTests {

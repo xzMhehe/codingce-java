@@ -1,4 +1,4 @@
-package cn.com.codingce.jpa.service;
+package cn.com.codingce.jpa.feature.service;
 
 import cn.com.codingce.jpa.entity.Person;
 import cn.com.codingce.jpa.repository.PersonRepository;

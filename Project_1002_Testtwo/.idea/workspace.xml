@@ -4,10 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/src/cn/com/codingce/myselfannotation/TestMain.java" line="32" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java" afterDir="false" />
+    <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="A:时间转换">
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/util/PageableTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/util/SortDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/util/SortTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/testtwo/JudgeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/testtwo/JudgeArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/src/main/java/cn/com/codingce/jpa/feature/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpa/src/test/java/cn/com/codingce/jpa/JpaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa/src/test/java/cn/com/codingce/jpa/JpaApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/testtwo/JudgeArray.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="988">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,13 +38,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/testtwo/StringToLocalDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="988">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/time/format/DateTimeFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11440">
+              <caret line="534" column="36" selection-start-line="534" selection-start-column="36" selection-end-line="534" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -166,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/VolatileDemo.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/LockFairThread.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/threaddemo/ThreadDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/mashibing001/T.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/mashibing001/Tojne.java" />
@@ -217,14 +222,16 @@
         <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/PersonDTO.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java" />
         <option value="$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoB.java" />
+        <option value="$PROJECT_DIR$/src/cn/com/codingce/testtwo/StringToLocalDate.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2390" />
-    <option name="y" value="40" />
-    <option name="width" value="2420" />
-    <option name="height" value="1320" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -240,6 +247,11 @@
             <path>
               <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
@@ -285,18 +297,27 @@
               <item name="codingce" type="462c0819:PsiDirectoryNode" />
               <item name="streamtest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Project_1002_Testtwo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_1002_Testtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="codingce" type="462c0819:PsiDirectoryNode" />
+              <item name="testtwo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571800908902" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572491351810" />
     <property name="last_opened_file_path" value="F:/LeadingCode/solo-v3.6.5" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -321,9 +342,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoA">
+  <component name="RunManager" selected="Application.StringToLocalDate">
     <configuration name="DemoA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.streamdemo.DemoA" />
+      <module name="Project_1002_Testtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.streamdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.streamdemo.DemoB" />
       <module name="Project_1002_Testtwo" />
       <extension name="coverage">
         <pattern>
@@ -348,32 +382,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLock3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthreadtwo.ReentrantLock3" />
-      <module name="Project_1002_Testtwo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.zhangshangbianchengthreadtwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantLock4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthreadtwo.ReentrantLock4" />
-      <module name="Project_1002_Testtwo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.zhangshangbianchengthreadtwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReentrantLock5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.zhangshangbianchengthreadtwo.ReentrantLock5" />
       <module name="Project_1002_Testtwo" />
@@ -387,13 +395,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringToLocalDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.testtwo.StringToLocalDate" />
+      <module name="Project_1002_Testtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.testtwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringToLocalDate" />
+        <item itemvalue="Application.DemoB" />
         <item itemvalue="Application.DemoA" />
         <item itemvalue="Application.JudgeArray" />
         <item itemvalue="Application.ReentrantLock5" />
-        <item itemvalue="Application.ReentrantLock4" />
-        <item itemvalue="Application.ReentrantLock3" />
       </list>
     </recent_temporary>
   </component>
@@ -436,6 +457,9 @@
       <workItem from="1571729313532" duration="801000" />
       <workItem from="1571791007195" duration="2318000" />
       <workItem from="1571800960437" duration="34000" />
+      <workItem from="1572310306287" duration="2126000" />
+      <workItem from="1572335740280" duration="1677000" />
+      <workItem from="1572490491910" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="java高并发编程设计">
       <created>1570610207302</created>
@@ -479,16 +503,30 @@
       <option name="project" value="LOCAL" />
       <updated>1571621385655</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="时间转换">
+      <created>1572336900619</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572336900619</updated>
+    </task>
+    <task id="LOCAL-00008" summary="A:丰富时间转换">
+      <created>1572491017038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572491017039</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117683000" />
+    <option name="totallyTimeSpent" value="122225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27412868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -497,7 +535,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.04575893" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30294117" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47433037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -509,7 +547,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32924107" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" weight="0.64508927" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" weight="0.64411765" />
       <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -574,34 +612,15 @@
     <MESSAGE value="java高并发编程设计" />
     <MESSAGE value="java高并发编程设计&amp;判断两数组元素是否相同" />
     <MESSAGE value="Stream作为Java 8的一大特点" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream作为Java 8的一大特点" />
+    <MESSAGE value="时间转换" />
+    <MESSAGE value="A:丰富时间转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="A:丰富时间转换" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/threaddemo/VolatileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/threaddemo/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/threaddemo/LockFairThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/threaddemo/ThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -887,11 +906,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamtest/StreamMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="312">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11440">
+          <caret line="534" column="36" selection-start-line="534" selection-start-column="36" selection-end-line="534" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -980,10 +1026,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/streamdemo/DemoA.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/codingce/testtwo/StringToLocalDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="988">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
