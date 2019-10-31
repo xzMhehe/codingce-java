@@ -3,6 +3,7 @@ package cn.com.codingce.testtwo;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
@@ -21,12 +22,27 @@ public class StringToLocalDate {
         System.out.println(upDateToLocalDateTime(date2));
     }
 
+    /**
+     * LocalDate->LocalDateTime
+     * @param localDate
+     * @return
+     */
     public static LocalDateTime upDateToLocalDateTime(LocalDate localDate) {
         ZoneId zone = ZoneId.systemDefault();
         Instant instant = localDate.atStartOfDay().atZone(zone).toInstant();
         Date date = Date.from(instant);
         Instant newInstant = date.toInstant();
         return LocalDateTime.ofInstant(newInstant, zone);
+    }
+
+    /**
+     * LocalDate->LocalDateTime便捷转换
+     * @param startTime
+     * @param endTime
+     */
+    public static void upLocalDateToLocalDateTime(LocalDate startTime, LocalDate endTime) {
+        LocalDateTime startLocalDateTime = LocalDateTime.of(startTime, LocalTime.of(0, 0));
+        LocalDateTime endLocalDateTime = LocalDateTime.of(endTime, LocalTime.of(23, 59));
     }
 
 }
