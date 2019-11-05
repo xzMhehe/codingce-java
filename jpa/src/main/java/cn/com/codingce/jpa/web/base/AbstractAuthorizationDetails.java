@@ -1,6 +1,6 @@
 package cn.com.codingce.jpa.web.base;
 
-import cn.com.coding4fun.game.authentication.core.UserInfoDetails;
+import cn.com.codingce.jpa.authentication.core.UserInfoDetails;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 

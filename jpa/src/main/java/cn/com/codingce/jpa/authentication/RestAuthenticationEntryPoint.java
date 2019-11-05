@@ -1,6 +1,6 @@
 package cn.com.codingce.jpa.authentication;
 
-import cn.com.coding4fun.game.common.Constants;
+import cn.com.codingce.jpa.common.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
@@ -16,6 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.Serializable;
 
+/**
+ * @author 2460798168@qq.com
+ */
 public class RestAuthenticationEntryPoint implements AuthenticationEntryPoint, Serializable {
     private final Logger logger = LoggerFactory.getLogger(LoginAuthenticationFailureHandler.class);
 
