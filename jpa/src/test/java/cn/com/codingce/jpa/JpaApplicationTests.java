@@ -1,7 +1,7 @@
 package cn.com.codingce.jpa;
 
 import cn.com.codingce.jpa.entity.Person;
-import cn.com.codingce.jpa.feature.service.PersonService;
+import cn.com.codingce.jpa.web.feature.user.PersonService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

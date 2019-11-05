@@ -1,15 +1,15 @@
-package cn.com.codingce.jpa.feature.service;
+package cn.com.codingce.jpa.web.feature.user;
 
 import cn.com.codingce.jpa.entity.Person;
-import cn.com.codingce.jpa.repository.PersonRepository;
+import cn.com.codingce.jpa.web.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
 /**
- * @Author: Jiangjun
- * @Date: 2019/10/22 13:07
+ * @Author Jiangjun
+ * @Date 2019/10/22 13:07
  */
 @Service
 public class PersonService {

@@ -1,4 +1,4 @@
-package cn.com.codingce.jpa.repository;
+package cn.com.codingce.jpa.web.repository;
 
 import cn.com.codingce.jpa.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
