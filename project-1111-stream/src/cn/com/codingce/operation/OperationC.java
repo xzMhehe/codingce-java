@@ -61,6 +61,7 @@ public class OperationC {
          *
          * 原因是出于性能的考虑。这种行为可以减少在每个元素上执行的实际操作数，如下例所示：
          */
+
         Stream.of("d2", "a2", "b1", "b3", "c")
                 .map(s -> {
                     System.out.println("map: " + s);
@@ -70,6 +71,7 @@ public class OperationC {
                     System.out.println("anyMatch: " + s);
                     return s.startsWith("A"); // 过滤出以 A 为前缀的元素
                 });
+
         /**
          * map:      d2
          * anyMatch: D2
@@ -85,6 +87,5 @@ public class OperationC {
          * 相对于水平执行来说， map会执行尽可能少的次数，
          * 而不是把所有元素都 map 转换一遍。
          */
-
     }
 }
