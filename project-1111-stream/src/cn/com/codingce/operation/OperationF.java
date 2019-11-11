@@ -29,17 +29,23 @@ public class OperationF {
                         new Person("David", 12));
 
         /**
-         * 收集是到流中的元素转换为不同的种类的结果，
-         * 例如一个非常有用的终端操作List，Set或Map。
-         * 收集接受Collector由四个不同的操作组成的：供应商，累加器，合并器和装订器。
-         * 乍一看，这听起来超级复杂，但是好地方是Java 8通过Collectors该类支持各种内置的收集器。
-         * 因此，对于最常见的操作，您不必自己实现收集器。
+         * 6.1 Collect
+         * collect 是一个非常有用的终端操作，
+         * 它可以将流中的元素转变成另外一个不同的对象，
+         * 例如一个 List， Set或 Map。collect 接受入参为 Collector（收集器），
+         * 它由四个不同的操作组成：供应器（supplier）、累加器（accumulator）、组合器（combiner）和终止器（finisher）。
+         *
+         * 这些都是个啥？别慌，看上去非常复杂的样子，但好在大多数情况下，
+         * 您并不需要自己去实现收集器。因为 Java 8通过 Collectors类内置了各种常用的收集器，你直接拿来用就行了。
+         *
+         * 让我们先从一个非常常见的用例开始：
          */
+
         List<Person> filtered =
                 persons
                         .stream()
-                        .filter(p -> p.getName().startsWith("P"))
-                        .collect(Collectors.toList());
+                        .filter(p -> p.getName().startsWith("P")) // 过滤出名字以 P 开头的
+                        .collect(Collectors.toList()); // 生成一个新的 List
 
         System.out.println(filtered);    // [Peter, Pamela]
 
@@ -52,16 +58,20 @@ public class OperationF {
 
         Map<Integer, List<Person>> personsByAge = persons
                 .stream()
-                .collect(Collectors.groupingBy(Person::getAge));  // p -> p.getAge();
+                .collect(Collectors.groupingBy(Person::getAge));  // 以年龄为 key,进行分组  p -> p.getAge();
         personsByAge
                 .forEach((age, p) -> System.out.format("age %s: %s\n", age, p));
 
         /**
+         * age 18: [Max]
+         * age 23: [Peter, Pamela]
+         * age 12: [David]
+         *
          * 除了上面这些操作。您还可以在流上执行聚合操作，例如，计算所有人的平均年龄：
          */
         Double averageAge = persons
                 .stream()
-                .collect(Collectors.averagingInt(Person::getAge)); // p -> p.getAge();
+                .collect(Collectors.averagingInt(Person::getAge)); // 聚合出平均年龄 p -> p.getAge();
         System.out.println(averageAge);     // 19.0
 
         /**
@@ -71,21 +81,19 @@ public class OperationF {
         IntSummaryStatistics ageSummary =
                 persons
                         .stream()
-                        .collect(Collectors.summarizingInt(Person::getAge)); // p -> p.getAge();
+                        .collect(Collectors.summarizingInt(Person::getAge)); // 生成摘要统计 p -> p.getAge();
         System.out.println(ageSummary);
-
         /**
          * IntSummaryStatistics{count=4, sum=76, min=12, average=19.000000, max=23}
+         *
          * 下一个示例将所有人连接成一个字符串：
          */
         String phrase = persons
                 .stream()
-                .filter(p -> p.getAge() >= 18)
-                .map(Person::getName)
-                .collect(Collectors.joining(" and ", "In Germany ", " are of legal age."));
-
+                .filter(p -> p.getAge() >= 18) // 过滤出年龄大于等于18的
+                .map(Person::getName) // 提取名字
+                .collect(Collectors.joining(" and ", "In Germany ", " are of legal age.")); // 以 In Germany 开头，and 连接各元素，再以 are of legal age. 结束
         System.out.println(phrase);
-
         /**
          * In Germany Max and Peter and Pamela are of legal age.
          *
@@ -99,12 +107,12 @@ public class OperationF {
                 .collect(Collectors.toMap(
                         Person::getAge,
                         Person::getName,
-                        (name1, name2) -> name1 + ";" + name2));
+                        (name1, name2) -> name1 + ";" + name2)); // 对于同样 key 的，将值拼接
 
         System.out.println(map);
-
         /**
          * {18=Max, 23=Peter;Pamela, 12=David}
+         *
          * 现在我们知道一些最强大的内置收集器，让我们尝试构建自己的特殊收集器。
          * 我们希望将流中的所有人转换为单个字符串，
          * 该字符串包含所有用|竖线字符分隔的大写字母名称。
@@ -117,7 +125,6 @@ public class OperationF {
                         (j, p) -> j.add(p.getName().toUpperCase()),     // accumulator 累加器
                         (j1, j2) -> j1.merge(j2),                       // combiner 组合器
                         StringJoiner::toString);                        // finisher 终止器
-
         String names = persons
                 .stream()
                 .collect(personNameCollector); // 传入自定义的收集器
