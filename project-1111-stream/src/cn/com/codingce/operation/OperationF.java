@@ -29,7 +29,7 @@ public class OperationF {
                         new Person("David", 12));
 
         /**
-         * 6.1 Collect
+         * 高级操作 Collect
          * collect 是一个非常有用的终端操作，
          * 它可以将流中的元素转变成另外一个不同的对象，
          * 例如一个 List， Set或 Map。collect 接受入参为 Collector（收集器），
