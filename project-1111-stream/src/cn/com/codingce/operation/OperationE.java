@@ -31,6 +31,7 @@ public class OperationE {
          * 为了克服此限制，我们必须为要执行的每个终端操作创建一个新的流链，
          * 例如，我们可以创建一个流提供程序以构造一个已经设置了所有中间操作的新流：
          */
+
         Supplier<Stream<String>> streamSupplier =
                 () -> Stream.of("d2", "a2", "b1", "b3", "c")
                         .filter(s -> s.startsWith("a"));
