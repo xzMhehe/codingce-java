@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * 6.3 Reduce
+ * 高级操作 Reduce
  *
  * @author 2460798168@qq.com
  * @date 2019/11/11 13:57
