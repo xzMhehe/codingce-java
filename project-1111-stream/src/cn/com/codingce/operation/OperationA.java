@@ -10,6 +10,7 @@ import java.util.List;
  * 用来对这些元素执行计算。
  * 借鉴地址 https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
  * 请不要行尾注释 本注释仅仅为了代码可读性
+ *
  * @author 2460798168@qq.com
  * @date 2019/11/11 9:31
  */
