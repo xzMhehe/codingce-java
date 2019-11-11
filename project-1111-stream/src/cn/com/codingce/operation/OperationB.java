@@ -8,6 +8,7 @@ import java.util.stream.Stream;
  * 不同类型的 Stream 流
  * 我们可以从各种数据源中创建 Stream 流，
  * 其中以 Collection 集合最为常见。如 List 和 Set 均支持 stream() 方法来创建顺序流或者是并行流。
+ *
  * @author 2460798168@qq.com
  * @date 2019/11/11 9:40
  */
