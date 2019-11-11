@@ -1,6 +1,8 @@
 package cn.com.codingce.entity;
 
 /**
+ * Person 实体类
+ *
  * @author 2460798168@qq.com
  * @date 2019/11/11 11:00
  */

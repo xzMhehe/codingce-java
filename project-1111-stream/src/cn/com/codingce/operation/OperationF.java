@@ -49,6 +49,7 @@ public class OperationF {
          *
          * 接下来这个示例，将会按年龄对所有人进行分组：
          */
+
         Map<Integer, List<Person>> personsByAge = persons
                 .stream()
                 .collect(Collectors.groupingBy(Person::getAge));  // p -> p.getAge();
