@@ -7,8 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @Author: Jiangjun
- * @Date: 2019/10/11 9:36
+ * @date 2019/10/11 9:36
  */
 public class TimeRemindJob implements Job {
 

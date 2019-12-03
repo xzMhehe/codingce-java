@@ -9,10 +9,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Date;
 
-/**
- * @Author: Jiangjun
- * @Date: 2019/10/10 11:47
- */
 public class HelloQuartz  implements Job {
 
     private static final Logger LOGGER =LoggerFactory.getLogger(TimeRemindJob.class);
