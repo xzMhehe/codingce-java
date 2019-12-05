@@ -27,7 +27,7 @@ public class DemoSchedule {
         Scheduler scheduler = schedulerFactory.getScheduler();
 
         /**
-         * 创建JobDetail实力，并与PrintWordsJob类绑定（Job执行内容）
+         * 创建JobDetail实例，并与PrintWordsJob类绑定（Job执行内容）
          */
         JobDetail jobDetail = JobBuilder.newJob(DemoJob.class)
                 .withIdentity("job1", "triggerGroup1")
@@ -58,7 +58,6 @@ public class DemoSchedule {
         TimeUnit.MINUTES.sleep(1);
         scheduler.shutdown();
         System.out.println("------------scheduler shutdown!--------------");
-
 
     }
 
