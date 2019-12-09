@@ -23,8 +23,15 @@ public class WebController {
     @Autowired
     private WxService service;
 
+    @Autowired
+
+    private HttpServletRequest request;
+
+    @Autowired
+    private HttpServletResponse response;
+
     @GetMapping
-    public void get(HttpServletRequest request, HttpServletResponse response) {
+    public void get() {
         /**
          * signature	微信加密签名，signature结合了开发者填写的token参数和请求中的timestamp参数、nonce参数。
          * timestamp	时间戳
@@ -51,7 +58,7 @@ public class WebController {
     }
 
     @PostMapping
-    public void post(HttpServletRequest request, HttpServletResponse response) {
+    public void post() {
         System.out.println("Post");
         try {
             //获取所发送的信息
@@ -70,8 +77,13 @@ public class WebController {
         }
     }
 
+    /**
+     * 获取授权的用户信息
+     * @return
+     */
     @GetMapping("/usr")
     public String getUsr() {
+        System.out.println("我被调用了");
         String url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN";
         return "index.html";
     }
