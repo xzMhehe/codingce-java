@@ -18,7 +18,14 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <!-- 1.创建一个Maven工程，选择jar类型项目2.引入SpringBootMaven依赖。 -->
+    <!-- Maven parent 目的，聚合工程、继承关系 -->
+    <!--Spring parent 目的： 统一整合第三方框架依赖信息 (SpringBoot 支持依赖 不需要写版本号) -->
     <dependencies>
+        <!-- -springboot 整合Web组件 整合SpringMVC 就会把传统方式的SpringMVC依赖的jar全部给下载来 -->
+        <!-- 引入spring-boot-starter-web 帮你整合好所有相关的依赖jar包 原理 maven依赖传递 -->
+
+        <!-- 原理： spring-boot-starter-parent< 中，整合号相关 jar依赖信息 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>

@@ -6,9 +6,9 @@ import cn.com.codingce.wx.util.Util;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
@@ -21,14 +21,13 @@ import java.util.Map;
  * @author 2460798168@qq.com
  * @date 2019/12/6 12:46
  */
-@RestController
+@Controller
 public class WebController {
 
     @Autowired
     private WxService service;
 
     @Autowired
-
     private HttpServletRequest request;
 
     @Autowired
@@ -103,7 +102,7 @@ public class WebController {
             result = Util.get(url);
             JSONObject usr = new JSONObject(result);
             User user = new User(usr.getString("openid"), usr.getString("nickname"), Integer.parseInt(usr.getString("sex")), usr.getString("language"), usr.getString("city"), usr.getString("headimgurl"), usr.getString("privilege"));
-            return result;
+            return "page/user";
         } catch (JSONException e) {
             e.printStackTrace();
             return null;
