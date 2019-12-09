@@ -102,6 +102,7 @@ public class WebController {
             result = Util.get(url);
             JSONObject usr = new JSONObject(result);
             User user = new User(usr.getString("openid"), usr.getString("nickname"), Integer.parseInt(usr.getString("sex")), usr.getString("language"), usr.getString("city"), usr.getString("headimgurl"), usr.getString("privilege"));
+            request.setAttribute("user", user);
             return "page/user";
         } catch (JSONException e) {
             e.printStackTrace();
