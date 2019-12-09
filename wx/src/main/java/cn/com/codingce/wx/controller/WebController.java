@@ -1,5 +1,6 @@
 package cn.com.codingce.wx.controller;
 
+import cn.com.codingce.wx.entity.User;
 import cn.com.codingce.wx.services.WxService;
 import cn.com.codingce.wx.util.Util;
 import org.json.JSONException;
@@ -45,10 +46,6 @@ public class WebController {
         String timestamp = request.getParameter("timestamp");
         String nonce = request.getParameter("nonce");
         String echostr = request.getParameter("echostr");
-        System.out.println(signature);
-        System.out.println(timestamp);
-        System.out.println(nonce);
-        System.out.println(echostr);
         if (service.check(timestamp, nonce, signature)) {
             PrintWriter out = null;
             try {
@@ -91,23 +88,21 @@ public class WebController {
     @GetMapping("/usr")
     public String getUsr() {
         try {
-            System.out.println("我被调用了");
             String code = request.getParameter("code");
-            System.out.println("code:" + code);
             //获取accesstoken的地址
             String url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code";
             url = url.replace("APPID", "wx3da4b30dadc22ff7").replace("SECRET", "2e132b85894583981d8410043443b766").replace("CODE", code);
             String result = Util.get(url);
-            System.out.println("result" + result);
             //获取result里面的token
             JSONObject jsonObject = new JSONObject(result);
             String at = jsonObject.getString("access_token");
             String openId = jsonObject.getString("openid");
-            System.out.println("at" + at);
             //拉取用户基本信息
             url = "https://api.weixin.qq.com/sns/userinfo?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN";
             url = url.replace("ACCESS_TOKEN", at).replace("OPENID", openId);
             result = Util.get(url);
+            JSONObject usr = new JSONObject(result);
+            User user = new User(usr.getString("openid"), usr.getString("nickname"), Integer.parseInt(usr.getString("sex")), usr.getString("language"), usr.getString("city"), usr.getString("headimgurl"), usr.getString("privilege"));
             return result;
         } catch (JSONException e) {
             e.printStackTrace();
