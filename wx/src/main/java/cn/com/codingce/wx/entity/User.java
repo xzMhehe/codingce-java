@@ -29,19 +29,19 @@ public class User {
      * 用户头像，最后一个数值代表正方形头像大小（有0、46、64、96、132数值可选，
      * 代表640*640正方形头像），用户没有头像时该项为空。若用户更换头像，原有头像URL将失效。
      */
-    private String headimgurl;
+    private String headImgUrl;
     /**
      * 用户特权信息，json 数组，如微信沃卡用户为（chinaunicom）
      */
     private String privilege;
 
-    public User(String openid, String nickname, Integer sex, String language, String city, String headimgurl, String privilege) {
+    public User(String openid, String nickname, Integer sex, String language, String city, String headImgUrl, String privilege) {
         this.openid = openid;
         this.nickname = nickname;
         this.sex = sex;
         this.language = language;
         this.city = city;
-        this.headimgurl = headimgurl;
+        this.headImgUrl = headImgUrl;
         this.privilege = privilege;
     }
 
@@ -88,12 +88,12 @@ public class User {
         this.city = city;
     }
 
-    public String getHeadimgurl() {
-        return headimgurl;
+    public String getHeadImgUrl() {
+        return headImgUrl;
     }
 
-    public void setHeadimgurl(String headimgurl) {
-        this.headimgurl = headimgurl;
+    public void setHeadImgUrl(String headImgUrl) {
+        this.headImgUrl = headImgUrl;
     }
 
     public String getPrivilege() {
@@ -112,7 +112,7 @@ public class User {
                 ", sex=" + sex +
                 ", language='" + language + '\'' +
                 ", city='" + city + '\'' +
-                ", headimgurl='" + headimgurl + '\'' +
+                ", headImgUrl='" + headImgUrl + '\'' +
                 ", privilege='" + privilege + '\'' +
                 '}';
     }
