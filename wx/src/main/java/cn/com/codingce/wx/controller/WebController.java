@@ -5,6 +5,8 @@ import cn.com.codingce.wx.services.WxService;
 import cn.com.codingce.wx.util.Util;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,6 +25,8 @@ import java.util.Map;
  */
 @Controller
 public class WebController {
+
+    protected final Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
     private WxService service;
@@ -53,6 +57,7 @@ public class WebController {
                 out.flush();
                 out.close();
             } catch (IOException e) {
+                logger.error("服务器内部错误", e);
                 e.printStackTrace();
             }
         } else {
@@ -60,6 +65,9 @@ public class WebController {
         }
     }
 
+    /**
+     * 接受用户发送消息的接口
+     */
     @PostMapping
     public void post() {
         System.out.println("Post");
@@ -76,6 +84,7 @@ public class WebController {
             Map<String, String> requestMap = service.parseRequest(is);
             System.out.println(requestMap);
         } catch (IOException e) {
+            logger.error("接受失败", e);
             e.printStackTrace();
         }
     }
@@ -106,6 +115,7 @@ public class WebController {
             return "page/user";
         } catch (JSONException e) {
             e.printStackTrace();
+            logger.error("获取用户信息失败", e);
             return null;
         }
     }

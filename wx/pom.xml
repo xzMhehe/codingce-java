@@ -12,7 +12,7 @@
     <artifactId>wx</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>wx</name>
-    <description>Demo project for Spring Boot</description>
+    <description>微信项目demo,欢迎关注掌上编程</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -36,6 +36,7 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+        <!--lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -56,18 +57,19 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <!--解析xml-->
         <dependency>
             <groupId>org.dom4j</groupId>
             <artifactId>dom4j</artifactId>
             <version>2.1.1</version>
         </dependency>
+        <!--解析json-->
         <dependency>
             <groupId>com.vaadin.external.google</groupId>
             <artifactId>android-json</artifactId>
             <version>0.0.20131108.vaadin1</version>
         </dependency>
+
     </dependencies>
 
     <build>
