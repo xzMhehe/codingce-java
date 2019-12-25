@@ -15,12 +15,14 @@
 
     -->
     <bean id="helloWorld" class="cn.com.codingce.codespring.HelloWorld" scope="prototype"
-          init-method="init" destroy-method="destroy"
+          init-method="init"
+          destroy-method="destroy"
     >
 <!--        <property name="message" value="Hello World!"/>-->
         <property name="code" value="code"/>
     </bean>
 
-
+    <!--Spring Bean 后置处理器-->
+    <bean class="cn.com.codingce.codespring.InitHelloWorld" />
 
 </beans>

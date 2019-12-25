@@ -1,6 +1,8 @@
 package cn.com.codingce.codespring;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
@@ -14,12 +16,20 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
  */
 public class MainApp {
     public static void main(String[] args) {
-        ApplicationContext context = new FileSystemXmlApplicationContext
-                ("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
+        // 创建 Spring 的 IOC 容器
+        ApplicationContext context =
+                new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
+        // 从 IOC 容器中获取 bean 的实例
         HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
         obj.setMessage("掌上编程公众号");
         obj.getMessage();
-        HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld");
-        helloWorld.getMessage();
+//        HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld");
+//        helloWorld.getMessage();
+        System.out.println("==========================");
+        ApplicationContext contextB =
+                new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
+        HelloWorld objB = (HelloWorld) contextB.getBean("helloWorld");
+        objB.getMessage();
+
     }
 }
