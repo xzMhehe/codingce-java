@@ -11,18 +11,25 @@
          request 每次HTTP请求都会创建一个新的Bean，该作用域仅适用于WebApplicationContext环境
          session 同一个HTTP Session共享一个Bean，不同Session使用不同的Bean，仅适用于WebApplicationContext环境
          global-session 一般用于Portlet应用环境，该运用域仅适用于WebApplicationContext环境
-
-
     -->
-    <bean id="helloWorld" class="cn.com.codingce.codespring.HelloWorld" scope="prototype"
+    <bean id="helloWorld" class="cn.com.codingce.codespring.entity.HelloWorld" scope="prototype"
           init-method="init"
           destroy-method="destroy"
     >
-<!--        <property name="message" value="Hello World!"/>-->
-        <property name="code" value="code"/>
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World!"/>
     </bean>
 
     <!--Spring Bean 后置处理器-->
     <bean class="cn.com.codingce.codespring.InitHelloWorld" />
+
+    <!--Spring Bean 定义继承
+    Spring Bean 定义的继承与 Java 类的继承无关，但是继承的概念是一样的。
+    你可以定义一个父 bean 的定义作为模板和其他子 bean 就可以从父 bean 中继承所需的配置。
+    -->
+    <bean id="inherit" class="cn.com.codingce.codespring.entity.Inherit" parent="helloWorld">
+        <property name="message1" value="Inherit India!"/>
+        <property name="message3" value="Inherit India!"/>
+    </bean>
 
 </beans>
