@@ -19,4 +19,19 @@ public class TextEditor {
         spellChecker.checkSpelling();
     }
 
+    public TextEditor() {
+    }
+
+    /**
+     * Getter
+     * @return
+     */
+    public SpellChecker getSpellChecker() {
+        return spellChecker;
+    }
+
+    public void setSpellCheck(SpellChecker spellCheck) {
+        System.out.println("Inside setSpellChecker(Setter)." );
+        this.spellChecker = spellCheck;
+    }
 }

@@ -34,7 +34,8 @@
 
     <!-- 它有基于构造函数注入的配置 -->
     <bean id="textEditor" class="cn.com.codingce.codespring.entity.TextEditor">
-        <constructor-arg ref="spellChecker"/>
+<!--        <constructor-arg ref="spellChecker"/>-->
+        <property name="spellCheck" ref="spellChecker"/>
     </bean>
 
     <!-- Definition for spellChecker bean -->

@@ -40,4 +40,15 @@ public class Synthesize {
         TextEditor textEditor = (TextEditor) context.getBean("textEditor");
         textEditor.spellCheck();
     }
+
+    /**
+     * Spring 基于设值函数的依赖注入
+     */
+    @Test
+    public void valueDi() {
+        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
+        TextEditor textEditor = (TextEditor) context.getBean("textEditor");
+        textEditor.spellCheck();
+    }
+
 }
