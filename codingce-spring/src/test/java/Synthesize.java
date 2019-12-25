@@ -41,6 +41,7 @@ public class Synthesize {
         TextEditor textEditor = (TextEditor) context.getBean("textEditor");
         textEditor.spellCheck();
     }
+
     /**
      * Spring 基于设值函数的依赖注入
      */
