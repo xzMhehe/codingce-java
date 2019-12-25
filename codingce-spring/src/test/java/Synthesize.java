@@ -1,4 +1,5 @@
 import cn.com.codingce.codespring.entity.Address;
+import cn.com.codingce.codespring.entity.Auto;
 import cn.com.codingce.codespring.entity.HelloWorld;
 import cn.com.codingce.codespring.entity.Inherit;
 import cn.com.codingce.codespring.entity.InjectTextEditor;
@@ -74,6 +75,15 @@ public class Synthesize {
         address.getAddressSet();
         address.getAddressMap();
         address.getAddressProp();
+    }
+    /**
+     * Spring 注入集合
+     */
+    @Test
+    public void autoDi() {
+        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
+        Auto auto = (Auto) context.getBean("auto");
+        auto.checkSpelling();
     }
 
 }

@@ -1,6 +1,8 @@
 package cn.com.codingce.codespring.entity;
 
 /**
+ * InjectTextEditord的依赖类文件
+ *
  * @author 2460798168@qq.com
  * @date 2019/12/25 12:54
  */
