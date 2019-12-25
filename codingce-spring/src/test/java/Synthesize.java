@@ -83,7 +83,7 @@ public class Synthesize {
         auto.checkSpelling();
     }
     /**
-     * Spring 自动装配 `byName`   Spring 自动装配 `byType`
+     * Spring 自动装配 `byName`   Spring 自动装配 `byType`  Spring 由构造函数自动装配
      */
     @Test
     public void autoConstructor() {

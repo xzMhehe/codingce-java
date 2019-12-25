@@ -118,12 +118,19 @@
 <!--    <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">-->
 <!--    </bean>-->
 
-    <!--Spring 由构造函数自动装配-->
-    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto">
-        <constructor-arg ref="autoSpellChecker"/>
+    <!--Spring 由构造函数自动装配 原版-->
+<!--    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto">-->
+<!--        <constructor-arg ref="autoSpellChecker"/>-->
+<!--        <constructor-arg value="嘿嘿！我是在bean里面赋值的"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">-->
+<!--    </bean>-->
+
+    <!--由构造函数自动装配-->
+    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="constructor">
         <constructor-arg value="嘿嘿！我是在bean里面赋值的"/>
     </bean>
-
     <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">
     </bean>
 
