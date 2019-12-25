@@ -21,7 +21,7 @@
     </bean>
 
     <!--Spring Bean 后置处理器-->
-    <bean class="cn.com.codingce.codespring.InitHelloWorld" />
+    <bean class="cn.com.codingce.codespring.postprocessor.InitHelloWorld" />
 
     <!--Spring Bean 定义继承
     Spring Bean 定义的继承与 Java 类的继承无关，但是继承的概念是一样的。

@@ -1,4 +1,4 @@
-package cn.com.codingce.codespring;
+package cn.com.codingce.codespring.postprocessor;
 
 import cn.com.codingce.codespring.entity.HelloWorld;
 import org.springframework.beans.BeansException;
