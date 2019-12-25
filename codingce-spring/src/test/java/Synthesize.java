@@ -82,5 +82,13 @@ public class Synthesize {
         Auto auto = (Auto) context.getBean("auto");
         auto.checkSpelling();
     }
+    /**
+     * Spring 自动装配 `byName`   Spring 自动装配 `byType`
+     */
+    @Test
+    public void autoConstructor() {
+        Auto auto = (Auto) context.getBean("auto");
+        auto.checkSpelling();
+    }
 
 }

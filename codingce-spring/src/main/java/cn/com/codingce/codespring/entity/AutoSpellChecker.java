@@ -12,7 +12,7 @@ public class AutoSpellChecker {
     }
 
     public void checkSpelling() {
-        System.out.println("AutoSpellChecker.checkSpelling." );
+        System.out.println("依赖文件的方法.");
     }
 
 }

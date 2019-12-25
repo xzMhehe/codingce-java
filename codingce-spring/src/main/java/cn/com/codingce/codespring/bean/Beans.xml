@@ -111,8 +111,17 @@
 <!--    </bean>-->
 
     <!--自动 byType-->
-    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="byType">
-        <property name="name" value="掌上编程"/>
+<!--    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="byType">-->
+<!--        <property name="name" value="掌上编程"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">-->
+<!--    </bean>-->
+
+    <!--Spring 由构造函数自动装配-->
+    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto">
+        <constructor-arg ref="autoSpellChecker"/>
+        <constructor-arg value="嘿嘿！我是在bean里面赋值的"/>
     </bean>
 
     <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">

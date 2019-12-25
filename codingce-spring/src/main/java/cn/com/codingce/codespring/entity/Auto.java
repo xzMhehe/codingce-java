@@ -24,6 +24,17 @@ public class Auto {
     private AutoSpellChecker autoSpellChecker;
     private String name;
 
+    public Auto(AutoSpellChecker autoSpellChecker) {
+        System.out.println("一个参数的");
+//        this.autoSpellChecker = autoSpellChecker;
+    }
+
+    public Auto(AutoSpellChecker autoSpellChecker, String name) {
+        System.out.println("两个参数的");
+        this.autoSpellChecker = autoSpellChecker;
+        this.name = name;
+    }
+
     public AutoSpellChecker getAutoSpellChecker() {
         return autoSpellChecker;
     }
@@ -41,6 +52,7 @@ public class Auto {
     }
 
     public void checkSpelling() {
+        System.out.println("Auto类的name：" + this.name);
         this.autoSpellChecker.checkSpelling();
     }
 }
