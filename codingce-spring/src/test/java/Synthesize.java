@@ -1,5 +1,6 @@
 import cn.com.codingce.codespring.entity.HelloWorld;
 import cn.com.codingce.codespring.entity.Inherit;
+import cn.com.codingce.codespring.entity.TextEditor;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
@@ -9,6 +10,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
  * @date 2019/12/25 10:29
  */
 public class Synthesize {
+
     /**
      * Spring Bean 定义继承
      * 在这里你可以观察到，我们创建 “helloIndia” bean 的同时并没有传递 message2，
@@ -27,5 +29,15 @@ public class Synthesize {
         inherit.getMessage1();
         inherit.getMessage2();
         inherit.getMessage3();
+    }
+
+    /**
+     * Spring 基于构造函数的依赖注入
+     */
+    @Test
+    public void constructionDi() {
+        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
+        TextEditor textEditor = (TextEditor) context.getBean("textEditor");
+        textEditor.spellCheck();
     }
 }
