@@ -77,7 +77,7 @@ public class Synthesize {
         address.getAddressProp();
     }
     /**
-     * Spring 注入集合
+     * Spring 自动装配 `byName`   Spring 自动装配 `byType`
      */
     @Test
     public void autoDi() {

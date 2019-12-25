@@ -103,7 +103,15 @@
 <!--    </bean>-->
 
     <!--自动 byName-->
-    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="byName">
+<!--    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="byName">-->
+<!--        <property name="name" value="掌上编程"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">-->
+<!--    </bean>-->
+
+    <!--自动 byType-->
+    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="byType">
         <property name="name" value="掌上编程"/>
     </bean>
 
