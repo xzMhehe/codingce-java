@@ -14,6 +14,9 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
  */
 public class Synthesize {
 
+    //定义一个ApplicationContext
+    ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
+
     /**
      * Spring Bean 定义继承
      * 在这里你可以观察到，我们创建 “helloIndia” bean 的同时并没有传递 message2，
@@ -23,7 +26,6 @@ public class Synthesize {
      */
     @Test
     public void inherit() {
-        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
         HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld");
         helloWorld.getMessage1();
         helloWorld.getMessage2();
@@ -39,7 +41,6 @@ public class Synthesize {
      */
     @Test
     public void constructionDi() {
-        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
         TextEditor textEditor = (TextEditor) context.getBean("textEditor");
         textEditor.spellCheck();
     }
@@ -49,7 +50,6 @@ public class Synthesize {
      */
     @Test
     public void valueDi() {
-        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
         TextEditor textEditor = (TextEditor) context.getBean("textEditor");
         textEditor.spellCheck();
     }
@@ -59,7 +59,6 @@ public class Synthesize {
      */
     @Test
     public void injectDi() {
-        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
         InjectTextEditor injectTextEditor = (InjectTextEditor) context.getBean("injectTextEditor");
         injectTextEditor.injectSpellChecker();
     }
@@ -69,7 +68,6 @@ public class Synthesize {
      */
     @Test
     public void gatherDi() {
-        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
         Address address = (Address) context.getBean("address");
         address.getAddressList();
         address.getAddressSet();
@@ -81,7 +79,6 @@ public class Synthesize {
      */
     @Test
     public void autoDi() {
-        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
         Auto auto = (Auto) context.getBean("auto");
         auto.checkSpelling();
     }
