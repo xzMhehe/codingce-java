@@ -17,6 +17,9 @@ public class MainApp {
         ApplicationContext context = new FileSystemXmlApplicationContext
                 ("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
         HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
+        obj.setMessage("掌上编程公众号");
         obj.getMessage();
+        HelloWorld helloWorld = (HelloWorld) context.getBean("helloWorld");
+        helloWorld.getMessage();
     }
 }
