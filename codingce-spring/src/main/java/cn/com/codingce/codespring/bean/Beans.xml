@@ -85,10 +85,10 @@
         <!-- results in a setAddressProp(java.util.Properties) call -->
         <property name="addressProp">
             <props>
-                <prop key="one">INDIA</prop>
-                <prop key="two">Pakistan</prop>
-                <prop key="three">USA</prop>
-                <prop key="four">USA</prop>
+                <prop key="one">掌上编程</prop>
+                <prop key="two">马总</prop>
+                <prop key="three">🐧</prop>
+                <prop key="four">Java</prop>
             </props>
         </property>
 
