@@ -38,9 +38,15 @@
         <property name="spellCheck" ref="spellChecker"/>
     </bean>
 
-    <!-- Definition for spellChecker bean -->
+    <!-- Spring 基于设值函数的依赖注入 -->
     <bean id="spellChecker" class="cn.com.codingce.codespring.entity.SpellChecker">
     </bean>
 
+    <!-- Spring 注入内部 Beans -->
+    <bean id="injectTextEditor" class="cn.com.codingce.codespring.entity.InjectTextEditor">
+        <property name="InjectSpellChecker">
+            <bean id="injectspellChecker" class="cn.com.codingce.codespring.entity.InjectSpellChecker"/>
+        </property>
+    </bean>
 
 </beans>
