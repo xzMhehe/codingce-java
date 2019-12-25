@@ -1,3 +1,4 @@
+import cn.com.codingce.codespring.entity.Address;
 import cn.com.codingce.codespring.entity.HelloWorld;
 import cn.com.codingce.codespring.entity.Inherit;
 import cn.com.codingce.codespring.entity.InjectTextEditor;
@@ -56,10 +57,23 @@ public class Synthesize {
      * Spring 注入内部 Beans
      */
     @Test
-    public void InjectDi() {
+    public void injectDi() {
         ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
         InjectTextEditor injectTextEditor = (InjectTextEditor) context.getBean("injectTextEditor");
         injectTextEditor.injectSpellChecker();
+    }
+
+    /**
+     * Spring 注入集合
+     */
+    @Test
+    public void gatherDi() {
+        ApplicationContext context = new FileSystemXmlApplicationContext("F:\\AfterEnd\\codingce-spring\\src\\main\\java\\cn\\com\\codingce\\codespring\\bean\\Beans.xml");
+        Address address = (Address) context.getBean("address");
+        address.getAddressList();
+        address.getAddressSet();
+        address.getAddressMap();
+        address.getAddressProp();
     }
 
 }
