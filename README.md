@@ -7,4 +7,10 @@
 
 更多精彩关注公众号,更多资源等你来发掘
 
+>回复"资源"领取全网最火的Java核心知识总结
+>
+>回复"架构"领取Java架构师精品资料
+>
+>回复"面试"领取BTA大厂Java工程师面试突
+>
 ![公众号](http://image.codingce.com.cn/blog/20190927/cHSvF6EnDaFU.png)
