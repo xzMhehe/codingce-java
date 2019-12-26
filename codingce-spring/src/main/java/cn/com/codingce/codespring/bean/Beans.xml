@@ -134,4 +134,10 @@
     <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">
     </bean>
 
+    <!--Spring @Required 注释-->
+    <bean id="student" class="cn.com.codingce.codespring.entity.Student">
+        <property name="name" value="Bean中赋值"/>
+        <property name="age" value="15"/>
+    </bean>
+
 </beans>

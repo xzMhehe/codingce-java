@@ -3,6 +3,7 @@ import cn.com.codingce.codespring.entity.Auto;
 import cn.com.codingce.codespring.entity.HelloWorld;
 import cn.com.codingce.codespring.entity.Inherit;
 import cn.com.codingce.codespring.entity.InjectTextEditor;
+import cn.com.codingce.codespring.entity.Student;
 import cn.com.codingce.codespring.entity.TextEditor;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -89,6 +90,15 @@ public class Synthesize {
     public void autoConstructor() {
         Auto auto = (Auto) context.getBean("auto");
         auto.checkSpelling();
+    }
+
+    /**
+     * Spring @Required 注释
+     */
+    @Test
+    public void student() {
+        Student student = (Student) context.getBean("student");
+        System.out.println(student.toString());
     }
 
 }
