@@ -105,6 +105,8 @@ public class Synthesize {
 
     /**
      * Spring @Autowired 注释
+     * 你可以在 XML 文件中的 setter 方法中使用 @Autowired 注释来除去 元素。
+     * 当 Spring遇到一个在 setter 方法中使用的 @Autowired 注释，它会在方法中视图执行 byType 自动连接。
      */
     @Test
     public void autowiredTest() {
@@ -114,6 +116,11 @@ public class Synthesize {
 
     /**
      * Spring @Qualifier 注释
+     *
+     * //@Resource 注释：
+     * 你可以在字段中或者 setter 方法中使用 @Resource 注释，它和在 Java EE 5 中的运作是一样的。
+     * //@Resource 注释使用一个 ‘name’ 属性，该属性以一个 bean 名称的形式被注入。你可以说，它遵循 by-name 自动连接语义
+     *
      */
     @Test
     public void qualifierTest() {
