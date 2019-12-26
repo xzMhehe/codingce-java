@@ -1,14 +1,17 @@
+import cn.com.codingce.codespring.config.MyConfig;
 import cn.com.codingce.codespring.entity.Address;
 import cn.com.codingce.codespring.entity.Auto;
 import cn.com.codingce.codespring.entity.AutowiredTest;
 import cn.com.codingce.codespring.entity.HelloWorld;
 import cn.com.codingce.codespring.entity.Inherit;
 import cn.com.codingce.codespring.entity.InjectTextEditor;
+import cn.com.codingce.codespring.entity.MyEntity;
 import cn.com.codingce.codespring.entity.QualifierTest;
 import cn.com.codingce.codespring.entity.Student;
 import cn.com.codingce.codespring.entity.TextEditor;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 /**
@@ -126,6 +129,21 @@ public class Synthesize {
     public void qualifierTest() {
         QualifierTest qualifierTest = (QualifierTest) context.getBean("qualifierTest1");
         System.out.println(qualifierTest.toString());
+    }
+
+    @Test
+    public void myConfig() {
+        MyEntity myEntity = (MyEntity) context.getBean("myEntity");
+        myEntity.setMessage("掌上编程");
+        System.out.println(myEntity.getMessage());
+    }
+
+    @Test
+    public void myConfigOther() {
+        ApplicationContext ctx = new AnnotationConfigApplicationContext(MyConfig.class);
+        MyEntity myEntity = ctx.getBean(MyEntity.class);
+        myEntity.setMessage("掌上编程公众号");
+        System.out.println(myEntity.getMessage());
     }
 
 }

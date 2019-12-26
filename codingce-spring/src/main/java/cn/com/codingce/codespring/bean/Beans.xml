@@ -168,4 +168,14 @@
         <property name="age"  value="2"/>
     </bean>
 
+    <!--@Configuration 和 @Bean 注解-->
+    <beans>
+        <bean id="myEntity" class="cn.com.codingce.codespring.entity.MyEntity" />
+    </beans>
+
+    <!--@Configuration 和 @Bean 注解-->
+    <beans>
+        <bean id="myConfig" class="cn.com.codingce.codespring.config.MyConfig" />
+    </beans>
+
 </beans>
