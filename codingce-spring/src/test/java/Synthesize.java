@@ -1,5 +1,6 @@
 import cn.com.codingce.codespring.entity.Address;
 import cn.com.codingce.codespring.entity.Auto;
+import cn.com.codingce.codespring.entity.AutowiredTest;
 import cn.com.codingce.codespring.entity.HelloWorld;
 import cn.com.codingce.codespring.entity.Inherit;
 import cn.com.codingce.codespring.entity.InjectTextEditor;
@@ -99,6 +100,12 @@ public class Synthesize {
     public void student() {
         Student student = (Student) context.getBean("student");
         System.out.println(student.toString());
+    }
+
+    @Test
+    public void autowiredTest() {
+        AutowiredTest autowiredTest = (AutowiredTest) context.getBean("autowiredTest");
+        autowiredTest.funAutowiredTest();
     }
 
 }
