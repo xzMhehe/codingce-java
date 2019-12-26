@@ -4,6 +4,7 @@ import cn.com.codingce.codespring.entity.AutowiredTest;
 import cn.com.codingce.codespring.entity.HelloWorld;
 import cn.com.codingce.codespring.entity.Inherit;
 import cn.com.codingce.codespring.entity.InjectTextEditor;
+import cn.com.codingce.codespring.entity.QualifierTest;
 import cn.com.codingce.codespring.entity.Student;
 import cn.com.codingce.codespring.entity.TextEditor;
 import org.junit.Test;
@@ -102,10 +103,22 @@ public class Synthesize {
         System.out.println(student.toString());
     }
 
+    /**
+     * Spring @Autowired 注释
+     */
     @Test
     public void autowiredTest() {
         AutowiredTest autowiredTest = (AutowiredTest) context.getBean("autowiredTest");
         autowiredTest.funAutowiredTest();
+    }
+
+    /**
+     * Spring @Qualifier 注释
+     */
+    @Test
+    public void qualifierTest() {
+        QualifierTest qualifierTest = (QualifierTest) context.getBean("qualifierTest1");
+        System.out.println(qualifierTest.toString());
     }
 
 }

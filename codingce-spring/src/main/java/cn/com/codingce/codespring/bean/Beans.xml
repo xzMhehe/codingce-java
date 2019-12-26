@@ -151,4 +151,21 @@
         <description>daw</description>
     </bean>
 
+
+    <!-- Spring @Qualifier 注释 -->
+    <bean id="profile" class="cn.com.codingce.codespring.entity.ProfileQar">
+    </bean>
+
+    <!-- Spring @Qualifier 注释 -->
+    <bean id="qualifierTest1" class="cn.com.codingce.codespring.entity.QualifierTest">
+        <property name="name"  value="Zara" />
+        <property name="age"  value="11"/>
+    </bean>
+
+    <!-- Spring @Qualifier 注释 -->
+    <bean id="qualifierTest2" class="cn.com.codingce.codespring.entity.QualifierTest">
+        <property name="name"  value="Nuha" />
+        <property name="age"  value="2"/>
+    </bean>
+
 </beans>
