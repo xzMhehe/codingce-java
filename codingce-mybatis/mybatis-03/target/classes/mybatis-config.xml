@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--核心配置文件-->
+<configuration>
+    <!--引入外部配置文件-->
+    <properties resource="db.properties" />
+    <typeAliases>
+        <package name="cn.com.codingce.pojo"/>
+    </typeAliases>
+    <!--下面有两个配置, 默认是id=development  &amp;代表and(非&)-->
+    <environments default="test">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/mybatis?useSSL=true&amp;useUnicode=true"/>
+                <property name="username" value="root"/>
+                <property name="password" value="mxz123456"/>
+            </dataSource>
+        </environment>
+        <environment id="test">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="cn/com/codingce/dao/UserMapper.xml"></mapper>
+    </mappers>
+</configuration>
