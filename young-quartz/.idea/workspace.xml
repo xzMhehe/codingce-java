@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168fb466-b07e-4823-94c6-2cc9d74f9c52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/young-quartz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codingce-spring/.idea/codingce-spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codingce-spring/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +195,7 @@
       <workItem from="1575420292731" duration="2580000" />
       <workItem from="1594989049795" duration="691000" />
       <workItem from="1595023935445" duration="57000" />
+      <workItem from="1595024633288" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="quartzDemo">
       <created>1570676320210</created>
