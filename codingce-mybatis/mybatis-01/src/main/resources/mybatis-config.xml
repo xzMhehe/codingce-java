@@ -12,7 +12,7 @@
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/mybatis?useSSL=true&amp;useUnicode=true"/>
                 <property name="username" value="root"/>
-                <property name="password" value="mxz123456"/>
+                <property name="password" value="123456"/>
             </dataSource>
         </environment>
         <environment id="test">

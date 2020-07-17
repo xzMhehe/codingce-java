@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6595078-e6aa-4fa5-88dc-f6e0f30eaf16" name="Default Changelist" comment="" />
+    <list default="true" id="a6595078-e6aa-4fa5-88dc-f6e0f30eaf16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/codingce-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09/src/main/resources/db.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +42,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.1" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.1" />
         <option name="userSettingsFile" value="C:\Users\Public\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1eTFoHOt7a6oR39poMcdDjiQMrE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,9 +62,10 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codingce-java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -216,6 +234,7 @@
       <workItem from="1594986283835" duration="360000" />
       <workItem from="1594987134560" duration="90000" />
       <workItem from="1594987229084" duration="253000" />
+      <workItem from="1594988002681" duration="126000" />
     </task>
     <servers />
   </component>
@@ -231,6 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="357" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1594798330905" />
+    <state x="552" y="181" key="#Notifications" timestamp="1594988009918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594988009918" />
     <state x="552" y="181" key="#Project_Structure" timestamp="1594979323954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,10 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594947172911" />
-    <state x="837" y="326" key="FileChooserDialogImpl" timestamp="1594987479582">
+    <state x="837" y="326" key="FileChooserDialogImpl" timestamp="1594988027831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="837" y="326" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594987479582" />
+    <state x="837" y="326" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594988027831" />
     <state width="1877" height="765" key="GridCell.Tab.0.bottom" timestamp="1594986067994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,10 +319,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1594444916165" />
-    <state x="317" y="195" key="SettingsEditor" timestamp="1594986315918">
+    <state x="317" y="195" key="SettingsEditor" timestamp="1594988031882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="317" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594986315918" />
+    <state x="317" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594988031882" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1594607341198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
