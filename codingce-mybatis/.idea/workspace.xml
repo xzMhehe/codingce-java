@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6595078-e6aa-4fa5-88dc-f6e0f30eaf16" name="Default Changelist" comment="">
+    <list default="true" id="a6595078-e6aa-4fa5-88dc-f6e0f30eaf16" name="Default Changelist" comment="F 修改配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codingce-spring" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -225,12 +224,35 @@
       <workItem from="1594987134560" duration="90000" />
       <workItem from="1594987229084" duration="253000" />
       <workItem from="1594988002681" duration="126000" />
-      <workItem from="1595024303909" duration="39000" />
+      <workItem from="1595024303909" duration="156000" />
     </task>
+    <task id="LOCAL-00001" summary="F 修改配置">
+      <created>1595024369778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595024369778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="F 修改配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="F 修改配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="406" y="230" key="#Custom_Plugin_Repositories" timestamp="1594797393684">
@@ -266,14 +288,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594947172911" />
-    <state x="508" y="116" key="CommitChangelistDialog2" timestamp="1595024368505">
+    <state x="508" y="116" key="CommitChangelistDialog2" timestamp="1595024397221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595024368505" />
-    <state x="837" y="326" key="FileChooserDialogImpl" timestamp="1594988027831">
+    <state x="508" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595024397221" />
+    <state x="837" y="326" key="FileChooserDialogImpl" timestamp="1595024459064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="837" y="326" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594988027831" />
+    <state x="837" y="326" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595024459064" />
     <state width="1877" height="765" key="GridCell.Tab.0.bottom" timestamp="1594986067994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,6 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1594607341198" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1595024402785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595024402785" />
     <state x="334" y="224" key="new project wizard" timestamp="1594946995583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
