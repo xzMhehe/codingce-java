@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6595078-e6aa-4fa5-88dc-f6e0f30eaf16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/codingce-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,6 +225,7 @@
       <workItem from="1594987134560" duration="90000" />
       <workItem from="1594987229084" duration="253000" />
       <workItem from="1594988002681" duration="126000" />
+      <workItem from="1595024303909" duration="39000" />
     </task>
     <servers />
   </component>
@@ -275,6 +266,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594947172911" />
+    <state x="508" y="116" key="CommitChangelistDialog2" timestamp="1595024368505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="508" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595024368505" />
     <state x="837" y="326" key="FileChooserDialogImpl" timestamp="1594988027831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
