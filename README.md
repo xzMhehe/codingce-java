@@ -11,6 +11,6 @@
 >
 >回复"面试"领取BTA大厂Java工程师面试突
 
-更多精彩关注公众号,更多资源等你来发掘
+更多精彩关注**掌上编程**公众号,更多资源等你来发掘
 
 ![公众号](http://image.codingce.com.cn/blog/20190927/cHSvF6EnDaFU.png)
