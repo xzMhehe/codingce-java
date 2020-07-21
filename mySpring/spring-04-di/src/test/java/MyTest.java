@@ -1,4 +1,5 @@
 import cn.com.codingce.pojo.Student;
+import cn.com.codingce.pojo.User;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -21,6 +22,15 @@ public class MyTest {
          * games=[GTA5, 彩虹6号, LOL], wife='null',
          * info={学号=20200521, 性别=男, 姓名=掌上编程}}
          **/
+    }
+
+    @Test
+    public void Test2() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        //这样就不用强转
+        User user = context.getBean("user", User.class);
+        User user2 = context.getBean("user2", User.class);
+        System.out.println(user.toString());
     }
 
 }

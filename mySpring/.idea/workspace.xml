@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7287974a-1c51-482c-ab4c-1d18ce53e357" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/mySpring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/userBean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-di/src/main/java/cn/com/codingce/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-01-ioc1/spring-01-ioc1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-04-di/src/main/java/cn/com/codingce/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/src/main/java/cn/com/codingce/pojo/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-04-di/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04-di/src/main/resources/userBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/src/main/resources/userBean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-di/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-before/spring-05-before.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
       <recent name="C:\Users\Public\myCode\mySpring\spring-03-ioc2\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.Test">
+  <component name="RunManager" selected="JUnit.MyTest.Test2">
     <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-02-hellospring" />
@@ -94,8 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-04-di" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.Test2" />
         <item itemvalue="JUnit.MyTest.Test" />
         <item itemvalue="Application.MyTest (2)" />
         <item itemvalue="Application.MyTest" />
@@ -115,6 +121,9 @@
       </list>
     </option>
   </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -129,46 +138,84 @@
       <workItem from="1595199805920" duration="13415000" />
       <workItem from="1595290967370" duration="4262000" />
       <workItem from="1595295674681" duration="358000" />
-      <workItem from="1595306699985" duration="3951000" />
+      <workItem from="1595306699985" duration="4537000" />
+      <workItem from="1595322455791" duration="1936000" />
     </task>
+    <task id="LOCAL-00001" summary="A 依赖注入方式">
+      <created>1595311531153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595311531154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A 依赖注入方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 依赖注入方式" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="181" key="#Project_Structure" timestamp="1595212828635">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1595311688280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595212828635" />
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1595295038054">
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595311688280" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1595323964223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595295038054" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595323964223" />
+    <state x="477" y="116" key="CommitChangelistDialog2" timestamp="1595311529695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="477" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595311529695" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595311609778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595311609778" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1595295596827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595295596827" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1595309930681">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1595324123277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595309930681" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1595309930680">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595324123277" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1595324123277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595309930680" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1595309930680">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595324123277" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1595324123277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595309930680" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1595309930680">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595324123277" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1595324123277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595309930680" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595324123277" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1595306706262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595306706262" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1595311545041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595311545041" />
     <state x="334" y="161" key="new project wizard" timestamp="1595295799672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -2,67 +2,18 @@
 
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="address" class="cn.com.codingce.pojo.Address">
-        <property name="address" value="天津市西青区天津理工大学"/>
+    <import resource="userBean.xml"/>
+
+    <!--xmlns:p="http://www.springframework.org/schema/p"    p 命名空间注入 可以直接注入属性的值 property标签操作-->
+    <bean id="user" class="cn.com.codingce.pojo.User" p:age="12" p:name="掌上编程">
     </bean>
-    <bean id="student" class="cn.com.codingce.pojo.Student">
-        <!--第一种 普通值注入-->
-        <property name="name" value="掌上编程"/>
-        <!--第二种 bean注入-->
-        <property name="address" ref="address"/>
 
-        <!--第三种 数组注入-->
-        <property name="books">
-            <array>
-                <value>红楼梦</value>
-                <value>西游记</value>
-                <value>水浒传</value>
-                <value>三国演义</value>
-            </array>
-        </property>
+    <!--xmlns:c="http://www.springframework.org/schema/c"   c命名空间, 通过构造器注入: construct-args-->
+    <bean id="user2" class="cn.com.codingce.pojo.User" c:age="18" c:name="人间事Life"/>
 
-        <!--第四种 List注入-->
-        <property name="hobbys">
-            <list>
-                <value>听音乐</value>
-                <value>敲代码</value>
-                <value>看电影</value>
-            </list>
-        </property>
-
-        <!--第五种 Map注入-->
-        <property name="card">
-            <map>
-                <entry key="身份证" value="1111111111111112"/>
-                <entry key="银行卡" value="11111111111"/>
-                <entry key="信用卡" value="11111111111111"/>
-            </map>
-        </property>
-
-        <!--第六种 Set注入-->
-        <property name="games">
-            <set>
-                <value>GTA5</value>
-                <value>彩虹6号</value>
-                <value>LOL</value>
-            </set>
-        </property>
-
-        <!--第七种 Null注入-->
-        <property name="wife">
-            <null></null>
-        </property>
-
-        <!--第七种 Null注入-->
-        <property name="info">
-            <props>
-                <prop key="学号">20200521</prop>
-                <prop key="性别">男</prop>
-                <prop key="姓名">掌上编程</prop>
-            </props>
-        </property>
-    </bean>
 </beans>
