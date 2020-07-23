@@ -15,6 +15,7 @@
         <module>spring-04-di</module>
         <module>spring-05-before</module>
         <module>spring-05-Autowired</module>
+        <module>spring-06-anno</module>
     </modules>
 
     <dependencies>
