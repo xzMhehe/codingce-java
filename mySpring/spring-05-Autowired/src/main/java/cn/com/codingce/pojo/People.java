@@ -1,12 +1,19 @@
 package cn.com.codingce.pojo;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
 
 public class People {
 
-    @Autowired
+//    //如果显示的定义了Autowried的required属性为false, 说明这个对象可以为Null 否则不许为空
+//    @Autowired
+//    private Cat cat;
+//    @Autowired
+//    private Dog dog;
+
+    //如果显示的定义了Autowried的required属性为false, 说明这个对象可以为Null 否则不许为空
+    @Resource
     private Cat cat;
-    @Autowired
+    @Resource
     private Dog dog;
     private String name;
 

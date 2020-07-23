@@ -14,6 +14,7 @@
         <module>spring-03-ioc2</module>
         <module>spring-04-di</module>
         <module>spring-05-before</module>
+        <module>spring-05-Autowired</module>
     </modules>
 
     <dependencies>
