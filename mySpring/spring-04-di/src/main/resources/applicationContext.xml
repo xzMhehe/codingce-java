@@ -13,7 +13,10 @@
     <bean id="user" class="cn.com.codingce.pojo.User" p:age="12" p:name="掌上编程">
     </bean>
 
-    <!--xmlns:c="http://www.springframework.org/schema/c"   c命名空间, 通过构造器注入: construct-args-->
-    <bean id="user2" class="cn.com.codingce.pojo.User" c:age="18" c:name="人间事Life"/>
+    <!--xmlns:c="http://www.springframework.org/schema/c"   c命名空间, 通过构造器注入: construct-args
+
+        作用域scope="singleton"  默认可不写
+    -->
+    <bean id="user2" class="cn.com.codingce.pojo.User" c:age="18" c:name="人间事Life" scope="prototype"/>
 
 </beans>
