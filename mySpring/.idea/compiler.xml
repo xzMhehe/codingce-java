@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-05-Autowired" />
         <module name="spring-01-ioc1" />
         <module name="spring-07-appconfig" />
         <module name="spring-05-before" />
-        <module name="spring-05-Autowired" />
+        <module name="spring-08-proxy" />
         <module name="spring-03-ioc2" />
         <module name="spring-06-anno" />
         <module name="spring-02-hellospring" />
