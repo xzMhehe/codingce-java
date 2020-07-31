@@ -23,13 +23,27 @@
 
     <!--方式一: 使用Spring API接口-->
     <!--配置aop: 需要导入aop的约束-->
-    <aop:config>
-        <!--切入点：expression：表达式 execution(要执行的位置)-->
-        <aop:pointcut id="pointcut" expression="execution(* cn.com.codingce.service.UserServiceImpl.*(..))"/>
-        <!--执行环绕增加!-->
-        <aop:advisor advice-ref="log"  pointcut-ref="pointcut"/>
-        <aop:advisor advice-ref="afterLog"  pointcut-ref="pointcut"/>
+<!--    <aop:config>-->
+<!--        &lt;!&ndash;切入点：expression：表达式 execution(要执行的位置)&ndash;&gt;-->
+<!--        <aop:pointcut id="pointcut" expression="execution(* cn.com.codingce.service.UserServiceImpl.*(..))"/>-->
+<!--        &lt;!&ndash;执行环绕增加!&ndash;&gt;-->
+<!--        <aop:advisor advice-ref="log"  pointcut-ref="pointcut"/>-->
+<!--        <aop:advisor advice-ref="afterLog"  pointcut-ref="pointcut"/>-->
 
+<!--    </aop:config>-->
+
+    <!--方式二： 自定义类-->
+    <bean id="diy" class="cn.com.codingce.diy.DiyPointCut"/>
+
+    <aop:config>
+        <!--自定义切面, ref引用的类-->
+        <aop:aspect ref="diy">
+            <!--切入点-->
+            <aop:pointcut id="point" expression="execution(* cn.com.codingce.service.UserServiceImpl.*(..))"/>
+            <!--通知-->
+            <aop:before method="before" pointcut-ref="point"/>
+            <aop:after method="after" pointcut-ref="point"/>
+        </aop:aspect>
     </aop:config>
 
 </beans>
