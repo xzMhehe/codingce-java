@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7287974a-1c51-482c-ab4c-1d18ce53e357" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/cn/com/codingce/demo3/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/cn/com/codingce/demo3/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/cn/com/codingce/demo4/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/cn/com/codingce/demo4/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/cn/com/codingce/demo4/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/cn/com/codingce/demo4/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/cn/com/codingce/demo3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/cn/com/codingce/demo4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,17 +53,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.codingce.demo4" />
       <recent name="cn.com.codingce.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\myCode\codingce-java\mySpring\spring-08-proxy\src\main\java\cn\com\codingce\demo4" />
       <recent name="C:\Users\Public\myCode\codingce-java\mySpring\spring-08-proxy\src\main\java\cn\com\codingce\demo3" />
       <recent name="C:\Users\Public\myCode\codingce-java\mySpring\spring-06-anno\src\main\resources" />
       <recent name="C:\Users\Public\myCode\mySpring\spring-05-before\src\main\java\cn\com\codingce\codespring" />
       <recent name="C:\Users\Public\myCode\mySpring\spring-05-before\src\main\resources" />
-      <recent name="C:\Users\Public\myCode\mySpring\spring-04-di\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client (3)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.demo2.Client" />
       <module name="spring-08-proxy" />
@@ -81,6 +84,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.com.codingce.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.demo4.Client" />
+      <module name="spring-08-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.demo4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,23 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-06-anno" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.MyTest.Test1" />
-        <item itemvalue="JUnit.MyTest.test1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +176,7 @@
       <workItem from="1595987338182" duration="257000" />
       <workItem from="1595987623718" duration="3555000" />
       <workItem from="1596147756180" duration="2604000" />
-      <workItem from="1596155929909" duration="2042000" />
+      <workItem from="1596155929909" duration="3460000" />
     </task>
     <task id="LOCAL-00001" summary="A 依赖注入方式">
       <created>1595311531153</created>
@@ -228,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596156967261</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="A 动态代理">
+      <created>1596158205195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596158205195</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +270,8 @@
     <MESSAGE value="A 使用Java配置config" />
     <MESSAGE value="A 代理模式" />
     <MESSAGE value="A 静态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 静态代理" />
+    <MESSAGE value="A 动态代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 动态代理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Notifications" timestamp="1596148487035">
@@ -268,14 +282,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1595985265782" />
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1596157702641">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1596158575223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596157702641" />
-    <state x="477" y="116" key="CommitChangelistDialog2" timestamp="1596156965586">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596158575223" />
+    <state x="477" y="116" key="CommitChangelistDialog2" timestamp="1596158204075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="477" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596156965586" />
+    <state x="477" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596158204075" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595498930408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -284,22 +298,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595295596827" />
-    <state width="1877" height="125" key="GridCell.Tab.0.bottom" timestamp="1596157993087">
+    <state width="1877" height="154" key="GridCell.Tab.0.bottom" timestamp="1596158813660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="125" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596157993087" />
-    <state width="1877" height="125" key="GridCell.Tab.0.center" timestamp="1596157993086">
+    <state width="1877" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596158813660" />
+    <state width="1877" height="154" key="GridCell.Tab.0.center" timestamp="1596158813660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="125" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596157993086" />
-    <state width="1877" height="125" key="GridCell.Tab.0.left" timestamp="1596157993086">
+    <state width="1877" height="154" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596158813660" />
+    <state width="1877" height="154" key="GridCell.Tab.0.left" timestamp="1596158813660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="125" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596157993086" />
-    <state width="1877" height="125" key="GridCell.Tab.0.right" timestamp="1596157993087">
+    <state width="1877" height="154" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596158813660" />
+    <state width="1877" height="154" key="GridCell.Tab.0.right" timestamp="1596158813660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="125" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596157993087" />
+    <state width="1877" height="154" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596158813660" />
     <state width="1877" height="211" key="GridCell.Tab.1.bottom" timestamp="1595506891592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -320,10 +334,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595982628288" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596156982525">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596158211683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596156982525" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596158211683" />
     <state x="658" y="322" key="git4idea.merge.GitPullDialog" timestamp="1595987834040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -332,10 +346,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="161" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1595985410776" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595986581510">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596158731790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595986581510" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596158731790" />
     <state x="640" y="212" key="spring file set editor" timestamp="1595495478522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
