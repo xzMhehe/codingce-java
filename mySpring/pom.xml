@@ -20,6 +20,7 @@
         <module>spring-08-proxy</module>
         <module>spring-09-aop</module>
         <module>spring-10-mybatis</module>
+        <module>spring-11-transaction</module>
     </modules>
 
     <dependencies>

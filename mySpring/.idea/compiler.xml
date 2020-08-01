@@ -16,6 +16,7 @@
         <module name="spring-03-ioc2" />
         <module name="spring-06-anno" />
         <module name="spring-02-hellospring" />
+        <module name="spring-11-transaction" />
         <module name="spring-04-di" />
       </profile>
     </annotationProcessing>
