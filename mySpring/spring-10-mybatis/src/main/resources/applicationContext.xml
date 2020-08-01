@@ -12,5 +12,9 @@
         <property name="sqlSession" ref="sqlSession"/>
     </bean>
 
+    <bean id="userMapper2" class="cn.com.codingce.mapper.UserMapperImpl2">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
 
 </beans>

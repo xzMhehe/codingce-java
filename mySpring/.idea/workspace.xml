@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7287974a-1c51-482c-ab4c-1d18ce53e357" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/cn/com/codingce/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/cn/com/codingce/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/cn/com/codingce/mapper/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/cn/com/codingce/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/cn/com/codingce/mapper/UserMapperImpl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-09-aop/src/main/java/cn/com/codingce/diy/AnnotationPointCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/cn/com/codingce/diy/AnnotationPointCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.codingce.mapper" />
       <recent name="cn.com.codingce.demo4" />
       <recent name="cn.com.codingce.pojo" />
     </key>
@@ -184,7 +175,7 @@
       <workItem from="1596147756180" duration="2604000" />
       <workItem from="1596155929909" duration="15663000" />
       <workItem from="1596241224395" duration="4942000" />
-      <workItem from="1596248494801" duration="8550000" />
+      <workItem from="1596248494801" duration="9656000" />
     </task>
     <task id="LOCAL-00001" summary="A 依赖注入方式">
       <created>1595311531153</created>
@@ -277,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596244362305</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="A Spring整合Mybatis方式一">
+      <created>1596269750239</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596269750239</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +309,8 @@
     <MESSAGE value="A AOP实现方式一" />
     <MESSAGE value="A 自定义实现AOP" />
     <MESSAGE value="A 方式三注解实现AOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 方式三注解实现AOP" />
+    <MESSAGE value="A Spring整合Mybatis方式一" />
+    <option name="LAST_COMMIT_MESSAGE" value="A Spring整合Mybatis方式一" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Notifications" timestamp="1596148487035">
@@ -326,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596265067183" />
-    <state x="477" y="116" key="CommitChangelistDialog2" timestamp="1596244360800">
+    <state x="477" y="116" key="CommitChangelistDialog2" timestamp="1596270952684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="477" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596244360800" />
+    <state x="477" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596270952684" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1595498930408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -338,22 +337,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595295596827" />
-    <state width="1877" height="111" key="GridCell.Tab.0.bottom" timestamp="1596269179085">
+    <state width="1877" height="342" key="GridCell.Tab.0.bottom" timestamp="1596270825865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596269179085" />
-    <state width="1877" height="111" key="GridCell.Tab.0.center" timestamp="1596269179085">
+    <state width="1877" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596270825865" />
+    <state width="1877" height="342" key="GridCell.Tab.0.center" timestamp="1596270825865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="111" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596269179085" />
-    <state width="1877" height="111" key="GridCell.Tab.0.left" timestamp="1596269179084">
+    <state width="1877" height="342" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596270825865" />
+    <state width="1877" height="342" key="GridCell.Tab.0.left" timestamp="1596270825865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="111" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596269179084" />
-    <state width="1877" height="111" key="GridCell.Tab.0.right" timestamp="1596269179085">
+    <state width="1877" height="342" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596270825865" />
+    <state width="1877" height="342" key="GridCell.Tab.0.right" timestamp="1596270825865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="111" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596269179085" />
+    <state width="1877" height="342" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596270825865" />
     <state width="1877" height="249" key="GridCell.Tab.1.bottom" timestamp="1596268649837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -374,10 +373,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595982628288" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596244372507">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596269754473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596244372507" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596269754473" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596270954643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596270954643" />
     <state x="658" y="322" key="git4idea.merge.GitPullDialog" timestamp="1595987834040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
