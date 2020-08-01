@@ -32,9 +32,5 @@ public class AnnotationPointCut {
 
         Signature signature = jp.getSignature();//获得签名
         System.out.println("signature" + signature);
-
-
     }
-
-
 }
