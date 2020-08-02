@@ -6,7 +6,11 @@
 
     <groupId>cn.com.codingce</groupId>
     <artifactId>SpringMVC</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>springmvc-01-servlet</module>
+    </modules>
 
     <dependencies>
         <dependency>
