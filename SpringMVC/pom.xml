@@ -11,6 +11,8 @@
     <modules>
         <module>springmvc-01-servlet</module>
         <module>springmvc-02-hellomvc</module>
+        <module>springmvc-03-annotation</module>
+        <module>springmvc-04-controller</module>
     </modules>
 
     <dependencies>
@@ -40,4 +42,26 @@
             <version>1.2</version>
         </dependency>
     </dependencies>
+
+    <!--由于Maven可能存在资源过滤的问题，我们将配置完善-->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
 </project>
