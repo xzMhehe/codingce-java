@@ -13,4 +13,10 @@ public class ControllerTest2 {
         return "test";  //WEB-INF/jsp/test.jsp
     }
 
+    @RequestMapping("/t3")
+    public String test2(Model model) {
+
+        return "a";  //WEB-INF/jsp/test.jsp
+    }
+
 }
