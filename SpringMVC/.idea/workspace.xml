@@ -7,8 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4306030-442d-44d6-ac78-01fbb2e47b25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/spring-dao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/springmvc-05-json/web/WEB-INF/jsp" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -183,7 +185,7 @@
       <workItem from="1596330122726" duration="6534000" />
       <workItem from="1596416572171" duration="15085000" />
       <workItem from="1596504764517" duration="17454000" />
-      <workItem from="1596597945440" duration="16070000" />
+      <workItem from="1596597945440" duration="16219000" />
     </task>
     <task id="LOCAL-00001" summary="A SpringMVC回顾">
       <created>1596330175878</created>
@@ -262,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596621610216</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="A Spring整合Dao">
+      <created>1596624395704</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596624395704</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +303,8 @@
     <MESSAGE value="A 乱码处理" />
     <MESSAGE value="A JSON|Controller返回JSON数据" />
     <MESSAGE value="A 完成环境要求、数据库环境、基本环境搭建、Mybatis层编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 完成环境要求、数据库环境、基本环境搭建、Mybatis层编写" />
+    <MESSAGE value="A Spring整合Dao" />
+    <option name="LAST_COMMIT_MESSAGE" value="A Spring整合Dao" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1596608256827">
@@ -313,22 +323,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596620869099" />
-    <state x="582" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1596538775057">
+    <state x="582" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1596624475496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596538775057" />
+    <state x="582" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596624475496" />
     <state x="552" y="181" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1596331859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1596331859103" />
-    <state x="713" y="345" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1596615506781">
+    <state x="713" y="345" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1596624491198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="713" y="345" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596615506781" />
-    <state x="452" y="123" key="CommitChangelistDialog2" timestamp="1596621609181">
+    <state x="713" y="345" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596624491198" />
+    <state x="452" y="123" key="CommitChangelistDialog2" timestamp="1596624394752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596621609181" />
+    <state x="452" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596624394752" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1596423174101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -401,14 +411,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1393" height="335" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596617228366" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1596621369287">
+    <state x="463" y="165" key="SettingsEditor" timestamp="1596624492570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596621369287" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596621615460">
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596624492570" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596624400917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596621615460" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596624400917" />
     <state x="658" y="322" key="git4idea.merge.GitPullDialog" timestamp="1596330181451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
