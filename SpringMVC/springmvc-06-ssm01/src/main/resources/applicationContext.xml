@@ -11,5 +11,7 @@
        https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <import resource="spring-dao.xml"/>
+    <import resource="spring-service.xml"/>
+    <import resource="spring-mvc.xml"/>
 
 </beans>

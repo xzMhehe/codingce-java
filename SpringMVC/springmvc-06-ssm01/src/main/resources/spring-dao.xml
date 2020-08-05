@@ -22,7 +22,6 @@
             </dependency>
         druid
         hikari
-
     -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <!-- 配置连接池属性 -->
