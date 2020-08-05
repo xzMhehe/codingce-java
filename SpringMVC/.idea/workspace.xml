@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4306030-442d-44d6-ac78-01fbb2e47b25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/springmvc-06-ssm01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/java/cn/com/codingce/dao/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/java/cn/com/codingce/dao/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/java/cn/com/codingce/pojo/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/java/cn/com/codingce/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/java/cn/com/codingce/service/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/spring-dao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +183,7 @@
       <workItem from="1596330122726" duration="6534000" />
       <workItem from="1596416572171" duration="15085000" />
       <workItem from="1596504764517" duration="17454000" />
-      <workItem from="1596597945440" duration="14377000" />
+      <workItem from="1596597945440" duration="16070000" />
     </task>
     <task id="LOCAL-00001" summary="A SpringMVC回顾">
       <created>1596330175878</created>
@@ -267,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596615735080</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="A 完成环境要求、数据库环境、基本环境搭建、Mybatis层编写">
+      <created>1596621610216</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596621610216</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +293,8 @@
     <MESSAGE value="A 数据处理" />
     <MESSAGE value="A 乱码处理" />
     <MESSAGE value="A JSON|Controller返回JSON数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="A JSON|Controller返回JSON数据" />
+    <MESSAGE value="A 完成环境要求、数据库环境、基本环境搭建、Mybatis层编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 完成环境要求、数据库环境、基本环境搭建、Mybatis层编写" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1596608256827">
@@ -329,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="345" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596615506781" />
-    <state x="452" y="123" key="CommitChangelistDialog2" timestamp="1596615733387">
+    <state x="452" y="123" key="CommitChangelistDialog2" timestamp="1596621609181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596615733387" />
+    <state x="452" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596621609181" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1596423174101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -409,10 +405,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596621369287" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596615737668">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596621615460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596615737668" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596621615460" />
     <state x="658" y="322" key="git4idea.merge.GitPullDialog" timestamp="1596330181451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

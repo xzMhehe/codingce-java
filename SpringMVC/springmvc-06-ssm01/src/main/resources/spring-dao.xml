@@ -13,8 +13,16 @@
 
     <!-- 2.数据库连接池 -->
     <!--数据库连接池
-        dbcp 半自动化操作 不能自动连接
+        dbcp 半自动化操作 不能自动连接 需要手动操作
         c3p0 自动化操作（自动的加载配置文件 并且设置到对象里面）
+            <dependency>
+                <groupId>com.mchange</groupId>
+                <artifactId>c3p0</artifactId>
+                <version>0.9.5.2</version>
+            </dependency>
+        druid
+        hikari
+
     -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <!-- 配置连接池属性 -->
@@ -43,6 +51,7 @@
     </bean>
 
     <!-- 4.配置扫描Dao接口包，动态实现Dao接口注入到spring容器中 -->
+    <!--解释 ：https://i.codingce.com.cn/2020/08/01/Spring%E6%95%B4%E5%90%88Mybatis-->
     <!--解释 ：https://www.cnblogs.com/jpfss/p/7799806.html-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!-- 注入sqlSessionFactory -->
