@@ -7,16 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4306030-442d-44d6-ac78-01fbb2e47b25" name="Default Changelist" comment="A 拦截器案例">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_09_file_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-09-file/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-09-file/springmvc-09-file.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-09-file/src/main/java/cn/com/codingce/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-09-file/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-09-file/src/main/resources/spring-controller.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-09-file/web/WEB-INF/jsp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-09-file/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-09-file/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-06-ssm01/src/main/resources/database.properties" afterDir="false" />
@@ -225,7 +215,7 @@
       <workItem from="1596752034088" duration="4892000" />
       <workItem from="1596758098265" duration="4027000" />
       <workItem from="1596859451380" duration="1686000" />
-      <workItem from="1596861177677" duration="9312000" />
+      <workItem from="1596861177677" duration="9470000" />
     </task>
     <task id="LOCAL-00001" summary="A SpringMVC回顾">
       <created>1596330175878</created>
@@ -388,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596869183916</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="A 文件上传下载">
+      <created>1596874102007</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1596874102007</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +429,8 @@
     <MESSAGE value="A Ajax验证用户名体验" />
     <MESSAGE value="A Ajax搜索DEMO" />
     <MESSAGE value="A 拦截器案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 拦截器案例" />
+    <MESSAGE value="A 文件上传下载" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 文件上传下载" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1596759779138">
@@ -463,10 +461,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="345" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596873055673" />
-    <state x="452" y="123" key="CommitChangelistDialog2" timestamp="1596869182478">
+    <state x="452" y="123" key="CommitChangelistDialog2" timestamp="1596874100645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596869182478" />
+    <state x="452" y="123" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596874100645" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1596755487532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -547,10 +545,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596873056838" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596869187911">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1596874105657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596869187911" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596874105657" />
     <state x="658" y="322" key="git4idea.merge.GitPullDialog" timestamp="1596330181451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
