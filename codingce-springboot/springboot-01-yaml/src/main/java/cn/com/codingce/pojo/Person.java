@@ -1,8 +1,6 @@
 package cn.com.codingce.pojo;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
 
@@ -16,13 +14,13 @@ import java.util.Map;
 //@PropertySource(value = "classpath:person.properties")
 @Validated  //数据校验
 public class Person {
-//    @Value("${name}") 配合   @PropertySource(value = "classpath:person.properties")\
+    //    @Value("${name}") 配合   @PropertySource(value = "classpath:person.properties")\
     @Email(message = "邮箱不合法")
     private String name;
     private Integer age;
     private Boolean happy;
     private Date birth;
-    private Map<String,Object> maps;
+    private Map<String, Object> maps;
     private List<Object> lists;
     private Dog dog;
 

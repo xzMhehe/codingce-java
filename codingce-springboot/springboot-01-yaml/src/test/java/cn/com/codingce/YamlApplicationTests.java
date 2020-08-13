@@ -18,7 +18,7 @@ class YamlApplicationTests {
     @Test
     public void contextLoads() {
         System.out.println(dog); //打印看下狗狗对象
-        System.out.println(person); //打印看下person对象
+//        System.out.println(person); //打印看下person对象
     }
 
 }
