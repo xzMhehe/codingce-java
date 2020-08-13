@@ -4,16 +4,20 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.annotation.Validated;
 
+import javax.validation.constraints.Email;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 @Component //注册bean到容器中
-//@ConfigurationProperties(prefix = "person")
-@PropertySource(value = "classpath:person.properties")
+@ConfigurationProperties(prefix = "person")
+//@PropertySource(value = "classpath:person.properties")
+@Validated  //数据校验
 public class Person {
-    @Value("${name}")
+//    @Value("${name}") 配合   @PropertySource(value = "classpath:person.properties")\
+    @Email(message = "邮箱不合法")
     private String name;
     private Integer age;
     private Boolean happy;
