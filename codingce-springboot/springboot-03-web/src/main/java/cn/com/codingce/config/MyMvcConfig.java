@@ -6,6 +6,7 @@ import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -37,11 +38,33 @@ public class MyMvcConfig implements WebMvcConfigurer {
 //    }
 
 
+//    //视图跳转
+//    @Override
+//    public void addViewControllers(ViewControllerRegistry registry) {
+//
+//        registry.addViewController("/xin").setViewName("test");
+//
+//    }
+
+
     //视图跳转
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
 
-        registry.addViewController("/xin").setViewName("test");
+        registry.addViewController("/").setViewName("index");
+        registry.addViewController("/index.html").setViewName("index");
 
+    }
+
+    /**
+     * SpringBoot 2.x 要重写该方法，不然 css、js、image 等静态资源路径无法访问
+     */
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/**")
+                .addResourceLocations("classpath:/META-INF/resources/")
+                .addResourceLocations("classpath:/resources/")
+                .addResourceLocations("classpath:/static/")
+                .addResourceLocations("classpath:/public/");
     }
 }

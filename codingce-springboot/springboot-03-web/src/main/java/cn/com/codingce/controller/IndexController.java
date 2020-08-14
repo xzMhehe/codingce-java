@@ -11,10 +11,10 @@ import java.util.Arrays;
 @Controller
 public class IndexController {
 
-    @GetMapping("/index")
-    public String index() {
-        return "index";
-    }
+//    @GetMapping("/index")
+//    public String index() {
+//        return "index";
+//    }
 
     @GetMapping("/test")
     public String test() {
@@ -39,5 +39,10 @@ public class IndexController {
         model.addAttribute("users", Arrays.asList("掌上编程", "xzM", "TianRuan"));
         return "test3";
     }
+
+//    @GetMapping({"/", "/index.html"})
+//    public String index() {
+//        return "index";
+//    }
 
 }
