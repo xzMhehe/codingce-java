@@ -34,6 +34,7 @@ public class EmployeeDao {
         if (employee == null) {
             ininId++;
         }
+        employee.setId(ininId);
         employee.setDepartment(departmentDao.getDepartmentById(employee.getDepartment().getId()));
         employeeDaoMap.put(employee.getId(), employee);
     }
