@@ -22,17 +22,20 @@
     <div class="container">
 
       <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+        <h2 class="form-signin-heading" th:text="#{login.tip}"></h2>
+        <label for="inputUserName" class="sr-only" th:text="#{login.username}"></label>
+        <input type="text" id="inputUserName" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
+        <label for="inputPassword" class="sr-only" th:text="#{login.password}"></label>
+        <input type="password" id="inputPassword" class="form-control" th:placeholder="#{login.password}" required="">
         <div class="checkbox">
           <label>
-            <input type="checkbox" value="remember-me"> Remember me
+            <input type="checkbox" value="remember-me">[[#{login.remember}]]
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">[[#{login.btn}]]</button>
+      <p class="text-muted">2017-2021</p>
+      <a class="btn btn-sm" th:href="@{/index.html(l='zn_CN')}">中文</a>
+      <a class="btn btn-sm" th:href="@{/index.html(l='en_US')}">英文</a>
       </form>
 
     </div> <!-- /container -->
