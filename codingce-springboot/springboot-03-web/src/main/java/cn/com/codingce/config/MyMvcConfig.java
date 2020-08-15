@@ -54,6 +54,7 @@ public class MyMvcConfig implements WebMvcConfigurer {
 
         registry.addViewController("/").setViewName("index");
         registry.addViewController("/index.html").setViewName("index");
+        registry.addViewController("/main.html").setViewName("dashboard");
 
     }
 
@@ -73,5 +74,11 @@ public class MyMvcConfig implements WebMvcConfigurer {
     @Bean
     public LocaleResolver localeResolver() {
         return new MyLocaleResolver();
+    }
+
+    //添加拦截器                 excludePathPatterns不拦截名单
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(new LoginHandlerIntercepter()).addPathPatterns("/**").excludePathPatterns("/index.html", "/user/login", "/", "/css/*", "/js/**", "/img/**");
     }
 }

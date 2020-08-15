@@ -11,6 +11,7 @@
     <!-- Custom styles for this template -->
     <link th:href="@{/css/signin.css}" rel="stylesheet">
 
+
 <!--    &lt;!&ndash; Bootstrap core CSS &ndash;&gt;-->
 <!--    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet">-->
 <!--    &lt;!&ndash; Custom styles for this template &ndash;&gt;-->
@@ -21,12 +22,16 @@
 
     <div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading" th:text="#{login.tip}"></h2>
+      <form class="form-signin" th:action="@{/user/login}">
+        <h2 class="form-signin-heading" th:text="#{login.tip}">
+
+        </h2>
+          <!--如果error值为空则不显示消息-->
+        <p style="color: red" th:text="${error}" th:if="${not #strings.isEmpty(error)}"></p>
         <label for="inputUserName" class="sr-only" th:text="#{login.username}"></label>
-        <input type="text" id="inputUserName" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
+        <input type="text" id="inputUserName" name="username" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
         <label for="inputPassword" class="sr-only" th:text="#{login.password}"></label>
-        <input type="password" id="inputPassword" class="form-control" th:placeholder="#{login.password}" required="">
+        <input type="password" id="inputPassword" name="password" class="form-control" th:placeholder="#{login.password}" required="">
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me">[[#{login.remember}]]
