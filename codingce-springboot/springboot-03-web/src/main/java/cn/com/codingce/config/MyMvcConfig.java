@@ -79,6 +79,8 @@ public class MyMvcConfig implements WebMvcConfigurer {
     //添加拦截器                 excludePathPatterns不拦截名单
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new LoginHandlerIntercepter()).addPathPatterns("/**").excludePathPatterns("/index.html", "/user/login", "/", "/css/*", "/js/**", "/img/**");
+        registry.addInterceptor(new LoginHandlerIntercepter()).addPathPatterns("/**")
+                //不需要拦截的请求
+                .excludePathPatterns("/index.html", "/user/login", "/", "/css/*", "/js/**", "/img/**");
     }
 }
