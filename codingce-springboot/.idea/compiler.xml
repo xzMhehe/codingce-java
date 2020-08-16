@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-06-mybatis" />
         <module name="springboot-02-myconfig" />
         <module name="codingce-springboot" />
         <module name="springboot-05-mydruid" />
@@ -22,6 +23,7 @@
       <module name="springboot-03-web" target="1.8" />
       <module name="springboot-04-myjdbc" target="1.8" />
       <module name="springboot-05-mydruid" target="1.8" />
+      <module name="springboot-06-mybatis" target="1.8" />
       <module name="springboot-yaml" target="1.8" />
       <module name="yaml" target="1.8" />
     </bytecodeTargetLevel>
@@ -35,6 +37,7 @@
       <module name="springboot-03-web" options="-parameters" />
       <module name="springboot-04-myjdbc" options="-parameters" />
       <module name="springboot-05-mydruid" options="-parameters" />
+      <module name="springboot-06-mybatis" options="-parameters" />
       <module name="springboot-yaml" options="-parameters" />
       <module name="yaml" options="-parameters" />
     </option>

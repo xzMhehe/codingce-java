@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kuang.mapper.DepartmentMapper">
+
+    <select id="queryUserList" resultType="User">
+       select * from user;
+    </select>
+
+    <select id="queryUserById" resultType="user" parameterType="int">
+       select * from department where id = #{id};
+    </select>
+
+</mapper>
