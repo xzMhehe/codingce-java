@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/codingce-springboot.iml" filepath="$PROJECT_DIR$/codingce-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-01-yaml/springboot-01-yaml.iml" filepath="$PROJECT_DIR$/springboot-01-yaml/springboot-01-yaml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-02-myconfig/springboot-02-myconfig.iml" filepath="$PROJECT_DIR$/springboot-02-myconfig/springboot-02-myconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-03-web/springboot-03-web.iml" filepath="$PROJECT_DIR$/springboot-03-web/springboot-03-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-04-myjdbc/springboot-04-myjdbc.iml" filepath="$PROJECT_DIR$/springboot-04-myjdbc/springboot-04-myjdbc.iml" />
+    </modules>
+  </component>
+</project>

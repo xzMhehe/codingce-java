@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-04-myjdbc" />
+        <module name="springboot-01-yaml" />
+        <module name="codingce-springboot" />
+        <module name="springboot-03-web" />
+        <module name="springboot-02-myconfig" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="codingce-springboot" target="1.8" />
+      <module name="springboot-01-yaml" target="1.8" />
+      <module name="springboot-02-myconfig" target="1.8" />
+      <module name="springboot-02-myconfiguration" target="1.8" />
+      <module name="springboot-03-web" target="1.8" />
+      <module name="springboot-04-myjdbc" target="1.8" />
+      <module name="springboot-yaml" target="1.8" />
+      <module name="yaml" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="codingce-springboot" options="-parameters" />
+      <module name="springboot-01-yaml" options="-parameters" />
+      <module name="springboot-02-myconfig" options="-parameters" />
+      <module name="springboot-02-myconfiguration" options="-parameters" />
+      <module name="springboot-03-web" options="-parameters" />
+      <module name="springboot-04-myjdbc" options="-parameters" />
+      <module name="springboot-yaml" options="-parameters" />
+      <module name="yaml" options="-parameters" />
+    </option>
+  </component>
+</project>
