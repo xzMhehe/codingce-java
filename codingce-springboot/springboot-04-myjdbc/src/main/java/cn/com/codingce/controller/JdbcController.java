@@ -48,7 +48,7 @@ public class JdbcController {
     @GetMapping("/update/{id}")
     public String updateUser(@PathVariable("id") int id){
         //插入语句
-        String sql = "update employee set last_name=?,email=? where id="+id;
+        String sql = "update employee set last_name=?, email = ? where id ="+id;
         //数据
         Object[] objects = new Object[2];
         objects[0] = "mxz";
@@ -62,7 +62,7 @@ public class JdbcController {
     @GetMapping("/delete/{id}")
     public String delUser(@PathVariable("id") int id){
         //插入语句
-        String sql = "delete from employee where id=?";
+        String sql = "delete from employee where id = ?";
         jdbcTemplate.update(sql,id);
         //查询
         return "deleteOk";

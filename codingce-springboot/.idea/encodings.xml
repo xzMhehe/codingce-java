@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/springboot-02-myconfig/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-03-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-04-myjdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-05-mydruid/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

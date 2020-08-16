@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-02-myconfig/springboot-02-myconfig.iml" filepath="$PROJECT_DIR$/springboot-02-myconfig/springboot-02-myconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-03-web/springboot-03-web.iml" filepath="$PROJECT_DIR$/springboot-03-web/springboot-03-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-04-myjdbc/springboot-04-myjdbc.iml" filepath="$PROJECT_DIR$/springboot-04-myjdbc/springboot-04-myjdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-05-mydruid/springboot-05-mydruid.iml" filepath="$PROJECT_DIR$/springboot-05-mydruid/springboot-05-mydruid.iml" />
     </modules>
   </component>
 </project>

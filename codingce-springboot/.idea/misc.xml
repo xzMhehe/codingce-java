@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/springboot-02-myconfig/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-03-web/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-myjdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-mydruid/pom.xml" />
       </list>
     </option>
   </component>
