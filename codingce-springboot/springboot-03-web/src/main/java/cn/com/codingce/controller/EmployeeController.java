@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.servlet.http.HttpSession;
 import java.util.Collection;
 
 @Controller
@@ -66,6 +67,20 @@ public class EmployeeController {
     public String updateEmp(Employee employee) {
         employeeDao.save(employee);
         return "redirect:/emps";
+    }
+
+
+    @GetMapping("/deleEmp/{id}")
+    public String deleEmp(@PathVariable("id") Integer id) {
+        employeeDao.deleEmp(id);
+        return "redirect:/emps";
+    }
+
+
+    @GetMapping("/user/logout")
+    public String logout(HttpSession session) {
+        session.invalidate();
+        return "redircet:/index.html";
     }
 
 

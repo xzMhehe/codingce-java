@@ -49,4 +49,8 @@ public class EmployeeDao {
         return employeeDaoMap.values();
     }
 
+    public void deleEmp(Integer id) {
+        employeeDaoMap.remove(id);
+    }
+
 }
