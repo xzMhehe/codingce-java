@@ -1,10 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+
 <head>
-    <meta charset="UTF-8">
-    <title>首页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" th:href="@{https://v3.bootcss.com/favicon.ico}">
+    <title>Dashboard Template for Bootstrap</title>
+    <link th:href="@{/css/dashboard.css}" rel="stylesheet">
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link th:href="@{/css/dashboard.css}" rel="stylesheet">
 </head>
+
 <body>
+<!--导航栏-->
+<!--<div th:insert="~{commons/commons::topbar}"></div>-->、
+<nav class="navbar navbar-inverse navbar-fixed-top" th:fragment="topbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">欢迎~~<span sec:authentication="name"></span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a th:href="@{/main.html}">主页</a></li>
+                <li><a th:href="@{/logout}">注销</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control" placeholder="搜索">
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <!--        <div th:insert="~{commons/commons::sidebar(active = 'main.html')}"></div>-->
+        <!--侧边栏-->
+        <div class="col-sm-3 col-md-2 sidebar" th:fragment="sidebar">
+            <ul class="nav nav-sidebar">
+                <li th:class="${active == 'main.html' ? 'active' : ''}"><a th:href="@{/main.html}">主页</a></li>
+                <li th:class="${active == 'list.html' ? 'active' : ''}"><a th:href="@{/emps}">列表</a></li>
+                <li th:class="${active == 'main1.html' ? 'active' : ''}"><a href="#">列表3</a></li>
+                <li th:class="${active == 'main2.html' ? 'active' : ''}"><a href="#">列表3</a></li>
+            </ul>
+            <ul class="nav nav-sidebar">
+                <li><a href="#">列表3</a></li>
+                <li><a href="#">列表3</a></li>
+            </ul>
+        </div>
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <h1 class="page-header">Dashboard</h1>
+
+            <div class="row placeholders">
+                <!--            <div class="col-xs-6 col-sm-3 placeholder">-->
+                <!--              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">-->
+                <!--              <h4>Label</h4>-->
+                <!--              <span class="text-muted">Something else</span>-->
+                <!--            </div>-->
+
+            </div>
+
+            <h2 class="sub-header">Section title</h2>
+            <div class="column" sec:au>
+                <div class="ui raised segment">
+                    <div class="ui">
+                        <div class="content">
+                            <h3 class="content">Level 1</h3>
+                            <hr>
+                            <div><a th:href="@{/level1/1}">level1-1</a></div>
+                            <div><a th:href="@{/level1/2}">level1-2</a></div>
+                            <div><a th:href="@{/level1/3}">level1-3</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="ui raised segment">
+                    <div class="ui">
+                        <div class="content">
+                            <h3 class="content">Level 2</h3>
+                            <hr>
+                            <div><a th:href="@{/level2/1}">level2-1</a></div>
+                            <div><a th:href="@{/level2/2}">level2-2</a></div>
+                            <div><a th:href="@{/level2/3}">level2-3</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="ui raised segment">
+                    <div class="ui">
+                        <div class="content">
+                            <h3 class="content">Level 3</h3>
+                            <hr>
+                            <div><a th:href="@{/level3/1}">level3-1</a></div>
+                            <div><a th:href="@{/level3/2}">level3-2</a></div>
+                            <div><a th:href="@{/level3/3}">level3-3</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
+
 </html>

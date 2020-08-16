@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<!--头部导航栏-->
+<nav class="navbar navbar-inverse navbar-fixed-top" th:fragment="topbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">欢迎~~[[${session.loginUser}]]</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a th:href="@{/main.html}">主页</a></li>
+                <li><a href="#">设置</a></li>
+                <li><a href="#">项目</a></li>
+                <li><a th:href="@{/user/logout}">退出</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control" placeholder="搜索">
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!--侧边栏-->
+<div class="col-sm-3 col-md-2 sidebar" th:fragment="sidebar">
+    <ul class="nav nav-sidebar">
+        <li th:class="${active == 'main.html' ? 'active' : ''}"><a th:href="@{/main.html}">主页</a></li>
+        <li th:class="${active == 'list.html' ? 'active' : ''}"><a th:href="@{/emps}">员工列表</a></li>
+        <li th:class="${active == 'main1.html' ? 'active' : ''}"><a href="#">列表3</a></li>
+        <li th:class="${active == 'main2.html' ? 'active' : ''}"><a href="#">列表3</a></li>
+    </ul>
+    <ul class="nav nav-sidebar">
+        <li><a href="#">列表3</a></li>
+        <li><a href="#">列表3</a></li>
+    </ul>
+</div>
+
+
+</html>
