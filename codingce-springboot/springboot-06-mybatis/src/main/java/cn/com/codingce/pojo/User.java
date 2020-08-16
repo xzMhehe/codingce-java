@@ -1,4 +1,4 @@
-package cn.com.codingce.pogo;
+package cn.com.codingce.pojo;
 
 public class User {
     private int id;

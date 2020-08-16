@@ -10,7 +10,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 @SpringBootTest
-class MydruidApplicationTests {
+class MybatisApplicationTests {
 
     //DI注入数据源
     @Autowired

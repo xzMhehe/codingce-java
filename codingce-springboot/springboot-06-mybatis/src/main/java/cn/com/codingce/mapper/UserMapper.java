@@ -1,12 +1,12 @@
 package cn.com.codingce.mapper;
 
-import cn.com.codingce.pogo.User;
+import cn.com.codingce.pojo.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-//@Mapper : 表示本类是一个 MyBatis 的 Mapper @MapperScan("cn.com.codingce.mapper")也行
+//@Mapper : 表示本类是一个 MyBatis 的 Mapper  在启动类@MapperScan("cn.com.codingce.mapper")也行
 @Mapper
 @Repository
 public interface UserMapper {
