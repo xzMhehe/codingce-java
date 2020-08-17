@@ -21,8 +21,6 @@
         <h2 class="form-signin-heading" th:text="#{login.tip}">
 
         </h2>
-        <!--如果error值为空则不显示消息-->
-        <p style="color: red" th:text="${error}" th:if="${not #strings.isEmpty(error)}"></p>
         <label for="inputUserName" class="sr-only" th:text="#{login.username}"></label>
         <input type="text" id="inputUserName" name="username" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
         <label for="inputPassword" class="sr-only" th:text="#{login.password}"></label>

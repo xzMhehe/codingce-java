@@ -34,7 +34,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //        http.formLogin().loginPage("/tologin").usernameParameter("user").passwordParameter("pwd").loginProcessingUrl("/login");
 
 
-        //注销    开启注销功能 跳转首页
+        //注销    开启注销功能 跳转首页 .logoutSuccessUrl("/"); 注销成功来到首页
         http.logout().logoutSuccessUrl("/");
 
         //防止网站攻击  get不安全
