@@ -17,7 +17,7 @@
 
 <div class="container">
 
-    <form class="form-signin" th:action="@{/user/login}">
+    <form class="form-signin" th:action="@{/login}" method="post">
         <h2 class="form-signin-heading" th:text="#{login.tip}">
 
         </h2>
@@ -29,7 +29,7 @@
         <input type="password" id="inputPassword" name="password" class="form-control" th:placeholder="#{login.password}" required="">
         <div class="checkbox">
             <label>
-                <input type="checkbox" value="remember-me">[[#{login.remember}]]
+                <input type="checkbox" name="remember">[[#{login.remember}]]
             </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">[[#{login.btn}]]</button>

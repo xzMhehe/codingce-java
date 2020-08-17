@@ -29,7 +29,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/level3/**").hasRole("vip3");
 
         //没有权限默认会到登录页
-        http.formLogin();
+        http.formLogin().loginPage("/tologin").loginProcessingUrl("/login");
+        //以下是自定义表单参数名不然与表单名称不符会报错
+//        http.formLogin().loginPage("/tologin").usernameParameter("user").passwordParameter("pwd").loginProcessingUrl("/login");
 
 
         //注销    开启注销功能 跳转首页
@@ -37,6 +39,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         //防止网站攻击  get不安全
         http.csrf().disable();  //关闭csrf功能
+
+        //开启记住我功能   cookie
+//  系统默认      http.rememberMe();  下面是自定义
+        http.rememberMe().rememberMeParameter("remember");
 
 
     }
