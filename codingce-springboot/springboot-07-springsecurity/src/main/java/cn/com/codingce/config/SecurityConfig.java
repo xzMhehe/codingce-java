@@ -32,8 +32,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.formLogin();
 
 
-        //注销    开启注销功能
-        http.logout();
+        //注销    开启注销功能 跳转首页
+        http.logout().logoutSuccessUrl("/");
 
         //防止网站攻击  get不安全
         http.csrf().disable();  //关闭csrf功能
