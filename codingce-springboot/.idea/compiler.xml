@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-06-mybatis" />
+        <module name="springboot-02-myconfig" />
         <module name="springboot-03-web" />
         <module name="springboot-05-mydruid" />
-        <module name="springboot-02-myconfig" />
         <module name="springboot-07-springsecurity" />
         <module name="springboot-04-myjdbc" />
-        <module name="codingce-springboot" />
+        <module name="springboot-06-mybatis" />
+        <module name="springboot-09-shiro" />
         <module name="springboot-01-yaml" />
+        <module name="hello-shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="codingce-springboot" target="1.8" />
+      <module name="hello-shiro" target="1.5" />
       <module name="springboot-01-yaml" target="1.8" />
       <module name="springboot-02-myconfig" target="1.8" />
       <module name="springboot-02-myconfiguration" target="1.8" />
@@ -26,6 +28,8 @@
       <module name="springboot-05-mydruid" target="1.8" />
       <module name="springboot-06-mybatis" target="1.8" />
       <module name="springboot-07-springsecurity" target="1.8" />
+      <module name="springboot-08-shiro" target="1.5" />
+      <module name="springboot-09-shiro" target="1.8" />
       <module name="springboot-yaml" target="1.8" />
       <module name="yaml" target="1.8" />
     </bytecodeTargetLevel>
@@ -41,6 +45,7 @@
       <module name="springboot-05-mydruid" options="-parameters" />
       <module name="springboot-06-mybatis" options="-parameters" />
       <module name="springboot-07-springsecurity" options="-parameters" />
+      <module name="springboot-09-shiro" options="-parameters" />
       <module name="springboot-yaml" options="-parameters" />
       <module name="yaml" options="-parameters" />
     </option>

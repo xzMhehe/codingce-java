@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/springboot-05-mydruid/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-07-springsecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-shiro/pom.xml" />
       </list>
     </option>
   </component>

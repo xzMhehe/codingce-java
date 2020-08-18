@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/codingce-springboot.iml" filepath="$PROJECT_DIR$/codingce-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-08-shiro/hello-shiro/hello-shiro.iml" filepath="$PROJECT_DIR$/springboot-08-shiro/hello-shiro/hello-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-yaml/springboot-01-yaml.iml" filepath="$PROJECT_DIR$/springboot-01-yaml/springboot-01-yaml.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-02-myconfig/springboot-02-myconfig.iml" filepath="$PROJECT_DIR$/springboot-02-myconfig/springboot-02-myconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-03-web/springboot-03-web.iml" filepath="$PROJECT_DIR$/springboot-03-web/springboot-03-web.iml" />
@@ -10,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-05-mydruid/springboot-05-mydruid.iml" filepath="$PROJECT_DIR$/springboot-05-mydruid/springboot-05-mydruid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-mybatis/springboot-06-mybatis.iml" filepath="$PROJECT_DIR$/springboot-06-mybatis/springboot-06-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-07-springsecurity/springboot-07-springsecurity.iml" filepath="$PROJECT_DIR$/springboot-07-springsecurity/springboot-07-springsecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-08-shiro/springboot-08-shiro.iml" filepath="$PROJECT_DIR$/springboot-08-shiro/springboot-08-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-09-shiro/springboot-09-shiro.iml" filepath="$PROJECT_DIR$/springboot-09-shiro/springboot-09-shiro.iml" />
     </modules>
   </component>
 </project>
