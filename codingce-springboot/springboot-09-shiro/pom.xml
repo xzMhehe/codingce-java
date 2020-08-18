@@ -19,6 +19,19 @@
     </properties>
 
     <dependencies>
+        <!--shiro
+        Subject 用户
+        SecurityManager 管理所有用户
+        Realm   连接数据
+        -->
+        <!--shiro整合Spring的包-->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.3.2</version>
+
+        </dependency>
+
         <!--thymeleaf-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
