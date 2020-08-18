@@ -6,20 +6,31 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
 @Configuration
 public class ShiroConfig {
 
     //ShiroFilterFactroyBean    第三步
+    @Bean
     public ShiroFilterFactoryBean getShiroFilterFactoryBean(@Qualifier("securityManager") DefaultWebSecurityManager webSecurityManager) {
-        ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
+        ShiroFilterFactoryBean bean = new ShiroFilterFactoryBean();
         //设置安全管理器
-        shiroFilterFactoryBean.setSecurityManager(webSecurityManager);
-
-
-
-
-
-        return shiroFilterFactoryBean;
+        bean.setSecurityManager(webSecurityManager);
+        //添加shiro 的内置过滤器
+        /**
+         * anno 无需认证就可以访问
+         * authc: 必须认证才能访问
+         * user:    必须拥有记住我功能才能使用
+         * perm:    拥有对某个资源的权限才能访问
+         * role:    拥有某个角色权限才能访问
+         */
+        HashMap<String, String> filterMap = new LinkedHashMap<>();
+        filterMap.put("/user/add", "authc");
+        filterMap.put("/user/update", "authc");
+        bean.setFilterChainDefinitionMap(filterMap);
+        return bean;
     }
 
     //DafaultWebSecurityManager 第二步
@@ -28,7 +39,6 @@ public class ShiroConfig {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         //关联UserRealm
         securityManager.setRealm(userRealm);
-
         return securityManager;
 
     }
