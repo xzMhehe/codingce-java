@@ -5,8 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>springboot-08-shiro</module>
-		<module>hello-shiro</module>
-		<module>hello</module>
+
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
