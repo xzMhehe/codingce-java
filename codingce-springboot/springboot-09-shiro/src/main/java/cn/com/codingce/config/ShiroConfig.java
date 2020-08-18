@@ -32,6 +32,7 @@ public class ShiroConfig {
 
         //授权            正常情况下, 没有授权回跳到未授权页面
         filterMap.put("/user/add", "perms[user:add]");
+        filterMap.put("/user/update", "perms[user:update]");
 
 
         filterMap.put("/user/*", "authc");
@@ -39,6 +40,9 @@ public class ShiroConfig {
 
         //设置登录的请求
         bean.setLoginUrl("/toLogin");
+
+        //设置未经授权的请求
+        bean.setUnauthorizedUrl("/noauth");
 
         bean.setFilterChainDefinitionMap(filterMap);
         return bean;

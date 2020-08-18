@@ -4,6 +4,7 @@ public class User {
     private int id;
     private String name;
     private String pwd;
+    private String perms;
 
     public User() {
     }
@@ -12,6 +13,13 @@ public class User {
         this.id = id;
         this.name = name;
         this.pwd = pwd;
+    }
+
+    public User(int id, String name, String pwd, String perms) {
+        this.id = id;
+        this.name = name;
+        this.pwd = pwd;
+        this.perms = perms;
     }
 
     public int getId() {
@@ -38,12 +46,21 @@ public class User {
         this.pwd = pwd;
     }
 
+    public String getPrems() {
+        return perms;
+    }
+
+    public void setPrems(String prems) {
+        this.perms = prems;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", pwd='" + pwd + '\'' +
+                ", prems='" + perms + '\'' +
                 '}';
     }
 }
