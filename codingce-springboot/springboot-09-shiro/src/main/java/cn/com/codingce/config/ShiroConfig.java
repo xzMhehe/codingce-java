@@ -23,13 +23,19 @@ public class ShiroConfig {
          * anno 无需认证就可以访问
          * authc: 必须认证才能访问
          * user:    必须拥有记住我功能才能使用
-         * perm:    拥有对某个资源的权限才能访问
+         * perms:    拥有对某个资源的权限才能访问
          * role:    拥有某个角色权限才能访问
          * //        filterMap.put("/user/add", "authc");
          * //        filterMap.put("/user/update", "authc");        支持通配符  /user/*
          */
         HashMap<String, String> filterMap = new LinkedHashMap<>();
+
+        //授权            正常情况下, 没有授权回跳到未授权页面
+        filterMap.put("/user/add", "perms[user:add]");
+
+
         filterMap.put("/user/*", "authc");
+
 
         //设置登录的请求
         bean.setLoginUrl("/toLogin");
