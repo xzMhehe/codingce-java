@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/myenum/FreshJuice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/myenum/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/myenum/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/myenum/MyFileTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/myenum/MyRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/myenum/MyReadLines.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/META-INF/Project_1002_Testtwo.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/testtwo/StringToLocalDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1002_Testtwo/cn/com/codingce/testtwo/StringToLocalDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myenum/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/myenum/MyFileOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,33 +48,7 @@
       <recent name="F:\AfterEnd\Project_1002_Testtwo\src\cn\com\codingce\crawl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest">
-    <configuration name="DemoA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.streamdemo.DemoA" />
-      <module name="Project_1002_Testtwo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.streamdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.streamdemo.DemoB" />
-      <module name="Project_1002_Testtwo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.streamdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyReadLines">
     <configuration name="FreshJuiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.myenum.FreshJuiceTest" />
       <module name="Project_1002_Testtwo" />
@@ -91,8 +62,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.myenum.MyTest" />
+    <configuration name="MyFileOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.myenum.MyFileOne" />
+      <module name="Project_1002_Testtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.myenum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.myenum.MyRead" />
+      <module name="Project_1002_Testtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.myenum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyReadLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.myenum.MyReadLines" />
       <module name="Project_1002_Testtwo" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.MyReadLines" />
+        <item itemvalue="Application.MyRead" />
+        <item itemvalue="Application.MyFileOne" />
         <item itemvalue="Application.FreshJuiceTest" />
         <item itemvalue="Application.StringToLocalDate" />
-        <item itemvalue="Application.DemoB" />
-        <item itemvalue="Application.DemoA" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +178,7 @@
       <workItem from="1572310306287" duration="2126000" />
       <workItem from="1572335740280" duration="1677000" />
       <workItem from="1572490491910" duration="997000" />
-      <workItem from="1597994503233" duration="3191000" />
+      <workItem from="1597994503233" duration="8391000" />
     </task>
     <task id="LOCAL-00001" summary="java高并发编程设计">
       <created>1570610207302</created>
@@ -246,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572491451408</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="A 自定义泛型; IO流">
+      <created>1598000034389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598000034390</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +294,8 @@
     <MESSAGE value="时间转换" />
     <MESSAGE value="A:丰富时间转换" />
     <MESSAGE value="A:修改或添加新功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="A:修改或添加新功能" />
+    <MESSAGE value="A 自定义泛型; IO流" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 自定义泛型; IO流" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1597998123130">
@@ -301,22 +306,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597994522435" />
-    <state width="1877" height="417" key="GridCell.Tab.0.bottom" timestamp="1597998527544">
+    <state x="500" y="116" key="CommitChangelistDialog2" timestamp="1598000032954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597998527544" />
-    <state width="1877" height="417" key="GridCell.Tab.0.center" timestamp="1597998527544">
+    <state x="500" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598000032954" />
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom" timestamp="1598004178546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597998527544" />
-    <state width="1877" height="417" key="GridCell.Tab.0.left" timestamp="1597998527544">
+    <state width="1877" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598004178546" />
+    <state width="1877" height="394" key="GridCell.Tab.0.center" timestamp="1598004178546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597998527544" />
-    <state width="1877" height="417" key="GridCell.Tab.0.right" timestamp="1597998527544">
+    <state width="1877" height="394" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598004178546" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left" timestamp="1598004178546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597998527544" />
+    <state width="1877" height="394" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598004178546" />
+    <state width="1877" height="394" key="GridCell.Tab.0.right" timestamp="1598004178546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="394" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598004178546" />
     <state width="1877" height="417" key="GridCell.Tab.1.bottom" timestamp="1597998527544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -333,6 +342,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="417" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597998527544" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598000039977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598000039977" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
