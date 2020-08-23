@@ -21,6 +21,30 @@ import java.util.ArrayList;
 @EnableSwagger2
 public class SwaggerConfig {
 
+    @Bean
+    public Docket docket1() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("A");
+    }
+
+    @Bean
+    public Docket docket2() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("B");
+    }
+
+    @Bean
+    public Docket docket3() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("C");
+    }
+
+    @Bean
+    public Docket docket4() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("D");
+    }
+
     @Bean //配置docket以配置Swagger具体参数  链式编程
     public Docket docket(Environment environment) {
         //设置要显示的Swagger环境
@@ -35,6 +59,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 //enable    是否启动Swagger, 如果false则Swagger不能再浏览器中访问
                 //.enable(false)
+                .groupName("掌上编程")
                 .enable(flag)
                 .select()
                 //RequestHandlerSelectors配置要扫面接口的方式
