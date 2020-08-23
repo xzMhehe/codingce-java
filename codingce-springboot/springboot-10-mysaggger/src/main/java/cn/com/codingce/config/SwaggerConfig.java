@@ -3,6 +3,8 @@ package cn.com.codingce.config;
 import cn.com.codingce.controller.HelloController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.Environment;
+import org.springframework.core.env.Profiles;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import springfox.documentation.builders.PathSelectors;
@@ -20,12 +22,20 @@ import java.util.ArrayList;
 public class SwaggerConfig {
 
     @Bean //配置docket以配置Swagger具体参数  链式编程
-    public Docket docket() {
+    public Docket docket(Environment environment) {
+        //设置要显示的Swagger环境
+        Profiles profiles = Profiles.of("dev", "test");
+
+        //获取项目环境    Environment environment.acceptsProfiles(profiles);判断是否处于自己设定的环境中
+        boolean flag = environment.acceptsProfiles(profiles);
+
+
         return new Docket(DocumentationType.SWAGGER_2)
                 //用的自己的             return new Docket(DocumentationType.SWAGGER_2); 默认
                 .apiInfo(apiInfo())
                 //enable    是否启动Swagger, 如果false则Swagger不能再浏览器中访问
                 //.enable(false)
+                .enable(flag)
                 .select()
                 //RequestHandlerSelectors配置要扫面接口的方式
                 //basePackage   指定要扫描的包      .apis(RequestHandlerSelectors.basePackage("cn.com.codingce.controller"))

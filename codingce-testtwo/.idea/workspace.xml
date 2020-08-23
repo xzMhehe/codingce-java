@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="A 窗口输入">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/myenum/MyScanner.java" afterDir="false" />
+    <list default="true" id="b05c95c3-cfa2-4e0f-9e8a-0c9f2719c9e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +176,7 @@
       <workItem from="1572490491910" duration="997000" />
       <workItem from="1597994503233" duration="8441000" />
       <workItem from="1598066076613" duration="1293000" />
-      <workItem from="1598173167860" duration="428000" />
+      <workItem from="1598173167860" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="java高并发编程设计">
       <created>1570610207302</created>
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598009482688</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="A Scanner考前复习">
+      <created>1598173618576</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598173618576</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +308,8 @@
     <MESSAGE value="A:修改或添加新功能" />
     <MESSAGE value="A 自定义泛型; IO流" />
     <MESSAGE value="A 窗口输入" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 窗口输入" />
+    <MESSAGE value="A Scanner考前复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="A Scanner考前复习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1597998123130">
@@ -313,46 +320,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597994522435" />
-    <state x="500" y="116" key="CommitChangelistDialog2" timestamp="1598173188498">
+    <state x="500" y="116" key="CommitChangelistDialog2" timestamp="1598173617313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="500" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598173188498" />
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1598173583426">
+    <state x="500" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598173617313" />
+    <state width="1877" height="417" key="GridCell.Tab.0.bottom" timestamp="1598182092962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598173583426" />
-    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1598173583426">
+    <state width="1877" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598182092962" />
+    <state width="1877" height="417" key="GridCell.Tab.0.center" timestamp="1598182092962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598173583426" />
-    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1598173583426">
+    <state width="1877" height="417" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598182092962" />
+    <state width="1877" height="417" key="GridCell.Tab.0.left" timestamp="1598182092962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598173583426" />
-    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1598173583426">
+    <state width="1877" height="417" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598182092962" />
+    <state width="1877" height="417" key="GridCell.Tab.0.right" timestamp="1598182092962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598173583426" />
-    <state width="1877" height="417" key="GridCell.Tab.1.bottom" timestamp="1598173481064">
+    <state width="1877" height="417" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598182092962" />
+    <state width="1877" height="417" key="GridCell.Tab.1.bottom" timestamp="1598182092963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598173481064" />
-    <state width="1877" height="417" key="GridCell.Tab.1.center" timestamp="1598173481064">
+    <state width="1877" height="417" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598182092963" />
+    <state width="1877" height="417" key="GridCell.Tab.1.center" timestamp="1598182092962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598173481064" />
-    <state width="1877" height="417" key="GridCell.Tab.1.left" timestamp="1598173481064">
+    <state width="1877" height="417" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598182092962" />
+    <state width="1877" height="417" key="GridCell.Tab.1.left" timestamp="1598182092962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598173481064" />
-    <state width="1877" height="417" key="GridCell.Tab.1.right" timestamp="1598173481064">
+    <state width="1877" height="417" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598182092962" />
+    <state width="1877" height="417" key="GridCell.Tab.1.right" timestamp="1598182092963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="417" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598173481064" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598009495486">
+    <state width="1877" height="417" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598182092963" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1598173621711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598009495486" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598173621711" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
