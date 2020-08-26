@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,13 +10,14 @@
         <module name="springboot-02-myconfig" />
         <module name="springboot-03-web" />
         <module name="springboot-10-mysaggger" />
+        <module name="hello-shiro" />
         <module name="springboot-07-springsecurity" />
-        <module name="springboot-11-mytask" />
         <module name="springboot-04-myjdbc" />
         <module name="springboot-06-mybatis" />
-        <module name="springboot-09-shiro" />
+        <module name="springboot-12-myredis" />
+        <module name="springboot-11-mytask" />
         <module name="springboot-01-yaml" />
-        <module name="hello-shiro" />
+        <module name="springboot-09-shiro" />
         <module name="springboot-05-mydruid" />
       </profile>
     </annotationProcessing>
@@ -34,6 +36,7 @@
       <module name="springboot-09-shiro" target="1.8" />
       <module name="springboot-10-mysaggger" target="1.8" />
       <module name="springboot-11-mytask" target="1.8" />
+      <module name="springboot-12-myredis" target="1.8" />
       <module name="springboot-yaml" target="1.8" />
       <module name="yaml" target="1.8" />
     </bytecodeTargetLevel>
@@ -52,6 +55,7 @@
       <module name="springboot-09-shiro" options="-parameters" />
       <module name="springboot-10-mysaggger" options="-parameters" />
       <module name="springboot-11-mytask" options="-parameters" />
+      <module name="springboot-12-myredis" options="-parameters" />
       <module name="springboot-yaml" options="-parameters" />
       <module name="yaml" options="-parameters" />
     </option>

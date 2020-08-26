@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-09-shiro/springboot-09-shiro.iml" filepath="$PROJECT_DIR$/springboot-09-shiro/springboot-09-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-10-mysaggger/springboot-10-mysaggger.iml" filepath="$PROJECT_DIR$/springboot-10-mysaggger/springboot-10-mysaggger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-11-mytask/springboot-11-mytask.iml" filepath="$PROJECT_DIR$/springboot-11-mytask/springboot-11-mytask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-12-myredis/springboot-12-myredis.iml" filepath="$PROJECT_DIR$/springboot-12-myredis/springboot-12-myredis.iml" />
     </modules>
   </component>
 </project>
