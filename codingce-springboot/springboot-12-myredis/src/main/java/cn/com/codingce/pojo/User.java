@@ -1,6 +1,9 @@
 package cn.com.codingce.pojo;
 
-public class User {
+import java.io.Serializable;
+
+//在企业开发中, 我们所有的pojo 都会序列化
+public class User implements Serializable {
 
     private String name;
     private int age;
