@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-02-myconfig" />
+        <module name="springboot-13-mydubbo" />
         <module name="springboot-03-web" />
         <module name="springboot-10-mysaggger" />
         <module name="hello-shiro" />
@@ -37,6 +38,7 @@
       <module name="springboot-10-mysaggger" target="1.8" />
       <module name="springboot-11-mytask" target="1.8" />
       <module name="springboot-12-myredis" target="1.8" />
+      <module name="springboot-13-mydubbo" target="1.8" />
       <module name="springboot-yaml" target="1.8" />
       <module name="yaml" target="1.8" />
     </bytecodeTargetLevel>
@@ -56,6 +58,7 @@
       <module name="springboot-10-mysaggger" options="-parameters" />
       <module name="springboot-11-mytask" options="-parameters" />
       <module name="springboot-12-myredis" options="-parameters" />
+      <module name="springboot-13-mydubbo" options="-parameters" />
       <module name="springboot-yaml" options="-parameters" />
       <module name="yaml" options="-parameters" />
     </option>
