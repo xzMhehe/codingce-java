@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7287974a-1c51-482c-ab4c-1d18ce53e357" name="Default Changelist" comment="A 声明式事务">
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/SpringMVC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codingce-springcloud/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codingce-springcloud/springcloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codingce-springcloud/springcloud-api/src/main/java/cn/com/codingce/pojo/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../codingce-springcloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codingce-springcloud/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -175,6 +172,7 @@
       <workItem from="1596248494801" duration="21423000" />
       <workItem from="1596328656747" duration="720000" />
       <workItem from="1596330097297" duration="24000" />
+      <workItem from="1599199342407" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="A 依赖注入方式">
       <created>1595311531153</created>
