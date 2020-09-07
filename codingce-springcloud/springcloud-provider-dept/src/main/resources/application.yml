@@ -15,7 +15,7 @@ spring:
     name: springcloud-provider-dept
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource # 数据源 德鲁伊
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/db01?useSSL=true&amp;useUnicode=true
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/db01?useSSL=true
     username: root
     password: 123456

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="">
+<mapper namespace="cn.com.codingce.dao.DeptDao">
 
     <insert id="addDept" parameterType="Dept">
         insert into dept(dname, db_source) values (#{dname}, DATABASE())
@@ -12,7 +12,7 @@
         select * from dept where deptno = #{deptno}
     </select>
 
-    <select id="queryAll" parameterType="Long" resultType="Dept">
+    <select id="queryAll" resultType="Dept">
         select * from dept
     </select>
 
