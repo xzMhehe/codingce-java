@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 @Accessors  //链式写法
 public class Dept implements Serializable {
-    private Long depton;
+    private Long deptno;
     private String dname;
     private String db_source;
 
@@ -22,21 +22,19 @@ public class Dept implements Serializable {
     public Dept() {
     }
 
-    public Dept(String dname) {
+    public Dept(Long deptno, String dname, String db_source) {
+        this.deptno = deptno;
         this.dname = dname;
+        this.db_source = db_source;
     }
 
-    public Dept(Long depton, String dname) {
-        this.depton = depton;
-        this.dname = dname;
+
+    public Long getDeptno() {
+        return deptno;
     }
 
-    public Long getDepton() {
-        return depton;
-    }
-
-    public void setDepton(Long depton) {
-        this.depton = depton;
+    public void setDeptno(Long deptno) {
+        this.deptno = deptno;
     }
 
     public String getDname() {
@@ -58,8 +56,9 @@ public class Dept implements Serializable {
     @Override
     public String toString() {
         return "Dept{" +
-                "depton=" + depton +
+                "deptno=" + deptno +
                 ", dname='" + dname + '\'' +
+                ", db_source='" + db_source + '\'' +
                 '}';
     }
 }
