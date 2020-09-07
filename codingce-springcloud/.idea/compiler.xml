@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-provider-dept" />
+        <module name="springcloud-consumer-dept" />
         <module name="springcloud-api" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="codingce-springcloud" options="-parameters" />
       <module name="springcloud-api" options="-parameters" />
+      <module name="springcloud-consumer-dept" options="-parameters" />
       <module name="springcloud-provider-dept" options="-parameters" />
     </option>
   </component>

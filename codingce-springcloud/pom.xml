@@ -16,6 +16,7 @@
     <modules>
         <module>springcloud-api</module>
         <module>springcloud-provider-dept</module>
+        <module>springcloud-consumer-dept</module>
     </modules>
 
     <!--打包方式-->
