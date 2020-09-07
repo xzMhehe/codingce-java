@@ -4,8 +4,8 @@ server:
 #mybatis配置
 mybatis:
   type-aliases-package: cn.com.codingce.pojo
-  config-location: classpath:mybatis-config.xml
-  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
 #  configuration:
 #    map-underscore-to-camel-case: true
 

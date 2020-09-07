@@ -19,10 +19,10 @@
         </dependency>
 
         <!--junit-->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>junit</groupId>-->
+<!--            <artifactId>junit</artifactId>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>mysql</groupId>
