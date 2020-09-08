@@ -29,7 +29,7 @@ public class DeptController {
 
     @GetMapping("/dept/get/{id}")
     public Dept queryBuId(@PathVariable("id") Long id) {
-        return deptService.queryBuId(id);
+        return deptService.queryById(id);
     }
 
     @GetMapping("/dept/list")

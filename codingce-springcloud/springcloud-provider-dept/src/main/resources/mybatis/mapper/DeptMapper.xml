@@ -8,7 +8,7 @@
         insert into dept(dname, db_source) values (#{dname}, DATABASE())
     </insert>
     
-    <select id="queryBuId" parameterType="Long" resultType="Dept">
+    <select id="queryById" parameterType="Long" resultType="Dept">
         select * from dept where deptno = #{deptno}
     </select>
 

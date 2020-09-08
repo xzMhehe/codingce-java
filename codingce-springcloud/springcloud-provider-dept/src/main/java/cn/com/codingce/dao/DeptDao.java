@@ -12,7 +12,7 @@ public interface DeptDao {
 
     public boolean addDept(Dept dept);
 
-    public Dept queryBuId(Long id);
+    public Dept queryById(Long id);
 
     public List<Dept> queryAll();
 

@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-provider-dept" />
-        <module name="springcloud-consumer-dept" />
         <module name="springcloud-api" />
+        <module name="springcloud-consumer-dept" />
       </profile>
     </annotationProcessing>
   </component>

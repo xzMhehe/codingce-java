@@ -19,8 +19,8 @@ public class DeptServiceImpl implements DeptService {
     }
 
     @Override
-    public Dept queryBuId(Long id) {
-        return deptDao.queryBuId(id);
+    public Dept queryById(Long id) {
+        return deptDao.queryById(id);
     }
 
     @Override
