@@ -32,3 +32,4 @@ eureka:
 info:
   app.name: codingce-springboot
   cpmany.name: i.codingce.com.cn
+  author: xzMhehe

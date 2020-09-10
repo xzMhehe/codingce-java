@@ -11,6 +11,7 @@
         <module name="springcloud-provider-dept" />
         <module name="springcloud-api" />
         <module name="springcloud-consumer-dept" />
+        <module name="springcloud-eureka-7002" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +21,7 @@
       <module name="springcloud-api" options="-parameters" />
       <module name="springcloud-consumer-dept" options="-parameters" />
       <module name="springcloud-eureka-7001" options="-parameters" />
+      <module name="springcloud-eureka-7002" options="-parameters" />
       <module name="springcloud-provider-dept" options="-parameters" />
     </option>
   </component>
