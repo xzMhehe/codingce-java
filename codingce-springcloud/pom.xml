@@ -17,6 +17,7 @@
         <module>springcloud-api</module>
         <module>springcloud-provider-dept</module>
         <module>springcloud-consumer-dept</module>
+        <module>springcloud-eureka-7001</module>
     </modules>
 
     <!--打包方式-->

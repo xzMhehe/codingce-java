@@ -19,3 +19,16 @@ spring:
     url: jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/db01?useSSL=true
     username: root
     password: 123456
+
+# EURAKE 配置 服务注册到哪里
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: springcloud-provider-dept8001
+
+# info 配置
+info:
+  app.name: codingce-springboot
+  cpmany.name: i.codingce.com.cn
