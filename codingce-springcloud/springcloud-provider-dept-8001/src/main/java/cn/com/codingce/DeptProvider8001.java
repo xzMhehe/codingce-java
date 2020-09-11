@@ -2,17 +2,20 @@ package cn.com.codingce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author xzMa
+ * 启动类
  *
- * Ribbin和Eureka整合以后, 客户可以直接调用, 不用关心ip地址 和端口号
+ * Eureka客户端
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class DeptConsumer {
+@EnableEurekaClient //开启Eureka 在服务启动后, 自动注册到Eureka中
+@EnableDiscoveryClient  //服务发现
+public class DeptProvider8001 {
     public static void main(String[] args) {
-        SpringApplication.run(DeptConsumer.class, args);
+        SpringApplication.run(DeptProvider8001.class, args);
     }
 }
