@@ -12,11 +12,11 @@ mybatis:
 # spring配置
 spring:
   application:
-    name: springcloud-provider-dept
+    name: springcloud-provider-dept # 3个服务名称一样
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource # 数据源 德鲁伊
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/db02?useSSL=true
+    url: jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/db03?useSSL=true
     username: root
     password: 123456
 
@@ -26,7 +26,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7002.com:7002/eureka/, http://eureka7003.com:7003/eureka/, http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: springcloud-provider-dept8001
+    instance-id: springcloud-provider-dept8003 # 修改eureka上默认的描述信息
 
 # info 配置
 info:

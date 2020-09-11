@@ -12,7 +12,7 @@ mybatis:
 # spring配置
 spring:
   application:
-    name: springcloud-provider-dept
+    name: springcloud-provider-dept # 3 个服务名称一致
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource # 数据源 德鲁伊
     driver-class-name: com.mysql.jdbc.Driver
@@ -26,7 +26,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7002.com:7002/eureka/, http://eureka7003.com:7003/eureka/, http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: springcloud-provider-dept8001
+    instance-id: springcloud-provider-dept8001 # 修改eureka上默认的描述信息
 
 # info 配置
 info:
