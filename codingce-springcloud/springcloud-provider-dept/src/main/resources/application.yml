@@ -24,7 +24,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7002.com:7002/eureka/, http://eureka7003.com:7003/eureka/, http://eureka7001.com:7001/eureka/
   instance:
     instance-id: springcloud-provider-dept8001
 
