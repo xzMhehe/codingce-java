@@ -15,11 +15,13 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springcloud-api</module>
-        <module>springcloud-provider-dept</module>
+        <module>springcloud-provider-dept-8001</module>
         <module>springcloud-consumer-dept</module>
         <module>springcloud-eureka-7001</module>
         <module>springcloud-eureka-7002</module>
         <module>springcloud-eureka-7003</module>
+        <module>springcloud-provider-dept-8002</module>
+        <module>springcloud-provider-dept-8003</module>
     </modules>
 
     <!--打包方式-->
