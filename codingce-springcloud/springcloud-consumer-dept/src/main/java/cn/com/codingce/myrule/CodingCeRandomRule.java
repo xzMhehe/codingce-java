@@ -3,15 +3,15 @@ package cn.com.codingce.myrule;
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.AbstractLoadBalancerRule;
 import com.netflix.loadbalancer.ILoadBalancer;
-import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
 import com.netflix.loadbalancer.Server;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * 该类不能被@ComponentScan扫描到
+ * @author xzMa
+ */
 public class CodingCeRandomRule extends AbstractLoadBalancerRule {
 
     //自定义 每个服务, 访问5次, 换下一个服务(3个)
