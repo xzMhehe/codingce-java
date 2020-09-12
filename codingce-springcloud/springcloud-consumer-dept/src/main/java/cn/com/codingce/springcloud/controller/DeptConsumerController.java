@@ -1,4 +1,4 @@
-package cn.com.codingce.controller;
+package cn.com.codingce.springcloud.controller;
 
 import cn.com.codingce.pojo.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
