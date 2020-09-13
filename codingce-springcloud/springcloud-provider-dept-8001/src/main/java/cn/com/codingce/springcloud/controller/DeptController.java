@@ -1,7 +1,7 @@
 package cn.com.codingce.springcloud.controller;
 
 import cn.com.codingce.pojo.Dept;
-import cn.com.codingce.service.DeptService;
+import cn.com.codingce.service.DeptClientService;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +21,7 @@ import java.util.List;
 public class DeptController {
 
     @Resource
-    private DeptService deptService;
+    private DeptClientService deptService;
 
     //获取一些配置的信息
     @Resource

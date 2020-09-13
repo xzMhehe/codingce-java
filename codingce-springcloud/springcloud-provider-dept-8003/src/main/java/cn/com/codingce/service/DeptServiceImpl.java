@@ -8,7 +8,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @Service
-public class DeptServiceImpl implements DeptService {
+public class DeptServiceImpl implements DeptClientService {
 
     @Resource
     private DeptDao deptDao;

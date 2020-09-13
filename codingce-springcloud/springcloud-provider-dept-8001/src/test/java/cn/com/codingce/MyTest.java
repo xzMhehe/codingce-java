@@ -1,7 +1,7 @@
 package cn.com.codingce;
 
 
-import cn.com.codingce.service.DeptService;
+import cn.com.codingce.service.DeptClientService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class MyTest {
 
     @Autowired
-    private DeptService deptService;
+    private DeptClientService deptService;
 
     @Test
     public void mytest() {

@@ -9,6 +9,13 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
+/**
+ * @author xzMa
+ *
+ * Ribbon 通过微服务名字去访问
+ *
+ * 通过   RestTemplate    去调用
+ */
 @RestController
 public class DeptConsumerController {
 
