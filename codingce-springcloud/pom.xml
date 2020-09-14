@@ -23,6 +23,7 @@
         <module>springcloud-provider-dept-8003</module>
         <module>springcloud-consumer-dept</module>
         <module>springcloud-cusumer-dept-feign</module>
+        <module>springcloud-provider-dept-hystrix-8001</module>
     </modules>
 
     <!--打包方式-->
