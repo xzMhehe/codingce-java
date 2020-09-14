@@ -1,4 +1,4 @@
-package cn.com.codingce.service;
+package cn.com.codingce.springcloud.service;
 
 import cn.com.codingce.pojo.Dept;
 

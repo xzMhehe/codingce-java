@@ -1,4 +1,4 @@
-package cn.com.codingce.dao;
+package cn.com.codingce.springcloud.dao;
 
 import cn.com.codingce.pojo.Dept;
 import org.apache.ibatis.annotations.Mapper;
