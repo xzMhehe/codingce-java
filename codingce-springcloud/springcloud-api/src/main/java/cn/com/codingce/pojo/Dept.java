@@ -8,7 +8,7 @@ import java.io.Serializable;
  * @author xzMa
  * Dept实体类 orm  类表关系映射
  */
-@Accessors  //链式写法
+@Accessors(chain = true)  //链式写法
 public class Dept implements Serializable {
     private Long deptno;
     private String dname;
@@ -27,7 +27,6 @@ public class Dept implements Serializable {
         this.dname = dname;
         this.db_source = db_source;
     }
-
 
     public Long getDeptno() {
         return deptno;
