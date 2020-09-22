@@ -13,6 +13,7 @@
 
     <dependencies>
 
+        <!--hystrix-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
