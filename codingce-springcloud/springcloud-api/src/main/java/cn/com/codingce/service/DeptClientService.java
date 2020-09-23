@@ -23,7 +23,8 @@ import java.util.List;
  * 注解
  */
 @Component
-@FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT")
+//@FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT")  原   下面配合服务降级写法
+@FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT", fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
     //接口
