@@ -18,7 +18,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/db01?useSSL=true
     username: root
-    password: 123456
+    password: mxz123456
 
 # EURAKE 配置 服务注册到哪里
 eureka:

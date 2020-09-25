@@ -7,16 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-provider-dept-8003" />
+        <module name="springcloud-consumer-dept" />
+        <module name="springcloud-zuul-9527" />
         <module name="springcloud-cusumer-dept-feign" />
         <module name="springcloud-api" />
-        <module name="springcloud-eureka-7002" />
-        <module name="springcloud-provider-dept-hystrix-8001" />
-        <module name="springcloud-provider-dept" />
         <module name="springcloud-eureka-7003" />
         <module name="springcloud-provider-dept-8002" />
+        <module name="springcloud-provider-dept-8003" />
+        <module name="springcloud-provider-dept" />
+        <module name="springcloud-provider-dept-hystrix-8001" />
+        <module name="springcloud-eureka-7002" />
         <module name="springcloud-eureka-7001" />
-        <module name="springcloud-consumer-dept" />
+        <module name="springcloud-consumer-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,6 +27,7 @@
       <module name="codingce-springcloud" options="-parameters" />
       <module name="springcloud-api" options="-parameters" />
       <module name="springcloud-consumer-dept" options="-parameters" />
+      <module name="springcloud-consumer-hystrix-dashboard" options="-parameters" />
       <module name="springcloud-cusumer-dept-feign" options="-parameters" />
       <module name="springcloud-eureka-7001" options="-parameters" />
       <module name="springcloud-eureka-7002" options="-parameters" />
@@ -33,6 +36,7 @@
       <module name="springcloud-provider-dept-8002" options="-parameters" />
       <module name="springcloud-provider-dept-8003" options="-parameters" />
       <module name="springcloud-provider-dept-hystrix-8001" options="-parameters" />
+      <module name="springcloud-zuul-9527" options="-parameters" />
     </option>
   </component>
 </project>
