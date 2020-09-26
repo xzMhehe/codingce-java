@@ -1,6 +1,6 @@
 package cn.com.codingce.springcloud.service;
 
-import cn.com.codingce.pojo.Dept;
+import cn.com.codingce.springcloud.pojo.Dept;
 
 import java.util.List;
 

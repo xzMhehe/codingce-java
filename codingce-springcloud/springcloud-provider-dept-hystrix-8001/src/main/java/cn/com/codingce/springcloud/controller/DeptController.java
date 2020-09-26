@@ -1,9 +1,10 @@
 package cn.com.codingce.springcloud.controller;
 
-import cn.com.codingce.pojo.Dept;
+import cn.com.codingce.springcloud.pojo.Dept;
 import cn.com.codingce.springcloud.service.DeptService;
 import cn.com.codingce.springcloud.service.DeptServiceImpl;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +20,7 @@ import javax.annotation.Resource;
 public class DeptController {
 
     @Resource
-    private DeptServiceImpl deptService;
+    private DeptService deptService;
 
     @GetMapping("/dept/get/{id}")
     @HystrixCommand(fallbackMethod = "hystrixGet")

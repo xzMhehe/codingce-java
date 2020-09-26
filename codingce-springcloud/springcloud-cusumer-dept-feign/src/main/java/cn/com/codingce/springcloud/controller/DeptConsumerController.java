@@ -1,7 +1,7 @@
 package cn.com.codingce.springcloud.controller;
 
-import cn.com.codingce.pojo.Dept;
-import cn.com.codingce.service.DeptClientService;
+import cn.com.codingce.springcloud.pojo.Dept;
+import cn.com.codingce.springcloud.service.DeptClientService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

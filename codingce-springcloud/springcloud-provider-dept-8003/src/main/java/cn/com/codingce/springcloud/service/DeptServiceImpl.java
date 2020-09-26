@@ -1,8 +1,7 @@
 package cn.com.codingce.springcloud.service;
 
 import cn.com.codingce.springcloud.dao.DeptDao;
-import cn.com.codingce.pojo.Dept;
-import cn.com.codingce.service.DeptClientService;
+import cn.com.codingce.springcloud.pojo.Dept;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

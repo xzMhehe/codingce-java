@@ -1,4 +1,4 @@
-package cn.com.codingce.pojo;
+package cn.com.codingce.springcloud.pojo;
 
 import lombok.experimental.Accessors;
 

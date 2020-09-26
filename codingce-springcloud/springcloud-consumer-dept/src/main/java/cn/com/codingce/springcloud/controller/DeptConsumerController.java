@@ -1,6 +1,6 @@
 package cn.com.codingce.springcloud.controller;
 
-import cn.com.codingce.pojo.Dept;
+import cn.com.codingce.springcloud.pojo.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

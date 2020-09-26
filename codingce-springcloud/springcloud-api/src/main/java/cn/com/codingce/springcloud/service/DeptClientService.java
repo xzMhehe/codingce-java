@@ -1,6 +1,6 @@
-package cn.com.codingce.service;
+package cn.com.codingce.springcloud.service;
 
-import cn.com.codingce.pojo.Dept;
+import cn.com.codingce.springcloud.pojo.Dept;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

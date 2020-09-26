@@ -3,7 +3,7 @@ server:
 
 #mybatis配置
 mybatis:
-  type-aliases-package: cn.com.codingce.pojo
+  type-aliases-package: cn.com.codingce.springcloud.pojo
   config-location: classpath:mybatis/mybatis-config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
 #  configuration:

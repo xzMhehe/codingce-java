@@ -1,7 +1,7 @@
 package cn.com.codingce.springcloud.controller;
 
-import cn.com.codingce.pojo.Dept;
-import cn.com.codingce.service.DeptClientService;
+import cn.com.codingce.springcloud.pojo.Dept;
+import cn.com.codingce.springcloud.service.DeptClientService;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
