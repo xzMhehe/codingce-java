@@ -4,7 +4,11 @@ import cn.com.codingce.springcloud.pojo.Dept;
 
 import java.util.List;
 
-public interface DeptService {
+/**
+ * @author xzMa
+ */
+public interface DeptService{
+
     public boolean addDept(Dept dept);
 
     public Dept queryById(Long id);

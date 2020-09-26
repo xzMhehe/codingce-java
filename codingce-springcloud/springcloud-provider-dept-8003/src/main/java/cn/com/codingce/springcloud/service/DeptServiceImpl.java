@@ -7,6 +7,9 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * @author xzMa
+ */
 @Service
 public class DeptServiceImpl implements DeptClientService {
 

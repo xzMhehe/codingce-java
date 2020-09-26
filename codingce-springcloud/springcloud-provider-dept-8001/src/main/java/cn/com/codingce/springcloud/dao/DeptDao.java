@@ -10,10 +10,21 @@ import java.util.List;
 @Repository
 public interface DeptDao {
 
+    /**
+     * @param dept
+     * @return
+     */
     public boolean addDept(Dept dept);
 
+    /**
+     * @param id
+     * @return
+     */
     public Dept queryById(Long id);
 
+    /**
+     * @return
+     */
     public List<Dept> queryAll();
 
 }

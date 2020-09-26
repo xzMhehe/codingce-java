@@ -27,14 +27,24 @@ import java.util.List;
 @FeignClient(value = "SPRINGCLOUD-PROVIDER-DEPT", fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
-    //接口
-
+    /**
+     * 接口
+     * @param id
+     * @return
+     */
     @GetMapping("/dept/get/{id}")
     public Dept queryById(@PathVariable("id") Long id);
 
+    /**
+     * @return List<Dept>
+     */
     @GetMapping("/dept/list")
     public List<Dept> queryAll();
 
+    /**
+     * @param dept
+     * @return boolean
+     */
     @PostMapping("/dept/add")
     public boolean addDept(Dept dept);
 
