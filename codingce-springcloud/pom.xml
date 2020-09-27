@@ -27,6 +27,7 @@
         <module>springcloud-zuul-9527</module>
         <module>springcloud-consumer-hystrix-dashboard</module>
         <module>springcloud-config-server-3344</module>
+        <module>springcloud-config-client-3355</module>
     </modules>
 
     <!--打包方式-->
