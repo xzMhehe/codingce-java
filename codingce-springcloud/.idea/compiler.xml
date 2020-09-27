@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-config-server-3344" />
         <module name="springcloud-config-client-3355" />
+        <module name="springcloud-config-eureka-7001" />
         <module name="springcloud-eureka-7001" />
         <module name="springcloud-eureka-7003" />
         <module name="springcloud-consumer-dept" />
@@ -16,6 +17,7 @@
         <module name="springcloud-consumer-hystrix-dashboard" />
         <module name="springcloud-zuul-9527" />
         <module name="springcloud-api" />
+        <module name="springcloud-config-provider-dept-8001" />
         <module name="springcloud-eureka-7002" />
         <module name="springcloud-cusumer-dept-feign" />
         <module name="springcloud-provider-dept-8003" />
@@ -29,6 +31,8 @@
       <module name="codingce-springcloud" options="-parameters" />
       <module name="springcloud-api" options="-parameters" />
       <module name="springcloud-config-client-3355" options="-parameters" />
+      <module name="springcloud-config-eureka-7001" options="-parameters" />
+      <module name="springcloud-config-provider-dept-8001" options="-parameters" />
       <module name="springcloud-config-server-3344" options="-parameters" />
       <module name="springcloud-consumer-dept" options="-parameters" />
       <module name="springcloud-consumer-hystrix-dashboard" options="-parameters" />

@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: springcloud-config-provider-dept-8001

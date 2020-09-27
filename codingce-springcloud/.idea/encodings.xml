@@ -3,6 +3,8 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/springcloud-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-config-client-3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-eureka-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config-provider-dept-8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-config-server-3344/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-consumer-dept/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard/src/main/java" charset="UTF-8" />
