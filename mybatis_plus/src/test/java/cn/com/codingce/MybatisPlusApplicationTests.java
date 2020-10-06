@@ -24,4 +24,22 @@ class MybatisPlusApplicationTests {
         users.forEach(System.out::println);
     }
 
+    @Test
+    void testInsert() {
+        User user = new User();
+        user.setName("掌上编程");
+        user.setAge(19);
+        user.setEmail("2460798168@qq.com");
+        userMapper.insert(user);
+    }
+
+    @Test
+    void testUpdate() {
+        User user = new User();
+        user.setId(1L);
+        user.setEmail("21211@qq.com");
+        int i = userMapper.updateById(user);
+        System.out.println(i);
+    }
+
 }
