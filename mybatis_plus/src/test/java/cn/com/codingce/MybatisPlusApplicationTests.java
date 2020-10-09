@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 @SpringBootTest
@@ -85,5 +86,17 @@ class MybatisPlusApplicationTests {
     public void selectBatchIds() {
         List<User> users = userMapper.selectBatchIds(Arrays.asList(1L, 2L, 3L));
         users.forEach(System.out::println);
+    }
+
+    //条件查询 map
+    @Test
+    public void testSelectByBathIds() {
+        HashMap<String, Object> map = new HashMap<>();
+        //自定义要查询
+        map.put("name", "xzMhehe222");
+        map.put("age", 12);
+
+        List<User> userList = userMapper.selectByMap(map);
+        userList.forEach(System.out::println);
     }
 }
