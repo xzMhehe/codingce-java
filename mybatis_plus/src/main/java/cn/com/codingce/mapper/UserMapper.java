@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
  * 在对应的Mapper上实现基本接口BaseMapper
  * @author xzMa
  */
-@Mapper
 @Repository
 public interface UserMapper extends BaseMapper<User> {
     //所有的CRUD操作都已经编写完成

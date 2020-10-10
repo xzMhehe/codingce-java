@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a970a525-9ed0-4b8f-94fe-aede4d150e39" name="Default Changelist" comment="">
+    <list default="true" id="a970a525-9ed0-4b8f-94fe-aede4d150e39" name="Default Changelist" comment="A 条件查询">
       <change afterPath="$PROJECT_DIR$/../codingce-springboot/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_5_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codingce-springboot/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codingce-springboot/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codingce-springboot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codingce-springboot/.idea/misc.xml" afterDir="false" />
@@ -21,7 +21,8 @@
       <change beforePath="$PROJECT_DIR$/../codingce-springcloud/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../codingce-springcloud/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../codingce-springcloud/springcloud-config-client-3355/src/main/java/cn/com/codingce/springcloud/Config_Client_3355.java" beforeDir="false" afterPath="$PROJECT_DIR$/../codingce-springcloud/springcloud-config-client-3355/src/main/java/cn/com/codingce/springcloud/Config_Client_3355.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/codingce/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/codingce/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/codingce/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/codingce/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cn/com/codingce/MybatisPlusApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/com/codingce/MybatisPlusApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +63,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="last_opened_file_path" value="F:/mxz_code/coding-tjise/codingce-java/CORE_C02_0921" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
-  <component name="RunManager" selected="JUnit.MybatisPlusApplicationTests.testSelectByBathIds">
+  <component name="RunManager" selected="JUnit.MybatisPlusApplicationTests.testPage">
     <configuration name="MybatisPlusApplicationTests.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_plus" />
       <extension name="coverage">
@@ -97,22 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlusApplicationTests.testOptimisticLocker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.codingce" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.MybatisPlusApplicationTests" />
-      <option name="METHOD_NAME" value="testOptimisticLocker" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MybatisPlusApplicationTests.testOptimisticLocker2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_plus" />
       <extension name="coverage">
@@ -124,6 +110,22 @@
       <option name="PACKAGE_NAME" value="cn.com.codingce" />
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.MybatisPlusApplicationTests" />
       <option name="METHOD_NAME" value="testOptimisticLocker2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusApplicationTests.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.codingce" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.MybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="testPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisPlusApplicationTests.testPage" />
         <item itemvalue="JUnit.MybatisPlusApplicationTests.testSelectByBathIds" />
         <item itemvalue="JUnit.MybatisPlusApplicationTests.selectBatchIds" />
         <item itemvalue="JUnit.MybatisPlusApplicationTests.select" />
         <item itemvalue="JUnit.MybatisPlusApplicationTests.testOptimisticLocker2" />
-        <item itemvalue="JUnit.MybatisPlusApplicationTests.testOptimisticLocker" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +186,12 @@
       <workItem from="1602085667140" duration="207000" />
       <workItem from="1602127918189" duration="599000" />
       <workItem from="1602201280373" duration="100000" />
-      <workItem from="1602255302613" duration="633000" />
+      <workItem from="1602255302613" duration="748000" />
+      <workItem from="1602288091391" duration="669000" />
+      <workItem from="1602298474546" duration="99000" />
+      <workItem from="1602299039574" duration="1429000" />
+      <workItem from="1602303743895" duration="46000" />
+      <workItem from="1602309469581" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="A mybatis_plus环境搭建">
       <created>1601865947102</created>
@@ -221,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602085710990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="A 条件查询">
+      <created>1602256034931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602256034931</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,76 +258,78 @@
     <MESSAGE value="A mybatis_plus环境搭建" />
     <MESSAGE value="A 时间自动填充方法二; 配置日志" />
     <MESSAGE value="A 改&amp;查" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 改&amp;查" />
+    <MESSAGE value="A 条件查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 条件查询" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1601989262164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601989262164" />
-    <state x="459" y="116" key="CommitChangelistDialog2" timestamp="1602085708219">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="367" y="17" key="CommitChangelistDialog2" timestamp="1602313415185">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601966413375" />
-    <state x="459" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602085708219" />
-    <state x="184" y="86" width="1229" height="682" key="DiffContextDialog" timestamp="1601989754157">
+    <state x="367" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602313415185" />
+    <state x="459" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602303747617" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1602256054312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="147" y="68" width="1229" height="682" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1601966445833" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601989754157" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1602201357226">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054312" />
+    <state x="686" y="197" key="FileChooserDialogImpl" timestamp="1602302248331">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602201357226" />
-    <state width="1877" height="631" key="GridCell.Tab.0.bottom" timestamp="1602255962950">
+    <state x="686" y="197" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602302248330" />
+    <state width="1493" height="638" key="GridCell.Tab.0.bottom" timestamp="1602313364739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="638" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602313364739" />
+    <state width="1877" height="631" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054135" />
+    <state width="1493" height="638" key="GridCell.Tab.0.center" timestamp="1602313364739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="638" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602313364739" />
+    <state width="1877" height="631" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054135" />
+    <state width="1493" height="638" key="GridCell.Tab.0.left" timestamp="1602313364739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="638" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602313364739" />
+    <state width="1877" height="631" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054135" />
+    <state width="1493" height="638" key="GridCell.Tab.0.right" timestamp="1602313364739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="638" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602313364739" />
+    <state width="1877" height="631" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054135" />
+    <state width="1493" height="638" key="GridCell.Tab.1.bottom" timestamp="1602313364740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="638" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602313364740" />
+    <state width="1877" height="631" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054135" />
+    <state width="1493" height="638" key="GridCell.Tab.1.center" timestamp="1602313364739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="638" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602313364739" />
+    <state width="1877" height="631" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054135" />
+    <state width="1493" height="638" key="GridCell.Tab.1.left" timestamp="1602313364739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="638" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602313364739" />
+    <state width="1877" height="631" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054135" />
+    <state width="1493" height="638" key="GridCell.Tab.1.right" timestamp="1602313364740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="638" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602313364740" />
+    <state width="1877" height="631" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602256054135" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1602303776111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="65" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601968828391" />
-    <state width="1877" height="631" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602255962950" />
-    <state width="1877" height="631" key="GridCell.Tab.0.center" timestamp="1602255962950">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="65" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601968828391" />
-    <state width="1877" height="631" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602255962950" />
-    <state width="1877" height="631" key="GridCell.Tab.0.left" timestamp="1602255962949">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="65" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601968828390" />
-    <state width="1877" height="631" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602255962949" />
-    <state width="1877" height="631" key="GridCell.Tab.0.right" timestamp="1602255962950">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="65" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601968828391" />
-    <state width="1877" height="631" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602255962950" />
-    <state width="1877" height="631" key="GridCell.Tab.1.bottom" timestamp="1602255962950">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="65" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601968828391" />
-    <state width="1877" height="631" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602255962950" />
-    <state width="1877" height="631" key="GridCell.Tab.1.center" timestamp="1602255962950">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="65" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601968828391" />
-    <state width="1877" height="631" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602255962950" />
-    <state width="1877" height="631" key="GridCell.Tab.1.left" timestamp="1602255962950">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="65" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601968828391" />
-    <state width="1877" height="631" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602255962950" />
-    <state width="1877" height="631" key="GridCell.Tab.1.right" timestamp="1602255962950">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1493" height="65" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601968828391" />
-    <state width="1877" height="631" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602255962950" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1601881988968">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601881988968" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1602085718781">
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602303776111" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1602256037418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="203" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601966419180" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602085718781" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602256037418" />
     <state x="178" y="120" key="new project wizard" timestamp="1602201378354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

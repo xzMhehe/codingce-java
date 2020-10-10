@@ -2,6 +2,8 @@ package cn.com.codingce;
 
 import cn.com.codingce.mapper.UserMapper;
 import cn.com.codingce.pojo.User;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -94,9 +96,23 @@ class MybatisPlusApplicationTests {
         HashMap<String, Object> map = new HashMap<>();
         //自定义要查询
         map.put("name", "xzMhehe222");
-        map.put("age", 12);
+        map.put("age", 18);
 
         List<User> userList = userMapper.selectByMap(map);
         userList.forEach(System.out::println);
     }
+
+    /**
+     * 测试分页
+     */
+    @Test
+    public void testPage() {
+        //current参数一：当前页
+        //参数二：页面大小
+        Page<User> page = new Page<>(1, 5);
+        IPage<User> userIPage = userMapper.selectPage(page, null);
+
+        page.getRecords().forEach(System.out::println);
+    }
+
 }
