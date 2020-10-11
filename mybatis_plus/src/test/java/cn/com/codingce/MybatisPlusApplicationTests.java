@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @SpringBootTest
 class MybatisPlusApplicationTests {
@@ -115,4 +116,24 @@ class MybatisPlusApplicationTests {
         page.getRecords().forEach(System.out::println);
     }
 
+    //真删
+    @Test
+    public void testDelete() {
+        userMapper.deleteById(1L);
+    }
+
+
+    //批量删除
+    @Test
+    public void testDeleteBatchId() {
+        userMapper.deleteBatchIds(Arrays.asList(1L, 2L, 3L));
+    }
+
+    //通过map删除
+    @Test
+    public void testDeleteMap() {
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("name", "xzMhehe");
+        userMapper.deleteByMap(map);
+    }
 }
