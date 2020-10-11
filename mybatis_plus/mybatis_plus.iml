@@ -2,7 +2,10 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="spring-boot-dispatcherServletAutoConfiguration-mvc" profiles="dev" autodetected="true" />
+        <fileset id="spring_boot_cn.com.codingce.MybatisPlusApplication" profiles="dev" autodetected="true" />
+      </configuration>
     </facet>
     <facet type="web" name="Web">
       <configuration>
