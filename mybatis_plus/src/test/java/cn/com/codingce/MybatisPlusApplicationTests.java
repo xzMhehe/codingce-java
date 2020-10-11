@@ -116,10 +116,10 @@ class MybatisPlusApplicationTests {
         page.getRecords().forEach(System.out::println);
     }
 
-    //真删
+
     @Test
     public void testDelete() {
-        userMapper.deleteById(1L);
+        userMapper.deleteById(3L);
     }
 
 
@@ -136,4 +136,6 @@ class MybatisPlusApplicationTests {
         map.put("name", "xzMhehe");
         userMapper.deleteByMap(map);
     }
+
+
 }
