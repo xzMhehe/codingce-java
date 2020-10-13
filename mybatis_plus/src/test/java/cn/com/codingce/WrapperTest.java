@@ -58,4 +58,22 @@ class WrapperTest {
         maps.forEach(System.out::println);
     }
 
+    @Test
+    public void Test5() {
+        //id在子查询查出来
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        wrapper.inSql("id", "select id from user where id < 3");
+        List<Map<String, Object>> maps = userMapper.selectMaps(wrapper);
+        maps.forEach(System.out::println);
+    }
+
+    @Test
+    public void Test6() {
+        //排序
+        QueryWrapper<User> wrapper = new QueryWrapper<>();
+        wrapper.orderByDesc("id");
+        List<Map<String, Object>> maps = userMapper.selectMaps(wrapper);
+        maps.forEach(System.out::println);
+    }
+
 }
