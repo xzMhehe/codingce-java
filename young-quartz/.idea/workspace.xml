@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="168fb466-b07e-4823-94c6-2cc9d74f9c52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575364729468" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../README.md" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -196,6 +197,7 @@
       <workItem from="1595023935445" duration="57000" />
       <workItem from="1595024633288" duration="85000" />
       <workItem from="1610086823930" duration="1135000" />
+      <workItem from="1610089409509" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="quartzDemo">
       <created>1570676320210</created>
