@@ -196,7 +196,7 @@
       <workItem from="1594989049795" duration="691000" />
       <workItem from="1595023935445" duration="57000" />
       <workItem from="1595024633288" duration="85000" />
-      <workItem from="1610086823930" duration="730000" />
+      <workItem from="1610086823930" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="quartzDemo">
       <created>1570676320210</created>
@@ -261,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610086945537</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="F 修改说明">
+      <created>1610087567898</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610087567898</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -309,13 +316,14 @@
     <MESSAGE value="Quartz expand." />
     <MESSAGE value="A Quartz Demo" />
     <MESSAGE value="F 修改Quartz Demo配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="F 修改Quartz Demo配置" />
+    <MESSAGE value="F 修改说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="F 修改说明" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="116" key="CommitChangelistDialog2" timestamp="1610086944353">
+    <state x="567" y="116" key="CommitChangelistDialog2" timestamp="1610087566690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610086944353" />
+    <state x="567" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610087566690" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1610086979911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,10 +332,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610086854003" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610086949166">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610087571658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610086949166" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610087571658" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
