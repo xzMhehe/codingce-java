@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="168fb466-b07e-4823-94c6-2cc9d74f9c52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="168fb466-b07e-4823-94c6-2cc9d74f9c52" name="Default Changelist" comment="A 任务调度项目说明">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575364729468" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -197,7 +202,7 @@
       <workItem from="1595023935445" duration="57000" />
       <workItem from="1595024633288" duration="85000" />
       <workItem from="1610086823930" duration="1135000" />
-      <workItem from="1610089409509" duration="42000" />
+      <workItem from="1610089409509" duration="878000" />
     </task>
     <task id="LOCAL-00001" summary="quartzDemo">
       <created>1570676320210</created>
@@ -283,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610087934102</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="A 任务调度项目说明">
+      <created>1610089478727</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610089478727</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -333,25 +345,36 @@
     <MESSAGE value="F 修改Quartz Demo配置" />
     <MESSAGE value="F 修改说明" />
     <MESSAGE value="D" />
-    <option name="LAST_COMMIT_MESSAGE" value="D" />
+    <MESSAGE value="A 任务调度项目说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 任务调度项目说明" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="116" key="CommitChangelistDialog2" timestamp="1610087932751">
+    <state x="454" y="17" key="CommitChangelistDialog2" timestamp="1610092290354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610092290354" />
+    <state x="567" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610089477477" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1610089459522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610087932751" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1610086979911">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610089459522" />
+    <state x="592" y="220" key="FileChooserDialogImpl" timestamp="1610092483970">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="592" y="220" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610092483970" />
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610086979911" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1610086854003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610086854003" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610087936952">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610089481684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610087936952" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610089481684" />
+    <state x="178" y="120" key="new project wizard" timestamp="1610092496568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1610092496568" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
