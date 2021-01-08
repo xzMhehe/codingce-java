@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="168fb466-b07e-4823-94c6-2cc9d74f9c52" name="Default Changelist" comment="" />
+    <list default="true" id="168fb466-b07e-4823-94c6-2cc9d74f9c52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +195,7 @@
       <workItem from="1594989049795" duration="691000" />
       <workItem from="1595023935445" duration="57000" />
       <workItem from="1595024633288" duration="85000" />
-      <workItem from="1610086823930" duration="1080000" />
+      <workItem from="1610086823930" duration="1135000" />
     </task>
     <task id="LOCAL-00001" summary="quartzDemo">
       <created>1570676320210</created>
@@ -272,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610087885290</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="D">
+      <created>1610087934102</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610087934102</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -321,13 +330,14 @@
     <MESSAGE value="A Quartz Demo" />
     <MESSAGE value="F 修改Quartz Demo配置" />
     <MESSAGE value="F 修改说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="F 修改说明" />
+    <MESSAGE value="D" />
+    <option name="LAST_COMMIT_MESSAGE" value="D" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="116" key="CommitChangelistDialog2" timestamp="1610087884178">
+    <state x="567" y="116" key="CommitChangelistDialog2" timestamp="1610087932751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="567" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610087884178" />
+    <state x="567" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610087932751" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1610086979911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -336,10 +346,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610086854003" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610087888930">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610087936952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610087888930" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610087936952" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
