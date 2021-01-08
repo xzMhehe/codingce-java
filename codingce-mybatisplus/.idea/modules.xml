@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mybatis_plus.iml" filepath="$PROJECT_DIR$/mybatis_plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codingce-mybatisplus.iml" filepath="$PROJECT_DIR$/codingce-mybatisplus.iml" />
     </modules>
   </component>
 </project>

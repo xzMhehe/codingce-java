@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.com.codingce</groupId>
-    <artifactId>mybatis_plus</artifactId>
+    <artifactId>codingce-mybatisplus</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mybatis_plus</name>
+    <name>codingce-mybatisplus</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

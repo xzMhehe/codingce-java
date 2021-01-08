@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis_plus" />
+        <module name="codingce-mybatisplus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mybatis_plus" target="1.8" />
+      <module name="codingce-mybatisplus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="mybatis_plus" options="-parameters" />
+      <module name="codingce-mybatisplus" options="-parameters" />
     </option>
   </component>
 </project>
