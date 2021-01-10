@@ -1,8 +1,11 @@
 package cn.com.codincge;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Transaction;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -188,5 +191,37 @@ class RedisApplicationTests {
         System.out.println("获取hash中的值: " + jedis.hmget("hash", "key3"));
         System.out.println("获取hash中的值: " + jedis.hmget("hash", "key3", "key4"));
     }
+
+    /**
+     * 事务
+     */
+    @Test
+    void TestTX() {
+        Jedis jedis = new Jedis("127.0.0.1", 6379);
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("hello", "world");
+        jsonObject.put("name", "xz");
+
+        jedis.flushDB();
+        // 开启事务
+        Transaction multi = jedis.multi();
+        String result = jsonObject.toString();
+//        jedis.watch(result);    // 监控
+
+        try {
+            multi.set("user1", result);
+            multi.set("user2", result);
+//            int i = 1/0;         //模拟失败
+            multi.exec();        //执行事务
+        } catch (Exception e) {
+            multi.discard();    // 放弃事务
+            e.printStackTrace();
+        } finally {
+            System.out.println(jedis.get("user1"));
+            System.out.println(jedis.get("user2"));
+            jedis.close();
+        }
+    }
+
 
 }
