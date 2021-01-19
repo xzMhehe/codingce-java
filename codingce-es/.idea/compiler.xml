@@ -10,9 +10,14 @@
         <module name="codingce-es-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="codingce-es" target="1.8" />
+      <module name="codingce-es-api" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="codingce-es" options="-parameters" />
       <module name="codingce-es-api" options="-parameters" />
     </option>
   </component>

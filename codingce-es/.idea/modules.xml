@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/codingce-es.iml" filepath="$PROJECT_DIR$/codingce-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codingce-es-api/codingce-es-api.iml" filepath="$PROJECT_DIR$/codingce-es-api/codingce-es-api.iml" />
+    </modules>
+  </component>
+</project>
