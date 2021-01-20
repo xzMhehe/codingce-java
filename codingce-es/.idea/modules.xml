@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/codingce-es.iml" filepath="$PROJECT_DIR$/codingce-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/codingce-es-api/codingce-es-api.iml" filepath="$PROJECT_DIR$/codingce-es-api/codingce-es-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codingce-es-jd/codingce-es-jd.iml" filepath="$PROJECT_DIR$/codingce-es-jd/codingce-es-jd.iml" />
     </modules>
   </component>
 </project>

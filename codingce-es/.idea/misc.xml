@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/codingce-es-api/pom.xml" />
+        <option value="$PROJECT_DIR$/codingce-es-jd/pom.xml" />
       </list>
     </option>
   </component>
