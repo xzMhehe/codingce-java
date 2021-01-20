@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            width: 1050px;
+            height: 640px;
+            margin: 0px auto;
+            border: 1px red solid;
+            background-color: #F5F5F5;
+        }
+
+        .product {
+            width: 240px;
+            height: 300px;
+            background-color: white;
+            margin: 10px;
+            border: 1px red solid;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            top: 0px;
+            transition: top 0.5s;
+            float: left;
+        }
+
+        .product:hover {
+            box-shadow: 0px 0px 10px 0px gray;
+
+            top: -5px;
+        }
+
+        .product .product-sale {
+            background-color: red;
+            color: white;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+
+            transform: rotate(45deg);
+
+            position: absolute;
+            left: 100px;
+            top: 5px;
+
+            width: 100%;
+        }
+
+        .product .product-image {
+            width: 160px;
+            height: 160px;
+            margin-top: 16px;
+        }
+
+        .product .product-name {
+            color: #333333;
+        }
+
+        .product .product-desc {
+            color: #B0B0B0;
+            font-size: 12px;
+            margin-top: 6px;
+        }
+
+        .product .product-price {
+            color: #FF6700;
+            margin-top: 15px;
+        }
+
+        .product .product-buy {
+            background-color: red;
+            color: white;
+
+            text-align: center;
+            line-height: 40px;
+            height: 40px;
+
+            position: absolute;
+            bottom: -40px;
+
+            transition: bottom 1s;
+
+            width: 100%;
+        }
+
+        .product:hover .product-buy {
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <form>
+        <input th:type="text" placeholder="名称">
+        <input type="submit" value="搜索">
+    </form>
+</div>
+
+
+<div class="container">
+
+
+    <div class="product">
+
+        <div class="product-sale">促销</div>
+
+        <img src="images/phone/xiaomi1.jpg" class="product-image"/>
+
+        <div class="product-name">
+            Note 9 Pro
+        </div>
+
+        <div class="product-desc">
+            一亿像素夜景相机，120Hz六档变速高...
+        </div>
+
+        <div class="product-price">
+            1599起
+        </div>
+
+        <div class="product-buy">
+            购买
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <div class="product-sale">促销</div>
+
+        <img src="images/phone/xiaomi2.jpg" class="product-image"/>
+
+        <div class="product-name">
+            Note 9 Pro
+        </div>
+
+        <div class="product-desc">
+            一亿像素夜景相机，120Hz六档变速高...
+        </div>
+
+        <div class="product-price">
+            1599起
+        </div>
+
+        <div class="product-buy">
+            购买
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <div class="product-sale">促销</div>
+
+        <img src="images/phone/xiaomi3.jpg" class="product-image"/>
+
+        <div class="product-name">
+            Note 9 Pro
+        </div>
+
+        <div class="product-desc">
+            一亿像素夜景相机，120Hz六档变速高...
+        </div>
+
+        <div class="product-price">
+            1599起
+        </div>
+
+        <div class="product-buy">
+            购买
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <div class="product-sale">促销</div>
+
+        <img src="images/phone/xiaomi4.jpg" class="product-image"/>
+
+        <div class="product-name">
+            Note 9 Pro
+        </div>
+
+        <div class="product-desc">
+            一亿像素夜景相机，120Hz六档变速高...
+        </div>
+
+        <div class="product-price">
+            1599起
+        </div>
+
+        <div class="product-buy">
+            购买
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <div class="product-sale">促销</div>
+
+        <img src="images/phone/xiaomi5.jpg" class="product-image"/>
+
+        <div class="product-name">
+            Note 9 Pro
+        </div>
+
+        <div class="product-desc">
+            一亿像素夜景相机，120Hz六档变速高...
+        </div>
+
+        <div class="product-price">
+            1599起
+        </div>
+
+        <div class="product-buy">
+            购买
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <div class="product-sale">促销</div>
+
+        <img src="images/phone/xiaomi6.jpg" class="product-image"/>
+
+        <div class="product-name">
+            Note 9 Pro
+        </div>
+
+        <div class="product-desc">
+            一亿像素夜景相机，120Hz六档变速高...
+        </div>
+
+        <div class="product-price">
+            1599起
+        </div>
+
+        <div class="product-buy">
+            购买
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <div class="product-sale">促销</div>
+
+        <img src="images/phone/xiaomi7.jpg" class="product-image"/>
+
+        <div class="product-name">
+            Note 9 Pro
+        </div>
+
+        <div class="product-desc">
+            一亿像素夜景相机，120Hz六档变速高...
+        </div>
+
+        <div class="product-price">
+            1599起
+        </div>
+
+        <div class="product-buy">
+            购买
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <div class="product-sale">促销</div>
+
+        <img src="images/phone/xiaomi8.jpg" class="product-image"/>
+
+        <div class="product-name">
+            Note 9 Pro
+        </div>
+
+        <div class="product-desc">
+            一亿像素夜景相机，120Hz六档变速高...
+        </div>
+
+        <div class="product-price">
+            1599起
+        </div>
+
+        <div class="product-buy">
+            购买
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
