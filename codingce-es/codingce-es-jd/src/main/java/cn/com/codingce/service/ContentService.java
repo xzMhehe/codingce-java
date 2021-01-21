@@ -10,6 +10,7 @@ import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.common.text.Text;
 import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -17,6 +18,7 @@ import org.elasticsearch.index.query.TermQueryBuilder;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
+import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -131,7 +133,21 @@ public class ContentService {
         List<Map<String, Object>> list = new ArrayList<>();
         for (SearchHit documentFields : searchResponse.getHits().getHits()) {
             // 解析高亮字段
-            list.add(documentFields.getSourceAsMap());
+            Map<String, HighlightField> highlightFields = documentFields.getHighlightFields();
+            HighlightField title = highlightFields.get("title");
+            Map<String, Object> sourceAsMap = documentFields.getSourceAsMap();  // 原来的结果
+            // 解析高亮字段 将原来的字段换为高亮字段
+            if (title != null) {
+                Text[] fragments = title.fragments();
+                String newTitle = "";
+                for (Text fragment : fragments) {
+                    newTitle += fragment;
+                }
+                sourceAsMap.put("title", newTitle);
+                System.out.println(newTitle);
+            }
+
+            list.add(sourceAsMap);
         }
         return list;
     }

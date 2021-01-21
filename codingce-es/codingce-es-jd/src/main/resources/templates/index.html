@@ -25,7 +25,8 @@
             <img :src="result.img" class="product-image"/>
 
             <div class="product-name">
-                {{result.title}}
+                <a v-html="result.title"></a>
+<!--                {{result.title}}-->
             </div>
 
 <!--            <div class="product-desc">-->
