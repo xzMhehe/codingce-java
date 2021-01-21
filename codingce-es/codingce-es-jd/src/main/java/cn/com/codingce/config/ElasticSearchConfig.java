@@ -7,9 +7,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * 找到对象
- * 放到Spring里面就可以用了
- *
+ * ElasticSearch配置类
+ * 找到对象, 放到Spring里面就可以用了
  *
  * @author mxz
  */
@@ -24,6 +23,5 @@ public class ElasticSearchConfig {
 //                        new HttpHost("localhost", 9201, "http")));
         return client;
     }
-
 
 }

@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- *
+ * 实体类
  *
  * @author mxz
  */

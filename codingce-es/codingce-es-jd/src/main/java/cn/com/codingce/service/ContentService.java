@@ -28,6 +28,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 业务逻辑层
+ *
+ * @author mxz
+ */
 @Service
 public class ContentService {
 
@@ -37,11 +42,13 @@ public class ContentService {
     @Qualifier("restHighLevelClient")
     private RestHighLevelClient client;
 
-    public static void main(String[] args) throws Exception {
-        new ContentService().parseContent("java");
-    }
-
-    // 1 解析数据 放入 es 中
+    /**
+     * 1 解析数据 放入 es 中
+     *
+     * @param keywords
+     * @return
+     * @throws Exception
+     */
     public Boolean parseContent(String keywords) throws Exception {
         List<Content> contents = new HtmlParseUtil().parseJD(keywords);
 
@@ -59,7 +66,16 @@ public class ContentService {
         return !bulkResponse.hasFailures();
     }
 
-    // 2 获取这些数据  实现搜索功能
+
+    /**
+     * 2 获取这些数据  实现搜索功能
+     *
+     * @param keywords
+     * @param pageNo
+     * @param pageSize
+     * @return
+     * @throws IOException
+     */
     public List<Map<String, Object>> searchPage(String keywords, int pageNo, int pageSize) throws IOException {
         if (pageNo <= 1) {
             pageNo = 1;
@@ -93,7 +109,15 @@ public class ContentService {
     }
 
 
-    // 3 实现搜索功能高亮
+    /**
+     * 3 实现搜索功能高亮
+     *
+     * @param keywords
+     * @param pageNo
+     * @param pageSize
+     * @return
+     * @throws IOException
+     */
     public List<Map<String, Object>> searchPageHighlighter(String keywords, int pageNo, int pageSize) throws IOException {
         if (pageNo <= 1) {
             pageNo = 1;
@@ -112,14 +136,20 @@ public class ContentService {
         searchSourceBuilder.query(termQuery);
         searchSourceBuilder.timeout(TimeValue.timeValueSeconds(60));
 
-        // 高亮
+        //生成高亮查询器
         HighlightBuilder highlightBuilder = new HighlightBuilder();
+        //高亮查询字段
         highlightBuilder.field("title");
-        // 多个高亮 false 仅是第一个
+        //如果要多个字段高亮,这项要为false
         highlightBuilder.requireFieldMatch(false);
-        // 多个高亮end
+        //高亮设置
         highlightBuilder.preTags("<span style = 'color:red'>");
         highlightBuilder.postTags("</span>");
+        //下面这两项,如果你要高亮如文字内容等有很多字的字段,必须配置,不然会导致高亮不全,文章内容缺失等
+        //最大高亮分片数
+        highlightBuilder.fragmentSize(800000);
+        //从第一个分片获取高亮片段
+        highlightBuilder.numOfFragments(0);
         searchSourceBuilder.highlighter(highlightBuilder);
 
 
@@ -137,6 +167,7 @@ public class ContentService {
             HighlightField title = highlightFields.get("title");
             Map<String, Object> sourceAsMap = documentFields.getSourceAsMap();  // 原来的结果
             // 解析高亮字段 将原来的字段换为高亮字段
+            // 千万记得要记得判断是不是为空, 不然你匹配的第一个结果没有高亮内容, 那么就会报空指针异常, 这个错误一开始真的搞了很久
             if (title != null) {
                 Text[] fragments = title.fragments();
                 String newTitle = "";
@@ -146,7 +177,6 @@ public class ContentService {
                 sourceAsMap.put("title", newTitle);
                 System.out.println(newTitle);
             }
-
             list.add(sourceAsMap);
         }
         return list;
