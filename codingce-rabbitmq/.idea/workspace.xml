@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265c69bf-2c41-476e-906b-91f96d090535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/CustomerHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/ProviderHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/utils/RabbitMQUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/rabbitmq-01-hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/rabbitmq-01-hello.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/Rabbitmq01HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/Rabbitmq01HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/test/java/cn/com/codingce/Rabbitmq01HelloApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/test/java/cn/com/codingce/Rabbitmq01HelloApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Provider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +56,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.codingce.hello" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -81,8 +82,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.hello.CustomerHello" />
+      <module name="rabbitmq-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.hello.Provider" />
+      <module name="rabbitmq-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.hello.ProviderHello" />
       <module name="rabbitmq-01-hello" />
       <extension name="coverage">
         <pattern>
@@ -120,6 +147,8 @@
     <list>
       <item itemvalue="Spring Boot.Rabbitmq01HelloApplication" />
       <item itemvalue="JUnit.Rabbitmq01HelloApplicationTests.contextLoads" />
+      <item itemvalue="Application.ProviderHello" />
+      <item itemvalue="Application.CustomerHello" />
       <item itemvalue="Application.Provider" />
       <item itemvalue="Application.Customer" />
     </list>
@@ -127,6 +156,8 @@
       <list>
         <item itemvalue="Application.Customer" />
         <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.CustomerHello" />
+        <item itemvalue="Application.ProviderHello" />
         <item itemvalue="JUnit.Rabbitmq01HelloApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -163,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611294657693</updated>
-      <workItem from="1611294661987" duration="4131000" />
+      <workItem from="1611294661987" duration="5422000" />
     </task>
     <task id="LOCAL-00001" summary="A init rabbitMQ">
       <created>1611294785713</created>
@@ -186,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611295112455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="A 生产者、消费者直连模型">
+      <created>1611298828466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611298828466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +244,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A init rabbitMQ" />
     <MESSAGE value="A init rabbitmq-01-hello" />
-    <option name="LAST_COMMIT_MESSAGE" value="A init rabbitmq-01-hello" />
+    <MESSAGE value="A 生产者、消费者直连模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 生产者、消费者直连模型" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611295010508">
@@ -217,26 +256,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611298278349" />
-    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611295111174">
+    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611298826931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611295111174" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1611298683001">
+    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611298826931" />
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1611300109701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611298683001" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1611298683000">
+    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611300109701" />
+    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1611300109701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611298683000" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1611298683000">
+    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611300109701" />
+    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1611300109701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611298683000" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1611298683000">
+    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611300109701" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1611300109701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611298683000" />
+    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611300109701" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1611298683001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -257,10 +296,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611294728286" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611295115010">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611298831667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611295115010" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611298831667" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611295059737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
