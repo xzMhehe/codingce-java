@@ -1,9 +1,8 @@
-package cn.com.codingce.hello;
+package cn.com.codingce.direct;
 
 import cn.com.codingce.utils.RabbitMQUtils;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

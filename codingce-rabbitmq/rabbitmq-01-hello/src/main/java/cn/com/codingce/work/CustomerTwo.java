@@ -1,4 +1,4 @@
-package cn.com.codingce.hello;
+package cn.com.codingce.work;
 
 import cn.com.codingce.utils.RabbitMQUtils;
 import com.rabbitmq.client.AMQP;
@@ -9,7 +9,6 @@ import com.rabbitmq.client.Envelope;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
-import java.util.concurrent.TimeoutException;
 
 /**
  * 消费者
@@ -17,8 +16,8 @@ import java.util.concurrent.TimeoutException;
  * @author mxz
  */
 @Component
-public class Customer {
-    public static void main(String[] args) throws IOException, TimeoutException {
+public class CustomerTwo {
+    public static void main(String[] args) throws IOException {
 
         // 获取连接对象
         Connection connection = RabbitMQUtils.getConnection();
@@ -27,17 +26,13 @@ public class Customer {
         Channel channel = connection.createChannel();
 
         // 通道绑定对象
-        channel.queueDeclare("hello", false, false, false, null);
+        channel.queueDeclare("work", true, false, false, null);
 
-        // 消费消息
-        // 参数1 消息队列的消息, 队列名称
-        // 参数2 开启消息的确认机制
-        // 参数3 消息时的回调接口
-        channel.basicConsume("hello", true, new DefaultConsumer(channel) {
+        channel.basicConsume("work", true, new DefaultConsumer(channel) {
             // 最后一个参数 消息队列中取出的消息
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-                System.out.println("new String(body)" + new String(body));
+                System.out.println("消费者-1" + new String(body));
             }
         });
 

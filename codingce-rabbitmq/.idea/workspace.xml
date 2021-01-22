@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265c69bf-2c41-476e-906b-91f96d090535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/CustomerHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/ProviderHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/utils/RabbitMQUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/work/CustomerOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/work/CustomerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/work/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/direct/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/CustomerHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/direct/CustomerHello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/direct/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/hello/ProviderHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-01-hello/src/main/java/cn/com/codingce/direct/ProviderHello.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,13 @@
         <option name="userSettingsFile" value="D:\develop\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1nPbQemvntnCfTTD9eLehFvRzts" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,13 +61,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3166969" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.codingce.work" />
       <recent name="cn.com.codingce.hello" />
     </key>
   </component>
@@ -68,13 +79,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Customer">
+  <component name="RunManager" selected="Application.CustomerOne">
     <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.hello.Customer" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.direct.Customer" />
       <module name="rabbitmq-01-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.codingce.hello.*" />
+          <option name="PATTERN" value="cn.com.codingce.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +93,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.hello.CustomerHello" />
+    <configuration name="CustomerOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.work.CustomerOne" />
       <module name="rabbitmq-01-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.codingce.hello.*" />
+          <option name="PATTERN" value="cn.com.codingce.work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.work.CustomerTwo" />
+      <module name="rabbitmq-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.work.Provider" />
+      <module name="rabbitmq-01-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.work.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,43 +133,14 @@
       </method>
     </configuration>
     <configuration name="Provider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.hello.Provider" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.direct.Provider" />
       <module name="rabbitmq-01-hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.com.codingce.hello.*" />
+          <option name="PATTERN" value="cn.com.codingce.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProviderHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.hello.ProviderHello" />
-      <module name="rabbitmq-01-hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Rabbitmq01HelloApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rabbitmq-01-hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.com.codingce" />
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.Rabbitmq01HelloApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,20 +153,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Rabbitmq01HelloApplication" />
-      <item itemvalue="JUnit.Rabbitmq01HelloApplicationTests.contextLoads" />
-      <item itemvalue="Application.ProviderHello" />
-      <item itemvalue="Application.CustomerHello" />
       <item itemvalue="Application.Provider" />
       <item itemvalue="Application.Customer" />
+      <item itemvalue="Spring Boot.Rabbitmq01HelloApplication" />
+      <item itemvalue="Application.Provider (1)" />
+      <item itemvalue="Application.CustomerOne" />
+      <item itemvalue="Application.CustomerTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Provider (1)" />
+        <item itemvalue="Application.CustomerOne" />
+        <item itemvalue="Application.CustomerTwo" />
         <item itemvalue="Application.Customer" />
         <item itemvalue="Application.Provider" />
-        <item itemvalue="Application.CustomerHello" />
-        <item itemvalue="Application.ProviderHello" />
-        <item itemvalue="JUnit.Rabbitmq01HelloApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +202,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611294657693</updated>
-      <workItem from="1611294661987" duration="5422000" />
+      <workItem from="1611294661987" duration="5885000" />
+      <workItem from="1611300558489" duration="3790000" />
     </task>
     <task id="LOCAL-00001" summary="A init rabbitMQ">
       <created>1611294785713</created>
@@ -224,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611298828466</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="A 工具类编写">
+      <created>1611300141010</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611300141010</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +251,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -245,7 +263,8 @@
     <MESSAGE value="A init rabbitMQ" />
     <MESSAGE value="A init rabbitmq-01-hello" />
     <MESSAGE value="A 生产者、消费者直连模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 生产者、消费者直连模型" />
+    <MESSAGE value="A 工具类编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 工具类编写" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611295010508">
@@ -256,50 +275,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611298278349" />
-    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611298826931">
+    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611300139798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611298826931" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1611300109701">
+    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611300139798" />
+    <state x="876" y="277" key="FileChooserDialogImpl" timestamp="1611300410583">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611300109701" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1611300109701">
+    <state x="876" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611300410583" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1611305233938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611300109701" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1611300109701">
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611305233938" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1611305233938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611300109701" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1611300109701">
+    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611305233938" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1611305233938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611300109701" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1611298683001">
+    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611305233938" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1611305233938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611298683001" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1611298683001">
+    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611305233938" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1611300555442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611298683001" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1611298683001">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611300555442" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1611300555442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611298683001" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1611298683001">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611300555442" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1611300555442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611298683001" />
-    <state x="440" y="97" key="SettingsEditor" timestamp="1611294728286">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611300555442" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1611300555442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611294728286" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611298831667">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611300555442" />
+    <state x="138" y="91" width="1313" height="845" key="SettingsEditor" timestamp="1611305074066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611298831667" />
+    <state x="138" y="91" width="1313" height="845" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611305074066" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611300145091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611300145091" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611295059737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

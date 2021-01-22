@@ -1,4 +1,4 @@
-package cn.com.codingce.hello;
+package cn.com.codingce.direct;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
