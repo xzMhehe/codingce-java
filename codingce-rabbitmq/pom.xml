@@ -13,6 +13,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>codingce-rabbitmq</name>
     <description>Demo project for Spring Boot</description>
+    <modules>
+        <module>rabbitmq-01-hello</module>
+    </modules>
     <properties>
         <java.version>1.8</java.version>
     </properties>
