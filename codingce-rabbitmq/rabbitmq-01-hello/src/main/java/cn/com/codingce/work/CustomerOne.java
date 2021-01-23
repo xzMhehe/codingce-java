@@ -12,7 +12,9 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 /**
- * 消费者
+ * 自动确认消费 autoAck true 12搭配测试
+ * <p>
+ * 消费者 1
  *
  * @author mxz
  */

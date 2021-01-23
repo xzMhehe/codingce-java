@@ -41,7 +41,6 @@ public class RabbitMQUtils {
         return null;
     }
 
-
     /**
      * 关闭通道和关闭连接工具方法
      *

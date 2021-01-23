@@ -11,14 +11,14 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 /**
- * 自动确认消费 autoAck true 12搭配测试
+ * 能者多劳  34 搭配测试
  * <p>
- * 消费者 2
+ * 消费者 4
  *
  * @author mxz
  */
 @Component
-public class CustomerTwo {
+public class CustomerFour {
     public static void main(String[] args) throws IOException {
 
         // 获取连接对象
@@ -27,14 +27,20 @@ public class CustomerTwo {
         // 创建通道
         Channel channel = connection.createChannel();
 
+        // 每一次只能消费一个消息
+        channel.basicQos(1);
+
         // 通道绑定对象
         channel.queueDeclare("work", true, false, false, null);
 
-        channel.basicConsume("work", true, new DefaultConsumer(channel) {
+        channel.basicConsume("work", false, new DefaultConsumer(channel) {
             // 最后一个参数 消息队列中取出的消息
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 System.out.println("消费者-1" + new String(body));
+
+                // 手动确认 参数1 手动确认
+                channel.basicAck(envelope.getDeliveryTag(), false);
             }
         });
 
