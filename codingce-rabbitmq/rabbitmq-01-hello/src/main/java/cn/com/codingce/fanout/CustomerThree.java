@@ -10,6 +10,10 @@ import com.rabbitmq.client.Envelope;
 import java.io.IOException;
 
 /**
+ * 消费者 3
+ * <p>
+ * 任务模型 fanout
+ *
  * @author mxz
  */
 public class CustomerThree {

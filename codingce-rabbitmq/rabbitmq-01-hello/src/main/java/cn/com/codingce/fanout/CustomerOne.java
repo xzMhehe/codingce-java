@@ -6,11 +6,14 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
-import com.rabbitmq.tools.json.JSONUtil;
 
 import java.io.IOException;
 
 /**
+ * 消费者 1
+ * <p>
+ * 任务模型 fanout
+ *
  * @author mxz
  */
 public class CustomerOne {
@@ -31,7 +34,7 @@ public class CustomerOne {
         channel.queueBind(queue, "logs", "");
 
         // 消费消息
-        channel.basicConsume(queue, true, new DefaultConsumer(channel){
+        channel.basicConsume(queue, true, new DefaultConsumer(channel) {
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 System.out.println("消费者1 " + new String(body));
