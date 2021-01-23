@@ -18,6 +18,7 @@
     </properties>
     <dependencies>
 
+        <!-- 引入 rabbitmq 集成依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>

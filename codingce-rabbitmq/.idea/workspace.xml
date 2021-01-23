@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265c69bf-2c41-476e-906b-91f96d090535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/Rabbitmq02SpringbootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/test/java/cn/com/codingce/Rabbitmq02SpringbootApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/customer/HelloCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/resources/static/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/resources/static/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-02-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-02-springboot/src/test/java/cn/com/codingce/Rabbitmq02SpringbootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/test/java/cn/com/codingce/Rabbitmq02SpringbootApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +31,13 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="codingce-rabbitmq" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -67,11 +70,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../README.md" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/resources/static/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,6 +95,9 @@
       <recent name="cn.com.codingce.work" />
       <recent name="cn.com.codingce.hello" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxz_code\codingce-java\codingce-rabbitmq\rabbitmq-02-springboot\src\main\resources\static\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -99,26 +106,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Provider (2)">
+  <component name="RunManager" selected="JUnit.Rabbitmq02SpringbootApplicationTests.contextLoads">
     <configuration name="CustomerOne (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.topic.CustomerOne" />
       <module name="rabbitmq-01-hello" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.com.codingce.topic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerTwo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.directf.CustomerTwo" />
-      <module name="rabbitmq-01-hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.directf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,6 +159,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Rabbitmq02SpringbootApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-02-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.codingce" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.Rabbitmq02SpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Rabbitmq01HelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rabbitmq-01-hello" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.codingce.Rabbitmq01HelloApplication" />
@@ -182,19 +192,19 @@
     <list>
       <item itemvalue="Spring Boot.Rabbitmq01HelloApplication" />
       <item itemvalue="Application.Provider (1)" />
-      <item itemvalue="Application.CustomerTwo (1)" />
       <item itemvalue="Application.Provider (2)" />
       <item itemvalue="Application.CustomerOne (1)" />
       <item itemvalue="Application.CustomerTwo" />
       <item itemvalue="Spring Boot.Rabbitmq02SpringbootApplication" />
+      <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.contextLoads" />
         <item itemvalue="Application.Provider (2)" />
         <item itemvalue="Application.CustomerTwo" />
         <item itemvalue="Application.CustomerOne (1)" />
         <item itemvalue="Application.Provider (1)" />
-        <item itemvalue="Application.CustomerTwo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +244,7 @@
       <workItem from="1611300558489" duration="3845000" />
       <workItem from="1611305422358" duration="3804000" />
       <workItem from="1611379125274" duration="16000" />
-      <workItem from="1611379824921" duration="6711000" />
+      <workItem from="1611379824921" duration="9034000" />
     </task>
     <task id="LOCAL-00001" summary="A init rabbitMQ">
       <created>1611294785713</created>
@@ -320,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611388292647</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="A init rabbitmq-springboot">
+      <created>1611388582493</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611388582493</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +367,8 @@
     <MESSAGE value="A README" />
     <MESSAGE value="A Routing 之订阅模型-Direct(直连)" />
     <MESSAGE value="A Routing 之订阅模型-Topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="A Routing 之订阅模型-Topic" />
+    <MESSAGE value="A init rabbitmq-springboot" />
+    <option name="LAST_COMMIT_MESSAGE" value="A init rabbitmq-springboot" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611295010508">
@@ -361,30 +379,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611388026350" />
-    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611388291360">
+    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611388581161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611388291360" />
+    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611388581161" />
     <state x="876" y="277" key="FileChooserDialogImpl" timestamp="1611384277808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="876" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611384277808" />
-    <state width="1877" height="334" key="GridCell.Tab.0.bottom" timestamp="1611388307780">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1611390295371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611388307780" />
-    <state width="1877" height="334" key="GridCell.Tab.0.center" timestamp="1611388307780">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611390295371" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1611390295371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611388307780" />
-    <state width="1877" height="334" key="GridCell.Tab.0.left" timestamp="1611388307780">
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611390295371" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1611390295371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611388307780" />
-    <state width="1877" height="334" key="GridCell.Tab.0.right" timestamp="1611388307780">
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611390295371" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1611390295371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="334" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611388307780" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611390295371" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1611381140453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -409,10 +427,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="138" y="91" width="1313" height="845" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611305074066" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611388296171">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611388585127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611388296171" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611388585127" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611295059737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

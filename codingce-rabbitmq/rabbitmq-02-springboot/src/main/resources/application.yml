@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    # 微服务系统有意义, 养成好习惯, 先写出来
+    name: rabbitmq-02-springboot
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: codingce
+    password: 123456
+    virtual-host: /codingce
+
+
+  thymeleaf.cache: false
