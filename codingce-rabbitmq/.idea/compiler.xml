@@ -8,18 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codingce-rabbitmq" />
+        <module name="rabbitmq-02-springboot" />
         <module name="rabbitmq-01-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="codingce-rabbitmq" target="1.8" />
       <module name="rabbitmq-01-hello" target="1.8" />
+      <module name="rabbitmq-02-springboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="codingce-rabbitmq" options="-parameters" />
       <module name="rabbitmq-01-hello" options="-parameters" />
+      <module name="rabbitmq-02-springboot" options="-parameters" />
     </option>
   </component>
 </project>

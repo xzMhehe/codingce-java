@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/codingce-rabbitmq.iml" filepath="$PROJECT_DIR$/codingce-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-01-hello/rabbitmq-01-hello.iml" filepath="$PROJECT_DIR$/rabbitmq-01-hello/rabbitmq-01-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-02-springboot/rabbitmq-02-springboot.iml" filepath="$PROJECT_DIR$/rabbitmq-02-springboot/rabbitmq-02-springboot.iml" />
     </modules>
   </component>
 </project>
