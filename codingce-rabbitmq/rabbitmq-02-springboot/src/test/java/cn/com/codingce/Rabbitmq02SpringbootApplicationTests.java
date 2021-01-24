@@ -12,16 +12,30 @@ class Rabbitmq02SpringbootApplicationTests {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
+    /**
+     * 直连
+     */
     @Test
     void contextLoads() {
         rabbitTemplate.convertAndSend("hello", "hello word");
     }
 
+    /**
+     * work
+     */
     @Test
     void testWork() {
         for (int i = 0; i < 10; i++) {
             rabbitTemplate.convertAndSend("work", "work模型");
         }
+    }
+
+    /**
+     * fanout
+     */
+    @Test
+    void testFanout() {
+        rabbitTemplate.convertAndSend("logs", "", "Fanout模型发送的消息");
     }
 
 }
