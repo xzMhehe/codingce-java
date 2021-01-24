@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="265c69bf-2c41-476e-906b-91f96d090535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/route/RouteCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/topic/TopicCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-02-springboot/src/test/java/cn/com/codingce/Rabbitmq02SpringbootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/test/java/cn/com/codingce/Rabbitmq02SpringbootApplicationTests.java" afterDir="false" />
     </list>
@@ -100,7 +100,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Rabbitmq02SpringbootApplicationTests.testRoute">
+  <component name="RunManager" selected="JUnit.Rabbitmq02SpringbootApplicationTests.testTopic">
     <configuration name="Rabbitmq02SpringbootApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rabbitmq-02-springboot" />
       <extension name="coverage">
@@ -149,6 +149,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Rabbitmq02SpringbootApplicationTests.testTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-02-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.codingce" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.Rabbitmq02SpringbootApplicationTests" />
+      <option name="METHOD_NAME" value="testTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Rabbitmq02SpringbootApplicationTests.testWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rabbitmq-02-springboot" />
       <extension name="coverage">
@@ -186,9 +202,11 @@
       <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.testWork" />
       <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.testFanout" />
       <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.testRoute" />
+      <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.testTopic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.testTopic" />
         <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.testRoute" />
         <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.testFanout" />
         <item itemvalue="JUnit.Rabbitmq02SpringbootApplicationTests.testWork" />
@@ -233,7 +251,7 @@
       <workItem from="1611305422358" duration="3804000" />
       <workItem from="1611379125274" duration="16000" />
       <workItem from="1611379824921" duration="11164000" />
-      <workItem from="1611452533593" duration="1831000" />
+      <workItem from="1611452533593" duration="2728000" />
     </task>
     <task id="LOCAL-00001" summary="A init rabbitMQ">
       <created>1611294785713</created>
@@ -347,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611453891934</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="A springboot 实现 rabbitmq 消息队列 路由模式">
+      <created>1611454451178</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611454451178</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +406,8 @@
     <MESSAGE value="A springboot 实现 rabbitmq 消息队列 直连模式" />
     <MESSAGE value="A springboot 实现 rabbitmq 消息队列 work模式" />
     <MESSAGE value="A springboot 实现 rabbitmq 消息队列 fanout模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="A springboot 实现 rabbitmq 消息队列 fanout模式" />
+    <MESSAGE value="A springboot 实现 rabbitmq 消息队列 路由模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="A springboot 实现 rabbitmq 消息队列 路由模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611391596683">
@@ -392,46 +418,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611388026350" />
-    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611453890492">
+    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611454449931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611453890492" />
+    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611454449931" />
     <state x="876" y="277" key="FileChooserDialogImpl" timestamp="1611384277808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="876" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611384277808" />
-    <state width="1877" height="705" key="GridCell.Tab.0.bottom" timestamp="1611454402595">
+    <state width="1877" height="609" key="GridCell.Tab.0.bottom" timestamp="1611455392101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="705" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611454402595" />
-    <state width="1877" height="705" key="GridCell.Tab.0.center" timestamp="1611454402594">
+    <state width="1877" height="609" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611455392101" />
+    <state width="1877" height="609" key="GridCell.Tab.0.center" timestamp="1611455392101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="705" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611454402594" />
-    <state width="1877" height="705" key="GridCell.Tab.0.left" timestamp="1611454402594">
+    <state width="1877" height="609" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611455392101" />
+    <state width="1877" height="609" key="GridCell.Tab.0.left" timestamp="1611455392101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="705" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611454402594" />
-    <state width="1877" height="705" key="GridCell.Tab.0.right" timestamp="1611454402594">
+    <state width="1877" height="609" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611455392101" />
+    <state width="1877" height="609" key="GridCell.Tab.0.right" timestamp="1611455392101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="705" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611454402594" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1611394453473">
+    <state width="1877" height="609" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611455392101" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1611454882796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611394453473" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1611394453473">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611454882796" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1611454882796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611394453473" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1611394453473">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611454882796" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1611454882796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611394453473" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1611394453473">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611454882796" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1611454882796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611394453473" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611454882796" />
     <state x="633" y="233" key="RollbackChangesDialog" timestamp="1611387499461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -440,10 +466,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="138" y="91" width="1313" height="845" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611305074066" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611453896040">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611454453470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611453896040" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611454453470" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611295059737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

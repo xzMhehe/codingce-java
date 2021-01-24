@@ -47,4 +47,12 @@ class Rabbitmq02SpringbootApplicationTests {
         rabbitTemplate.convertAndSend("directs", "info", "info的key的路由消息");
     }
 
+    /**
+     * topic 订阅模式 动态路由
+     */
+    @Test
+    void testTopic() {
+        rabbitTemplate.convertAndSend("topics", "user.save", "user.save 路由消息");
+    }
+
 }
