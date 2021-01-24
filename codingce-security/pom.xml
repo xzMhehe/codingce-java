@@ -11,8 +11,9 @@
     <groupId>cn.com.codingce</groupId>
     <artifactId>codingce-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>codingce-security</name>
+
     <description>Spring_Security for Spring Boot</description>
 
     <properties>
