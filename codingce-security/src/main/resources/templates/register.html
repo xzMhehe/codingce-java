@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>注册-全栈自学社区</title>
+    <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/css/login.css}">
+</head>
+<body class="text-center">
+
+<form class="form-signin" th:action="@{/register}" method="post">
+    <img class="mb-4" th:src="@{https://rescdn.qqmail.com/zh_CN/htmledition/images/webp/tg-mail20f1b0.gif}" alt="" width="150" height="150">
+    <h1 class="h3 mb-3 font-weight-normal">注册</h1>
+
+    <p th:text="${registerMsg}" style="color: red"></p>
+
+    <input type="text" name="username" class="form-control mb-2" placeholder="用户名" required="">
+    <input type="password" name="password" class="form-control" placeholder="密码" required="">
+    <input type="password" name="repassword" class="form-control" placeholder="确认密码" required="">
+    <input type="text" name="code" class="form-control" placeholder="社区邀请码" required="">
+
+    <button class="btn btn-lg btn-primary btn-block mt-3" type="submit">注 册</button>
+
+    <p class="clearfix">
+        <a th:href="@{/toLogin}" class="float-right">已有账号？去登录</a>
+    </p>
+
+</form>
+
+
+</body>
+</html>

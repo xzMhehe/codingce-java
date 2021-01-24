@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b411c79-6813-4151-a286-9b5c086250df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/codingce/controller/SmsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/codingce/service/SendSms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/codingce/service/impl/SendSmsImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/com/codingce/CodingceSmsApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/com/codingce/CodingceSmsApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codingce-security" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611471421448</updated>
-      <workItem from="1611471423786" duration="3494000" />
+      <workItem from="1611471423786" duration="3799000" />
     </task>
     <task id="LOCAL-00001" summary="A init sms">
       <created>1611473478120</created>
@@ -92,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611473478120</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="A init 短信验证码模板">
+      <created>1611475213621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611475213621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A init sms" />
-    <option name="LAST_COMMIT_MESSAGE" value="A init sms" />
+    <MESSAGE value="A init 短信验证码模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="A init 短信验证码模板" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1611473753132">
@@ -111,18 +114,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="429" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611473931154" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1611473476652">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1611475212432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611473476652" />
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611475212432" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1611475482571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611475482571" />
     <state x="440" y="97" key="SettingsEditor" timestamp="1611473624866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611473624866" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611473481933">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611475216279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611473481933" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611475216279" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611474193260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

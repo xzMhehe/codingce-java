@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>登录-全栈自学社区</title>
+</head>
+<body class="text-center">
+
+<form class="form-signin" th:action="@{/login}" method="post">
+
+    <img class="mb-2" th:src="@{https://rescdn.qqmail.com/zh_CN/htmledition/images/webp/tg-mail20f1b0.gif}" alt="" width="150" height="150">
+    <h1 class="h3 mb-3 font-weight-normal">登录</h1>
+
+    <input name="username" class="form-control" placeholder="用户名" required="">
+    <input type="password" name="password" class="form-control" placeholder="密码" required="">
+
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" name="remember" value="remember-me"> 记住密码
+        </label>
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block mt-3" type="submit">登 录</button>
+
+    <p class="clearfix">
+        <a th:href="@{/register}" class="float-right">没有账号？去注册</a>
+    </p>
+
+</form>
+
+</body>
+</html>
