@@ -17,4 +17,11 @@ class Rabbitmq02SpringbootApplicationTests {
         rabbitTemplate.convertAndSend("hello", "hello word");
     }
 
+    @Test
+    void testWork() {
+        for (int i = 0; i < 10; i++) {
+            rabbitTemplate.convertAndSend("work", "work模型");
+        }
+    }
+
 }
