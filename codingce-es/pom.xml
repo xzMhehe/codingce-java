@@ -12,7 +12,7 @@
     <artifactId>codingce-es</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>codingce-es</name>
-    <description>更多精彩关注“全栈自学社区”微信公众号</description>
+    <description>更多精彩关注“后端码匠”微信公众号</description>
 
     <modules>
         <!-- 父子项目 -->
