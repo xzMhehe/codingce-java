@@ -24,7 +24,6 @@ public class FanoutCustomer {
         System.out.println("message1 = " + message);
     }
 
-
     @RabbitListener(bindings = {
             @QueueBinding(
                     value = @Queue,  // 创建临时队列

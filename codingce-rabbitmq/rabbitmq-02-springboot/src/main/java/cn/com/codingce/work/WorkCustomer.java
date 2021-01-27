@@ -11,8 +11,6 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class WorkCustomer {
-
-
     /**
      * 第1个消费者
      *
@@ -32,5 +30,4 @@ public class WorkCustomer {
     public void receivel2(String message) {
         System.out.println("message2 = " + message);
     }
-
 }

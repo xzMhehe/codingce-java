@@ -7,13 +7,10 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
 /**
- *
- *
  * @author mxz
  */
 @Component
 public class RouteCustomer {
-
 
     @RabbitListener(bindings = {
             @QueueBinding(
