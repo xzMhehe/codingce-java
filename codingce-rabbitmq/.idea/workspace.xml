@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="265c69bf-2c41-476e-906b-91f96d090535" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/fanout/FanoutCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/fanout/FanoutCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/route/RouteCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/route/RouteCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/topic/TopicCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/topic/TopicCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/work/WorkCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-02-springboot/src/main/java/cn/com/codingce/work/WorkCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +252,8 @@
       <workItem from="1611452533593" duration="4408000" />
       <workItem from="1611468662313" duration="2432000" />
       <workItem from="1611471511235" duration="12000" />
-      <workItem from="1611742257530" duration="2537000" />
+      <workItem from="1611742257530" duration="2871000" />
+      <workItem from="1611789381057" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="A init rabbitMQ">
       <created>1611294785713</created>
@@ -384,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611455450419</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="F 格式">
+      <created>1611747582672</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611747582672</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +424,8 @@
     <MESSAGE value="A springboot 实现 rabbitmq 消息队列 fanout模式" />
     <MESSAGE value="A springboot 实现 rabbitmq 消息队列 路由模式" />
     <MESSAGE value="A springboot 实现 rabbitmq 消息队列 动态路由模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="A springboot 实现 rabbitmq 消息队列 动态路由模式" />
+    <MESSAGE value="F 格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="F 格式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611391596683">
@@ -431,10 +436,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611388026350" />
-    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611455449213">
+    <state x="452" y="118" key="CommitChangelistDialog2" timestamp="1611747581248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611455449213" />
+    <state x="452" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611747581248" />
     <state x="876" y="277" key="FileChooserDialogImpl" timestamp="1611384277808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -479,17 +484,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="138" y="91" width="1313" height="845" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611305074066" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611455454830">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611747584603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611455454830" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611747584603" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611295059737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611295059737" />
-    <state x="334" y="227" key="new project wizard" timestamp="1611471420736">
+    <state x="334" y="227" key="new project wizard" timestamp="1611789520260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="227" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611471420736" />
+    <state x="334" y="227" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611789520260" />
   </component>
 </project>
