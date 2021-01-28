@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-member/pom.xml" />
       </list>
     </option>
   </component>
