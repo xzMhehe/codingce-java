@@ -16,12 +16,14 @@
     <description> 聚合服务 </description>
 
     <modules>
+        <module>gulimall-common</module>
         <module>gulimall-product</module>
         <module>gulimall-order</module>
         <module>gulimall-ware</module>
         <module>gulimall-coupon</module>
         <module>gulimall-member</module>
         <module>renren-fast</module>
+        <module>renren-generator</module>
     </modules>
 
     <properties>
