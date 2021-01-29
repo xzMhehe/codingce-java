@@ -8,7 +8,7 @@
 
 package cn.com.codingce.common.xss;
 
-import io.renren.common.exception.RRException;
+import cn.com.codingce.common.utils.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**
