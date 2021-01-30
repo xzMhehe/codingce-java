@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,11 +204,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
@@ -245,7 +239,7 @@
       <workItem from="1611909695597" duration="1716000" />
       <workItem from="1611967388730" duration="1583000" />
       <workItem from="1611969777009" duration="8886000" />
-      <workItem from="1611996931321" duration="11765000" />
+      <workItem from="1611996931321" duration="12076000" />
     </task>
     <task id="LOCAL-00001" summary="A 谷粒商城 init">
       <created>1611814178794</created>
@@ -373,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612011208605</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="A 路由网关springcloudgateway">
+      <created>1612011371370</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011371370</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,14 +428,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1612011207236">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1612011369761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011207236" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1611975224227">
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011369761" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1612011362875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611975224227" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612011362875" />
     <state width="1483" height="346" key="GridCell.Tab.0.bottom" timestamp="1612007376177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -495,10 +496,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611997215114" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612011210770">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612011376715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011210770" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011376715" />
     <state width="425" height="244" key="documentation.popup.size" timestamp="1611901331015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
