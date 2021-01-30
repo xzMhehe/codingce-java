@@ -16,7 +16,6 @@
     <properties>
         <java.version>1.8</java.version>
         <commons.lang.version>2.6</commons.lang.version>
-        <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
     </properties>
     <dependencies>
 
@@ -58,6 +57,12 @@
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- 服务注册与发现  默认账号密码 都是 nacos -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
 
