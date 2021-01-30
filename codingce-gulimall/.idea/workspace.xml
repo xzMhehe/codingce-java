@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/cn/com/codingce/gateway/GulimallGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/test/java/cn/com/codingce/gateway/GulimallGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/GulimallCouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/GulimallCouponApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +242,7 @@
       <workItem from="1611909695597" duration="1716000" />
       <workItem from="1611967388730" duration="1583000" />
       <workItem from="1611969777009" duration="8886000" />
-      <workItem from="1611996931321" duration="9429000" />
+      <workItem from="1611996931321" duration="11691000" />
     </task>
     <task id="LOCAL-00001" summary="A 谷粒商城 init">
       <created>1611814178794</created>
@@ -355,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611998983400</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="A 微服务的注册中心、微服务的配置中心">
+      <created>1612008360582</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612008360582</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +396,8 @@
     <MESSAGE value="A 公共项目导入alibaba" />
     <MESSAGE value="A 服务注册与发现 Nacos" />
     <MESSAGE value="A 测试 openfeign 远程调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 测试 openfeign 远程调用" />
+    <MESSAGE value="A 微服务的注册中心、微服务的配置中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 微服务的注册中心、微服务的配置中心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611896391324">
@@ -407,10 +416,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1611998979816">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1612008359166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611998979816" />
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612008359166" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1611975224227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -475,10 +484,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611997215114" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1611998984937">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612008364515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611998984937" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612008364515" />
     <state width="425" height="244" key="documentation.popup.size" timestamp="1611901331015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -487,10 +496,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="323" width="604" height="395" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611895897661" />
-    <state x="334" y="329" width="1251" height="557" key="new project wizard" timestamp="1611889620323">
+    <state x="573" y="341" width="1251" height="557" key="new project wizard" timestamp="1612011089290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="329" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611889620323" />
+    <state x="573" y="341" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1612011089290" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612007586991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
