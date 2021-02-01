@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/cn/com/codingce/gateway/GulimallGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/cn/com/codingce/gateway/GulimallGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-coupon/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-gateway/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,11 +82,11 @@
       <recent name="cn.com.codingce.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-gateway\src\main\resources" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-coupon\src\main\resources" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\controller" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common\utils" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +96,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallCouponApplication">
+  <component name="RunManager" selected="Spring Boot.GulimallGatewayApplication">
     <configuration name="GulimallProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gulimall-product" />
       <extension name="coverage">
@@ -180,8 +185,8 @@
       <item itemvalue="Spring Boot.GulimallCouponApplication" />
       <item itemvalue="Spring Boot.GulimallMemberApplication" />
       <item itemvalue="Spring Boot.RenrenApplication" />
-      <item itemvalue="Spring Boot.RenrenApplication 1" />
       <item itemvalue="Spring Boot.GulimallGatewayApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication 1" />
     </list>
     <recent_temporary>
       <list>
@@ -204,7 +209,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -239,7 +244,12 @@
       <workItem from="1611909695597" duration="1716000" />
       <workItem from="1611967388730" duration="1583000" />
       <workItem from="1611969777009" duration="8886000" />
-      <workItem from="1611996931321" duration="12076000" />
+      <workItem from="1611996931321" duration="12915000" />
+      <workItem from="1612016766103" duration="97000" />
+      <workItem from="1612059138876" duration="58000" />
+      <workItem from="1612061453608" duration="113000" />
+      <workItem from="1612065826714" duration="1521000" />
+      <workItem from="1612141267757" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="A 谷粒商城 init">
       <created>1611814178794</created>
@@ -374,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612011371370</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="A 谷粒商城">
+      <created>1612011578777</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1612011578777</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +426,8 @@
     <MESSAGE value="A 测试 openfeign 远程调用" />
     <MESSAGE value="A 微服务的注册中心、微服务的配置中心" />
     <MESSAGE value="A 路由网关springcloudgateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 路由网关springcloudgateway" />
+    <MESSAGE value="A 谷粒商城" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 谷粒商城" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611896391324">
@@ -428,46 +446,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1612011369761">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1612011577724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011369761" />
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011577724" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1612011362875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612011362875" />
-    <state width="1483" height="346" key="GridCell.Tab.0.bottom" timestamp="1612007376177">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1612061566010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612007376177" />
-    <state width="1483" height="346" key="GridCell.Tab.0.center" timestamp="1612007376176">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612061566010" />
+    <state width="1483" height="419" key="GridCell.Tab.0.bottom" timestamp="1612143528231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612007376176" />
-    <state width="1483" height="346" key="GridCell.Tab.0.left" timestamp="1612007376176">
+    <state width="1483" height="419" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612143528231" />
+    <state width="1483" height="419" key="GridCell.Tab.0.center" timestamp="1612143528231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612007376176" />
-    <state width="1483" height="346" key="GridCell.Tab.0.right" timestamp="1612007376177">
+    <state width="1483" height="419" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612143528231" />
+    <state width="1483" height="419" key="GridCell.Tab.0.left" timestamp="1612143528231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612007376177" />
-    <state width="1483" height="346" key="GridCell.Tab.1.bottom" timestamp="1612007376177">
+    <state width="1483" height="419" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612143528231" />
+    <state width="1483" height="419" key="GridCell.Tab.0.right" timestamp="1612143528231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612007376177" />
-    <state width="1483" height="346" key="GridCell.Tab.1.center" timestamp="1612007376177">
+    <state width="1483" height="419" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612143528231" />
+    <state width="1483" height="419" key="GridCell.Tab.1.bottom" timestamp="1612143528231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612007376177" />
-    <state width="1483" height="346" key="GridCell.Tab.1.left" timestamp="1612007376177">
+    <state width="1483" height="419" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612143528231" />
+    <state width="1483" height="419" key="GridCell.Tab.1.center" timestamp="1612143528231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612007376177" />
-    <state width="1483" height="346" key="GridCell.Tab.1.right" timestamp="1612007376177">
+    <state width="1483" height="419" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612143528231" />
+    <state width="1483" height="419" key="GridCell.Tab.1.left" timestamp="1612143528231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612007376177" />
+    <state width="1483" height="419" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612143528231" />
+    <state width="1483" height="419" key="GridCell.Tab.1.right" timestamp="1612143528231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="419" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612143528231" />
     <state width="1528" height="543" key="GridCell.Tab.2.bottom" timestamp="1611998138797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -496,10 +518,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611997215114" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612011376715">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612011582220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011376715" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011582220" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1612142252306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1612142252306" />
     <state width="425" height="244" key="documentation.popup.size" timestamp="1611901331015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
