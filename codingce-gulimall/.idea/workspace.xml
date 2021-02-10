@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/cn/com/codingce/gateway/config/GulimallCorsConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/GulimallWareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/GulimallWareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,13 +72,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-product/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reactor" />
   </component>
   <component name="ReactorSettings">
@@ -76,11 +92,11 @@
       <recent name="cn.com.codingce.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\resources" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-gateway\src\main\resources" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-coupon\src\main\resources" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\controller" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.GulimallProductApplication">
     <configuration name="GulimallProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gulimall-product" />
       <extension name="coverage">
@@ -184,8 +200,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RenrenApplication 1" />
         <item itemvalue="JUnit.GulimallProductApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.RenrenApplication 1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,12 +209,17 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.1969697" />
+          <option name="contentProportion" value="0.20454545" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -240,6 +261,8 @@
       <workItem from="1612065826714" duration="1521000" />
       <workItem from="1612141267757" duration="2739000" />
       <workItem from="1612320041484" duration="615000" />
+      <workItem from="1612915839857" duration="6922000" />
+      <workItem from="1612923072093" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="A 谷粒商城 init">
       <created>1611814178794</created>
@@ -388,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612143746448</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="A 三级分类查询">
+      <created>1612878006440</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612878006441</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,9 +455,14 @@
     <MESSAGE value="A 路由网关springcloudgateway" />
     <MESSAGE value="A 谷粒商城" />
     <MESSAGE value="A 网关配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 网关配置" />
+    <MESSAGE value="A 三级分类查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 三级分类查询" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1612881779137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1612881779137" />
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611896391324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -436,6 +471,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611828886162" />
+    <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612916024982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612916024982" />
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611896755514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,10 +483,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1612143744970">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1612878004523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612143744970" />
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612878004523" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1612011362875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -456,38 +495,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612061566010" />
-    <state width="1483" height="419" key="GridCell.Tab.0.bottom" timestamp="1612144102401">
+    <state width="1469" height="202" key="GridCell.Tab.0.bottom" timestamp="1612926940932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="419" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612144102401" />
-    <state width="1483" height="419" key="GridCell.Tab.0.center" timestamp="1612144102401">
+    <state width="1469" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940932" />
+    <state width="1469" height="202" key="GridCell.Tab.0.center" timestamp="1612926940932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="419" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612144102401" />
-    <state width="1483" height="419" key="GridCell.Tab.0.left" timestamp="1612144102401">
+    <state width="1469" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940932" />
+    <state width="1469" height="202" key="GridCell.Tab.0.left" timestamp="1612926940932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="419" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612144102401" />
-    <state width="1483" height="419" key="GridCell.Tab.0.right" timestamp="1612144102401">
+    <state width="1469" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940932" />
+    <state width="1469" height="202" key="GridCell.Tab.0.right" timestamp="1612926940932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="419" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612144102401" />
-    <state width="1483" height="419" key="GridCell.Tab.1.bottom" timestamp="1612144102402">
+    <state width="1469" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940932" />
+    <state width="1469" height="202" key="GridCell.Tab.1.bottom" timestamp="1612926940933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="419" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612144102402" />
-    <state width="1483" height="419" key="GridCell.Tab.1.center" timestamp="1612144102401">
+    <state width="1469" height="202" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940933" />
+    <state width="1469" height="202" key="GridCell.Tab.1.center" timestamp="1612926940933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="419" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612144102401" />
-    <state width="1483" height="419" key="GridCell.Tab.1.left" timestamp="1612144102401">
+    <state width="1469" height="202" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940933" />
+    <state width="1469" height="202" key="GridCell.Tab.1.left" timestamp="1612926940933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="419" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612144102401" />
-    <state width="1483" height="419" key="GridCell.Tab.1.right" timestamp="1612144102401">
+    <state width="1469" height="202" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940933" />
+    <state width="1469" height="202" key="GridCell.Tab.1.right" timestamp="1612926940933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1483" height="419" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612144102401" />
+    <state width="1469" height="202" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940933" />
     <state width="1528" height="543" key="GridCell.Tab.2.bottom" timestamp="1611998138797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -516,10 +555,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611997215114" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612143750223">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612878009112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612143750223" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612878009112" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1612142252306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
