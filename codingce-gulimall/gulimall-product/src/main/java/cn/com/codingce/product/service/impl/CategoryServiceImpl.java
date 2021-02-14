@@ -1,5 +1,8 @@
 package cn.com.codingce.product.service.impl;
 
+import cn.com.codingce.product.service.CategoryBrandRelationService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,10 +18,14 @@ import cn.com.codingce.common.utils.Query;
 import cn.com.codingce.product.dao.CategoryDao;
 import cn.com.codingce.product.entity.CategoryEntity;
 import cn.com.codingce.product.service.CategoryService;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service("categoryService")
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity> implements CategoryService {
+
+    @Autowired
+    CategoryBrandRelationService categoryBrandRelationService;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -71,6 +78,35 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     public void removeMenuByIds(List<Long> asList) {
         //TODO 1、检查当前删除的菜单, 是否被别的地方引用
         baseMapper.deleteBatchIds(asList);
+    }
+
+
+
+    /**
+     * 级联更新所有关联的数据
+     * @CacheEvict:失效模式
+     * 1、同时进行多种缓存操作  @Caching
+     * 2、指定删除某个分区下的所有数据 @CacheEvict(value = "category",allEntries = true)
+     * 3、存储同一类型的数据，都可以指定成同一个分区。分区名默认就是缓存的前缀
+     * @param category
+     */
+
+
+//    @Caching(evict = {
+//            @CacheEvict(value = "category",key = "'getLevel1Categorys'"),
+//            @CacheEvict(value = "category",key = "'getCatalogJson'")
+//    })
+    //category:key
+    @CacheEvict(value = "category",allEntries = true) //失效模式
+//    @CachePut //双写模式
+    @Transactional
+    @Override
+    public void updateCascade(CategoryEntity category) {
+        this.updateById(category);
+//        categoryBrandRelationService.updateCategory(category.getCatId(), category.getName());
+
+        //同时修改缓存中的数据
+        //redis.del("catalogJSON");等待下次主动查询进行更新
     }
 
 }
