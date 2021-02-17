@@ -15,6 +15,8 @@ import cn.com.codingce.product.service.BrandService;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.R;
 
+import javax.validation.Valid;
+
 
 /**
  * 品牌
@@ -54,7 +56,7 @@ public class BrandController {
      * 保存
      */
     @RequestMapping("/save")
-    public R save(@RequestBody BrandEntity brand) {
+    public R save(@Valid @RequestBody BrandEntity brand) {
         brandService.save(brand);
 
         return R.ok();
