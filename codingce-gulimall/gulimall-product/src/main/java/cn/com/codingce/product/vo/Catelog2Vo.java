@@ -8,6 +8,12 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 
+/**
+ * @Description:
+ * @Created: with IntelliJ IDEA.
+ * @author: mxz
+ * @createTime: 2021-02-20 17:21
+ **/
 //2级分类vo
 @NoArgsConstructor
 @AllArgsConstructor
@@ -19,16 +25,15 @@ public class Catelog2Vo {
     private String name;
 
     /**
-     *
      * 三级分类vo
-     *  "catalog2Id":"1",
-     *                     "id":"1",
-     *                     "name":"电子书"
+     * "catalog2Id":"1",
+     * "id":"1",
+     * "name":"电子书"
      */
     @NoArgsConstructor
     @AllArgsConstructor
     @Data
-    public static class Catelog3Vo{
+    public static class Catelog3Vo {
         private String catalog2Id;//父分类，2级分类id
         private String id;
         private String name;

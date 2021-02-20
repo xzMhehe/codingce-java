@@ -109,4 +109,9 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         //redis.del("catalogJSON");等待下次主动查询进行更新
     }
 
+    @Override
+    public Long[] findCatelogPath(Long catelogId) {
+        return new Long[0];
+    }
+
 }

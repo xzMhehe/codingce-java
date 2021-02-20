@@ -45,4 +45,6 @@ public class AttrGroupEntity implements Serializable {
 	 */
 	private Long catelogId;
 
+    public void setCatelogPath(Long[] path) {
+    }
 }

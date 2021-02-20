@@ -1,8 +1,11 @@
 package cn.com.codingce.product.dao;
 
 import cn.com.codingce.product.entity.AttrGroupEntity;
+import cn.com.codingce.product.vo.SpuItemAttrGroupVo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 /**
  * 属性分组
@@ -13,5 +16,6 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface AttrGroupDao extends BaseMapper<AttrGroupEntity> {
-	
+
+    List<SpuItemAttrGroupVo> getAttrGroupWithAttrsBySpuId(Long spuId, Long catalogId);
 }
