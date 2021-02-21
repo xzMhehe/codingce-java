@@ -1,3 +1,4 @@
+[英文](https://github.com/xzMhehe/codingce-java/blob/master/README.md)
 ## 作者
 
 后端码匠博主, 希望所写的东西能够帮的到你
@@ -19,7 +20,7 @@
 - 部分测试代码使用```Spring Boot Test 2.2.9```
 - 内容持续更新
 
-## 项目迁移(不迷路)
+## 更多项目
 
 为了规范仓库, 我已将本项目中的大部分代码拆分到下面的仓库中 
 
