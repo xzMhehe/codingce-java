@@ -39,6 +39,9 @@ public class AttrGroupController {
     @Autowired
     private AttrGroupServiceImpl attrGroupService;
 
+    /**
+     * 注入三级分类
+     */
     @Autowired
     private CategoryService categoryService;
 
