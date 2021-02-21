@@ -1,9 +1,21 @@
 package cn.com.codingce.product.service.impl;
 
+import cn.com.codingce.common.utils.PageUtils;
+import cn.com.codingce.common.utils.Query;
+import cn.com.codingce.product.dao.CategoryDao;
+import cn.com.codingce.product.entity.CategoryEntity;
 import cn.com.codingce.product.service.CategoryBrandRelationService;
+import cn.com.codingce.product.service.CategoryService;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.redisson.api.RLock;
+import org.redisson.api.RReadWriteLock;
+import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,23 +23,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import cn.com.codingce.common.utils.PageUtils;
-import cn.com.codingce.common.utils.Query;
-
-import cn.com.codingce.product.dao.CategoryDao;
-import cn.com.codingce.product.entity.CategoryEntity;
-import cn.com.codingce.product.service.CategoryService;
-import org.springframework.transaction.annotation.Transactional;
-
 
 @Service("categoryService")
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity> implements CategoryService {
 
     @Autowired
-    CategoryBrandRelationService categoryBrandRelationService;
+    private CategoryBrandRelationService categoryBrandRelationService;
+
+    @Autowired
+    private RedissonClient redissonClient;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -93,21 +97,40 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
      */
 
 
-//    @Caching(evict = {
-//            @CacheEvict(value = "category",key = "'getLevel1Categorys'"),
-//            @CacheEvict(value = "category",key = "'getCatalogJson'")
-//    })
-    //category:key
-    @CacheEvict(value = "category", allEntries = true) //失效模式
-//    @CachePut //双写模式
-    @Transactional
+    /**
+     * 级联更新所有关联的数据
+     *
+     * @param category
+     * @CacheEvict:失效模式
+     * @CachePut:双写模式，需要有返回值 1、同时进行多种缓存操作：@Caching
+     * 2、指定删除某个分区下的所有数据 @CacheEvict(value = "category",allEntries = true)
+     * 3、存储同一类型的数据，都可以指定为同一分区
+     */
+    // @Caching(evict = {
+    //         @CacheEvict(value = "category",key = "'getLevel1Categorys'"),
+    //         @CacheEvict(value = "category",key = "'getCatalogJson'")
+    // })
+    @CacheEvict(value = "category", allEntries = true)       //删除某个分区下的所有数据
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public void updateCascade(CategoryEntity category) {
-        this.updateById(category);
-//        categoryBrandRelationService.updateCategory(category.getCatId(), category.getName());
+
+        RReadWriteLock readWriteLock = redissonClient.getReadWriteLock("catalogJson-lock");
+        //创建写锁
+        RLock rLock = readWriteLock.writeLock();
+
+        try {
+            rLock.lock();
+            this.baseMapper.updateById(category);
+            categoryBrandRelationService.updateCategory(category.getCatId(), category.getName());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            rLock.unlock();
+        }
 
         //同时修改缓存中的数据
-        //redis.del("catalogJSON");等待下次主动查询进行更新
+        //删除缓存,等待下一次主动查询进行更新
     }
 
     @Override
