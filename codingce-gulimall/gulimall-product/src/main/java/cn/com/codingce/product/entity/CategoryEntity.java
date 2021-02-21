@@ -63,6 +63,9 @@ public class CategoryEntity implements Serializable {
 	 */
 	private Integer productCount;
 
+	/**
+	 * @JsonInclude(JsonInclude.Include.NON_EMPTY)  jackson 实体转json 为NULL的字段不参加序列化（即不显示），用在级联展示
+	 */
 	@JsonInclude(JsonInclude.Include.NON_EMPTY)
 	@TableField(exist=false)
 	private List<CategoryEntity> children;
