@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/cn/com/codingce/gateway/config/GulimallCorsConfiguration.java" afterDir="false" />
+    <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment="A .gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/GulimallWareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/GulimallWareApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +77,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-product/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/vo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,11 +97,11 @@
       <recent name="cn.com.codingce.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\vo" />
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common\exception" />
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-third-party\src\main\resources" />
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-gateway" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\resources" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-gateway\src\main\resources" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-coupon\src\main\resources" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\controller" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,7 +111,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallProductApplication">
+  <component name="RunManager" selected="Spring Boot.GulimallWareApplication">
     <configuration name="GulimallProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gulimall-product" />
       <extension name="coverage">
@@ -158,6 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GulimallThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-third-party" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.codingce.thirdparty.GulimallThirdPartyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GulimallWareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-ware" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.codingce.ware.GulimallWareApplication" />
@@ -196,10 +208,12 @@
       <item itemvalue="Spring Boot.GulimallMemberApplication" />
       <item itemvalue="Spring Boot.RenrenApplication" />
       <item itemvalue="Spring Boot.GulimallGatewayApplication" />
+      <item itemvalue="Spring Boot.GulimallThirdPartyApplication" />
       <item itemvalue="Spring Boot.RenrenApplication 1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RenrenApplication 1" />
         <item itemvalue="JUnit.GulimallProductApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.RenrenApplication 1" />
       </list>
@@ -209,7 +223,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.20454545" />
+          <option name="contentProportion" value="0.24025974" />
           <treeState>
             <expand>
               <path>
@@ -262,7 +276,24 @@
       <workItem from="1612141267757" duration="2739000" />
       <workItem from="1612320041484" duration="615000" />
       <workItem from="1612915839857" duration="6922000" />
-      <workItem from="1612923072093" duration="3718000" />
+      <workItem from="1612923072093" duration="7598000" />
+      <workItem from="1613001076388" duration="5859000" />
+      <workItem from="1613089610064" duration="7273000" />
+      <workItem from="1613138406944" duration="2695000" />
+      <workItem from="1613171665632" duration="3941000" />
+      <workItem from="1613190527480" duration="1835000" />
+      <workItem from="1613194514849" duration="2552000" />
+      <workItem from="1613266414226" duration="943000" />
+      <workItem from="1613267527322" duration="3004000" />
+      <workItem from="1613443299010" duration="4071000" />
+      <workItem from="1613463970460" duration="1302000" />
+      <workItem from="1613521272408" duration="2361000" />
+      <workItem from="1613523698815" duration="2538000" />
+      <workItem from="1613527259166" duration="24581000" />
+      <workItem from="1613620871781" duration="10009000" />
+      <workItem from="1613736490305" duration="311000" />
+      <workItem from="1613787562818" duration="10262000" />
+      <workItem from="1613867620462" duration="4490000" />
     </task>
     <task id="LOCAL-00001" summary="A 谷粒商城 init">
       <created>1611814178794</created>
@@ -418,7 +449,119 @@
       <option name="project" value="LOCAL" />
       <updated>1612878006441</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="A 路由网关配置; 分类展示">
+      <created>1612927330310</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612927330311</updated>
+    </task>
+    <task id="LOCAL-00024" summary="A 调整下路由顺序">
+      <created>1612928315047</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612928315047</updated>
+    </task>
+    <task id="LOCAL-00025" summary="A 逻辑删除">
+      <created>1613090157248</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1613090157249</updated>
+    </task>
+    <task id="LOCAL-00026" summary="A 级联更新所有关联的数据">
+      <created>1613269743619</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1613269743619</updated>
+    </task>
+    <task id="LOCAL-00027" summary="A 代码自动生成">
+      <created>1613443368084</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1613443368084</updated>
+    </task>
+    <task id="LOCAL-00028" summary="A Spring Cloud Alibaba Cloud OSS">
+      <created>1613523819846</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1613523819847</updated>
+    </task>
+    <task id="LOCAL-00029" summary="A 整合第三方服务">
+      <created>1613524151408</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1613524151408</updated>
+    </task>
+    <task id="LOCAL-00030" summary="A 阿里云对象存储后端实现">
+      <created>1613555335340</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1613555335342</updated>
+    </task>
+    <task id="LOCAL-00031" summary="A JSR303">
+      <created>1613560126310</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1613560126310</updated>
+    </task>
+    <task id="LOCAL-00032" summary="A JSR303自定义参数校验">
+      <created>1613627015417</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1613627015417</updated>
+    </task>
+    <task id="LOCAL-00033" summary="A ware项目">
+      <created>1613633416922</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1613633416925</updated>
+    </task>
+    <task id="LOCAL-00034" summary="A 前端项目">
+      <created>1613789702819</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1613789702819</updated>
+    </task>
+    <task id="LOCAL-00035" summary="A 属性分组">
+      <created>1613801411919</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1613801411922</updated>
+    </task>
+    <task id="LOCAL-00036" summary="F 数据库链接">
+      <created>1613871248622</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1613871248622</updated>
+    </task>
+    <task id="LOCAL-00037" summary="A 数据库">
+      <created>1613871888770</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1613871888770</updated>
+    </task>
+    <task id="LOCAL-00038" summary="A oss配置文件">
+      <created>1613872012252</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1613872012252</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,15 +581,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="A 谷粒商城 init" />
-    <MESSAGE value="A 人人开源admin" />
-    <MESSAGE value="A 人人开源admin数据源设置" />
-    <MESSAGE value="A 逆行工程测试" />
-    <MESSAGE value="F 修改版本号" />
-    <MESSAGE value="F 商品分类添加;mybatis-plus配置" />
-    <MESSAGE value="A 引入公众项目" />
-    <MESSAGE value="A 会员系统代码生成" />
     <MESSAGE value="A 所有系统代码均生成" />
     <MESSAGE value="A 公共项目导入alibaba" />
     <MESSAGE value="A 服务注册与发现 Nacos" />
@@ -456,17 +593,37 @@
     <MESSAGE value="A 谷粒商城" />
     <MESSAGE value="A 网关配置" />
     <MESSAGE value="A 三级分类查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 三级分类查询" />
+    <MESSAGE value="A 路由网关配置; 分类展示" />
+    <MESSAGE value="A 调整下路由顺序" />
+    <MESSAGE value="A 逻辑删除" />
+    <MESSAGE value="A 级联更新所有关联的数据" />
+    <MESSAGE value="A 代码自动生成" />
+    <MESSAGE value="A Spring Cloud Alibaba Cloud OSS" />
+    <MESSAGE value="A 整合第三方服务" />
+    <MESSAGE value="A 阿里云对象存储后端实现" />
+    <MESSAGE value="A JSR303" />
+    <MESSAGE value="A JSR303自定义参数校验" />
+    <MESSAGE value="A ware项目" />
+    <MESSAGE value="A 前端项目" />
+    <MESSAGE value="A 属性分组" />
+    <MESSAGE value="F 数据库链接" />
+    <MESSAGE value="A 数据库" />
+    <MESSAGE value="A oss配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="A oss配置文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Project_Structure" timestamp="1612881779137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1612881779137" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611896391324">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613534043511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611896391324" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613534043511" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1613794652729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613794652729" />
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611828886162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -483,82 +640,90 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1612878004523">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1613872010735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612878004523" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1612011362875">
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1613872010735" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1613871912210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612011362875" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613871912210" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1612061566010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612061566010" />
-    <state width="1469" height="202" key="GridCell.Tab.0.bottom" timestamp="1612926940932">
+    <state width="1403" height="399" key="GridCell.Tab.0.bottom" timestamp="1613871929721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1469" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940932" />
-    <state width="1469" height="202" key="GridCell.Tab.0.center" timestamp="1612926940932">
+    <state width="1403" height="399" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613871929721" />
+    <state width="1403" height="399" key="GridCell.Tab.0.center" timestamp="1613871929720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1469" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940932" />
-    <state width="1469" height="202" key="GridCell.Tab.0.left" timestamp="1612926940932">
+    <state width="1403" height="399" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613871929720" />
+    <state width="1403" height="399" key="GridCell.Tab.0.left" timestamp="1613871929720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1469" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940932" />
-    <state width="1469" height="202" key="GridCell.Tab.0.right" timestamp="1612926940932">
+    <state width="1403" height="399" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613871929720" />
+    <state width="1403" height="399" key="GridCell.Tab.0.right" timestamp="1613871929721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1469" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940932" />
-    <state width="1469" height="202" key="GridCell.Tab.1.bottom" timestamp="1612926940933">
+    <state width="1403" height="399" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613871929721" />
+    <state width="1403" height="399" key="GridCell.Tab.1.bottom" timestamp="1613871929721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1469" height="202" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940933" />
-    <state width="1469" height="202" key="GridCell.Tab.1.center" timestamp="1612926940933">
+    <state width="1403" height="399" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613871929721" />
+    <state width="1403" height="399" key="GridCell.Tab.1.center" timestamp="1613871929721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1469" height="202" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940933" />
-    <state width="1469" height="202" key="GridCell.Tab.1.left" timestamp="1612926940933">
+    <state width="1403" height="399" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613871929721" />
+    <state width="1403" height="399" key="GridCell.Tab.1.left" timestamp="1613871929721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1469" height="202" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940933" />
-    <state width="1469" height="202" key="GridCell.Tab.1.right" timestamp="1612926940933">
+    <state width="1403" height="399" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613871929721" />
+    <state width="1403" height="399" key="GridCell.Tab.1.right" timestamp="1613871929721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1469" height="202" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612926940933" />
-    <state width="1528" height="543" key="GridCell.Tab.2.bottom" timestamp="1611998138797">
+    <state width="1403" height="399" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613871929721" />
+    <state width="1544" height="431" key="GridCell.Tab.2.bottom" timestamp="1613527423670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="543" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611998138797" />
-    <state width="1528" height="543" key="GridCell.Tab.2.center" timestamp="1611998138797">
+    <state width="1544" height="431" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613527423670" />
+    <state width="1544" height="431" key="GridCell.Tab.2.center" timestamp="1613527423670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="543" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611998138797" />
-    <state width="1528" height="543" key="GridCell.Tab.2.left" timestamp="1611998138797">
+    <state width="1544" height="431" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613527423670" />
+    <state width="1544" height="431" key="GridCell.Tab.2.left" timestamp="1613527423670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="543" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611998138797" />
-    <state width="1528" height="543" key="GridCell.Tab.2.right" timestamp="1611998138797">
+    <state width="1544" height="431" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613527423670" />
+    <state width="1544" height="431" key="GridCell.Tab.2.right" timestamp="1613527423670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="543" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611998138797" />
+    <state width="1544" height="431" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613527423670" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1611889369208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611889369208" />
-    <state x="680" y="244" key="RollbackChangesDialog" timestamp="1611888216201">
+    <state x="680" y="244" key="RollbackChangesDialog" timestamp="1613530337951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="680" y="244" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611888216201" />
+    <state x="680" y="244" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613530337951" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1611997215114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611997215114" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1612878009112">
+    <state width="509" height="456" key="SwitcherDM" timestamp="1613626059710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612878009112" />
+    <state width="509" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613626059710" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1613872015761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613872015761" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613626052499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613626052499" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1612142252306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -571,13 +736,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="323" width="604" height="395" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611895897661" />
-    <state x="573" y="341" width="1251" height="557" key="new project wizard" timestamp="1612011089290">
+    <state x="573" y="341" width="1251" height="557" key="new project wizard" timestamp="1613524006163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="573" y="341" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1612011089290" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612007586991">
+    <state x="573" y="341" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1613524006163" />
+    <state x="811" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1613625835707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612007586991" />
+    <state x="811" y="248" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613625835707" />
   </component>
 </project>
