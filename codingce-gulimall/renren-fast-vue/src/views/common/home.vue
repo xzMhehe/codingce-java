@@ -18,11 +18,6 @@
       <li>代码生成器：<a href="https://gitee.com/renrenio/renren-generator" target="_blank">https://gitee.com/renrenio/renren-generator</a></li>
       <li>如需关注项目最新动态，请Watch、Star项目，同时也是对项目最好的支持</li>
     </ul>
-    <h3>官方QQ群</h3>
-    <ul>
-      <li>高级群：324780204(大牛云集，跟大牛学习新技能)</li>
-      <li>普通群：145799952(学习交流，互相解答各种疑问)</li>
-    </ul>
   </div>
 </template>
 

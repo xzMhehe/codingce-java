@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -81,14 +83,13 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     }
 
 
-
     /**
      * 级联更新所有关联的数据
-     * @CacheEvict:失效模式
-     * 1、同时进行多种缓存操作  @Caching
+     *
+     * @param category
+     * @CacheEvict:失效模式 1、同时进行多种缓存操作  @Caching
      * 2、指定删除某个分区下的所有数据 @CacheEvict(value = "category",allEntries = true)
      * 3、存储同一类型的数据，都可以指定成同一个分区。分区名默认就是缓存的前缀
-     * @param category
      */
 
 
@@ -97,7 +98,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 //            @CacheEvict(value = "category",key = "'getCatalogJson'")
 //    })
     //category:key
-    @CacheEvict(value = "category",allEntries = true) //失效模式
+    @CacheEvict(value = "category", allEntries = true) //失效模式
 //    @CachePut //双写模式
     @Transactional
     @Override
@@ -111,7 +112,21 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
     @Override
     public Long[] findCatelogPath(Long catelogId) {
-        return new Long[0];
+        List<Long> paths = new ArrayList<>();
+        List<Long> parentPath = findParentPath(catelogId, paths);
+        // 逆序转换
+        Collections.reverse(parentPath);
+        return parentPath.toArray(new Long[parentPath.size()]);
+    }
+
+    public List<Long> findParentPath(Long catelogId, List<Long> paths) {
+        // 1、收集当前节点id
+        paths.add(catelogId);
+        CategoryEntity byId = this.getById(catelogId);
+        if (byId.getParentCid() != 0) {
+            findParentPath(byId.getParentCid(), paths);
+        }
+        return paths;
     }
 
 }
