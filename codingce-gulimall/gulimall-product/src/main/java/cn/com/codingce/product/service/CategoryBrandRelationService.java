@@ -1,9 +1,12 @@
 package cn.com.codingce.product.service;
 
+import cn.com.codingce.product.entity.BrandEntity;
+import cn.com.codingce.product.vo.BrandVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.product.entity.CategoryBrandRelationEntity;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -22,5 +25,7 @@ public interface CategoryBrandRelationService extends IService<CategoryBrandRela
     void saveDetail(CategoryBrandRelationEntity categoryBrandRelation);
 
     void updateBrand(Long brandId, String name);
+
+    List<BrandEntity> queryBrandsByCtId(Long catId);
 }
 
