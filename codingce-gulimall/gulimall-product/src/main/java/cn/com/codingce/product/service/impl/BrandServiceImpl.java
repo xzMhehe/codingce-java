@@ -30,14 +30,13 @@ public class BrandServiceImpl extends ServiceImpl<BrandDao, BrandEntity> impleme
         QueryWrapper<BrandEntity> wrapper = new QueryWrapper<>();
         // 1、获取key, 进行模糊查询
         String key = (String) params.get("key");
-        if (StringUtil.isNullOrEmpty(key)) {
+        if (!StringUtil.isNullOrEmpty(key)) {
             wrapper.eq("brand_id", key).or().like("name", key);
         }
 
-
         IPage<BrandEntity> page = this.page(
                 new Query<BrandEntity>().getPage(params),
-                new QueryWrapper<BrandEntity>()
+                wrapper
         );
 
         return new PageUtils(page);
