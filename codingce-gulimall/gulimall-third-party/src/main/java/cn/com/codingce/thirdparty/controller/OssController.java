@@ -33,7 +33,7 @@ public class OssController {
     @Value("${spring.cloud.alicloud.access-key}")
     private String accessId;
 
-    @RequestMapping("/oss/polcy")
+    @RequestMapping("/oss/policy")
     public R polcy() {
         // String accessId = "<yourAccessKeyId>"; // 请填写您的AccessKeyId。
         // String accessKey = "<yourAccessKeySecret>"; // 请填写您的AccessKeySecret。
