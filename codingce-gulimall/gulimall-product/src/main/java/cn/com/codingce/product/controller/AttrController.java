@@ -3,8 +3,10 @@ package cn.com.codingce.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import cn.com.codingce.product.vo.AttrRespVo;
 import cn.com.codingce.product.vo.AttrVo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +17,6 @@ import cn.com.codingce.product.entity.AttrEntity;
 import cn.com.codingce.product.service.AttrService;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.R;
-
 
 
 /**
@@ -31,11 +32,25 @@ public class AttrController {
     @Autowired
     private AttrService attrService;
 
+    // http://localhost:88/api/product/attr/base/list/0?t=1614047531180&page=1&limit=10&key=
+    // http://localhost:88/api/product/attr/sale/list/0?t=1614047142594&page=1&limit=10&key=
+    @GetMapping("/{attrType}/list/{cateLogId}")
+    public R baseAttrList(@RequestParam Map<String, Object> params,
+                          @PathVariable("cateLogId") Long cateLogId,
+                          @PathVariable("attrType") String attrType) {
+        PageUtils page = attrService.queryBaseAttrPage(params, cateLogId, attrType);
+        //TODO attrType
+        return R.ok().put("page", page);
+    }
+
+
+
+
     /**
      * 列表
      */
     @RequestMapping("/list")
-    public R list(@RequestParam Map<String, Object> params){
+    public R list(@RequestParam Map<String, Object> params) {
         PageUtils page = attrService.queryPage(params);
 
         return R.ok().put("page", page);
@@ -46,18 +61,20 @@ public class AttrController {
      * 信息
      */
     @RequestMapping("/info/{attrId}")
-    public R info(@PathVariable("attrId") Long attrId){
-		AttrEntity attr = attrService.getById(attrId);
+    public R info(@PathVariable("attrId") Long attrId) {
+//        AttrEntity attr = attrService.getById(attrId);
+        AttrRespVo attrInfo = attrService.getAttrInfo(attrId);
 
-        return R.ok().put("attr", attr);
+
+        return R.ok().put("attr", attrInfo);
     }
 
     /**
      * 保存
      */
     @RequestMapping("/save")
-    public R save(@RequestBody AttrVo attr){
-		attrService.saveAttr(attr);
+    public R save(@RequestBody AttrVo attr) {
+        attrService.saveAttr(attr);
 
         return R.ok();
     }
@@ -66,8 +83,8 @@ public class AttrController {
      * 修改
      */
     @RequestMapping("/update")
-    public R update(@RequestBody AttrEntity attr){
-		attrService.updateById(attr);
+    public R update(@RequestBody AttrVo attr) {
+        attrService.updateAttrById(attr);
 
         return R.ok();
     }
@@ -76,8 +93,8 @@ public class AttrController {
      * 删除
      */
     @RequestMapping("/delete")
-    public R delete(@RequestBody Long[] attrIds){
-		attrService.removeByIds(Arrays.asList(attrIds));
+    public R delete(@RequestBody Long[] attrIds) {
+        attrService.removeByIds(Arrays.asList(attrIds));
 
         return R.ok();
     }

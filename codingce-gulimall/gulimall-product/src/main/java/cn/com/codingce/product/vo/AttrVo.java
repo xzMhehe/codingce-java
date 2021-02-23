@@ -50,4 +50,6 @@ public class AttrVo {
 
     private Long attrGroupId;
 
+    private Integer valueType;
+
 }

@@ -214,8 +214,12 @@ export default {
             params: this.$http.adornParams()
           }).then(({ data }) => {
             if (data && data.code === 0) {
+              console.log(data);
               this.dataForm.attrName = data.attr.attrName;
               this.dataForm.searchType = data.attr.searchType;
+              console.log(data.attr.attrType, " ======= attrType");
+              console.log(data.attr.valueType, " ======= valueType");
+              console.log(data.attr.enable, " ======= enable");
               this.dataForm.valueType = data.attr.valueType;
               this.dataForm.icon = data.attr.icon;
               this.dataForm.valueSelect = data.attr.valueSelect.split(";");
