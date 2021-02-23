@@ -22,3 +22,7 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+
+logging:
+  level:
+    cn.com.codingce: debug
