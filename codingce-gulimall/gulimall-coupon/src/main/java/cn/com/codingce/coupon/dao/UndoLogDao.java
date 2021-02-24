@@ -1,17 +1,17 @@
 package cn.com.codingce.coupon.dao;
 
-import cn.com.codingce.coupon.entity.SmsSpuBoundsEntity;
+import cn.com.codingce.coupon.entity.UndoLogEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * 商品spu积分设置
+ * 
  * 
  * @author mxz
  * @email codingce@gmail.com
- * @date 2021-01-29 16:03:19
+ * @date 2021-02-24 12:31:20
  */
 @Mapper
-public interface SmsSpuBoundsDao extends BaseMapper<SmsSpuBoundsEntity> {
+public interface UndoLogDao extends BaseMapper<UndoLogEntity> {
 	
 }

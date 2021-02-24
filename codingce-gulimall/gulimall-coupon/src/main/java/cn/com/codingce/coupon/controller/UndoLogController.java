@@ -10,32 +10,32 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.com.codingce.coupon.entity.SmsHomeSubjectEntity;
-import cn.com.codingce.coupon.service.SmsHomeSubjectService;
+import cn.com.codingce.coupon.entity.UndoLogEntity;
+import cn.com.codingce.coupon.service.UndoLogService;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.R;
 
 
 
 /**
- * 首页专题表【jd首页下面很多专题，每个专题链接新的页面，展示专题商品信息】
+ * 
  *
  * @author mxz
  * @email codingce@gmail.com
- * @date 2021-01-29 16:03:19
+ * @date 2021-02-24 12:31:20
  */
 @RestController
-@RequestMapping("coupon/smshomesubject")
-public class SmsHomeSubjectController {
+@RequestMapping("coupon/undolog")
+public class UndoLogController {
     @Autowired
-    private SmsHomeSubjectService smsHomeSubjectService;
+    private UndoLogService undoLogService;
 
     /**
      * 列表
      */
     @RequestMapping("/list")
     public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = smsHomeSubjectService.queryPage(params);
+        PageUtils page = undoLogService.queryPage(params);
 
         return R.ok().put("page", page);
     }
@@ -46,17 +46,17 @@ public class SmsHomeSubjectController {
      */
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
-		SmsHomeSubjectEntity smsHomeSubject = smsHomeSubjectService.getById(id);
+		UndoLogEntity undoLog = undoLogService.getById(id);
 
-        return R.ok().put("smsHomeSubject", smsHomeSubject);
+        return R.ok().put("undoLog", undoLog);
     }
 
     /**
      * 保存
      */
     @RequestMapping("/save")
-    public R save(@RequestBody SmsHomeSubjectEntity smsHomeSubject){
-		smsHomeSubjectService.save(smsHomeSubject);
+    public R save(@RequestBody UndoLogEntity undoLog){
+		undoLogService.save(undoLog);
 
         return R.ok();
     }
@@ -65,8 +65,8 @@ public class SmsHomeSubjectController {
      * 修改
      */
     @RequestMapping("/update")
-    public R update(@RequestBody SmsHomeSubjectEntity smsHomeSubject){
-		smsHomeSubjectService.updateById(smsHomeSubject);
+    public R update(@RequestBody UndoLogEntity undoLog){
+		undoLogService.updateById(undoLog);
 
         return R.ok();
     }
@@ -76,7 +76,7 @@ public class SmsHomeSubjectController {
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] ids){
-		smsHomeSubjectService.removeByIds(Arrays.asList(ids));
+		undoLogService.removeByIds(Arrays.asList(ids));
 
         return R.ok();
     }

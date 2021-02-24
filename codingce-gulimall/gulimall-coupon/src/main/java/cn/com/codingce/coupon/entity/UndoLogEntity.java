@@ -8,45 +8,53 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * 秒杀活动
+ * 
  * 
  * @author mxz
  * @email codingce@gmail.com
- * @date 2021-01-29 16:03:19
+ * @date 2021-02-24 12:31:20
  */
 @Data
-@TableName("sms_seckill_promotion")
-public class SmsSeckillPromotionEntity implements Serializable {
+@TableName("undo_log")
+public class UndoLogEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * id
+	 * 
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * 活动标题
+	 * 
 	 */
-	private String title;
+	private Long branchId;
 	/**
-	 * 开始日期
+	 * 
 	 */
-	private Date startTime;
+	private String xid;
 	/**
-	 * 结束日期
+	 * 
 	 */
-	private Date endTime;
+	private String context;
 	/**
-	 * 上下线状态
+	 * 
 	 */
-	private Integer status;
+	private Longblob rollbackInfo;
 	/**
-	 * 创建时间
+	 * 
 	 */
-	private Date createTime;
+	private Integer logStatus;
 	/**
-	 * 创建人
+	 * 
 	 */
-	private Long userId;
+	private Date logCreated;
+	/**
+	 * 
+	 */
+	private Date logModified;
+	/**
+	 * 
+	 */
+	private String ext;
 
 }

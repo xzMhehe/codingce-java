@@ -8,19 +8,19 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.Query;
 
-import cn.com.codingce.coupon.dao.SmsMemberPriceDao;
-import cn.com.codingce.coupon.entity.SmsMemberPriceEntity;
-import cn.com.codingce.coupon.service.SmsMemberPriceService;
+import cn.com.codingce.coupon.dao.UndoLogDao;
+import cn.com.codingce.coupon.entity.UndoLogEntity;
+import cn.com.codingce.coupon.service.UndoLogService;
 
 
-@Service("smsMemberPriceService")
-public class SmsMemberPriceServiceImpl extends ServiceImpl<SmsMemberPriceDao, SmsMemberPriceEntity> implements SmsMemberPriceService {
+@Service("undoLogService")
+public class UndoLogServiceImpl extends ServiceImpl<UndoLogDao, UndoLogEntity> implements UndoLogService {
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
-        IPage<SmsMemberPriceEntity> page = this.page(
-                new Query<SmsMemberPriceEntity>().getPage(params),
-                new QueryWrapper<SmsMemberPriceEntity>()
+        IPage<UndoLogEntity> page = this.page(
+                new Query<UndoLogEntity>().getPage(params),
+                new QueryWrapper<UndoLogEntity>()
         );
 
         return new PageUtils(page);

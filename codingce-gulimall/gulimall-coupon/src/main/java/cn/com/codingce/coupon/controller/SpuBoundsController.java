@@ -22,7 +22,7 @@ import cn.com.codingce.common.utils.R;
  *
  * @author mxz
  * @email codingce@gmail.com
- * @date 2021-01-29 16:27:43
+ * @date 2021-02-24 12:31:20
  */
 @RestController
 @RequestMapping("coupon/spubounds")
@@ -34,6 +34,7 @@ public class SpuBoundsController {
      * 列表
      */
     @RequestMapping("/list")
+    //@RequiresPermissions("coupon:spubounds:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = spuBoundsService.queryPage(params);
 
@@ -45,8 +46,9 @@ public class SpuBoundsController {
      * 信息
      */
     @RequestMapping("/info/{id}")
+    //@RequiresPermissions("coupon:spubounds:info")
     public R info(@PathVariable("id") Long id){
-		SpuBoundsEntity spuBounds = spuBoundsService.getById(id);
+        SpuBoundsEntity spuBounds = spuBoundsService.getById(id);
 
         return R.ok().put("spuBounds", spuBounds);
     }
@@ -55,8 +57,9 @@ public class SpuBoundsController {
      * 保存
      */
     @RequestMapping("/save")
+    //@RequiresPermissions("coupon:spubounds:save")
     public R save(@RequestBody SpuBoundsEntity spuBounds){
-		spuBoundsService.save(spuBounds);
+        spuBoundsService.save(spuBounds);
 
         return R.ok();
     }

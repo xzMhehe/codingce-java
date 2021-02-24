@@ -2,22 +2,165 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=" .gitignore">
+      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/UndoLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/UndoLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/UndoLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/UndoLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/UndoLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/GulimallSearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/new_product_mapping.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/product-mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/test/java/cn/com/codingce/search/GulimallSearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponHistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponSpuCategoryRelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponSpuCategoryRelationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponSpuRelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/CouponSpuRelationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/HomeAdvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/HomeAdvController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/HomeSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/HomeSubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/HomeSubjectSpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/HomeSubjectSpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/MemberPriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/MemberPriceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SeckillPromotionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SeckillPromotionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SeckillSessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SeckillSessionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SeckillSkuNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SeckillSkuNoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SeckillSkuRelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SeckillSkuRelationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SkuFullReductionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SkuFullReductionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SkuLadderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SkuLadderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsCouponController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsCouponHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsCouponSpuCategoryRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsCouponSpuRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsHomeAdvController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsHomeSubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsHomeSubjectSpuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsMemberPriceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsSeckillPromotionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsSeckillSessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsSeckillSkuNoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsSeckillSkuRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsSkuFullReductionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsSkuLadderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SmsSpuBoundsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SpuBoundsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/controller/SpuBoundsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/CouponDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/CouponDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/CouponHistoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/CouponHistoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/CouponSpuCategoryRelationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/CouponSpuCategoryRelationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/CouponSpuRelationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/CouponSpuRelationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/HomeAdvDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/HomeAdvDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/HomeSubjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/HomeSubjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/HomeSubjectSpuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/HomeSubjectSpuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/MemberPriceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/MemberPriceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SeckillPromotionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SeckillPromotionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SeckillSessionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SeckillSessionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SeckillSkuNoticeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SeckillSkuNoticeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SeckillSkuRelationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SeckillSkuRelationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SkuFullReductionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SkuFullReductionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SkuLadderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SkuLadderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsCouponDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsCouponHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsCouponSpuCategoryRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsCouponSpuRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsHomeAdvDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsHomeSubjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsHomeSubjectSpuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsMemberPriceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsSeckillPromotionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsSeckillSessionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsSeckillSkuNoticeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsSeckillSkuRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsSkuFullReductionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsSkuLadderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SmsSpuBoundsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SpuBoundsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/dao/SpuBoundsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/CouponEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/CouponEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/CouponHistoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/CouponHistoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/CouponSpuCategoryRelationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/CouponSpuCategoryRelationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/CouponSpuRelationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/CouponSpuRelationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/HomeAdvEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/HomeAdvEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/HomeSubjectEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/HomeSubjectEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/HomeSubjectSpuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/HomeSubjectSpuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/MemberPriceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/MemberPriceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SeckillPromotionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SeckillPromotionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SeckillSessionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SeckillSessionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SeckillSkuNoticeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SeckillSkuNoticeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SeckillSkuRelationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SeckillSkuRelationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SkuFullReductionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SkuFullReductionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SkuLadderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SkuLadderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsCouponEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsCouponHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsCouponSpuCategoryRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsCouponSpuRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsHomeAdvEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsHomeSubjectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsHomeSubjectSpuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsMemberPriceEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsSeckillPromotionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsSeckillSessionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsSeckillSkuNoticeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsSeckillSkuRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsSkuFullReductionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsSkuLadderEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SmsSpuBoundsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SpuBoundsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/entity/SpuBoundsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/CouponHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/CouponHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/CouponService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/CouponService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/CouponSpuCategoryRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/CouponSpuCategoryRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/CouponSpuRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/CouponSpuRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/HomeAdvService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/HomeAdvService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/HomeSubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/HomeSubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/HomeSubjectSpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/HomeSubjectSpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/MemberPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/MemberPriceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SeckillPromotionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SeckillPromotionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SeckillSessionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SeckillSessionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SeckillSkuNoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SeckillSkuNoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SeckillSkuRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SeckillSkuRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SkuFullReductionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SkuFullReductionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SkuLadderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SkuLadderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsCouponHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsCouponService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsCouponSpuCategoryRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsCouponSpuRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsHomeAdvService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsHomeSubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsHomeSubjectSpuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsMemberPriceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsSeckillPromotionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsSeckillSessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsSeckillSkuNoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsSeckillSkuRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsSkuFullReductionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsSkuLadderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SmsSpuBoundsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SpuBoundsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/SpuBoundsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SkuFullReductionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SkuFullReductionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsCouponHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsCouponServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsCouponSpuCategoryRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsCouponSpuRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsHomeAdvServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsHomeSubjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsHomeSubjectSpuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsMemberPriceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsSeckillPromotionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsSeckillSessionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsSeckillSkuNoticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsSeckillSkuRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsSkuFullReductionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsSkuLadderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SmsSpuBoundsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SpuBoundsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/cn/com/codingce/coupon/service/impl/SpuBoundsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/controller/WareSkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/controller/WareSkuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/dao/WareSkuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/dao/WareSkuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/WareSkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/WareSkuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/WareSkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/WareSkuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/WareSkuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/WareSkuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +220,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-search/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,11 +240,11 @@
       <recent name="cn.com.codingce.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-search\src\main\resources" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\config" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\resources" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\feign" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common\to" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\vo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,7 +254,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallWareApplication">
+  <component name="RunManager" selected="Spring Boot.RenrenApplication 1">
     <configuration name="GulimallProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gulimall-product" />
       <extension name="coverage">
@@ -163,6 +306,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GulimallSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.codingce.search.GulimallSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GulimallThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-third-party" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.codingce.thirdparty.GulimallThirdPartyApplication" />
@@ -210,6 +360,7 @@
       <item itemvalue="Spring Boot.GulimallGatewayApplication" />
       <item itemvalue="Spring Boot.GulimallThirdPartyApplication" />
       <item itemvalue="Spring Boot.RenrenApplication 1" />
+      <item itemvalue="Spring Boot.GulimallSearchApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -233,7 +384,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -303,21 +454,7 @@
       <workItem from="1614040499993" duration="10791000" />
       <workItem from="1614052604913" duration="9848000" />
       <workItem from="1614127115599" duration="6093000" />
-      <workItem from="1614133485668" duration="4588000" />
-    </task>
-    <task id="LOCAL-00006" summary="F 修改版本号">
-      <created>1611895977122</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1611895977122</updated>
-    </task>
-    <task id="LOCAL-00007" summary="F 修改版本号">
-      <created>1611896016196</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1611896016196</updated>
+      <workItem from="1614133485668" duration="8257000" />
     </task>
     <task id="LOCAL-00008" summary="F 修改版本号">
       <created>1611896059131</created>
@@ -648,7 +785,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614138270066</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary=":fire: 库存服务系统、优惠系统 配置路由">
+      <created>1614138365812</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1614138365812</updated>
+    </task>
+    <task id="LOCAL-00056" summary=":fire: 查询库存">
+      <created>1614138418350</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1614138418350</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,8 +822,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="A 阿里云对象存储后端实现" />
-    <MESSAGE value="A JSR303" />
     <MESSAGE value="A JSR303自定义参数校验" />
     <MESSAGE value="A ware项目" />
     <MESSAGE value="A 前端项目" />
@@ -696,7 +845,9 @@
     <MESSAGE value=":art: 属性分组移除关联" />
     <MESSAGE value=":fire: 阿里云OSS配置" />
     <MESSAGE value=":fire: spu发布; 上架" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: spu发布; 上架" />
+    <MESSAGE value=":fire: 库存服务系统、优惠系统 配置路由" />
+    <MESSAGE value=":fire: 查询库存" />
+    <option name="LAST_COMMIT_MESSAGE" value=":fire: 查询库存" />
   </component>
   <component name="WindowStateProjectService">
     <state x="553" y="217" key="#HTTP_Proxy" timestamp="1613957839186">
@@ -731,50 +882,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614138364330">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614138416288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614138364330" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614138357438">
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614138416288" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614140561947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614138357438" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614140561947" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1613895933226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613895933226" />
-    <state width="1397" height="545" key="GridCell.Tab.0.bottom" timestamp="1614138031172">
+    <state width="1397" height="207" key="GridCell.Tab.0.bottom" timestamp="1614141310198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="545" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614138031172" />
-    <state width="1397" height="545" key="GridCell.Tab.0.center" timestamp="1614138031172">
+    <state width="1397" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614141310198" />
+    <state width="1397" height="207" key="GridCell.Tab.0.center" timestamp="1614141310198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="545" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614138031172" />
-    <state width="1397" height="545" key="GridCell.Tab.0.left" timestamp="1614138031172">
+    <state width="1397" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614141310198" />
+    <state width="1397" height="207" key="GridCell.Tab.0.left" timestamp="1614141310198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="545" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614138031172" />
-    <state width="1397" height="545" key="GridCell.Tab.0.right" timestamp="1614138031172">
+    <state width="1397" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614141310198" />
+    <state width="1397" height="207" key="GridCell.Tab.0.right" timestamp="1614141310198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="545" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614138031172" />
-    <state width="1397" height="545" key="GridCell.Tab.1.bottom" timestamp="1614138031173">
+    <state width="1397" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614141310198" />
+    <state width="1397" height="207" key="GridCell.Tab.1.bottom" timestamp="1614141310199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="545" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614138031173" />
-    <state width="1397" height="545" key="GridCell.Tab.1.center" timestamp="1614138031172">
+    <state width="1397" height="207" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614141310199" />
+    <state width="1397" height="207" key="GridCell.Tab.1.center" timestamp="1614141310198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="545" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614138031172" />
-    <state width="1397" height="545" key="GridCell.Tab.1.left" timestamp="1614138031172">
+    <state width="1397" height="207" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614141310198" />
+    <state width="1397" height="207" key="GridCell.Tab.1.left" timestamp="1614141310198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="545" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614138031172" />
-    <state width="1397" height="545" key="GridCell.Tab.1.right" timestamp="1614138031173">
+    <state width="1397" height="207" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614141310198" />
+    <state width="1397" height="207" key="GridCell.Tab.1.right" timestamp="1614141310198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="545" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614138031173" />
+    <state width="1397" height="207" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614141310198" />
     <state width="1403" height="258" key="GridCell.Tab.2.bottom" timestamp="1614048767508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -807,14 +958,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="509" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613626059710" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614058782545">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614138422425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614058782545" />
-    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613896523498">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614138422425" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614140538136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613896523498" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614140538136" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1612142252306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -827,10 +978,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="323" width="604" height="395" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611895897661" />
-    <state x="573" y="341" width="1251" height="557" key="new project wizard" timestamp="1613524006163">
+    <state x="573" y="341" width="1251" height="557" key="new project wizard" timestamp="1614139681255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="573" y="341" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1613524006163" />
+    <state x="573" y="341" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614139681255" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1614131909567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
