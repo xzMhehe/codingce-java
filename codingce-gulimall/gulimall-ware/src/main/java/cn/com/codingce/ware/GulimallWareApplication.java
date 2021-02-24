@@ -5,6 +5,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+/**
+ * 库存系统
+ *
+ * @author mxz
+ */
 @EnableDiscoveryClient
 @SpringBootApplication
 @MapperScan("cn.com.codingce.ware.dao")
