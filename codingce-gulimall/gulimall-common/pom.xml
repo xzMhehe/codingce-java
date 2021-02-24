@@ -19,6 +19,13 @@
     </properties>
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/io.seata/seata-all -->
+        <dependency>
+            <groupId>io.seata</groupId>
+            <artifactId>seata-all</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+
         <!-- dao mybatis-plus -->
         <dependency>
             <groupId>com.baomidou</groupId>
