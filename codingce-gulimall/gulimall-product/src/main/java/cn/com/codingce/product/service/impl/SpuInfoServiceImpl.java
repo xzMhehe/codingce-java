@@ -192,7 +192,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
                     skuImagesEntity.setDefaultImg(img.getDefaultImg());
                     return skuImagesEntity;
                 }).filter(entity -> {
-                    //返回true就是需要，false就是剔除
+                    // 没有图片路径不需要保存 返回true就是需要，false就是剔除
                     return !StringUtils.isEmpty(entity.getImgUrl());
                 }).collect(Collectors.toList());
 
@@ -233,7 +233,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
     }
 
     @Override
-    public PageUtils queryPageByCondtion(Map<String, Object> params) {
+    public PageUtils queryPageByCondition(Map<String, Object> params) {
 
         QueryWrapper<SpuInfoEntity> queryWrapper = new QueryWrapper<>();
 
