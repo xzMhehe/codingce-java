@@ -1,4 +1,4 @@
-[英文](https://github.com/xzMhehe/codingce-java/blob/master/README.md)
+[English](https://github.com/xzMhehe/codingce-java/blob/master/README.md)
 ## 作者
 
 后端码匠博主, 希望所写的东西能够帮的到你
