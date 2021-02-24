@@ -20,6 +20,7 @@ spring:
           filters:
             - RewritePath=/api/(?<segment>/?.*), /$\{segment}
 
+        ## 会员服务系统
         - id: member_route
           uri: lb://gulimall-member
           predicates:
@@ -27,6 +28,7 @@ spring:
           filters:
             - RewritePath=/api/(?<segment>/?.*), /$\{segment}
 
+        ## 优惠服务系统
         - id: coupon_route
           uri: lb://gulimall-coupon
           predicates:
@@ -34,6 +36,7 @@ spring:
           filters:
             - RewritePath=/api/(?<segment>/?.*), /$\{segment}
 
+        ## 库存服务系统
         - id: ware_route
           uri: lb://gulimall-ware
           predicates:
@@ -41,6 +44,7 @@ spring:
           filters:
             - RewritePath=/api/(?<segment>/?.*), /$\{segment}
 
+        ## 第三方服务
         - id: third_party_route
           uri: lb://gulimall-third-party
           predicates:
@@ -48,6 +52,7 @@ spring:
           filters:
             - RewritePath=/api/thirdparty(?<segment>/?.*), /$\{segment}
 
+        ## 后台
         - id: admin_route
           uri: lb://renren-fast
           predicates:
