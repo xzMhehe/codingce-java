@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=" .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/controller/SpuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/controller/SpuInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/service/SpuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/service/SpuInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/service/impl/SpuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/service/impl/SpuInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/controller/SkuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/cn/com/codingce/product/controller/SkuInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -343,14 +341,7 @@
       <workItem from="1614052604913" duration="9848000" />
       <workItem from="1614127115599" duration="6093000" />
       <workItem from="1614133485668" duration="10563000" />
-      <workItem from="1614144316744" duration="5045000" />
-    </task>
-    <task id="LOCAL-00013" summary="A 所有系统代码均生成">
-      <created>1611970621040</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1611970621040</updated>
+      <workItem from="1614144316744" duration="6465000" />
     </task>
     <task id="LOCAL-00014" summary="A 公共项目导入alibaba">
       <created>1611971630494</created>
@@ -688,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614148133239</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary=":art: Spu检索">
+      <created>1614150320182</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1614150320182</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +709,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="A 数据库" />
     <MESSAGE value="A oss配置文件" />
     <MESSAGE value=":art: Test" />
     <MESSAGE value=":fire: 属性分组修改" />
@@ -736,7 +733,8 @@
     <MESSAGE value=":art: 注释" />
     <MESSAGE value=":art: 路由注释" />
     <MESSAGE value=":fire: 搜索" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: 搜索" />
+    <MESSAGE value=":art: Spu检索" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: Spu检索" />
   </component>
   <component name="WindowStateProjectService">
     <state x="553" y="217" key="#HTTP_Proxy" timestamp="1613957839186">
@@ -771,50 +769,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614148207407">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614150324719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614148207407" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614148206266">
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614150324719" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614150289508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614148206266" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614150289508" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1613895933226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613895933226" />
-    <state width="1440" height="262" key="GridCell.Tab.0.bottom" timestamp="1614149902844">
+    <state width="1440" height="307" key="GridCell.Tab.0.bottom" timestamp="1614150460334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614149902844" />
-    <state width="1440" height="262" key="GridCell.Tab.0.center" timestamp="1614149902843">
+    <state width="1440" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614150460334" />
+    <state width="1440" height="307" key="GridCell.Tab.0.center" timestamp="1614150460334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614149902843" />
-    <state width="1440" height="262" key="GridCell.Tab.0.left" timestamp="1614149902843">
+    <state width="1440" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614150460334" />
+    <state width="1440" height="307" key="GridCell.Tab.0.left" timestamp="1614150460334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614149902843" />
-    <state width="1440" height="262" key="GridCell.Tab.0.right" timestamp="1614149902844">
+    <state width="1440" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614150460334" />
+    <state width="1440" height="307" key="GridCell.Tab.0.right" timestamp="1614150460334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614149902844" />
-    <state width="1440" height="262" key="GridCell.Tab.1.bottom" timestamp="1614149902844">
+    <state width="1440" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614150460334" />
+    <state width="1440" height="307" key="GridCell.Tab.1.bottom" timestamp="1614150460335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614149902844" />
-    <state width="1440" height="262" key="GridCell.Tab.1.center" timestamp="1614149902844">
+    <state width="1440" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614150460335" />
+    <state width="1440" height="307" key="GridCell.Tab.1.center" timestamp="1614150460335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="262" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614149902844" />
-    <state width="1440" height="262" key="GridCell.Tab.1.left" timestamp="1614149902844">
+    <state width="1440" height="307" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614150460335" />
+    <state width="1440" height="307" key="GridCell.Tab.1.left" timestamp="1614150460335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="262" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614149902844" />
-    <state width="1440" height="262" key="GridCell.Tab.1.right" timestamp="1614149902844">
+    <state width="1440" height="307" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614150460335" />
+    <state width="1440" height="307" key="GridCell.Tab.1.right" timestamp="1614150460335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="262" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614149902844" />
+    <state width="1440" height="307" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614150460335" />
     <state width="1403" height="258" key="GridCell.Tab.2.bottom" timestamp="1614048767508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -847,10 +845,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="509" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613626059710" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614148137745">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614150329178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614148137745" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614150329178" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614140538136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
