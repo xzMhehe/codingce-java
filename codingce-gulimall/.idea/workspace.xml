@@ -4,7 +4,9 @@
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=" .gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/controller/PurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/controller/PurchaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/common/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/common/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/main-navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/main-navbar.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,14 +344,7 @@
       <workItem from="1614127115599" duration="6093000" />
       <workItem from="1614133485668" duration="10563000" />
       <workItem from="1614144316744" duration="7313000" />
-      <workItem from="1614319776337" duration="8816000" />
-    </task>
-    <task id="LOCAL-00018" summary="A 路由网关springcloudgateway">
-      <created>1612011208605</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1612011208605</updated>
+      <workItem from="1614319776337" duration="9302000" />
     </task>
     <task id="LOCAL-00019" summary="A 路由网关springcloudgateway">
       <created>1612011371370</created>
@@ -687,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614327660913</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary=":fire: 完成采购; 领取采购单">
+      <created>1614328654571</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1614328654571</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,7 +712,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=":fire: MybatisPlus分页插件; 分类相关业务完善" />
     <MESSAGE value=":art: English document" />
     <MESSAGE value=":art: Document" />
     <MESSAGE value=":fire: .gitignore" />
@@ -735,7 +736,8 @@
     <MESSAGE value=":art: 库存模糊查询" />
     <MESSAGE value=":art: 采购需求查询" />
     <MESSAGE value=":fire: 具体业务实现" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: 具体业务实现" />
+    <MESSAGE value=":fire: 完成采购; 领取采购单" />
+    <option name="LAST_COMMIT_MESSAGE" value=":fire: 完成采购; 领取采购单" />
   </component>
   <component name="WindowStateProjectService">
     <state x="553" y="217" key="#HTTP_Proxy" timestamp="1613957839186">
@@ -770,10 +772,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614327659431">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614328653041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614327659431" />
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614328653041" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614323908472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -846,10 +848,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="509" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613626059710" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614327665405">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614328658858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614327665405" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614328658858" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614140538136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
