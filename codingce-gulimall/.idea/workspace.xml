@@ -2,11 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=" .gitignore">
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/cn/com/codingce/common/constant/AuthServerConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/cn/com/codingce/common/constant/CartConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/cn/com/codingce/common/constant/WareConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/cn/com/codingce/common/exception/NoStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/feign/MemberFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/feign/OrderFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/feign/ProductFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/FareVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/LockStockResultVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/MemberAddressVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/MergeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/OrderItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/OrderVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/PurchaseDoneVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/PurchaseItemDoneVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/SkuHasStockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/vo/WareSkuLockVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/cn/com/codingce/common/constant/ProductConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/cn/com/codingce/common/constant/ProductConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/GulimallWareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/GulimallWareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/controller/PurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/controller/PurchaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/controller/WareSkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/controller/WareSkuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/dao/WareSkuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/dao/WareSkuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/entity/WareOrderTaskDetailEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/entity/WareOrderTaskDetailEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/PurchaseDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/PurchaseDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/PurchaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/WareOrderTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/WareOrderTaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/WareSkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/WareSkuService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/PurchaseDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/PurchaseDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/WareInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/WareInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/PurchaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/PurchaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/WareOrderTaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/WareOrderTaskServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/WareSkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/service/impl/WareSkuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +96,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-search/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/feign" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,11 +116,11 @@
       <recent name="cn.com.codingce.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-ware\src\main\java\cn\com\codingce\ware\feign" />
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-ware\src\main\java\cn\com\codingce\ware\vo" />
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common\constant" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-search\src\main\resources" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\config" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\resources" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-product\src\main\java\cn\com\codingce\product\feign" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common\to" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,14 +373,7 @@
       <workItem from="1614127115599" duration="6093000" />
       <workItem from="1614133485668" duration="10563000" />
       <workItem from="1614144316744" duration="7313000" />
-      <workItem from="1614319776337" duration="3968000" />
-    </task>
-    <task id="LOCAL-00016" summary="A 测试 openfeign 远程调用">
-      <created>1611998983400</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1611998983400</updated>
+      <workItem from="1614319776337" duration="7815000" />
     </task>
     <task id="LOCAL-00017" summary="A 微服务的注册中心、微服务的配置中心">
       <created>1612008360582</created>
@@ -689,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614322411093</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary=":art: 采购需求查询">
+      <created>1614323925863</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1614323925863</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -712,7 +741,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=":fire: 属性分组修改" />
     <MESSAGE value=":fire: 修改业务完善" />
     <MESSAGE value=":fire: MybatisPlus分页插件; 分类相关业务完善" />
     <MESSAGE value=":art: English document" />
@@ -737,7 +765,8 @@
     <MESSAGE value=":art: Spu检索" />
     <MESSAGE value=":art: 商品list" />
     <MESSAGE value=":art: 库存模糊查询" />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: 库存模糊查询" />
+    <MESSAGE value=":art: 采购需求查询" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: 采购需求查询" />
   </component>
   <component name="WindowStateProjectService">
     <state x="553" y="217" key="#HTTP_Proxy" timestamp="1613957839186">
@@ -752,10 +781,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614321751330" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1614132235362">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1614326555846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614132235362" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614326555846" />
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611828886162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -772,50 +801,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614322409163">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614324113453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614322409163" />
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614322393023">
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614324113453" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614323908472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614322393023" />
+    <state x="184" y="86" width="1536" height="860" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614323908472" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1613895933226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613895933226" />
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom" timestamp="1614323785657">
+    <state width="1440" height="661" key="GridCell.Tab.0.bottom" timestamp="1614327346860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614323785657" />
-    <state width="1440" height="231" key="GridCell.Tab.0.center" timestamp="1614323785657">
+    <state width="1440" height="661" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614327346860" />
+    <state width="1440" height="661" key="GridCell.Tab.0.center" timestamp="1614327346859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614323785657" />
-    <state width="1440" height="231" key="GridCell.Tab.0.left" timestamp="1614323785657">
+    <state width="1440" height="661" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614327346859" />
+    <state width="1440" height="661" key="GridCell.Tab.0.left" timestamp="1614327346859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614323785657" />
-    <state width="1440" height="231" key="GridCell.Tab.0.right" timestamp="1614323785657">
+    <state width="1440" height="661" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614327346859" />
+    <state width="1440" height="661" key="GridCell.Tab.0.right" timestamp="1614327346859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614323785657" />
-    <state width="1440" height="231" key="GridCell.Tab.1.bottom" timestamp="1614323785658">
+    <state width="1440" height="661" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614327346859" />
+    <state width="1440" height="661" key="GridCell.Tab.1.bottom" timestamp="1614327346860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614323785658" />
-    <state width="1440" height="231" key="GridCell.Tab.1.center" timestamp="1614323785657">
+    <state width="1440" height="661" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614327346860" />
+    <state width="1440" height="661" key="GridCell.Tab.1.center" timestamp="1614327346860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614323785657" />
-    <state width="1440" height="231" key="GridCell.Tab.1.left" timestamp="1614323785657">
+    <state width="1440" height="661" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614327346860" />
+    <state width="1440" height="661" key="GridCell.Tab.1.left" timestamp="1614327346860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614323785657" />
-    <state width="1440" height="231" key="GridCell.Tab.1.right" timestamp="1614323785657">
+    <state width="1440" height="661" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614327346860" />
+    <state width="1440" height="661" key="GridCell.Tab.1.right" timestamp="1614327346860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614323785657" />
+    <state width="1440" height="661" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614327346860" />
     <state width="1403" height="258" key="GridCell.Tab.2.bottom" timestamp="1614048767508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -848,10 +877,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="509" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613626059710" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614322413337">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614324154830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614322413337" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614324154830" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614140538136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,43 +1,20 @@
 package cn.com.codingce.common.constant;
 
 /**
- * @Description: 商品常量属性  常量包下
+ * @Description:
  * @Created: with IntelliJ IDEA.
  * @author: 后端码匠
  * @createTime: 2021-01-29 16:23
  **/
-public class ProductConstant {
+public class WareConstant {
 
-    /**
-     * 属性类型
-     */
-    public enum AttrEnum {
-        ATTR_TYPE_BASE(1, "基本属性"),
-        ATTR_TYPE_SALE(0, "销售属性");
+    public enum PurchaseStatusEnum {
+        CREATED(0, "新建"),
+        ASSIGNED(1, "已分配"),
+        RECEIVE(2, "已领取"),
+        FINISH(3, "已完成"),
+        HASERROR(4, "有异常"),
 
-        private int code;
-
-        private String msg;
-
-        public int getCode() {
-            return code;
-        }
-
-        public String getMsg() {
-            return msg;
-        }
-
-        AttrEnum(int code, String msg) {
-            this.code = code;
-            this.msg = msg;
-        }
-
-    }
-
-    public enum ProductStatusEnum {
-        NEW_SPU(0, "新建"),
-        SPU_UP(1, "商品上架"),
-        SPU_DOWN(2, "商品下架"),
         ;
 
         private int code;
@@ -52,7 +29,36 @@ public class ProductConstant {
             return msg;
         }
 
-        ProductStatusEnum(int code, String msg) {
+        PurchaseStatusEnum(int code, String msg) {
+            this.code = code;
+            this.msg = msg;
+        }
+
+    }
+
+
+    public enum PurchaseDetailStatusEnum {
+        CREATED(0, "新建"),
+        ASSIGNED(1, "已分配"),
+        BUYING(2, "正在采购"),
+        FINISH(3, "已完成"),
+        HASERROR(4, "采购失败")
+
+        ;
+
+        private int code;
+
+        private String msg;
+
+        public int getCode() {
+            return code;
+        }
+
+        public String getMsg() {
+            return msg;
+        }
+
+        PurchaseDetailStatusEnum(int code, String msg) {
             this.code = code;
             this.msg = msg;
         }
