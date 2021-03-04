@@ -1,4 +1,3 @@
-//PUT gulimall_product
 {
   "mappings": {
     "properties": {

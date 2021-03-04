@@ -9,25 +9,25 @@ spring:
       discovery:
         server-addr: localhost:8848
 
-    sentinel:
-      transport:
-        #配置sentinel dashboard地址
-        dashboard: localhost:8080
+#    sentinel:
+#      transport:
+#        #配置sentinel dashboard地址
+#        dashboard: localhost:8080
 
   redis:
-    host: 192.168.77.130
+    host: 127.0.0.1
     port: 6379
 
 #开启feign对sentinel的支持
-feign:
-  sentinel:
-    enabled: true
-
-  thymeleaf:
-    cache: false
-
-  session:
-    store-type: redis
+#feign:
+#  sentinel:
+#    enabled: true
+#
+#  thymeleaf:
+#    cache: false
+#
+#  session:
+#    store-type: redis
 
 logging:
   level:
@@ -37,8 +37,8 @@ logging:
     console: "%d{yyyy-MM-dd} [%thread] - %msg%n"
 
 #暴露所有端点
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'

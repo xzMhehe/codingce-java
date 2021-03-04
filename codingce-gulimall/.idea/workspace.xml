@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=" .gitignore">
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config/GulimallElasticSearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config/GulimallSearchSentinelConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config/GulimallSessionConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/GulimallSearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/GulimallSearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/new_product_mapping.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/new_product_mapping.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/test/java/cn/com/codingce/search/GulimallSearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/test/java/cn/com/codingce/search/GulimallSearchApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-ware/src/main/java/cn/com/codingce/ware/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,11 +94,11 @@
       <recent name="cn.com.codingce.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-search\src\main\java\cn\com\codingce\search\config" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-ware\src\main\java\cn\com\codingce\ware\config" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-ware\src\main\java\cn\com\codingce\ware\feign" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-ware\src\main\java\cn\com\codingce\ware\vo" />
       <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-common\src\main\java\cn\com\codingce\common\constant" />
-      <recent name="D:\mxz_code\codingce-java\codingce-gulimall\gulimall-search\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +108,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallWareApplication">
+  <component name="RunManager" selected="JUnit.GulimallSearchApplicationTests.indexData">
     <configuration default="true" type="CompoundRunConfigurationType">
       <toRun name="GulimallMemberApplication" type="SpringBootApplicationConfigurationType" />
       <toRun name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" />
@@ -129,6 +138,38 @@
       <option name="PACKAGE_NAME" value="cn.com.codingce.product" />
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.product.GulimallProductApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallSearchApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.codingce.search" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.search.GulimallSearchApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallSearchApplicationTests.indexData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.codingce.search" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.search.GulimallSearchApplicationTests" />
+      <option name="METHOD_NAME" value="indexData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -215,6 +256,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx100m" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,6 +274,8 @@
     <list>
       <item itemvalue="Compound.gulimall" />
       <item itemvalue="JUnit.GulimallProductApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.GulimallSearchApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.GulimallSearchApplicationTests.indexData" />
       <item itemvalue="Spring Boot.GulimallProductApplication" />
       <item itemvalue="Spring Boot.GulimallOrderApplication" />
       <item itemvalue="Spring Boot.GulimallWareApplication" />
@@ -245,6 +289,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GulimallSearchApplicationTests.indexData" />
+        <item itemvalue="JUnit.GulimallSearchApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.RenrenApplication 1" />
         <item itemvalue="JUnit.GulimallProductApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.RenrenApplication 1" />
@@ -261,11 +307,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -341,14 +382,12 @@
       <workItem from="1614402877534" duration="6964000" />
       <workItem from="1614489686146" duration="36000" />
       <workItem from="1614555811098" duration="1333000" />
-      <workItem from="1614561760352" duration="987000" />
-    </task>
-    <task id="LOCAL-00023" summary="A 路由网关配置; 分类展示">
-      <created>1612927330310</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1612927330311</updated>
+      <workItem from="1614561760352" duration="8379000" />
+      <workItem from="1614588268842" duration="263000" />
+      <workItem from="1614643133488" duration="27000" />
+      <workItem from="1614740921581" duration="8000" />
+      <workItem from="1614815038541" duration="792000" />
+      <workItem from="1614865474012" duration="24000" />
     </task>
     <task id="LOCAL-00024" summary="A 调整下路由顺序">
       <created>1612928315047</created>
@@ -686,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614408045655</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary=":art: 指定本地es版本">
+      <created>1614562818415</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1614562818416</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,7 +785,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=":art: 规格参数保存" />
     <MESSAGE value=":art: 规格参数; 销售参数" />
     <MESSAGE value=":fire: 完善注解" />
     <MESSAGE value=":fire: 配置会员系统路由、日志" />
@@ -764,7 +809,8 @@
     <MESSAGE value=":fire: 分页配置" />
     <MESSAGE value=":art: 完成采购" />
     <MESSAGE value=":art: 获取spu规格" />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: 获取spu规格" />
+    <MESSAGE value=":art: 指定本地es版本" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: 指定本地es版本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="553" y="217" key="#HTTP_Proxy" timestamp="1613957839186">
@@ -775,10 +821,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1612881779137" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614321751330">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614643159665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614321751330" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614643159665" />
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1614326555846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -799,10 +845,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614408044254">
+    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614865492422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614408044254" />
+    <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614865492422" />
+    <state x="462" y="147" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1614562815099" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614408024837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -811,38 +858,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613895933226" />
-    <state width="1455" height="488" key="GridCell.Tab.0.bottom" timestamp="1614418248296">
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom" timestamp="1614582879031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="488" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614418248296" />
-    <state width="1455" height="488" key="GridCell.Tab.0.center" timestamp="1614418248296">
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
+    <state width="1877" height="312" key="GridCell.Tab.0.center" timestamp="1614582879031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="488" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614418248296" />
-    <state width="1455" height="488" key="GridCell.Tab.0.left" timestamp="1614418248295">
+    <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
+    <state width="1877" height="312" key="GridCell.Tab.0.left" timestamp="1614582879031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="488" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614418248295" />
-    <state width="1455" height="488" key="GridCell.Tab.0.right" timestamp="1614418248296">
+    <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right" timestamp="1614582879031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="488" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614418248296" />
-    <state width="1455" height="488" key="GridCell.Tab.1.bottom" timestamp="1614418248297">
+    <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
+    <state width="1455" height="493" key="GridCell.Tab.1.bottom" timestamp="1614582879027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="488" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614418248297" />
-    <state width="1455" height="488" key="GridCell.Tab.1.center" timestamp="1614418248297">
+    <state width="1455" height="493" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
+    <state width="1455" height="493" key="GridCell.Tab.1.center" timestamp="1614582879027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="488" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614418248297" />
-    <state width="1455" height="488" key="GridCell.Tab.1.left" timestamp="1614418248296">
+    <state width="1455" height="493" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
+    <state width="1455" height="493" key="GridCell.Tab.1.left" timestamp="1614582879027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="488" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614418248296" />
-    <state width="1455" height="488" key="GridCell.Tab.1.right" timestamp="1614418248297">
+    <state width="1455" height="493" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
+    <state width="1455" height="493" key="GridCell.Tab.1.right" timestamp="1614582879027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1455" height="488" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614418248297" />
+    <state width="1455" height="493" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
     <state width="1455" height="275" key="GridCell.Tab.2.bottom" timestamp="1614405994012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -867,18 +914,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="680" y="244" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614145658714" />
-    <state x="464" y="201" key="SettingsEditor" timestamp="1614053300531">
+    <state x="464" y="195" key="SettingsEditor" timestamp="1614564260269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="201" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614053300531" />
+    <state x="464" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614564260269" />
     <state width="509" height="456" key="SwitcherDM" timestamp="1613626059710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="509" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613626059710" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614408437726">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1614562819968">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614408437726" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1614562819968" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614140538136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -895,10 +943,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="323" width="604" height="395" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611895897661" />
-    <state x="573" y="341" width="1251" height="557" key="new project wizard" timestamp="1614139681255">
+    <state x="573" y="341" width="1251" height="557" key="new project wizard" timestamp="1614582876544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="573" y="341" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614139681255" />
+    <state x="573" y="341" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614582876544" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1614131909567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
