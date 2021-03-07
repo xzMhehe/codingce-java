@@ -2,18 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=" .gitignore">
-      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config/GulimallElasticSearchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config/GulimallSearchSentinelConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config/GulimallSessionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/GulimallSearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/GulimallSearchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/new_product_mapping.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/new_product_mapping.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-search/src/test/java/cn/com/codingce/search/GulimallSearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/test/java/cn/com/codingce/search/GulimallSearchApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingce-gulimall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codingce-gulimall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attr.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attr.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attrattrgrouprelation-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attrattrgrouprelation-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attrattrgrouprelation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attrattrgrouprelation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/category-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/category-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/categorybrandrelation-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/categorybrandrelation-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/categorybrandrelation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/categorybrandrelation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/commentreplay-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/commentreplay-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/commentreplay.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/commentreplay.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/productattrvalue-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/productattrvalue-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/productattrvalue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/productattrvalue.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuimages-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuimages-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuimages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuimages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuinfo-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuinfo-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuinfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuinfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skusaleattrvalue-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skusaleattrvalue-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skusaleattrvalue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skusaleattrvalue.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spucomment-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spucomment-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spucomment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spucomment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuimages-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuimages-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuimages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuimages.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfo-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfo-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfodesc-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfodesc-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfodesc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfodesc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +107,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -108,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GulimallSearchApplicationTests.indexData">
+  <component name="RunManager" selected="Spring Boot.GulimallGatewayApplication">
     <configuration default="true" type="CompoundRunConfigurationType">
       <toRun name="GulimallMemberApplication" type="SpringBootApplicationConfigurationType" />
       <toRun name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" />
@@ -232,8 +257,6 @@
     <configuration name="GulimallThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-third-party" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.codingce.thirdparty.GulimallThirdPartyApplication" />
-      <option name="VM_PARAMETERS" value="-Xmx100m" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -277,14 +300,14 @@
       <item itemvalue="JUnit.GulimallSearchApplicationTests.contextLoads" />
       <item itemvalue="JUnit.GulimallSearchApplicationTests.indexData" />
       <item itemvalue="Spring Boot.GulimallProductApplication" />
+      <item itemvalue="Spring Boot.GulimallGatewayApplication" />
       <item itemvalue="Spring Boot.GulimallOrderApplication" />
       <item itemvalue="Spring Boot.GulimallWareApplication" />
       <item itemvalue="Spring Boot.GulimallCouponApplication" />
       <item itemvalue="Spring Boot.GulimallMemberApplication" />
       <item itemvalue="Spring Boot.RenrenApplication" />
-      <item itemvalue="Spring Boot.GulimallGatewayApplication" />
-      <item itemvalue="Spring Boot.GulimallThirdPartyApplication" />
       <item itemvalue="Spring Boot.GulimallSearchApplication" />
+      <item itemvalue="Spring Boot.GulimallThirdPartyApplication" />
       <item itemvalue="Spring Boot.RenrenApplication 1" />
     </list>
     <recent_temporary>
@@ -293,7 +316,6 @@
         <item itemvalue="JUnit.GulimallSearchApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.RenrenApplication 1" />
         <item itemvalue="JUnit.GulimallProductApplicationTests.contextLoads" />
-        <item itemvalue="Spring Boot.RenrenApplication 1" />
       </list>
     </recent_temporary>
   </component>
@@ -301,17 +323,12 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.21212122" />
+          <option name="contentProportion" value="0.18550567" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -388,6 +405,12 @@
       <workItem from="1614740921581" duration="8000" />
       <workItem from="1614815038541" duration="792000" />
       <workItem from="1614865474012" duration="24000" />
+      <workItem from="1614902533001" duration="56000" />
+      <workItem from="1614909670994" duration="20000" />
+      <workItem from="1614913459150" duration="2729000" />
+      <workItem from="1614927070405" duration="56000" />
+      <workItem from="1615127374212" duration="23000" />
+      <workItem from="1615127416212" duration="7000" />
     </task>
     <task id="LOCAL-00024" summary="A 调整下路由顺序">
       <created>1612928315047</created>
@@ -817,22 +840,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="553" y="217" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1613957839186" />
-    <state x="552" y="181" key="#Project_Structure" timestamp="1612881779137">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="193" key="#Project_Structure" timestamp="1614902412805">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1612881779137" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614643159665">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="193" key="#Project_Structure/0.23.1920.979@0.23.1920.979" timestamp="1614902412805" />
+    <state x="414" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614902334015">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614643159665" />
+    <state x="414" y="191" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.979@0.23.1920.979" timestamp="1614902334015" />
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1614326555846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614326555846" />
-    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611828886162">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="689" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614902242184">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611828886162" />
+    <state x="689" y="314" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.979@0.23.1920.979" timestamp="1614902242184" />
     <state x="529" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612916024982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -858,38 +884,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613895933226" />
-    <state width="1877" height="312" key="GridCell.Tab.0.bottom" timestamp="1614582879031">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1505" height="337" key="GridCell.Tab.0.bottom" timestamp="1614902486343">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="1877" height="312" key="GridCell.Tab.0.center" timestamp="1614582879031">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1505" height="337" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
+    <state width="1505" height="337" key="GridCell.Tab.0.center" timestamp="1614902486343">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="1877" height="312" key="GridCell.Tab.0.left" timestamp="1614582879031">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1505" height="337" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
+    <state width="1505" height="337" key="GridCell.Tab.0.left" timestamp="1614902486342">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="1877" height="312" key="GridCell.Tab.0.right" timestamp="1614582879031">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1505" height="337" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1614902486342" />
+    <state width="1505" height="337" key="GridCell.Tab.0.right" timestamp="1614902486343">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="1455" height="493" key="GridCell.Tab.1.bottom" timestamp="1614582879027">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1505" height="337" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
+    <state width="1505" height="337" key="GridCell.Tab.1.bottom" timestamp="1614902486344">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1455" height="493" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
-    <state width="1455" height="493" key="GridCell.Tab.1.center" timestamp="1614582879027">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1505" height="337" key="GridCell.Tab.1.bottom/0.23.1920.979@0.23.1920.979" timestamp="1614902486344" />
+    <state width="1505" height="337" key="GridCell.Tab.1.center" timestamp="1614902486343">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1455" height="493" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
-    <state width="1455" height="493" key="GridCell.Tab.1.left" timestamp="1614582879027">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1505" height="337" key="GridCell.Tab.1.center/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
+    <state width="1505" height="337" key="GridCell.Tab.1.left" timestamp="1614902486343">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1455" height="493" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
-    <state width="1455" height="493" key="GridCell.Tab.1.right" timestamp="1614582879027">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1505" height="337" key="GridCell.Tab.1.left/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
+    <state width="1505" height="337" key="GridCell.Tab.1.right" timestamp="1614902486343">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1455" height="493" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
+    <state width="1505" height="337" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
     <state width="1455" height="275" key="GridCell.Tab.2.bottom" timestamp="1614405994012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -914,10 +948,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="680" y="244" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614145658714" />
-    <state x="464" y="195" key="SettingsEditor" timestamp="1614564260269">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="464" y="207" key="SettingsEditor" timestamp="1614902021561">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="464" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614564260269" />
+    <state x="464" y="207" key="SettingsEditor/0.23.1920.979@0.23.1920.979" timestamp="1614902021561" />
     <state width="509" height="456" key="SwitcherDM" timestamp="1613626059710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -927,10 +962,12 @@
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614408437726" />
     <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1614562819968" />
-    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614140538136">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="566" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614921486447">
+      <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614140538136" />
+    <state x="566" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.799@0.23.1440.799" timestamp="1614921486447" />
+    <state x="754" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.979@0.23.1920.979" timestamp="1614909672635" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1612142252306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
