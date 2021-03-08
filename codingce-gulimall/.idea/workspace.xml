@@ -2,43 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=" .gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codingce-gulimall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codingce-gulimall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/gulimall-coupon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/gulimall-member.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/gulimall-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renren-fast-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renren-fast-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attr.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attr.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attrattrgrouprelation-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attrattrgrouprelation-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attrattrgrouprelation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/attrattrgrouprelation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/category-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/category-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/categorybrandrelation-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/categorybrandrelation-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/categorybrandrelation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/categorybrandrelation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/commentreplay-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/commentreplay-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/commentreplay.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/commentreplay.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/productattrvalue-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/productattrvalue-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/productattrvalue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/productattrvalue.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuimages-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuimages-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuimages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuimages.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuinfo-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuinfo-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuinfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skuinfo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skusaleattrvalue-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skusaleattrvalue-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skusaleattrvalue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/skusaleattrvalue.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spucomment-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spucomment-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spucomment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spucomment.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuimages-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuimages-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuimages.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuimages.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfo-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfo-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfodesc-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfodesc-add-or-update.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfodesc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/src/views/modules/product/spuinfodesc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +108,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -133,7 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.RenrenApplication">
     <configuration default="true" type="CompoundRunConfigurationType">
       <toRun name="GulimallMemberApplication" type="SpringBootApplicationConfigurationType" />
       <toRun name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" />
@@ -323,12 +326,27 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.18550567" />
+          <option name="contentProportion" value="0.25931337" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -884,45 +902,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613895933226" />
-    <state width="1505" height="337" key="GridCell.Tab.0.bottom" timestamp="1614902486343">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1013" height="337" key="GridCell.Tab.0.bottom" timestamp="1615171241425">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
+    <state width="1013" height="337" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1615171241425" />
     <state width="1505" height="337" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="1505" height="337" key="GridCell.Tab.0.center" timestamp="1614902486343">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1013" height="337" key="GridCell.Tab.0.center" timestamp="1615171241424">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
+    <state width="1013" height="337" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1615171241424" />
     <state width="1505" height="337" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="1505" height="337" key="GridCell.Tab.0.left" timestamp="1614902486342">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1013" height="337" key="GridCell.Tab.0.left" timestamp="1615171241423">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
+    <state width="1013" height="337" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1615171241423" />
     <state width="1505" height="337" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1614902486342" />
-    <state width="1505" height="337" key="GridCell.Tab.0.right" timestamp="1614902486343">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1013" height="337" key="GridCell.Tab.0.right" timestamp="1615171241425">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
+    <state width="1013" height="337" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1615171241425" />
     <state width="1505" height="337" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="1505" height="337" key="GridCell.Tab.1.bottom" timestamp="1614902486344">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1013" height="337" key="GridCell.Tab.1.bottom" timestamp="1615171241427">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1455" height="493" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
+    <state width="1013" height="337" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1615171241427" />
     <state width="1505" height="337" key="GridCell.Tab.1.bottom/0.23.1920.979@0.23.1920.979" timestamp="1614902486344" />
-    <state width="1505" height="337" key="GridCell.Tab.1.center" timestamp="1614902486343">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1013" height="337" key="GridCell.Tab.1.center" timestamp="1615171241426">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1455" height="493" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
+    <state width="1013" height="337" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1615171241426" />
     <state width="1505" height="337" key="GridCell.Tab.1.center/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="1505" height="337" key="GridCell.Tab.1.left" timestamp="1614902486343">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1013" height="337" key="GridCell.Tab.1.left" timestamp="1615171241426">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1455" height="493" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
+    <state width="1013" height="337" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1615171241426" />
     <state width="1505" height="337" key="GridCell.Tab.1.left/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="1505" height="337" key="GridCell.Tab.1.right" timestamp="1614902486343">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state width="1013" height="337" key="GridCell.Tab.1.right" timestamp="1615171241427">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1455" height="493" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
+    <state width="1013" height="337" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1615171241427" />
     <state width="1505" height="337" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
     <state width="1455" height="275" key="GridCell.Tab.2.bottom" timestamp="1614405994012">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -944,14 +970,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="555" y="145" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614130447929" />
-    <state x="680" y="244" key="RollbackChangesDialog" timestamp="1614145658714">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="510" y="229" key="RollbackChangesDialog" timestamp="1615165963254">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="680" y="244" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614145658714" />
-    <state x="464" y="207" key="SettingsEditor" timestamp="1614902021561">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state x="510" y="229" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1615165963254" />
+    <state x="348" y="178" key="SettingsEditor" timestamp="1615167224211">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="464" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614564260269" />
+    <state x="348" y="178" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1615167224211" />
     <state x="464" y="207" key="SettingsEditor/0.23.1920.979@0.23.1920.979" timestamp="1614902021561" />
     <state width="509" height="456" key="SwitcherDM" timestamp="1613626059710">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -984,10 +1012,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="573" y="341" width="1251" height="557" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614582876544" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1614131909567">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="462" y="225" width="670" height="675" key="run.anything.popup" timestamp="1615167657812">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614131909567" />
+    <state x="462" y="225" width="670" height="675" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1615167657812" />
     <state x="811" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1614144810561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

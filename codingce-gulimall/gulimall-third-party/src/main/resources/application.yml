@@ -6,13 +6,13 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-    alicloud:
-      access-key: "access-key"
-      secret-key: "secret-key"
-      oss:
-        endpoint: "oss-cn-beijing.aliyuncs.com"
-        # 本没有这个属性, 自己添加
-        bucket: "codingce-product"
+#    alicloud:
+#      access-key: "access-key"
+#      secret-key: "secret-key"
+#      oss:
+#        endpoint: "oss-cn-beijing.aliyuncs.com"
+#        # 本没有这个属性, 自己添加
+#        bucket: "codingce-product"
 
 logging:
   level:
