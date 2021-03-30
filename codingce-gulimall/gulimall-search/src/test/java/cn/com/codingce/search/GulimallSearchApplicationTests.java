@@ -6,13 +6,19 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.SearchRequest;
+import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.xcontent.XContentType;
+import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import javax.naming.directory.SearchResult;
 import java.io.IOException;
 
 @SpringBootTest
@@ -28,7 +34,43 @@ class GulimallSearchApplicationTests {
     }
 
     /**
+     * Search API
+     *
+     * @throws IOException
+     *
+     */
+    @Test
+    void searchData() throws IOException {
+        // 创建检索请求
+        SearchRequest searchRequest = new SearchRequest();
+        // 指定索引
+        searchRequest.indices("bank");
+
+        // 指定 DSL，检索条件
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        // 构造检索条件
+//        searchSourceBuilder.query();
+//        searchSourceBuilder.from();
+//        searchSourceBuilder.size();
+//        searchSourceBuilder.aggregations();
+
+        searchSourceBuilder.query(QueryBuilders.matchQuery("address", "mill"));
+        System.out.println(searchSourceBuilder.toString() + "searchSourceBuilder.toString()=======");
+
+        searchRequest.source(searchSourceBuilder);
+
+        // 执行检索
+        SearchResponse searchResponse = client.search(searchRequest, GulimallElasticSearchConfig.COMMON_OPTIONS);
+
+        // 分析结果
+
+        System.out.println(searchResponse.toString() + "======");
+
+    }
+
+    /**
      * 测试存储数据
+     * 更新也可以
      */
     @Test
     void indexData() throws IOException {
