@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=" .gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast-vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config/GulimallElasticSearchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/cn/com/codingce/search/config/GulimallElasticSearchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/test/java/cn/com/codingce/search/GulimallSearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/test/java/cn/com/codingce/search/GulimallSearchApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallProductApplication">
+  <component name="RunManager" selected="JUnit.GulimallSearchApplicationTests.indexData">
     <configuration default="true" type="CompoundRunConfigurationType">
       <toRun name="GulimallMemberApplication" type="SpringBootApplicationConfigurationType" />
       <toRun name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" />
@@ -306,7 +305,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -394,14 +393,7 @@
       <workItem from="1614927070405" duration="56000" />
       <workItem from="1615127374212" duration="23000" />
       <workItem from="1615127416212" duration="7000" />
-      <workItem from="1617091911330" duration="1684000" />
-    </task>
-    <task id="LOCAL-00024" summary="A 调整下路由顺序">
-      <created>1612928315047</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1612928315047</updated>
+      <workItem from="1617091911330" duration="2737000" />
     </task>
     <task id="LOCAL-00025" summary="A 逻辑删除">
       <created>1613090157248</created>
@@ -739,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614562818416</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary=":art: 修复">
+      <created>1617093745189</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1617093745190</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +791,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=":art: 规格参数; 销售参数" />
     <MESSAGE value=":fire: 完善注解" />
     <MESSAGE value=":fire: 配置会员系统路由、日志" />
     <MESSAGE value=":fire: 发布商品选择分类" />
@@ -817,7 +815,8 @@
     <MESSAGE value=":art: 完成采购" />
     <MESSAGE value=":art: 获取spu规格" />
     <MESSAGE value=":art: 指定本地es版本" />
-    <option name="LAST_COMMIT_MESSAGE" value=":art: 指定本地es版本" />
+    <MESSAGE value=":art: 修复" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: 修复" />
   </component>
   <component name="WindowStateProjectService">
     <state x="553" y="217" key="#HTTP_Proxy" timestamp="1613957839186">
@@ -855,10 +854,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="462" y="116" key="CommitChangelistDialog2" timestamp="1614865492422">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="347" y="23" key="CommitChangelistDialog2" timestamp="1617093744816">
+      <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614865492422" />
+    <state x="347" y="23" key="CommitChangelistDialog2/0.23.1440.789@0.23.1440.789" timestamp="1617093744816" />
     <state x="462" y="147" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1614562815099" />
     <state x="184" y="86" width="1536" height="860" key="DiffContextDialog" timestamp="1614408024837">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -868,32 +868,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613895933226" />
-    <state width="1217" height="638" key="GridCell.Tab.0.bottom" timestamp="1617093266566">
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1617094823180">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="1217" height="638" key="GridCell.Tab.0.bottom/0.23.1440.789@0.23.1440.789" timestamp="1617093266566" />
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.789@0.23.1440.789" timestamp="1617094823180" />
     <state width="1013" height="337" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1615171241425" />
     <state width="1505" height="337" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="1217" height="638" key="GridCell.Tab.0.center" timestamp="1617093266565">
+    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1617094823179">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="1217" height="638" key="GridCell.Tab.0.center/0.23.1440.789@0.23.1440.789" timestamp="1617093266565" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.789@0.23.1440.789" timestamp="1617094823179" />
     <state width="1013" height="337" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1615171241424" />
     <state width="1505" height="337" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="1217" height="638" key="GridCell.Tab.0.left" timestamp="1617093266564">
+    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1617094823179">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="1217" height="638" key="GridCell.Tab.0.left/0.23.1440.789@0.23.1440.789" timestamp="1617093266564" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.789@0.23.1440.789" timestamp="1617094823179" />
     <state width="1013" height="337" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1615171241423" />
     <state width="1505" height="337" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1614902486342" />
-    <state width="1217" height="638" key="GridCell.Tab.0.right" timestamp="1617093266565">
+    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1617094823180">
       <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="1217" height="638" key="GridCell.Tab.0.right/0.23.1440.789@0.23.1440.789" timestamp="1617093266565" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.789@0.23.1440.789" timestamp="1617094823180" />
     <state width="1013" height="337" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1615171241425" />
     <state width="1505" height="337" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
     <state width="1217" height="638" key="GridCell.Tab.1.bottom" timestamp="1617093266566">
@@ -960,10 +960,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="509" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613626059710" />
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1614562819968">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="414" y="217" key="Vcs.Push.Dialog.v2" timestamp="1617093752935">
+      <screen x="0" y="23" width="1440" height="789" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614408437726" />
+    <state x="414" y="217" key="Vcs.Push.Dialog.v2/0.23.1440.789@0.23.1440.789" timestamp="1617093752935" />
     <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1614562819968" />
     <state x="566" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614921486447">
       <screen x="0" y="23" width="1440" height="799" />
