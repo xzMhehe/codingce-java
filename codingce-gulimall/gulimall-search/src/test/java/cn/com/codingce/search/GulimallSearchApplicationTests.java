@@ -10,15 +10,16 @@ import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.xcontent.XContentType;
-import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
+import org.elasticsearch.search.aggregations.bucket.terms.TermsAggregationBuilder;
+import org.elasticsearch.search.aggregations.metrics.AvgAggregationBuilder;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import javax.naming.directory.SearchResult;
 import java.io.IOException;
 
 @SpringBootTest
@@ -37,7 +38,6 @@ class GulimallSearchApplicationTests {
      * Search API
      *
      * @throws IOException
-     *
      */
     @Test
     void searchData() throws IOException {
@@ -56,6 +56,17 @@ class GulimallSearchApplicationTests {
 
         searchSourceBuilder.query(QueryBuilders.matchQuery("address", "mill"));
         System.out.println(searchSourceBuilder.toString() + "searchSourceBuilder.toString()=======");
+
+        // 按照年龄的值分布进行聚合查询
+        TermsAggregationBuilder ageAgg = AggregationBuilders.terms("ageAgg")
+                .field("age").size(10);
+
+        searchSourceBuilder.aggregation(ageAgg);
+
+        // 计算平均薪资
+        AvgAggregationBuilder balanceAgv = AggregationBuilders.avg("balanceAvg").field("balance");
+        searchSourceBuilder.aggregation(balanceAgv);
+
 
         searchRequest.source(searchSourceBuilder);
 
