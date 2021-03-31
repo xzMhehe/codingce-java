@@ -11,7 +11,12 @@ import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.SearchHit;
+import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.aggregations.Aggregation;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
+import org.elasticsearch.search.aggregations.Aggregations;
+import org.elasticsearch.search.aggregations.bucket.terms.Terms;
 import org.elasticsearch.search.aggregations.bucket.terms.TermsAggregationBuilder;
 import org.elasticsearch.search.aggregations.metrics.AvgAggregationBuilder;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
@@ -64,8 +69,8 @@ class GulimallSearchApplicationTests {
         searchSourceBuilder.aggregation(ageAgg);
 
         // 计算平均薪资
-        AvgAggregationBuilder balanceAgv = AggregationBuilders.avg("balanceAvg").field("balance");
-        searchSourceBuilder.aggregation(balanceAgv);
+        AvgAggregationBuilder balanceAvg = AggregationBuilders.avg("balanceAvg").field("balance");
+        searchSourceBuilder.aggregation(balanceAvg);
 
 
         searchRequest.source(searchSourceBuilder);
@@ -76,6 +81,32 @@ class GulimallSearchApplicationTests {
         // 分析结果
 
         System.out.println(searchResponse.toString() + "======");
+
+//        Map map = JSON.parseObject(searchResponse.toString(), Map.class);
+        // 获取所有查到的数据
+        SearchHits hits = searchResponse.getHits();
+        SearchHit[] searchHits = hits.getHits();
+        for (SearchHit searchHit : searchHits) {
+//            searchHit.getIndex();
+            String source = searchHit.getSourceAsString();
+            Accout accout = JSON.parseObject(source, Accout.class);
+            System.out.println("accout: " + accout.toString());
+        }
+
+        // 获取这次的检索信息
+        Aggregations aggregations = searchResponse.getAggregations();
+//        for (Aggregation aggregation : aggregations.asList()) {
+//            System.out.println("当前聚合： " + aggregation.getName());
+//        }
+
+        Terms aggregation = aggregations.get("ageAgg");
+        for (Terms.Bucket bucket : aggregation.getBuckets()) {
+            System.out.println("年龄" + bucket.getKeyAsString() + "人数" + bucket.getDocCount());
+        }
+
+        Aggregation balanceAvg1 =   aggregations.get("balanceAvg");
+        System.out.println("平均薪资：" + balanceAvg1);
+
 
     }
 
@@ -102,9 +133,26 @@ class GulimallSearchApplicationTests {
 
     }
 
+
     @Data
     @AllArgsConstructor
-    class User {
+    public class Accout {
+        private int account_number;
+        private int balance;
+        private String firstname;
+        private String lastname;
+        private int age;
+        private String gender;
+        private String address;
+        private String employer;
+        private String email;
+        private String city;
+        private String state;
+    }
+
+    @Data
+    @AllArgsConstructor
+    public class User {
         private String userName;
         private String gender;
         private Integer age;
