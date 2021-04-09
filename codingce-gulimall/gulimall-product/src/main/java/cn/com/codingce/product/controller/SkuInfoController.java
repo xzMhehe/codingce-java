@@ -3,8 +3,10 @@ package cn.com.codingce.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import cn.com.codingce.product.service.SpuInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -27,8 +29,24 @@ import cn.com.codingce.common.utils.R;
 @RestController
 @RequestMapping("product/skuinfo")
 public class SkuInfoController {
+
+    @Autowired
+    private SpuInfoService spuInfoService;
+
     @Autowired
     private SkuInfoService skuInfoService;
+
+
+    //商品上架
+    ///product/spuinfo/{spuId}/up
+    @PostMapping(value = "/{spuId}/up")
+    public R spuUp(@PathVariable("spuId") Long spuId) {
+
+        spuInfoService.up(spuId);
+
+        return R.ok();
+    }
+
 
     /**
      * 列表

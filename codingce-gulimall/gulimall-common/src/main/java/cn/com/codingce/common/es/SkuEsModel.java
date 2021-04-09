@@ -5,6 +5,11 @@ import lombok.Data;
 import java.math.BigDecimal;
 import java.util.List;
 
+/**
+ * 传输对象，存储到es的数据
+ *
+ * @author williamma
+ */
 @Data
 public class SkuEsModel {
 
@@ -20,8 +25,14 @@ public class SkuEsModel {
 
     private Long saleCount;
 
+    /**
+     * 是否有库存
+     */
     private Boolean hasStock;
 
+    /**
+     * 热度
+     */
     private Long hotScore;
 
     private Long brandId;

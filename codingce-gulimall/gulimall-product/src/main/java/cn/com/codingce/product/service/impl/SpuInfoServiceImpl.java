@@ -353,6 +353,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
         } else {
             //远程调用失败
             //TODO 7、重复调用？接口幂等性:重试机制
+
         }
     }
 
