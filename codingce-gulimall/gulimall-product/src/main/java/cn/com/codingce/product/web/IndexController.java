@@ -35,6 +35,8 @@ public class IndexController {
         //1、查出所有的一级分类
         List<CategoryEntity> categoryEntities = categoryService.getLevel1Categories();
         model.addAttribute("categories", categoryEntities);
+        // 视图解析器进行拼串
+        // classpath:/tesmpletes/ + 返回值("index") +    .html
         return "index";
     }
 

@@ -192,7 +192,8 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
                     if (level3Catelog != null) {
                         List<Catelog2Vo.Catelog3Vo> category3Vos = level3Catelog.stream().map(l3 -> {
                             //2、封装成指定格式
-                            Catelog2Vo.Catelog3Vo category3Vo = new Catelog2Vo.Catelog3Vo(l2.getCatId().toString(), l3.getCatId().toString(), l3.getName());
+                            Catelog2Vo.Catelog3Vo category3Vo =
+                                    new Catelog2Vo.Catelog3Vo(l2.getCatId().toString(), l3.getCatId().toString(), l3.getName());
 
                             return category3Vo;
                         }).collect(Collectors.toList());
