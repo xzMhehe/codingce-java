@@ -1,4 +1,4 @@
-package cn.com.codingce.product.controller;
+package cn.com.codingce.product.app;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package cn.com.codingce.product.controller;
+package cn.com.codingce.product.app;
 
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.R;

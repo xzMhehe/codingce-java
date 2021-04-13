@@ -1,4 +1,4 @@
-package cn.com.codingce.product.controller;
+package cn.com.codingce.product.app;
 
 import java.util.Arrays;
 import java.util.List;
@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import cn.com.codingce.product.entity.AttrGroupEntity;
-import cn.com.codingce.product.service.AttrGroupService;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.R;
 

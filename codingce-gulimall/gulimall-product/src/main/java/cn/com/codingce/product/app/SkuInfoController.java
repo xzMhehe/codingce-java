@@ -1,9 +1,9 @@
-package cn.com.codingce.product.controller;
+package cn.com.codingce.product.app;
 
 import java.util.Arrays;
 import java.util.Map;
 
-import cn.com.codingce.product.vo.SpuSaveVo;
+import cn.com.codingce.product.service.SpuInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,29 +12,31 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.com.codingce.product.entity.SpuInfoEntity;
-import cn.com.codingce.product.service.SpuInfoService;
+import cn.com.codingce.product.entity.SkuInfoEntity;
+import cn.com.codingce.product.service.SkuInfoService;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.R;
 
 
+
 /**
- * spu信息
+ * sku信息
  *
  * @author codingce
  * @email codingce@gmail.com
  * @date 2021-01-29 12:45:39
  */
 @RestController
-@RequestMapping("product/spuinfo")
-public class SpuInfoController {
+@RequestMapping("product/skuinfo")
+public class SkuInfoController {
 
     @Autowired
     private SpuInfoService spuInfoService;
 
-    /**
-     * http://localhost:88/api/product/spuinfo/14/up
-     */
+    @Autowired
+    private SkuInfoService skuInfoService;
+
+
     //商品上架
     ///product/spuinfo/{spuId}/up
     @PostMapping(value = "/{spuId}/up")
@@ -46,14 +48,12 @@ public class SpuInfoController {
     }
 
 
-
     /**
      * 列表
      */
     @RequestMapping("/list")
-    public R list(@RequestParam Map<String, Object> params) {
-//        PageUtils page = spuInfoService.queryPage(params);
-        PageUtils page = spuInfoService.queryPageByCondition(params);
+    public R list(@RequestParam Map<String, Object> params){
+        PageUtils page = skuInfoService.queryPageCondition(params);
 
         return R.ok().put("page", page);
     }
@@ -62,21 +62,19 @@ public class SpuInfoController {
     /**
      * 信息
      */
-    @RequestMapping("/info/{id}")
-    public R info(@PathVariable("id") Long id) {
-        SpuInfoEntity spuInfo = spuInfoService.getById(id);
+    @RequestMapping("/info/{skuId}")
+    public R info(@PathVariable("skuId") Long skuId){
+		SkuInfoEntity skuInfo = skuInfoService.getById(skuId);
 
-        return R.ok().put("spuInfo", spuInfo);
+        return R.ok().put("skuInfo", skuInfo);
     }
 
     /**
      * 保存
      */
     @RequestMapping("/save")
-    public R save(@RequestBody SpuSaveVo vo) {
-//        spuInfoService.save(spuInfo);
-
-        spuInfoService.saveSpuInfo(vo);
+    public R save(@RequestBody SkuInfoEntity skuInfo){
+		skuInfoService.save(skuInfo);
 
         return R.ok();
     }
@@ -85,8 +83,8 @@ public class SpuInfoController {
      * 修改
      */
     @RequestMapping("/update")
-    public R update(@RequestBody SpuInfoEntity spuInfo) {
-        spuInfoService.updateById(spuInfo);
+    public R update(@RequestBody SkuInfoEntity skuInfo){
+		skuInfoService.updateById(skuInfo);
 
         return R.ok();
     }
@@ -95,8 +93,8 @@ public class SpuInfoController {
      * 删除
      */
     @RequestMapping("/delete")
-    public R delete(@RequestBody Long[] ids) {
-        spuInfoService.removeByIds(Arrays.asList(ids));
+    public R delete(@RequestBody Long[] skuIds){
+		skuInfoService.removeByIds(Arrays.asList(skuIds));
 
         return R.ok();
     }

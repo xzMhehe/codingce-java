@@ -1,4 +1,4 @@
-package cn.com.codingce.product.controller;
+package cn.com.codingce.product.app;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -10,32 +10,32 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.com.codingce.product.entity.SpuInfoDescEntity;
-import cn.com.codingce.product.service.SpuInfoDescService;
+import cn.com.codingce.product.entity.SpuImagesEntity;
+import cn.com.codingce.product.service.SpuImagesService;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.R;
 
 
 
 /**
- * spu信息介绍
+ * spu图片
  *
  * @author codingce
  * @email codingce@gmail.com
  * @date 2021-01-29 12:45:39
  */
 @RestController
-@RequestMapping("product/spuinfodesc")
-public class SpuInfoDescController {
+@RequestMapping("product/spuimages")
+public class SpuImagesController {
     @Autowired
-    private SpuInfoDescService spuInfoDescService;
+    private SpuImagesService spuImagesService;
 
     /**
      * 列表
      */
     @RequestMapping("/list")
     public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = spuInfoDescService.queryPage(params);
+        PageUtils page = spuImagesService.queryPage(params);
 
         return R.ok().put("page", page);
     }
@@ -44,19 +44,19 @@ public class SpuInfoDescController {
     /**
      * 信息
      */
-    @RequestMapping("/info/{spuId}")
-    public R info(@PathVariable("spuId") Long spuId){
-		SpuInfoDescEntity spuInfoDesc = spuInfoDescService.getById(spuId);
+    @RequestMapping("/info/{id}")
+    public R info(@PathVariable("id") Long id){
+		SpuImagesEntity spuImages = spuImagesService.getById(id);
 
-        return R.ok().put("spuInfoDesc", spuInfoDesc);
+        return R.ok().put("spuImages", spuImages);
     }
 
     /**
      * 保存
      */
     @RequestMapping("/save")
-    public R save(@RequestBody SpuInfoDescEntity spuInfoDesc){
-		spuInfoDescService.save(spuInfoDesc);
+    public R save(@RequestBody SpuImagesEntity spuImages){
+		spuImagesService.save(spuImages);
 
         return R.ok();
     }
@@ -65,8 +65,8 @@ public class SpuInfoDescController {
      * 修改
      */
     @RequestMapping("/update")
-    public R update(@RequestBody SpuInfoDescEntity spuInfoDesc){
-		spuInfoDescService.updateById(spuInfoDesc);
+    public R update(@RequestBody SpuImagesEntity spuImages){
+		spuImagesService.updateById(spuImages);
 
         return R.ok();
     }
@@ -75,8 +75,8 @@ public class SpuInfoDescController {
      * 删除
      */
     @RequestMapping("/delete")
-    public R delete(@RequestBody Long[] spuIds){
-		spuInfoDescService.removeByIds(Arrays.asList(spuIds));
+    public R delete(@RequestBody Long[] ids){
+		spuImagesService.removeByIds(Arrays.asList(ids));
 
         return R.ok();
     }

@@ -1,4 +1,4 @@
-package cn.com.codingce.product.controller;
+package cn.com.codingce.product.app;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -17,8 +17,6 @@ import cn.com.codingce.product.entity.BrandEntity;
 import cn.com.codingce.product.service.BrandService;
 import cn.com.codingce.common.utils.PageUtils;
 import cn.com.codingce.common.utils.R;
-
-import javax.validation.Valid;
 
 
 /**
