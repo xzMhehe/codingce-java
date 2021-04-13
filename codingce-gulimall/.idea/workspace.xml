@@ -1,649 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/022649c69d4df547861d434b3fba03e1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/55fbb8a6N64863ad3.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/56fc949bN303e2220.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/57e8babbNe482d777.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58004d6dN2927f0f7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58171918N852b09d5.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58171aa5N1db78d3a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58171aaeNa037a265.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58174114N2c0891f0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5817413fN89413626.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58174160N8b476d06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58174176Na66a232a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58174253N404b51d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5819582cN75553c9d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/582c1b70Nd6eebaf8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/582c1c53N04808535.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58414f7cN08bd0078.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/584d546eN0d0ae158.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/584d54ebN3849b669.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5852299fN1840f35a.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/585229bdNc20796ec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/585229bdNc20796ec.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58522b1bN916da74b.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58522b9dNf06d6f3d.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/585265d0Ndd205e6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/586dca91N13e0dbd9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/586dcbf6Neaed8efb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58be62b1N126a1f9f.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58d87003Nd0adfd9c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58de4423Ndcb46a1c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58f6c652N9c0d4316.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/58ffffd8N892ce4a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59060d71N4d1a4658.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/591ebe1cN166d2c52.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/591ebe24Nb8baeb70.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/591ebe2bN324c4010.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5923f3b6N8690b3e7.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59251deeN5daf7ec3.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5927ee7aN89f48ffd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5927ef42Nc91cffc7.jpg!cc_200x140" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5928f908N45ec28e3.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/592935aaNf9c009fe.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/592e3193Nd62486d2.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/592f6f19N8de94497.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/592f74e2N139a9e22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/592fb61bNa308c08f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/593ff4a3Nde9d79b0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5941f7ddNc733d12f.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59437174N541210b1.jpg!q90 (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59437174N541210b1.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5943d16aNa2b79d40.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/594737f8Na6453e6e.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5948b387N1e3bff83.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5948bb23N6da9eb71.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5949230eNc2fb7b61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5950ca4bN6ab3d2f8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5950ca84N9509b283.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5950cb54N467732a3.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5952193bN4b514c65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5953202dN0dc196bf.jpg!q90.webp (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5953202dN0dc196bf.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/595493f7Nacab54de.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/595b0181N2a89a23d.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5965c3ceN748ecfa7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59683495N4b2c0bee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/597944aeNd644dbd8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59805e0aNdbba0e5f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59812ef4N34736f09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/598182d7Ne0cdb795.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/598ab6bfNf3d43817.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59a38d6eNe9adf934.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59a51cafn0fec6121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59ad341eN5a961eb2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59b10968N0380c428.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59b26e7dN59707ce1.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59b6237aN5062a809.png!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59b6238cNbe9094c3.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59c1c15dNff3351e4.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59c38e02N4512c64f.jpg!q90 (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59c38e02N4512c64f.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59c4c8d8Ndb34ffd7.png!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59c86372Neaaa522e.jpg!q90 (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59c86372Neaaa522e.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59c869daN3b6aa827.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59c8be04Nbfb1adca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59dae84fN35ff9333.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59dc9ab5N372deac1.png!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59dd8e33Nd0cb79df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59e56045N56ae92f1.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59e5deffN82945fbf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59e96ce3N82a11ae2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59eab346N8cd17560.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59ed51ddN8eefe457.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59f00874N1918c111.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59f814e7N34bad14a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/59fabed5N20e06cc3.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a017f04Ndbaecd9a.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a017ffeN09d1ecc5.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a01802bN92b4d865.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a01805dN0bfd57b9.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a018083N3c20d3ba.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a02d06cN1e37012f.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0459f0N4fa7eca0.png!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a050212N96e12563.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0502a0Nf18e2c44.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a06b7b4Nc879eca0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a07d37cN7b4b1828.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a086aadNdd4a2d3d.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a086b2cN0353b2df.png!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a095387N0626036b.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a096cefN2295f4c5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a097363Nf5fb64a6.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0bae3dNd70d9115.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0bb299N382e74a9.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0bb29bN598fefa4.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0bb2b1N68588d19.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0bb2bcNc59b9ab7.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0be3d7N53b2eb31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0be40eN50f580c1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0c0f0aN31dfa288.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0ce692N1a6c1453.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0ced0cN5bb4e9aa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0cee74N9801714c (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0cee74N9801714c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0cf69eN35720550.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0cfffeNc95c4e70.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0d52f6N5bf1da85.png!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e3ab4N84732c2b.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e3b55Nb7a711ca.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e64f0N68973e71.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e6f98N95468341.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e7859N41cb7d3d.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e78afNae89c41c.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e78f1N91fdc907.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e7905N75694aea.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e7927N92955da4.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e794cNe723d8ea.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e96deN13f03769.png!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e9d5fNe8a30396.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e9d73Nc16f0a0d.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e9e25N12c45d0d.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e9e4eN3d592b05.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a0e9e7aNef8577dd.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a102cdcN7e693898.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a122dc9N5ecac6db.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a122e02Nff6d7d36 (1).jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a122e02Nff6d7d36.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1233b5Nb10b9cbc (1).jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1233b5Nb10b9cbc.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a123702Nd17543ed.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a124b62Na95768ed.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1273dbN740798e9.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1278e8Nb24df2b2.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1278f7N3e0b48e7.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a12a25fN96769d3c.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a137d70N84bdb566.png!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a138438N19d98566.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a13bf0bNe1606e58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a13bf0bNe1606e58.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a13c218N7c86dc71.jpg!cc_200x140" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a13c995N31b5dfd6.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a13cf44N3b96a07f.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a13d2c3Nc1d73d88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a13f30fN5ed4a260.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a14d244N753235ee.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a14d849Ne65b2700.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a14f104N35803b3a.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1530ceN68e342c0.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a153c78N587b6883.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a153de2Nf8b4fd68.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a154759N5385d5d6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a154759N5385d5d6.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a154c8dN4135f0ca.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a15541bNb9c925af.jpg!cc_200x140" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a155909Nfaeaff7d.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a155996N3069562f.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a155a78N9e390f90.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a155b66N1533832a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a162e07N716d0432.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1634a4Neabf70d5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1634c8N8d8d63d9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1635cfNafa92fcf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1645d7Nb450ea8f.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a166870N0df26ef0.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a16712eN5b12d2a1.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a167313N21417853.jpg!q90.webp (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a167313N21417853.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a167906N51dddb51.png!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a168352N61f45409.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1683e0N115c3304.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a168d1eN8d09a8b8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a169857N4adcec76.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a169882Nd454bf29.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1698b7Nd63c86ed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1698b7Nd63c86ed.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a16a1e9N0cdb8522.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a16a84fN6dc1786f.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a16a89bN7f527b23.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a16a944N782483e8.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a16a99fN4970f871.jpg!q90.webp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a176f84N5e5df987.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a176f84N5e5df987.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1775a6N2f1b3538.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a177937N733d5884.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a177b5dNf48fe985.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a177b92N9aef1a1a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a177bbdNc45996ee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a177c43N7a83454e.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a177c9fNe57ff54f.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a177d99Nd0347bf1.jpg!cc_200x140" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a178024N81864411.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a178209Ne2b3ec28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1783a8N7d7f6988.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a179689N6507744b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17b2c2Na8f437b9.jpg!cc_200x140" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17b56fNd535f5ec.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17c2c8N92fd685b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17c3feN9cd403e8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17cc40N54dc1b08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17cd2aN6a99aad7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17ced0Nc020e244 (1).jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17ced0Nc020e244.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17cf3fNf43c3ea8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17cf73Nf6d5c61a.jpg!q90 (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17cf73Nf6d5c61a.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17d1d0Nd648ae8b.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17d1d2Nac4c7ead.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17d5e7N220f95a8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17d9ceN8e7db1de.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e0b1Nf83f3d99.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e0b1Nf83f3d99.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e0ecN6276dd8c.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e192Nc92f6872.jpg!q90 (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e192Nc92f6872.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e385N091131b5.jpg!q90 (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e385N091131b5.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e3abNfc2ae745.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e3c1N8ff175c4.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e3e4N5d609546.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e425N6bebc06e.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e4a2N3e7d7612.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e4cdN54235936.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e4e8Ne29c2aa0.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e4f5N540cb3d0.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17e4f5Nc289bcdd.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17ec77Nd92f9470.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a17f8f5Nc7bae5ef.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1845e6Nc80084d7.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a185679N232e0154.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1997ddN6ef79ca4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1997f7Nc0bf5a6f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1a21dbN1f27e0e9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1ab2a1N3c4258e8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1ab2beN083922a3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1ab2d3N254ce6eb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1ab2ecNfae791f1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1ab314Ne65b27b0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1ab32bN2c6e8ebd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1b6757N8a831b02.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1b677bNe5a0a902.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1b83c7Nded9c556.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1e5ce2N034ce344.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/5a1e5ceaNecb55079.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/JD_ash10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/JD_ash11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/JD_ash12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/JD_ash13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/JD_ash14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/JD_ash6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/JD_ash7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/JD_ash9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/a9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/baitiao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/blank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/dianyingpiao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/ewm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/ewm1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/fa3f24a70d38bd439261cb7439e517a5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/foot (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/foot (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-center (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-center (2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-center (3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (10).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (100).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (11).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (12).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (13).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (14).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (15).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (16).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (17).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (18).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (19).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (20).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (21).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (22).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (23).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (24).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (25).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (26).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (27).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (28).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (29).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (3).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (30).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (31).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (32).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (33).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (34).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (35).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (36).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (37).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (38).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (39).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (4).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (40).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (41).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (42).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (43).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (44).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (45).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (46).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (47).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (48).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (49).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (5).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (50).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (51).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (52).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (53).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (54).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (55).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (56).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (57).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (58).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (59).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (6).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (60).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (61).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (62).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (63).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (64).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (65).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (66).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (67).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (68).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (69).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (7).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (70).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (71).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (72).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (73).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (74).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (75).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (76).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (77).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (78).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (79).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (8).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (80).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (81).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (82).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (83).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (84).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (85).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (86).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (87).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (88).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (89).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (9).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (90).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (91).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (92).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (93).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (94).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (95).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (96).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (97).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (98).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g-con (99).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/g9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gouwuche.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gts (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gts (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gts (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gts (4).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gts (5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gts (6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gts (7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/gts (8).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/huafei.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/huli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/huochepiao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/img_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/jiayouka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/jipiao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/jiudian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/left-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/licai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lipinka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/logo33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/logoggg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/lunbo8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n1.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n10.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n11.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n12.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n13.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n14.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n15.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n16.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n6.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n7.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/n9.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/no_login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/pt_qrcode@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/qianbao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/qiyegou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/rBEhU1NY5kQIAAAAAAIuB0gUCK0AAMZvAAdP2oAAi4f269.jpg!q90.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/right-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s1.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s10.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s11.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s13.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s14.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s15.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s16.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s6.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s7.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/s9.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/saved_resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/saved_resource(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_dayia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_dayib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_dayic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_kejia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_kejib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_kejic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_peijiana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_peijianb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_peijianc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_shoujia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_shoujib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_shoujic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_xiezia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_xiezib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_xiezic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_xiyia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_xiyib.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_center_list_xiyic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_left_list1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_left_list2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_left_list3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_left_list4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_left_list5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_left_list6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol(1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol(2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_baijiu (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_baijiu (2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_baijiu (3).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_baijiu (4).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_baijiu (5).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_baijiu (6).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_lingshi (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_lingshi (2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_lingshi (3).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_lingshi (4).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_lingshi (5).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_lingshi (6).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_mian (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_mian (2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_mian (3).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_mian (4).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_mian (5).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_mian (6).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (10).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (11).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (12).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (3).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (4).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (5).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (6).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (7).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (8).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_find_right_list_ul_ol_naifen (9).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_img (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_img (2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_img (3).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_left_list_img (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_left_list_img (2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_left_list_img (3).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_left_list_img (4).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_right_header_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_right_list (1).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_right_list (2).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_right_list (3).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_right_list (4).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_right_list (5).webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_ling_right_list.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_header_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_right_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/section_second_list_right_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/shi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/skygreen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/sprite_entrylive@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/sprite_fs@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/taoxin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/touxiang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/w1.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/w2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/w3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/w4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/w5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/w6.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/w7.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/w8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wg9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wl.js.下载" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/wo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/xiazai1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/xinxi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/y1.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/y2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/y3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/y4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/y5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/y6.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/y7.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/y8.jpg!q90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/youxi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/img/zhongchou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/catalogLoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/left,top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/secend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/swiper-3.4.2.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/swiper-3.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/static/index/js/zz.js" afterDir="false" />
+    <list default="true" id="f01b4c8a-3b52-49df-8fdf-c3dd1fe0eeec" name="Default Changelist" comment=":fire: 前台搭建">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1098,14 +456,7 @@
       <workItem from="1618208386639" duration="2710000" />
       <workItem from="1618223868237" duration="573000" />
       <workItem from="1618232613592" duration="634000" />
-      <workItem from="1618271761544" duration="4668000" />
-    </task>
-    <task id="LOCAL-00033" summary="A ware项目">
-      <created>1613633416922</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1613633416925</updated>
+      <workItem from="1618271761544" duration="4951000" />
     </task>
     <task id="LOCAL-00034" summary="A 前端项目">
       <created>1613789702819</created>
@@ -1443,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618277274503</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary=":fire: 前台搭建">
+      <created>1618277655378</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1618277655378</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1576,12 +934,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1611828830169" />
-    <state x="347" y="23" width="1061" height="785" key="CommitChangelistDialog2" timestamp="1618277274317">
+    <state x="347" y="23" width="1061" height="785" key="CommitChangelistDialog2" timestamp="1618277691263">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state x="347" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1617959325539" />
     <state x="462" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614865492422" />
-    <state x="347" y="23" width="1061" height="785" key="CommitChangelistDialog2/0.23.1440.785@0.23.1440.785" timestamp="1618277274317" />
+    <state x="347" y="23" width="1061" height="785" key="CommitChangelistDialog2/0.23.1440.785@0.23.1440.785" timestamp="1618277691263" />
     <state x="347" y="23" width="1039" height="789" key="CommitChangelistDialog2/0.23.1440.789@0.23.1440.789" timestamp="1617157510028" />
     <state x="462" y="147" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1614562815099" />
     <state x="0" y="23" width="1440" height="785" key="DiffContextDialog" timestamp="1618276807894">
@@ -1595,75 +953,75 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613895933226" />
-    <state width="981" height="344" key="GridCell.Tab.0.bottom" timestamp="1618277540068">
+    <state width="981" height="344" key="GridCell.Tab.0.bottom" timestamp="1618277665621">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state width="981" height="504" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618220503132" />
     <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="981" height="344" key="GridCell.Tab.0.bottom/0.23.1440.785@0.23.1440.785" timestamp="1618277540068" />
+    <state width="981" height="344" key="GridCell.Tab.0.bottom/0.23.1440.785@0.23.1440.785" timestamp="1618277665621" />
     <state width="980" height="150" key="GridCell.Tab.0.bottom/0.23.1440.789@0.23.1440.789" timestamp="1617162320037" />
     <state width="1013" height="337" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1615171241425" />
     <state width="1505" height="337" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="981" height="344" key="GridCell.Tab.0.center" timestamp="1618277540067">
+    <state width="981" height="344" key="GridCell.Tab.0.center" timestamp="1618277665620">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state width="981" height="504" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1618220503131" />
     <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="981" height="344" key="GridCell.Tab.0.center/0.23.1440.785@0.23.1440.785" timestamp="1618277540067" />
+    <state width="981" height="344" key="GridCell.Tab.0.center/0.23.1440.785@0.23.1440.785" timestamp="1618277665620" />
     <state width="980" height="150" key="GridCell.Tab.0.center/0.23.1440.789@0.23.1440.789" timestamp="1617162320037" />
     <state width="1013" height="337" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1615171241424" />
     <state width="1505" height="337" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="981" height="344" key="GridCell.Tab.0.left" timestamp="1618277540067">
+    <state width="981" height="344" key="GridCell.Tab.0.left" timestamp="1618277665619">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state width="981" height="504" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1618220503131" />
     <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="981" height="344" key="GridCell.Tab.0.left/0.23.1440.785@0.23.1440.785" timestamp="1618277540067" />
+    <state width="981" height="344" key="GridCell.Tab.0.left/0.23.1440.785@0.23.1440.785" timestamp="1618277665619" />
     <state width="980" height="150" key="GridCell.Tab.0.left/0.23.1440.789@0.23.1440.789" timestamp="1617162320036" />
     <state width="1013" height="337" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1615171241423" />
     <state width="1505" height="337" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1614902486342" />
-    <state width="981" height="344" key="GridCell.Tab.0.right" timestamp="1618277540068">
+    <state width="981" height="344" key="GridCell.Tab.0.right" timestamp="1618277665620">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state width="981" height="504" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1618220503132" />
     <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879031" />
-    <state width="981" height="344" key="GridCell.Tab.0.right/0.23.1440.785@0.23.1440.785" timestamp="1618277540068" />
+    <state width="981" height="344" key="GridCell.Tab.0.right/0.23.1440.785@0.23.1440.785" timestamp="1618277665620" />
     <state width="980" height="150" key="GridCell.Tab.0.right/0.23.1440.789@0.23.1440.789" timestamp="1617162320037" />
     <state width="1013" height="337" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1615171241425" />
     <state width="1505" height="337" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="981" height="344" key="GridCell.Tab.1.bottom" timestamp="1618277540069">
+    <state width="981" height="344" key="GridCell.Tab.1.bottom" timestamp="1618277665657">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state width="981" height="504" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1618220503133" />
     <state width="1455" height="493" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
-    <state width="981" height="344" key="GridCell.Tab.1.bottom/0.23.1440.785@0.23.1440.785" timestamp="1618277540069" />
+    <state width="981" height="344" key="GridCell.Tab.1.bottom/0.23.1440.785@0.23.1440.785" timestamp="1618277665657" />
     <state width="980" height="150" key="GridCell.Tab.1.bottom/0.23.1440.789@0.23.1440.789" timestamp="1617162320038" />
     <state width="1013" height="337" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1615171241427" />
     <state width="1505" height="337" key="GridCell.Tab.1.bottom/0.23.1920.979@0.23.1920.979" timestamp="1614902486344" />
-    <state width="981" height="344" key="GridCell.Tab.1.center" timestamp="1618277540069">
+    <state width="981" height="344" key="GridCell.Tab.1.center" timestamp="1618277665622">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state width="981" height="504" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1618220503133" />
     <state width="1455" height="493" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
-    <state width="981" height="344" key="GridCell.Tab.1.center/0.23.1440.785@0.23.1440.785" timestamp="1618277540069" />
+    <state width="981" height="344" key="GridCell.Tab.1.center/0.23.1440.785@0.23.1440.785" timestamp="1618277665622" />
     <state width="980" height="150" key="GridCell.Tab.1.center/0.23.1440.789@0.23.1440.789" timestamp="1617162320037" />
     <state width="1013" height="337" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1615171241426" />
     <state width="1505" height="337" key="GridCell.Tab.1.center/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="981" height="344" key="GridCell.Tab.1.left" timestamp="1618277540068">
+    <state width="981" height="344" key="GridCell.Tab.1.left" timestamp="1618277665621">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state width="981" height="504" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1618220503132" />
     <state width="1455" height="493" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
-    <state width="981" height="344" key="GridCell.Tab.1.left/0.23.1440.785@0.23.1440.785" timestamp="1618277540068" />
+    <state width="981" height="344" key="GridCell.Tab.1.left/0.23.1440.785@0.23.1440.785" timestamp="1618277665621" />
     <state width="980" height="150" key="GridCell.Tab.1.left/0.23.1440.789@0.23.1440.789" timestamp="1617162320037" />
     <state width="1013" height="337" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1615171241426" />
     <state width="1505" height="337" key="GridCell.Tab.1.left/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
-    <state width="981" height="344" key="GridCell.Tab.1.right" timestamp="1618277540069">
+    <state width="981" height="344" key="GridCell.Tab.1.right" timestamp="1618277665657">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state width="981" height="504" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1618220503133" />
     <state width="1455" height="493" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614582879027" />
-    <state width="981" height="344" key="GridCell.Tab.1.right/0.23.1440.785@0.23.1440.785" timestamp="1618277540069" />
+    <state width="981" height="344" key="GridCell.Tab.1.right/0.23.1440.785@0.23.1440.785" timestamp="1618277665657" />
     <state width="980" height="150" key="GridCell.Tab.1.right/0.23.1440.789@0.23.1440.789" timestamp="1617162320038" />
     <state width="1013" height="337" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1615171241427" />
     <state width="1505" height="337" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1614902486343" />
@@ -1709,12 +1067,12 @@
     </state>
     <state width="500" height="476" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1617958808617" />
     <state width="509" height="456" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1613626059710" />
-    <state x="414" y="216" key="Vcs.Push.Dialog.v2" timestamp="1618276841088">
+    <state x="414" y="216" key="Vcs.Push.Dialog.v2" timestamp="1618277700893">
       <screen x="0" y="23" width="1440" height="785" />
     </state>
     <state x="414" y="221" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1617959332418" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614408437726" />
-    <state x="414" y="216" key="Vcs.Push.Dialog.v2/0.23.1440.785@0.23.1440.785" timestamp="1618276841088" />
+    <state x="414" y="216" key="Vcs.Push.Dialog.v2/0.23.1440.785@0.23.1440.785" timestamp="1618277700893" />
     <state x="414" y="217" key="Vcs.Push.Dialog.v2/0.23.1440.789@0.23.1440.789" timestamp="1617166125770" />
     <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1614562819968" />
     <state x="566" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617103382051">
