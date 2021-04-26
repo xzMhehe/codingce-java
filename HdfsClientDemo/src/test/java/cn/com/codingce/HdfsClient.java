@@ -74,4 +74,23 @@ public class HdfsClient {
         fs.close();
     }
 
+    /**
+     * HDFS 文件更名和移动
+     *
+     * @throws IOException
+     * @throws InterruptedException
+     * @throws URISyntaxException
+     */
+    @Test
+    public void testRename() throws IOException, InterruptedException,
+            URISyntaxException{
+        // 1 获取文件系统
+        Configuration configuration = new Configuration();
+        FileSystem fs = FileSystem.get(new URI("hdfs://hadoop102:8020"),
+                configuration, "codincge");
+        // 2 修改文件名称
+        fs.rename(new Path("/xiyou/huaguoshan/hello.txt"), new Path("/xiyou/huaguoshan/meihouwang.txt"));
+        // 3 关闭资源
+        fs.close(); }
+
 }
