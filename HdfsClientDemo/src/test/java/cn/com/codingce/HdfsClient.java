@@ -2,6 +2,7 @@ package cn.com.codingce;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.BlockLocation;
+import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.LocatedFileStatus;
 import org.apache.hadoop.fs.Path;
@@ -120,7 +121,7 @@ public class HdfsClient {
 
     /**
      * HDFS 文件详情查看
-     *
+     * <p>
      * 查看文件名称、权限、长度、块信息
      *
      * @throws IOException
@@ -150,6 +151,34 @@ public class HdfsClient {
             // 获取块信息
             BlockLocation[] blockLocations = fileStatus.getBlockLocations();
             System.out.println(Arrays.toString(blockLocations));
+        }
+        // 3 关闭资源
+        fs.close();
+    }
+
+    /**
+     * HDFS 文件和文件夹判断
+     *
+     * @throws IOException
+     * @throws InterruptedException
+     * @throws URISyntaxException
+     */
+    @Test
+    public void testListStatus() throws IOException, InterruptedException,
+            URISyntaxException {
+        // 1 获取文件配置信息
+        Configuration configuration = new Configuration();
+        FileSystem fs = FileSystem.get(new URI("hdfs://hadoop102:8020"),
+                configuration, "codingce");
+        // 2 判断是文件还是文件夹
+        FileStatus[] listStatus = fs.listStatus(new Path("/"));
+        for (FileStatus fileStatus : listStatus) {
+            // 如果是文件
+            if (fileStatus.isFile()) {
+                System.out.println("f:" + fileStatus.getPath().getName());
+            } else {
+                System.out.println("d:" + fileStatus.getPath().getName());
+            }
         }
         // 3 关闭资源
         fs.close();
