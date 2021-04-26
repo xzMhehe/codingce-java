@@ -83,7 +83,7 @@ public class HdfsClient {
      */
     @Test
     public void testRename() throws IOException, InterruptedException,
-            URISyntaxException{
+            URISyntaxException {
         // 1 获取文件系统
         Configuration configuration = new Configuration();
         FileSystem fs = FileSystem.get(new URI("hdfs://hadoop102:8020"),
@@ -91,6 +91,27 @@ public class HdfsClient {
         // 2 修改文件名称
         fs.rename(new Path("/xiyou/huaguoshan/hello.txt"), new Path("/xiyou/huaguoshan/meihouwang.txt"));
         // 3 关闭资源
-        fs.close(); }
+        fs.close();
+    }
+
+    /**
+     * HDFS 删除文件和目录
+     *
+     * @throws IOException
+     * @throws InterruptedException
+     * @throws URISyntaxException
+     */
+    @Test
+    public void testDelete() throws IOException, InterruptedException,
+            URISyntaxException {
+        // 1 获取文件系统
+        Configuration configuration = new Configuration();
+        FileSystem fs = FileSystem.get(new URI("hdfs://hadoop102:8020"),
+                configuration, "codingce");
+        // 2 执行删除
+        fs.delete(new Path("/xiyou"), true);
+        // 3 关闭资源
+        fs.close();
+    }
 
 }
