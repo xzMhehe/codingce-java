@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>显示</title>
+</head>
+<body>
+   <table border="1">
+       <thead>
+         <tr>
+             <td>文件名称</td>
+             <td>上传日期</td>
+             <td>文件大小</td>
+             <td>操作</td>
+         </tr>
+       </thead>
+       <tbody>
+           <tr th:each="file:${list}">
+               <td th:text="${file.name}"></td>
+               <td th:text="${file.date}"></td>
+               <td th:text="${file.size}"></td>
+               <td>
+                   <a th:href="@{'/deleteFile/'+${file.name}}" onclick="return confirm('是否删除?')">删除</a>
+                   |
+                   <a th:href="@{'/download/'+${file.name}}">下载</a>
+               </td>
+           </tr>
+       </tbody>
+   </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
