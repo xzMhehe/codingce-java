@@ -20,6 +20,7 @@ import java.io.IOException;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FlowBean implements Writable {
+
     //1 继承 Writable 接口
     private long upFlow; //上行流量
     private long downFlow; //下行流量

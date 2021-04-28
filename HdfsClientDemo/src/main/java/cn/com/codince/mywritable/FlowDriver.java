@@ -18,11 +18,14 @@ import java.io.IOException;
 public class FlowDriver {
     public static void main(String[] args) throws IOException,
             ClassNotFoundException, InterruptedException {
+
         //解决org.apache.hadoop.security.AccessControlException: Permission denied: user异常解决方法
-        System.setProperty("HADOOP_USER_NAME","codingce");
+        System.setProperty("HADOOP_USER_NAME", "codingce");
+
         //1 获取 job 对象
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf);
+
         //2 关联本 Driver 类
         job.setJarByClass(FlowDriver.class);
 
