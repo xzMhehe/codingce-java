@@ -49,7 +49,7 @@ public class HdfsClient {
         configuration.set("dfs.replication", "2");
         FileSystem fs = FileSystem.get(new URI("hdfs://hadoop102:8020"),
                 configuration, "codingce"); // 2 上传文件
-        fs.copyFromLocalFile(new Path("/Users/williamma/mxz_code/github/hello.txt"), new Path("/xiyou/huaguoshan"));
+        fs.copyFromLocalFile(new Path("/Users/williamma/mxz_code/github/phone_data.txt"), new Path("/inputflow"));
         // 3 关闭资源
         fs.close();
     }

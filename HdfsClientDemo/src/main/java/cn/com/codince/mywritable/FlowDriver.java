@@ -43,7 +43,7 @@ public class FlowDriver {
 
 
         //6 设置程序的输入输出路径
-        FileInputFormat.setInputPaths(job, new Path("hdfs://139.9.34.48:8020/inputflow"));
+        FileInputFormat.setInputPaths(job, new Path("/Users/williamma/mxz_code/github/phone_data.txt"));
         FileOutputFormat.setOutputPath(job, new Path("hdfs://139.9.34.48:8020/flowoutput"));
 
         //7 提交 Job

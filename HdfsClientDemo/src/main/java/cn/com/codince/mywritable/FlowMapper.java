@@ -12,6 +12,7 @@ import java.io.IOException;
  * @author williamma
  */
 public class FlowMapper extends Mapper<LongWritable, Text, Text, FlowBean> {
+
     private Text outK = new Text();
     private FlowBean outV = new FlowBean();
 
@@ -22,7 +23,10 @@ public class FlowMapper extends Mapper<LongWritable, Text, Text, FlowBean> {
         //1 获取一行数据,转成字符串
         String line = value.toString();
 
-        //2 切割数据
+        //7 13560436666 120.196.100.99 1116 954 200
+        System.out.println("字符串" + line);
+
+        //2 切割数据       注意 \t
         String[] split = line.split("\t");
 
         //3 抓取我们需要的数据:手机号,上行流量,下行流量
