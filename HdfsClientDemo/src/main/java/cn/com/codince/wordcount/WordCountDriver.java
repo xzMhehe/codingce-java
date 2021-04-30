@@ -21,7 +21,8 @@ import java.io.IOException;
  */
 public class WordCountDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
-
+        //解决org.apache.hadoop.security.AccessControlException: Permission denied: user异常解决方法
+        System.setProperty("HADOOP_USER_NAME", "codingce");
         // 获取文件系统
         Configuration configuration = new Configuration();
         // FileSystem fs = FileSystem.get(new URI("hdfs://hadoop102:8020"), configuration);
@@ -40,12 +41,14 @@ public class WordCountDriver {
         // 4 设置 Mapper 输出的 kv 类型
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
+
         // 5 设置最终输出 kv 类型
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
+
         // 6 设置输入和输出路径
-        FileInputFormat.setInputPaths(job, new Path("hdfs://139.9.34.48:8020/user/codingce/wcinput"));
-        FileOutputFormat.setOutputPath(job, new Path("hdfs://139.9.34.48:8020/user/codingce/wcoutput"));
+        FileInputFormat.setInputPaths(job, new Path("/Users/williamma/Downloads/wordcount.txt"));
+        FileOutputFormat.setOutputPath(job, new Path("hdfs://139.9.34.48:8020/wc/result"));
 //        FileInputFormat.setInputPaths(job, new Path(args[0]));
 //        FileOutputFormat.setOutputPath(job, new Path(args[1]));
         // 7 提交 job

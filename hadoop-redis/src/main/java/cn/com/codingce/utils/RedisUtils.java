@@ -10,6 +10,7 @@ import java.util.Set;
 //redis工具类
 @Service
 public class RedisUtils {
+
     @Autowired
     private StringRedisTemplate template;
 
