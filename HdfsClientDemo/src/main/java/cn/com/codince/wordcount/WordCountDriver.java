@@ -47,7 +47,7 @@ public class WordCountDriver {
         job.setOutputValueClass(IntWritable.class);
 
         // 6 设置输入和输出路径
-        FileInputFormat.setInputPaths(job, new Path("/Users/williamma/Downloads/wordcount.txt"));
+        FileInputFormat.setInputPaths(job, new Path("hdfs://139.9.34.48:8020/wc/wordcount.txt"));
         FileOutputFormat.setOutputPath(job, new Path("hdfs://139.9.34.48:8020/wc/result"));
 //        FileInputFormat.setInputPaths(job, new Path(args[0]));
 //        FileOutputFormat.setOutputPath(job, new Path(args[1]));

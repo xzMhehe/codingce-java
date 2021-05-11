@@ -1,4 +1,4 @@
-package cn.com.codince.hbapi;
+package cn.com.codingce.hbdemo;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.Cell;
