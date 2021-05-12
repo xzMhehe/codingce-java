@@ -33,7 +33,8 @@ public class TestApi_2 {
     public static void main(String[] args) throws IOException {
 
 //        dropTable("codingce:student");
-        createTable("user", "info");
+//        createTable("user", "info");
+        getAllRows("codingce:student");
     }
 
     //获取 Configuration 对象
@@ -207,13 +208,21 @@ public class TestApi_2 {
         hTable.close();
     }
 
-    //获取所有数据
+    /**
+     * 获取所有数据
+     *
+     * @param tableName
+     * @throws IOException
+     */
     public static void getAllRows(String tableName) throws IOException {
-        HTable hTable = new HTable(conf, tableName);
+
+        Connection connection = getConnection();
+        Table table = connection.getTable(TableName.valueOf(tableName));
+
         //得到用于扫描 region 的对象
         Scan scan = new Scan();
         //使用 HTable 得到 resultcanner 实现类的对象
-        ResultScanner resultScanner = hTable.getScanner(scan);
+        ResultScanner resultScanner = table.getScanner(scan);
         for (Result result : resultScanner) {
             Cell[] cells = result.rawCells();
             for (Cell cell : cells) {
@@ -226,9 +235,18 @@ public class TestApi_2 {
         }
     }
 
-    //获取某一行数据
+    /**
+     * 获取某一行数据
+     *
+     * @param tableName
+     * @param rowKey
+     * @throws IOException
+     */
     public static void getRow(String tableName, String rowKey) throws IOException {
-        HTable table = new HTable(conf, tableName);
+        Connection connection = getConnection();
+
+        Table table = connection.getTable(TableName.valueOf(tableName));
+
         Get get = new Get(Bytes.toBytes(rowKey));
         //get.setMaxVersions();显示所有版本
         //get.setTimeStamp();显示指定时间戳的版本
