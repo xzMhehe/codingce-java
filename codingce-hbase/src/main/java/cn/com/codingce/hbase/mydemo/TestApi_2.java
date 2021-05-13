@@ -1,4 +1,4 @@
-package cn.com.codingce.hbdemo;
+package cn.com.codingce.hbase.mydemo;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.Cell;
@@ -16,7 +16,6 @@ import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.Delete;
 import org.apache.hadoop.hbase.client.Get;
-import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.client.ResultScanner;
@@ -28,6 +27,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 1.4.2 版本写法
+ *
+ * @author williamma
+ */
 public class TestApi_2 {
 
     public static void main(String[] args) throws IOException {
@@ -198,14 +202,15 @@ public class TestApi_2 {
      * @throws IOException
      */
     public static void deleteMultiRow(String tableName, String... rows) throws IOException {
-        HTable hTable = new HTable(conf, tableName);
+        Connection connection = getConnection();
+        Table table = connection.getTable(TableName.valueOf(tableName));
         List<Delete> deleteList = new ArrayList<Delete>();
         for (String row : rows) {
             Delete delete = new Delete(Bytes.toBytes(row));
             deleteList.add(delete);
         }
-        hTable.delete(deleteList);
-        hTable.close();
+        table.delete(deleteList);
+        table.close();
     }
 
     /**

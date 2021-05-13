@@ -1,4 +1,4 @@
-package cn.com.codingce.hbdemo;
+package cn.com.codingce.hbase.mydemo;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.Cell;
@@ -22,6 +22,11 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 
+/**
+ * 1.4.2 版本写法
+ *
+ * @author williamma
+ */
 public class TestApi_1 {
 
     public static Configuration conf;
