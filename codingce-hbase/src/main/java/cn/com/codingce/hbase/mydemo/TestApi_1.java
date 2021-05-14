@@ -70,15 +70,15 @@ public class TestApi_1 {
         }
 
         //判断hbase中是否存在某张表
-        TableName tableName = TableName.valueOf("codingce:student");
+        TableName tableName = TableName.valueOf("codingce:user");
         boolean b = admin.tableExists(tableName);
-        System.out.println("判断hbase中是否存在某张表: codingce:student" + b);
+        System.out.println("判断hbase中是否存在某张表: codingce:user" + " 是否存在：" + b);
 
         if (b) {
             //查询数据
             //获取指定表对象
             Table table = connection.getTable(tableName);
-            String rowkey = "1003";
+            String rowkey = "1006";
             //注意字符编码问题
             //Get get = new Get(rowkey.getBytes());
             Get get = new Get(Bytes.toBytes(rowkey));
@@ -91,9 +91,24 @@ public class TestApi_1 {
                 //新增数据
                 Put put = new Put(Bytes.toBytes(rowkey));
                 String family = "info";
-                String column = "name";
-                String val = "后端码匠";
+
+                String column = "sex";
+                String val = "male";
+                String column1 = "name";
+                String val1 = "Mike";
+                String column2 = "age";
+                String val2 = "18";
+                String column3 = "username";
+                String val3 = "adminS";
+                String column4 = " ";
+                String val4 = "password";
+
                 put.addColumn(Bytes.toBytes(family), Bytes.toBytes(column), Bytes.toBytes(val));
+                put.addColumn(Bytes.toBytes(family), Bytes.toBytes(column1), Bytes.toBytes(val1));
+                put.addColumn(Bytes.toBytes(family), Bytes.toBytes(column2), Bytes.toBytes(val2));
+                put.addColumn(Bytes.toBytes(family), Bytes.toBytes(column3), Bytes.toBytes(val3));
+                put.addColumn(Bytes.toBytes(family), Bytes.toBytes(column4), Bytes.toBytes(val4));
+
                 table.put(put);
                 System.out.println("增加数据。。。");
             } else {
