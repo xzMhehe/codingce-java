@@ -19,7 +19,7 @@ public final class User {
     /**
      * <code>required string username = 1;</code>
      */
-    String getUsername();
+    java.lang.String getUsername();
     /**
      * <code>required string username = 1;</code>
      */
@@ -34,7 +34,7 @@ public final class User {
     /**
      * <code>required string password = 2;</code>
      */
-    String getPassword();
+    java.lang.String getPassword();
     /**
      * <code>required string password = 2;</code>
      */
@@ -64,7 +64,7 @@ public final class User {
     }
 
     private final com.google.protobuf.UnknownFieldSet unknownFields;
-    @Override
+    @java.lang.Override
     public final com.google.protobuf.UnknownFieldSet
         getUnknownFields() {
       return this.unknownFields;
@@ -116,14 +116,14 @@ public final class User {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return User.internal_static_cn_com_codingce_hbase_UserDetail_descriptor;
+      return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_UserDetail_descriptor;
     }
 
-    protected FieldAccessorTable
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return User.internal_static_cn_com_codingce_hbase_UserDetail_fieldAccessorTable
+      return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_UserDetail_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              UserDetail.class, Builder.class);
+              cn.com.codingce.hbase.User.UserDetail.class, cn.com.codingce.hbase.User.UserDetail.Builder.class);
     }
 
     public static com.google.protobuf.Parser<UserDetail> PARSER =
@@ -136,7 +136,7 @@ public final class User {
       }
     };
 
-    @Override
+    @java.lang.Override
     public com.google.protobuf.Parser<UserDetail> getParserForType() {
       return PARSER;
     }
@@ -144,7 +144,7 @@ public final class User {
     private int bitField0_;
     // required string username = 1;
     public static final int USERNAME_FIELD_NUMBER = 1;
-    private Object username_;
+    private java.lang.Object username_;
     /**
      * <code>required string username = 1;</code>
      */
@@ -154,14 +154,14 @@ public final class User {
     /**
      * <code>required string username = 1;</code>
      */
-    public String getUsername() {
-      Object ref = username_;
-      if (ref instanceof String) {
-        return (String) ref;
+    public java.lang.String getUsername() {
+      java.lang.Object ref = username_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
-        String s = bs.toStringUtf8();
+        java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
           username_ = s;
         }
@@ -173,11 +173,11 @@ public final class User {
      */
     public com.google.protobuf.ByteString
         getUsernameBytes() {
-      Object ref = username_;
-      if (ref instanceof String) {
+      java.lang.Object ref = username_;
+      if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
-                (String) ref);
+                (java.lang.String) ref);
         username_ = b;
         return b;
       } else {
@@ -187,7 +187,7 @@ public final class User {
 
     // required string password = 2;
     public static final int PASSWORD_FIELD_NUMBER = 2;
-    private Object password_;
+    private java.lang.Object password_;
     /**
      * <code>required string password = 2;</code>
      */
@@ -197,14 +197,14 @@ public final class User {
     /**
      * <code>required string password = 2;</code>
      */
-    public String getPassword() {
-      Object ref = password_;
-      if (ref instanceof String) {
-        return (String) ref;
+    public java.lang.String getPassword() {
+      java.lang.Object ref = password_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
-        String s = bs.toStringUtf8();
+        java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
           password_ = s;
         }
@@ -216,11 +216,11 @@ public final class User {
      */
     public com.google.protobuf.ByteString
         getPasswordBytes() {
-      Object ref = password_;
-      if (ref instanceof String) {
+      java.lang.Object ref = password_;
+      if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
-                (String) ref);
+                (java.lang.String) ref);
         password_ = b;
         return b;
       } else {
@@ -281,59 +281,59 @@ public final class User {
     }
 
     private static final long serialVersionUID = 0L;
-    @Override
-    protected Object writeReplace()
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
         throws java.io.ObjectStreamException {
       return super.writeReplace();
     }
 
-    public static UserDetail parseFrom(
+    public static cn.com.codingce.hbase.User.UserDetail parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static UserDetail parseFrom(
+    public static cn.com.codingce.hbase.User.UserDetail parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static UserDetail parseFrom(byte[] data)
+    public static cn.com.codingce.hbase.User.UserDetail parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static UserDetail parseFrom(
+    public static cn.com.codingce.hbase.User.UserDetail parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static UserDetail parseFrom(java.io.InputStream input)
+    public static cn.com.codingce.hbase.User.UserDetail parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static UserDetail parseFrom(
+    public static cn.com.codingce.hbase.User.UserDetail parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseFrom(input, extensionRegistry);
     }
-    public static UserDetail parseDelimitedFrom(java.io.InputStream input)
+    public static cn.com.codingce.hbase.User.UserDetail parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input);
     }
-    public static UserDetail parseDelimitedFrom(
+    public static cn.com.codingce.hbase.User.UserDetail parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return PARSER.parseDelimitedFrom(input, extensionRegistry);
     }
-    public static UserDetail parseFrom(
+    public static cn.com.codingce.hbase.User.UserDetail parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return PARSER.parseFrom(input);
     }
-    public static UserDetail parseFrom(
+    public static cn.com.codingce.hbase.User.UserDetail parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -342,14 +342,14 @@ public final class User {
 
     public static Builder newBuilder() { return Builder.create(); }
     public Builder newBuilderForType() { return newBuilder(); }
-    public static Builder newBuilder(UserDetail prototype) {
+    public static Builder newBuilder(cn.com.codingce.hbase.User.UserDetail prototype) {
       return newBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() { return newBuilder(this); }
 
-    @Override
+    @java.lang.Override
     protected Builder newBuilderForType(
-        BuilderParent parent) {
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
       Builder builder = new Builder(parent);
       return builder;
     }
@@ -358,17 +358,17 @@ public final class User {
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder>
-       implements UserDetailOrBuilder {
+       implements cn.com.codingce.hbase.User.UserDetailOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return User.internal_static_cn_com_codingce_hbase_UserDetail_descriptor;
+        return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_UserDetail_descriptor;
       }
 
-      protected FieldAccessorTable
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return User.internal_static_cn_com_codingce_hbase_UserDetail_fieldAccessorTable
+        return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_UserDetail_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                UserDetail.class, Builder.class);
+                cn.com.codingce.hbase.User.UserDetail.class, cn.com.codingce.hbase.User.UserDetail.Builder.class);
       }
 
       // Construct using cn.com.codingce.hbase.User.UserDetail.newBuilder()
@@ -377,7 +377,7 @@ public final class User {
       }
 
       private Builder(
-          BuilderParent parent) {
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
         super(parent);
         maybeForceBuilderInitialization();
       }
@@ -404,23 +404,23 @@ public final class User {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return User.internal_static_cn_com_codingce_hbase_UserDetail_descriptor;
+        return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_UserDetail_descriptor;
       }
 
-      public UserDetail getDefaultInstanceForType() {
-        return UserDetail.getDefaultInstance();
+      public cn.com.codingce.hbase.User.UserDetail getDefaultInstanceForType() {
+        return cn.com.codingce.hbase.User.UserDetail.getDefaultInstance();
       }
 
-      public UserDetail build() {
-        UserDetail result = buildPartial();
+      public cn.com.codingce.hbase.User.UserDetail build() {
+        cn.com.codingce.hbase.User.UserDetail result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public UserDetail buildPartial() {
-        UserDetail result = new UserDetail(this);
+      public cn.com.codingce.hbase.User.UserDetail buildPartial() {
+        cn.com.codingce.hbase.User.UserDetail result = new cn.com.codingce.hbase.User.UserDetail(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
@@ -437,16 +437,16 @@ public final class User {
       }
 
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof UserDetail) {
-          return mergeFrom((UserDetail)other);
+        if (other instanceof cn.com.codingce.hbase.User.UserDetail) {
+          return mergeFrom((cn.com.codingce.hbase.User.UserDetail)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(UserDetail other) {
-        if (other == UserDetail.getDefaultInstance()) return this;
+      public Builder mergeFrom(cn.com.codingce.hbase.User.UserDetail other) {
+        if (other == cn.com.codingce.hbase.User.UserDetail.getDefaultInstance()) return this;
         if (other.hasUsername()) {
           bitField0_ |= 0x00000001;
           username_ = other.username_;
@@ -477,11 +477,11 @@ public final class User {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        UserDetail parsedMessage = null;
+        cn.com.codingce.hbase.User.UserDetail parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (UserDetail) e.getUnfinishedMessage();
+          parsedMessage = (cn.com.codingce.hbase.User.UserDetail) e.getUnfinishedMessage();
           throw e;
         } finally {
           if (parsedMessage != null) {
@@ -493,7 +493,7 @@ public final class User {
       private int bitField0_;
 
       // required string username = 1;
-      private Object username_ = "";
+      private java.lang.Object username_ = "";
       /**
        * <code>required string username = 1;</code>
        */
@@ -503,15 +503,15 @@ public final class User {
       /**
        * <code>required string username = 1;</code>
        */
-      public String getUsername() {
-        Object ref = username_;
-        if (!(ref instanceof String)) {
-          String s = ((com.google.protobuf.ByteString) ref)
+      public java.lang.String getUsername() {
+        java.lang.Object ref = username_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
               .toStringUtf8();
           username_ = s;
           return s;
         } else {
-          return (String) ref;
+          return (java.lang.String) ref;
         }
       }
       /**
@@ -519,11 +519,11 @@ public final class User {
        */
       public com.google.protobuf.ByteString
           getUsernameBytes() {
-        Object ref = username_;
+        java.lang.Object ref = username_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
-                  (String) ref);
+                  (java.lang.String) ref);
           username_ = b;
           return b;
         } else {
@@ -534,7 +534,7 @@ public final class User {
        * <code>required string username = 1;</code>
        */
       public Builder setUsername(
-          String value) {
+          java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
@@ -567,7 +567,7 @@ public final class User {
       }
 
       // required string password = 2;
-      private Object password_ = "";
+      private java.lang.Object password_ = "";
       /**
        * <code>required string password = 2;</code>
        */
@@ -577,15 +577,15 @@ public final class User {
       /**
        * <code>required string password = 2;</code>
        */
-      public String getPassword() {
-        Object ref = password_;
-        if (!(ref instanceof String)) {
-          String s = ((com.google.protobuf.ByteString) ref)
+      public java.lang.String getPassword() {
+        java.lang.Object ref = password_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
               .toStringUtf8();
           password_ = s;
           return s;
         } else {
-          return (String) ref;
+          return (java.lang.String) ref;
         }
       }
       /**
@@ -593,11 +593,11 @@ public final class User {
        */
       public com.google.protobuf.ByteString
           getPasswordBytes() {
-        Object ref = password_;
+        java.lang.Object ref = password_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
-                  (String) ref);
+                  (java.lang.String) ref);
           password_ = b;
           return b;
         } else {
@@ -608,7 +608,7 @@ public final class User {
        * <code>required string password = 2;</code>
        */
       public Builder setPassword(
-          String value) {
+          java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
@@ -651,11 +651,607 @@ public final class User {
     // @@protoc_insertion_point(class_scope:cn.com.codingce.hbase.UserDetail)
   }
 
+  public interface dayUserDetailOrBuilder
+      extends com.google.protobuf.MessageOrBuilder {
+
+    // required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;
+    /**
+     * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+     *
+     * <pre>
+     *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+     * </pre>
+     */
+    boolean hasDayUserDetail();
+    /**
+     * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+     *
+     * <pre>
+     *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+     * </pre>
+     */
+    cn.com.codingce.hbase.User.UserDetail getDayUserDetail();
+    /**
+     * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+     *
+     * <pre>
+     *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+     * </pre>
+     */
+    cn.com.codingce.hbase.User.UserDetailOrBuilder getDayUserDetailOrBuilder();
+  }
+  /**
+   * Protobuf type {@code cn.com.codingce.hbase.dayUserDetail}
+   *
+   * <pre>
+   *这是一个类，该类对象中包含很多UserDetail对象，每个UserDetail 对象是一条记录，dayUserDetail类的对象其实就相当于Java的集合。
+   * </pre>
+   */
+  public static final class dayUserDetail extends
+      com.google.protobuf.GeneratedMessage
+      implements dayUserDetailOrBuilder {
+    // Use dayUserDetail.newBuilder() to construct.
+    private dayUserDetail(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private dayUserDetail(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final dayUserDetail defaultInstance;
+    public static dayUserDetail getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public dayUserDetail getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private dayUserDetail(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              cn.com.codingce.hbase.User.UserDetail.Builder subBuilder = null;
+              if (((bitField0_ & 0x00000001) == 0x00000001)) {
+                subBuilder = dayUserDetail_.toBuilder();
+              }
+              dayUserDetail_ = input.readMessage(cn.com.codingce.hbase.User.UserDetail.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(dayUserDetail_);
+                dayUserDetail_ = subBuilder.buildPartial();
+              }
+              bitField0_ |= 0x00000001;
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_dayUserDetail_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_dayUserDetail_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              cn.com.codingce.hbase.User.dayUserDetail.class, cn.com.codingce.hbase.User.dayUserDetail.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<dayUserDetail> PARSER =
+        new com.google.protobuf.AbstractParser<dayUserDetail>() {
+      public dayUserDetail parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new dayUserDetail(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<dayUserDetail> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    // required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;
+    public static final int DAYUSERDETAIL_FIELD_NUMBER = 1;
+    private cn.com.codingce.hbase.User.UserDetail dayUserDetail_;
+    /**
+     * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+     *
+     * <pre>
+     *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+     * </pre>
+     */
+    public boolean hasDayUserDetail() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+     *
+     * <pre>
+     *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+     * </pre>
+     */
+    public cn.com.codingce.hbase.User.UserDetail getDayUserDetail() {
+      return dayUserDetail_;
+    }
+    /**
+     * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+     *
+     * <pre>
+     *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+     * </pre>
+     */
+    public cn.com.codingce.hbase.User.UserDetailOrBuilder getDayUserDetailOrBuilder() {
+      return dayUserDetail_;
+    }
+
+    private void initFields() {
+      dayUserDetail_ = cn.com.codingce.hbase.User.UserDetail.getDefaultInstance();
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized != -1) return isInitialized == 1;
+
+      if (!hasDayUserDetail()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      if (!getDayUserDetail().isInitialized()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeMessage(1, dayUserDetail_);
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, dayUserDetail_);
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static cn.com.codingce.hbase.User.dayUserDetail parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static cn.com.codingce.hbase.User.dayUserDetail parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(cn.com.codingce.hbase.User.dayUserDetail prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code cn.com.codingce.hbase.dayUserDetail}
+     *
+     * <pre>
+     *这是一个类，该类对象中包含很多UserDetail对象，每个UserDetail 对象是一条记录，dayUserDetail类的对象其实就相当于Java的集合。
+     * </pre>
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder>
+       implements cn.com.codingce.hbase.User.dayUserDetailOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_dayUserDetail_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_dayUserDetail_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                cn.com.codingce.hbase.User.dayUserDetail.class, cn.com.codingce.hbase.User.dayUserDetail.Builder.class);
+      }
+
+      // Construct using cn.com.codingce.hbase.User.dayUserDetail.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+          getDayUserDetailFieldBuilder();
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        if (dayUserDetailBuilder_ == null) {
+          dayUserDetail_ = cn.com.codingce.hbase.User.UserDetail.getDefaultInstance();
+        } else {
+          dayUserDetailBuilder_.clear();
+        }
+        bitField0_ = (bitField0_ & ~0x00000001);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return cn.com.codingce.hbase.User.internal_static_cn_com_codingce_hbase_dayUserDetail_descriptor;
+      }
+
+      public cn.com.codingce.hbase.User.dayUserDetail getDefaultInstanceForType() {
+        return cn.com.codingce.hbase.User.dayUserDetail.getDefaultInstance();
+      }
+
+      public cn.com.codingce.hbase.User.dayUserDetail build() {
+        cn.com.codingce.hbase.User.dayUserDetail result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public cn.com.codingce.hbase.User.dayUserDetail buildPartial() {
+        cn.com.codingce.hbase.User.dayUserDetail result = new cn.com.codingce.hbase.User.dayUserDetail(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        if (dayUserDetailBuilder_ == null) {
+          result.dayUserDetail_ = dayUserDetail_;
+        } else {
+          result.dayUserDetail_ = dayUserDetailBuilder_.build();
+        }
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof cn.com.codingce.hbase.User.dayUserDetail) {
+          return mergeFrom((cn.com.codingce.hbase.User.dayUserDetail)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(cn.com.codingce.hbase.User.dayUserDetail other) {
+        if (other == cn.com.codingce.hbase.User.dayUserDetail.getDefaultInstance()) return this;
+        if (other.hasDayUserDetail()) {
+          mergeDayUserDetail(other.getDayUserDetail());
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasDayUserDetail()) {
+          
+          return false;
+        }
+        if (!getDayUserDetail().isInitialized()) {
+          
+          return false;
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        cn.com.codingce.hbase.User.dayUserDetail parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (cn.com.codingce.hbase.User.dayUserDetail) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      // required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;
+      private cn.com.codingce.hbase.User.UserDetail dayUserDetail_ = cn.com.codingce.hbase.User.UserDetail.getDefaultInstance();
+      private com.google.protobuf.SingleFieldBuilder<
+          cn.com.codingce.hbase.User.UserDetail, cn.com.codingce.hbase.User.UserDetail.Builder, cn.com.codingce.hbase.User.UserDetailOrBuilder> dayUserDetailBuilder_;
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      public boolean hasDayUserDetail() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      public cn.com.codingce.hbase.User.UserDetail getDayUserDetail() {
+        if (dayUserDetailBuilder_ == null) {
+          return dayUserDetail_;
+        } else {
+          return dayUserDetailBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      public Builder setDayUserDetail(cn.com.codingce.hbase.User.UserDetail value) {
+        if (dayUserDetailBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          dayUserDetail_ = value;
+          onChanged();
+        } else {
+          dayUserDetailBuilder_.setMessage(value);
+        }
+        bitField0_ |= 0x00000001;
+        return this;
+      }
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      public Builder setDayUserDetail(
+          cn.com.codingce.hbase.User.UserDetail.Builder builderForValue) {
+        if (dayUserDetailBuilder_ == null) {
+          dayUserDetail_ = builderForValue.build();
+          onChanged();
+        } else {
+          dayUserDetailBuilder_.setMessage(builderForValue.build());
+        }
+        bitField0_ |= 0x00000001;
+        return this;
+      }
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      public Builder mergeDayUserDetail(cn.com.codingce.hbase.User.UserDetail value) {
+        if (dayUserDetailBuilder_ == null) {
+          if (((bitField0_ & 0x00000001) == 0x00000001) &&
+              dayUserDetail_ != cn.com.codingce.hbase.User.UserDetail.getDefaultInstance()) {
+            dayUserDetail_ =
+              cn.com.codingce.hbase.User.UserDetail.newBuilder(dayUserDetail_).mergeFrom(value).buildPartial();
+          } else {
+            dayUserDetail_ = value;
+          }
+          onChanged();
+        } else {
+          dayUserDetailBuilder_.mergeFrom(value);
+        }
+        bitField0_ |= 0x00000001;
+        return this;
+      }
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      public Builder clearDayUserDetail() {
+        if (dayUserDetailBuilder_ == null) {
+          dayUserDetail_ = cn.com.codingce.hbase.User.UserDetail.getDefaultInstance();
+          onChanged();
+        } else {
+          dayUserDetailBuilder_.clear();
+        }
+        bitField0_ = (bitField0_ & ~0x00000001);
+        return this;
+      }
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      public cn.com.codingce.hbase.User.UserDetail.Builder getDayUserDetailBuilder() {
+        bitField0_ |= 0x00000001;
+        onChanged();
+        return getDayUserDetailFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      public cn.com.codingce.hbase.User.UserDetailOrBuilder getDayUserDetailOrBuilder() {
+        if (dayUserDetailBuilder_ != null) {
+          return dayUserDetailBuilder_.getMessageOrBuilder();
+        } else {
+          return dayUserDetail_;
+        }
+      }
+      /**
+       * <code>required .cn.com.codingce.hbase.UserDetail dayUserDetail = 1;</code>
+       *
+       * <pre>
+       *属性名称就是类名，相当于该类是一个集合存放的泛型是UserDetail （写法和Java不同，注意理解即可）
+       * </pre>
+       */
+      private com.google.protobuf.SingleFieldBuilder<
+          cn.com.codingce.hbase.User.UserDetail, cn.com.codingce.hbase.User.UserDetail.Builder, cn.com.codingce.hbase.User.UserDetailOrBuilder> 
+          getDayUserDetailFieldBuilder() {
+        if (dayUserDetailBuilder_ == null) {
+          dayUserDetailBuilder_ = new com.google.protobuf.SingleFieldBuilder<
+              cn.com.codingce.hbase.User.UserDetail, cn.com.codingce.hbase.User.UserDetail.Builder, cn.com.codingce.hbase.User.UserDetailOrBuilder>(
+                  dayUserDetail_,
+                  getParentForChildren(),
+                  isClean());
+          dayUserDetail_ = null;
+        }
+        return dayUserDetailBuilder_;
+      }
+
+      // @@protoc_insertion_point(builder_scope:cn.com.codingce.hbase.dayUserDetail)
+    }
+
+    static {
+      defaultInstance = new dayUserDetail(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:cn.com.codingce.hbase.dayUserDetail)
+  }
+
   private static com.google.protobuf.Descriptors.Descriptor
     internal_static_cn_com_codingce_hbase_UserDetail_descriptor;
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_cn_com_codingce_hbase_UserDetail_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_cn_com_codingce_hbase_dayUserDetail_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_cn_com_codingce_hbase_dayUserDetail_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -664,10 +1260,11 @@ public final class User {
   private static com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
-    String[] descriptorData = {
+    java.lang.String[] descriptorData = {
       "\n\nuser.proto\022\025cn.com.codingce.hbase\"0\n\nU" +
       "serDetail\022\020\n\010username\030\001 \002(\t\022\020\n\010password\030" +
-      "\002 \002(\t"
+      "\002 \002(\t\"I\n\rdayUserDetail\0228\n\rdayUserDetail\030" +
+      "\001 \002(\0132!.cn.com.codingce.hbase.UserDetail"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -679,7 +1276,13 @@ public final class User {
           internal_static_cn_com_codingce_hbase_UserDetail_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_cn_com_codingce_hbase_UserDetail_descriptor,
-              new String[] { "Username", "Password", });
+              new java.lang.String[] { "Username", "Password", });
+          internal_static_cn_com_codingce_hbase_dayUserDetail_descriptor =
+            getDescriptor().getMessageTypes().get(1);
+          internal_static_cn_com_codingce_hbase_dayUserDetail_fieldAccessorTable = new
+            com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+              internal_static_cn_com_codingce_hbase_dayUserDetail_descriptor,
+              new java.lang.String[] { "DayUserDetail", });
           return null;
         }
       };

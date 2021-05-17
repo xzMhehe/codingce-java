@@ -37,8 +37,9 @@ public class TestApi_2 {
     public static void main(String[] args) throws IOException {
 
 //        dropTable("codingce:student");
-//        createTable("user", "info");
-        getAllRows("codingce:student");
+//        createTable("zjxuser", "zjxuser");
+//        getAllRows("codingce:student");
+        addRowData("user", "1002", "zjx");
     }
 
     //获取 Configuration 对象
@@ -159,15 +160,11 @@ public class TestApi_2 {
      * @param tableName
      * @param rowKey
      * @param columnFamily
-     * @param column
-     * @param value
      * @throws IOException
      */
     public static void addRowData(String tableName,
                                   String rowKey,
-                                  String columnFamily,
-                                  String column,
-                                  String value) throws IOException {
+                                  String columnFamily) throws IOException {
         Connection connection = getConnection();
 
         //查询数据
@@ -186,7 +183,9 @@ public class TestApi_2 {
         if (empty) {
             //新增数据
             Put put = new Put(Bytes.toBytes(rowKey));
-            put.addColumn(Bytes.toBytes(columnFamily), Bytes.toBytes(column), Bytes.toBytes(value));
+
+            put.addColumn(Bytes.toBytes(columnFamily), Bytes.toBytes("username"), Bytes.toBytes("admin"));
+            put.addColumn(Bytes.toBytes(columnFamily), Bytes.toBytes("password"), Bytes.toBytes("admin"));
             table.put(put);
             System.out.println("插入数据成功。。。");
         } else {
