@@ -38,8 +38,9 @@ public class TestApi_2 {
 
 //        dropTable("codingce:student");
 //        createTable("zjxuser", "zjxuser");
-//        getAllRows("codingce:student");
-        addRowData("user", "1002", "zjx");
+//        getAllRows("codingce:zjxuser");
+        addRowData("codingce:zjxuser", "1002", "zjxuser");
+//        deleteMultiRow("codingce:zjxuser", "1002");
     }
 
     //获取 Configuration 对象
@@ -48,7 +49,7 @@ public class TestApi_2 {
     static {
         //使用 HBaseConfiguration 的单例方法实例化
         conf = HBaseConfiguration.create();
-        conf.set("hbase.zookeeper.quorum", "139.9.34.48");
+        conf.set("hbase.zookeeper.quorum", "8.140.0.171");
         conf.set("hbase.zookeeper.property.clientPort", "2181");
 
     }
