@@ -13,7 +13,7 @@ import java.sql.Statement;
 public class CodingceHive {
 
     private static String driverName = "org.apache.hive.jdbc.HiveDriver";
-    private static String url = "jdbc:hive2://8.140.0.171:10000/userdb";
+    private static String url = "jdbc:hive2://hadoop104:10000/userdb";
     private static String user = "hive2";
     private static String password = "password";
 
