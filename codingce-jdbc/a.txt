@@ -1,0 +1,4 @@
+Users(pid=1, sno=1010, sname=里斯, sage=19, saddress=河北)
+Users(pid=3, sno=1002, sname=里斯, sage=19, saddress=河北)
+Users(pid=4, sno=1003, sname=细细, sage=19, saddress=天津)
+Users(pid=5, sno=1099, sname=哈哈, sage=20, saddress=中国)
