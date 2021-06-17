@@ -1,11 +1,12 @@
 package cn.com.codingce.dao;
 
-
 import cn.com.codingce.entity.Student;
 
 import java.util.List;
 
 /**
+ * 接口
+ *
  * @author williamma
  */
 public interface StudentDao {

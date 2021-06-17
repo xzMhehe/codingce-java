@@ -1,12 +1,11 @@
 package cn.com.codingce.dao;
 
-
 import cn.com.codingce.entity.Teacher;
 
 import java.util.List;
 
-
 /**
+ * 接口
  *
  * @author williamma
  */

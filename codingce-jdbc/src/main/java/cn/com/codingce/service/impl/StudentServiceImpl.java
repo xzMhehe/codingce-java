@@ -1,6 +1,5 @@
 package cn.com.codingce.service.impl;
 
-
 import cn.com.codingce.dao.StudentDao;
 import cn.com.codingce.dao.impl.StudentDaoImpl;
 import cn.com.codingce.entity.Student;
@@ -8,9 +7,8 @@ import cn.com.codingce.service.StudentService;
 
 import java.util.List;
 
-
 /**
- * 业务逻辑层  逻辑性的增、删、改(增:查+增，   对dao层进行的组装)
+ * 业务逻辑层service  逻辑性的增、删、改(增:查+增，   对dao层进行的组装)
  *
  * @author williamma
  */
@@ -33,7 +31,7 @@ public class StudentServiceImpl implements StudentService {
         if (studentDao.isExist(sno)) {
             return studentDao.updateStudentBySno(sno, student);
         }
-            return false;
+        return false;
     }
 
     @Override

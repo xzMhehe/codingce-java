@@ -1,13 +1,11 @@
 package cn.com.codingce.service;
 
-
 import cn.com.codingce.entity.Users;
 
 import java.util.List;
 
-
 /**
- * @author org
+ * @author williamma
  */
 public interface UsersService {
 

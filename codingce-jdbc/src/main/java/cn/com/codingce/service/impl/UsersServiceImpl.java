@@ -1,6 +1,5 @@
 package cn.com.codingce.service.impl;
 
-
 import cn.com.codingce.dao.UsersDao;
 import cn.com.codingce.dao.impl.UsersDaoImpl;
 import cn.com.codingce.entity.Users;
@@ -8,9 +7,8 @@ import cn.com.codingce.service.UsersService;
 
 import java.util.List;
 
-
 /**
- * 业务逻辑层  逻辑性的增、删、改(增:查+增，   对dao层进行的组装)
+ * 业务逻辑层service  逻辑性的增、删、改(增:查+增，   对dao层进行的组装)
  *
  * @author williamma
  */

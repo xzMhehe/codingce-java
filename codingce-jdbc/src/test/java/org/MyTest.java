@@ -39,7 +39,7 @@ public class MyTest {
     public void saveAllUsers() throws IOException {
         List<Users> users = usersService.queryAllUsers();
         // 封装目的地
-        BufferedWriter bw = new BufferedWriter(new FileWriter("a.txt"));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("mxz.txt"));
 
         // 遍历集合
         for (Users s : users) {
