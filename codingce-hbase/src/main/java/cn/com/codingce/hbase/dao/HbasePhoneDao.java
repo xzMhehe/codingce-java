@@ -195,7 +195,6 @@
 //     * @param tableName    表名
 //     * @param rowKey       行
 //     * @param columnFamily 列族
-//     * @param column       列名
 //     * @param value        列值
 //     */
 //    public void insertRecord(String tableName, String rowKey, String columnFamily, String column, String value) throws IOException {

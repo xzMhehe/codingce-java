@@ -1,7 +1,7 @@
-package org.service;
+package cn.com.codingce.service;
 
 
-import org.entity.Teacher;
+import cn.com.codingce.entity.Teacher;
 
 import java.util.List;
 

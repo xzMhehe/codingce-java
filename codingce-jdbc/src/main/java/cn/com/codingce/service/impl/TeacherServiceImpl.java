@@ -1,10 +1,10 @@
-package org.service.impl;
+package cn.com.codingce.service.impl;
 
 
-import org.dao.TeacherDao;
-import org.dao.impl.TeacherDaoImpl;
-import org.entity.Teacher;
-import org.service.TeacherService;
+import cn.com.codingce.dao.TeacherDao;
+import cn.com.codingce.dao.impl.TeacherDaoImpl;
+import cn.com.codingce.entity.Teacher;
+import cn.com.codingce.service.TeacherService;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 业务逻辑层  逻辑性的增、删、改(增:查+增，   对dao层进行的组装)
  *
- * @author org
+ * @author williamma
  */
 public class TeacherServiceImpl implements TeacherService {
 

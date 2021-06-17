@@ -1,33 +1,32 @@
-package org.service.impl;
+package cn.com.codingce.service.impl;
 
 
-import org.dao.UsersDao;
-import org.dao.impl.UsersDaoImpl;
-import org.entity.Users;
-import org.service.UsersService;
+import cn.com.codingce.dao.UsersDao;
+import cn.com.codingce.dao.impl.UsersDaoImpl;
+import cn.com.codingce.entity.Users;
+import cn.com.codingce.service.UsersService;
 
 import java.util.List;
 
 
 /**
  * 业务逻辑层  逻辑性的增、删、改(增:查+增，   对dao层进行的组装)
+ *
+ * @author williamma
  */
 public class UsersServiceImpl implements UsersService {
 
     UsersDao usersDao = new UsersDaoImpl();
-
 
     @Override
     public List<Users> queryAllUsers() {
         return usersDao.queryAllUsers();
     }
 
-
     @Override
     public Users queryUsersBySno(int sno) {
         return usersDao.queryUsersBySno(sno);
     }
-
 
     @Override
     public boolean updateUsersBySno(int sno, Users users) {
@@ -37,14 +36,12 @@ public class UsersServiceImpl implements UsersService {
         return false;
     }
 
-
     @Override
     public boolean deleteUsersBySno(int sno) {
         if (usersDao.isExist(sno))
             return usersDao.deleteUsersBySno(sno);
         return false;
     }
-
 
     @Override
     public boolean addUsers(Users users) {
@@ -56,12 +53,10 @@ public class UsersServiceImpl implements UsersService {
         return false;
     }
 
-
     @Override
     public List<Users> queryUsersByPage(int currentPage, int pageSize) {
         return usersDao.queryUsersByPage(currentPage, pageSize);
     }
-
 
     @Override
     public int getTotalCount() {

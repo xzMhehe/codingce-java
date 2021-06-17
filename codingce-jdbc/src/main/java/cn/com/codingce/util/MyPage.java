@@ -1,4 +1,4 @@
-package org.util;
+package cn.com.codingce.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * 分页类
  *
- * @author org
+ * @author williamma
  */
 @Data
 @AllArgsConstructor

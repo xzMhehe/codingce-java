@@ -1,9 +1,9 @@
-package org.dao.impl;
+package cn.com.codingce.dao.impl;
 
 
-import org.dao.StudentDao;
-import org.entity.Student;
-import org.util.Dbutil;
+import cn.com.codingce.dao.StudentDao;
+import cn.com.codingce.entity.Student;
+import cn.com.codingce.util.Dbutil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 数据访问层 原子性的增删改查
  *
- * @author org
+ * @author williamma
  */
 public class StudentDaoImpl implements StudentDao {
 
@@ -33,7 +33,6 @@ public class StudentDaoImpl implements StudentDao {
         Object[] params = {student.getSno(), student.getSname(), student.getSage(), student.getSaddress(), sno};
         return Dbutil.executeUpdate(sql, params);
     }
-
 
     /**
      * 根据学号删除学生

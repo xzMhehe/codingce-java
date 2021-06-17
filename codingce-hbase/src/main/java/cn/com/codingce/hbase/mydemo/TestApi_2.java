@@ -35,12 +35,13 @@ import java.util.List;
 public class TestApi_2 {
 
     public static void main(String[] args) throws IOException {
+//        getConnection();
 
-//        dropTable("codingce:student");
-//        createTable("zjxuser", "zjxuser");
-//        getAllRows("codingce:zjxuser");
-        addRowData("codingce:zjxuser", "1002", "zjxuser");
-//        deleteMultiRow("codingce:zjxuser", "1002");
+        dropTable("user");
+//        createTable("user", "info");
+//        getAllRows("user");
+//        addRowData("user", "2", "info");
+//        deleteMultiRow("user", "2");
     }
 
     //获取 Configuration 对象
@@ -186,7 +187,6 @@ public class TestApi_2 {
             Put put = new Put(Bytes.toBytes(rowKey));
 
             put.addColumn(Bytes.toBytes(columnFamily), Bytes.toBytes("username"), Bytes.toBytes("admin"));
-            put.addColumn(Bytes.toBytes(columnFamily), Bytes.toBytes("password"), Bytes.toBytes("admin"));
             table.put(put);
             System.out.println("插入数据成功。。。");
         } else {

@@ -1,13 +1,14 @@
-package org.dao;
+package cn.com.codingce.dao;
 
 
-import org.entity.Teacher;
+import cn.com.codingce.entity.Teacher;
 
 import java.util.List;
 
 
 /**
- * @author org
+ *
+ * @author williamma
  */
 public interface TeacherDao {
 

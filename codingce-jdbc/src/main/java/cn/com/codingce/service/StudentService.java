@@ -1,8 +1,7 @@
-package org.service;
+package cn.com.codingce.service;
 
 
-import org.entity.Student;
-import org.entity.Users;
+import cn.com.codingce.entity.Student;
 
 import java.util.List;
 
@@ -10,7 +9,7 @@ import java.util.List;
 /**
  * @author org
  */
-public interface UsersService {
+public interface StudentService {
 
     /**
      * 查询数据总条数
@@ -26,14 +25,14 @@ public interface UsersService {
      * @param pageSize
      * @return
      */
-    List<Users> queryUsersByPage(int currentPage, int pageSize);
+    List<Student> queryStudentByPage(int currentPage, int pageSize);
 
     /**
      * 查询全部学生
      *
      * @return
      */
-    List<Users> queryAllUsers();
+    List<Student> queryAllStudents();
 
     /**
      * 根据学号查询一个人
@@ -41,20 +40,18 @@ public interface UsersService {
      * @param sno
      * @return
      */
-    Users queryUsersBySno(int sno);
+    Student queryStudentBySno(int sno);
 
     /**
      * 修改学生
      *
      * @param sno
-     * @param users
+     * @param student
      * @return
      */
-    boolean updateUsersBySno(int sno, Users users);
+    boolean updateStudentBySno(int sno, Student student);
 
-    boolean deleteUsersBySno(int sno);
+    boolean deleteStudentBySno(int sno);
 
-    boolean addUsers(Users users);
-
-    List<Users> queryAllUsersByName(String username);
+    boolean addStudent(Student student);
 }

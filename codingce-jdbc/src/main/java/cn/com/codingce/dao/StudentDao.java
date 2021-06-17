@@ -1,24 +1,23 @@
-package org.dao;
+package cn.com.codingce.dao;
 
 
-import org.entity.Student;
-import org.entity.Users;
+import cn.com.codingce.entity.Student;
 
 import java.util.List;
 
 /**
- * @author org
+ * @author williamma
  */
-public interface UsersDao {
+public interface StudentDao {
 
     /**
-     * 修改
+     * 修改学生  根据学号找到学生
      *
      * @param sno
-     * @param users
+     * @param student
      * @return
      */
-    boolean updateUsersBySno(int sno, Users users);
+    boolean updateStudentBySno(int sno, Student student);
 
     /**
      * 查询总数据数
@@ -34,40 +33,31 @@ public interface UsersDao {
      * @param pagesSize
      * @return
      */
-    List<Users> queryUsersByPage(int currentPage, int pagesSize);
+    List<Student> queryStudentsByPage(int currentPage, int pagesSize);
 
     /**
-     * 根据学号删除
+     * 根据学号删除学生
      *
      * @param sno
      * @return
      */
-    boolean deleteUsersBySno(int sno);
+    boolean deleteStudentBySno(int sno);
 
     /**
-     * 添加
+     * 添加学生
      *
-     * @param users
+     * @param student
      * @return
      */
-    boolean addUsers(Users users);
-
-
-    /**
-     * 查询全部
-     *
-     * @return
-     */
-    List<Users> queryAllUsers();
+    boolean addStudent(Student student);
 
 
     /**
-     * 模糊查询
+     * 查询全部学生
      *
-     * @param username
      * @return
      */
-    List<Users> queryAllUsersByName(String username);
+    List<Student> queryAllStudents();
 
 
     /**
@@ -80,10 +70,10 @@ public interface UsersDao {
 
 
     /**
-     * 根据学号
+     * 根据学号  查询生
      *
      * @param sno
      * @return
      */
-    Users queryUsersBySno(int sno);
+    Student queryStudentBySno(int sno);
 }

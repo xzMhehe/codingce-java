@@ -1,12 +1,9 @@
-package org.entity;
+package cn.com.codingce.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @author org
- */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

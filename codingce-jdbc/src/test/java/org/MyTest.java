@@ -1,16 +1,16 @@
 package org;
 
-import org.entity.Student;
-import org.entity.Teacher;
-import org.entity.Users;
+import cn.com.codingce.entity.Student;
+import cn.com.codingce.entity.Teacher;
+import cn.com.codingce.entity.Users;
+import cn.com.codingce.service.StudentService;
+import cn.com.codingce.service.TeacherService;
+import cn.com.codingce.service.UsersService;
+import cn.com.codingce.service.impl.StudentServiceImpl;
+import cn.com.codingce.service.impl.TeacherServiceImpl;
+import cn.com.codingce.service.impl.UsersServiceImpl;
+import cn.com.codingce.util.MyPage;
 import org.junit.Test;
-import org.service.StudentService;
-import org.service.TeacherService;
-import org.service.UsersService;
-import org.service.impl.StudentServiceImpl;
-import org.service.impl.TeacherServiceImpl;
-import org.service.impl.UsersServiceImpl;
-import org.util.MyPage;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -30,12 +30,10 @@ public class MyTest {
 
     private TeacherService teacherService = new TeacherServiceImpl();
 
-
     @Test
     public void queryAllUsers() {
         usersService.queryAllUsers().forEach(e -> System.out.println(e.toString()));
     }
-
 
     @Test
     public void saveAllUsers() throws IOException {

@@ -1,9 +1,9 @@
-package org.dao.impl;
+package cn.com.codingce.dao.impl;
 
 
-import org.dao.TeacherDao;
-import org.entity.Teacher;
-import org.util.Dbutil;
+import cn.com.codingce.dao.TeacherDao;
+import cn.com.codingce.entity.Teacher;
+import cn.com.codingce.util.Dbutil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * DAO层
  *
- * @author org
+ * @author williamma
  */
 public class TeacherDaoImpl implements TeacherDao {
 

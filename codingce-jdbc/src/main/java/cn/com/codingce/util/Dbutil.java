@@ -1,4 +1,4 @@
-package org.util;
+package cn.com.codingce.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ import java.sql.Statement;
 /**
  * 数据库常用的增删改查
  *
- * @author org
+ * @author williamma
  */
 public class Dbutil {
 
@@ -145,7 +145,6 @@ public class Dbutil {
             if (connection != null)
                 connection.close();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

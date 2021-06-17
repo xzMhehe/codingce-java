@@ -1,9 +1,9 @@
-package org.dao.impl;
+package cn.com.codingce.dao.impl;
 
 
-import org.dao.UsersDao;
-import org.entity.Users;
-import org.util.Dbutil;
+import cn.com.codingce.dao.UsersDao;
+import cn.com.codingce.entity.Users;
+import cn.com.codingce.util.Dbutil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 数据访问层 原子性的增删改查
  *
- * @author org
+ * @author williamma
  */
 public class UsersDaoImpl implements UsersDao {
 
@@ -31,7 +31,6 @@ public class UsersDaoImpl implements UsersDao {
         Object[] params = {users.getSno(), users.getSname(), users.getSage(), users.getSaddress(), sno};
         return Dbutil.executeUpdate(sql, params);
     }
-
 
     /**
      * @param sno
@@ -66,7 +65,6 @@ public class UsersDaoImpl implements UsersDao {
     public boolean isExist(int sno) {// true此人存在 false 不存在
         return queryUsersBySno(sno) == null ? false : true;
     }
-
 
     /**
      * @return
@@ -140,7 +138,7 @@ public class UsersDaoImpl implements UsersDao {
      */
     @Override
     public int getTotalCount() {
-        String sql = "select count(1) from student";
+        String sql = "select count(1) from users";
         return Dbutil.getTotalCount(sql);
     }
 
