@@ -8,7 +8,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -84,12 +87,19 @@ public class UsersDaoImpl implements UsersDao {
                 String name = rs.getString("sname");
                 int age = rs.getInt("sage");
                 String address = rs.getString("saddress");
-                users = new Users(pid, no, name, age, address);
+                String pwd = rs.getString("pwd");
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+
+                Date date = formatter.parse(rs.getString("birth"));
+                System.out.println(date);
+
+                Date birth = date;
+                users = new Users(pid, no, name, age, address, pwd, birth);
                 usersList.add(users);
             }
             return usersList;
 
-        } catch (SQLException e) {
+        } catch (SQLException | ParseException e) {
             e.printStackTrace();
             return null;
         } finally {
@@ -117,12 +127,14 @@ public class UsersDaoImpl implements UsersDao {
                 String name = rs.getString("sname");
                 int age = rs.getInt("sage");
                 String address = rs.getString("saddress");
-                users = new Users(pid, no, name, age, address);
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+                Date date = formatter.parse(rs.getString("birth"));
+                users = new Users(pid, no, name, age, address, rs.getString("pwd"), date);
                 usersList.add(users);
             }
             return usersList;
 
-        } catch (SQLException e) {
+        } catch (SQLException | ParseException e) {
             e.printStackTrace();
             return null;
         } finally {
@@ -157,8 +169,10 @@ public class UsersDaoImpl implements UsersDao {
         ResultSet rs = Dbutil.executeQuery(sql, params);
         try {
             while (rs.next()) {
-                Users student = new Users(rs.getInt("pid"), rs.getInt("sno"), rs.getString("sname"), rs.getInt("sage"),
-                        rs.getString("saddress"));
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+                Date date = formatter.parse(rs.getString("birth"));
+                Users student = new Users(rs.getInt("uid"), rs.getInt("no"), rs.getString("name"), rs.getInt("age"),
+                        rs.getString("address"), rs.getString("pwd"), date);
                 usersList.add(student);
             }
         } catch (SQLException e) {
@@ -195,7 +209,9 @@ public class UsersDaoImpl implements UsersDao {
                 String name = rs.getString("sname");
                 int age = rs.getInt("sage");
                 String address = rs.getString("saddress");
-                users = new Users(pid, no, name, age, address);
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+                Date date = formatter.parse(rs.getString("birth"));
+                users = new Users(pid, no, name, age, address, rs.getString("pwd"), date);
             }
             return users;
         } catch (Exception e) {

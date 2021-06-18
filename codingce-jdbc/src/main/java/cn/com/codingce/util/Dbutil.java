@@ -89,6 +89,7 @@ public class Dbutil {
         try {
             pstmt = createPreparedStatement(sql, params);
             rs = pstmt.executeQuery();
+            System.out.println(sql);
             return rs;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

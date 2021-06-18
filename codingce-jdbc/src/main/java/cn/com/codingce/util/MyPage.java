@@ -1,10 +1,11 @@
 package cn.com.codingce.util;
 
+import cn.com.codingce.entity.Users;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Map;
+import java.util.List;
 
 /**
  * 分页类
@@ -29,7 +30,7 @@ public class MyPage {
     private int totalPage;
 
     // 当前页数据集
-    private Map<Integer, Object> data;
+    private List<Users> data;
 
     public int getTotalCount() {
         return this.data.size();
