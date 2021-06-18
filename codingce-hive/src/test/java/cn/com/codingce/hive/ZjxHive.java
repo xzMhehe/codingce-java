@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 
-public class CodingceHive {
+public class ZjxHive {
 
     private static String driverName = "org.apache.hive.jdbc.HiveDriver";
     private static String url = "jdbc:hive2://hadoop104:10000/mydb";
@@ -68,7 +68,7 @@ public class CodingceHive {
 
     // 查询所有表
     @Test
-    public void showTables() throws Exception {
+    public void zjxTables() throws Exception {
         String sql = "show tables";
         System.out.println("Running: " + sql);
         rs = stmt.executeQuery(sql);
