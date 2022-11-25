@@ -29,6 +29,7 @@ public class UsersDaoImpl implements UsersDao {
      */
     @Override
     public boolean updateUsersBySno(int sno, Users users) {
+
         String sql = "update users set sno=?,sname=?,sage=?,saddress=? where sno = ?";
         Object[] params = {users.getSno(), users.getSname(), users.getSage(), users.getSaddress(), sno};
         return Dbutil.executeUpdate(sql, params);
