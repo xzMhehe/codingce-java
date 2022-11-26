@@ -10,7 +10,7 @@
  作用:   
 
 - 温故基础、收藏可复用代码、分享资源。
-- 存放[我的技术博客](https://www.cnblogs.com/mzdljgz/)、[我的技术博客Hexo](https://i.codingce.com.cn/)上相关文章包含的代码。
+- 存放[我的技术博客](https://www.cnblogs.com/mzdljgz/)、[我的技术博客Hexo](https://codingce.com.cn/)上相关文章包含的代码。
 
 ## 环境
 
@@ -21,15 +21,9 @@
 - 内容持续更新
 
 ## 更多项目
-
-为了规范仓库, 我已将本项目中的大部分代码拆分到下面的仓库中 
-
-- Spring 项目 https://github.com/xzMhehe/codingce-spring.git   
-- SpringMvc 项目 https://github.com/xzMhehe/codingce-springmvc.git   
-- MyBatis 项目 https://github.com/xzMhehe/codingce-mybatis.git  
-- SpringBoot 项目 https://github.com/xzMhehe/codingce-springboot
-- SpringCloud 项目 https://github.com/xzMhehe/codingce-springcloud   
-
+Android SDK开发
+iOS SDK开发
+流媒体开发
 后期还会添加其他代码, 希望能够帮得到你☺
 
 ## 欢迎关注
@@ -45,6 +39,7 @@
 >回复"面试"领取BTA大厂Java工程师面试突
 
 更多精彩关注**后端码匠**公众号,更多资源等你来发掘    
+
 期待与你一起进步😋
 
 ![](https://cdn.jsdelivr.net/gh/xzMhehe/StaticFile_CDN/static/img/202108311552149.png)
