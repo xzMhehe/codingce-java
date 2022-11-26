@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--第一种下标赋值-->
+<!--    <bean id="user" class="cn.com.codingce.pojo.User">-->
+<!--        <constructor-arg index="0" value="掌上编程"/>-->
+<!--    </bean>-->
+
+    <!--第二种参数类型 不建议使用 假设两个参数都是String-->
+<!--    <bean id="user" class="cn.com.codingce.pojo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="掌上编程"/>-->
+<!--    </bean>    -->
+
+    <!--第三种通过参数名来设置-->
+    <bean id="user" class="cn.com.codingce.pojo.User">
+
+        <constructor-arg name="name" value="掌上编程"/>
+    </bean>
+    <!--别名,别名区分大小写, 我们也可以使用别名获取到这个对象-->
+    <alias name="user" alias="aliasUser"/>
+
+    <!--
+        id: bean 唯一标识符, 也就是相当于我们学的对象名
+        class: bean对象所对应的类型
+        name: 也是别名, 而且name更高级 可以取多个别名name="user2, u2" name="user2"
+    -->
+    <bean id="userT" class="cn.com.codingce.pojo.User" name="user2, u2">
+        <property name="name" value="掌上开源"/>
+    </bean>
+
+</beans>

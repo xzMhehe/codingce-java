@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!--
+    scope =
+         singleton 在spring IoC容器仅存在一个Bean实例，Bean以单例方式存在，默认值
+         prototype 每次从容器中调用Bean时，都返回一个新的实例，即每次调用getBean()时，相当于执行newXxxBean()
+         request 每次HTTP请求都会创建一个新的Bean，该作用域仅适用于WebApplicationContext环境
+         session 同一个HTTP Session共享一个Bean，不同Session使用不同的Bean，仅适用于WebApplicationContext环境
+         global-session 一般用于Portlet应用环境，该运用域仅适用于WebApplicationContext环境
+    -->
+    <bean id="helloWorld" class="cn.com.codingce.codespring.entity.HelloWorld" scope="prototype"
+          init-method="init"
+          destroy-method="destroy"
+    >
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World!"/>
+    </bean>
+
+    <!--Spring Bean 后置处理器-->
+    <bean class="cn.com.codingce.codespring.postprocessor.InitHelloWorld" />
+
+    <!--Spring Bean 定义继承
+    Spring Bean 定义的继承与 Java 类的继承无关，但是继承的概念是一样的。
+    你可以定义一个父 bean 的定义作为模板和其他子 bean 就可以从父 bean 中继承所需的配置。
+    -->
+    <bean id="inherit" class="cn.com.codingce.codespring.entity.Inherit" parent="helloWorld">
+        <property name="message1" value="Inherit India!"/>
+        <property name="message3" value="Inherit India!"/>
+    </bean>
+
+    <!-- 它有基于构造函数注入的配置 -->
+    <bean id="textEditor" class="cn.com.codingce.codespring.entity.TextEditor">
+<!--        <constructor-arg ref="spellChecker"/>-->
+        <property name="spellCheck" ref="spellChecker"/>
+    </bean>
+
+    <!-- Spring 基于设值函数的依赖注入 -->
+    <bean id="spellChecker" class="cn.com.codingce.codespring.entity.SpellChecker">
+    </bean>
+
+    <!-- Spring 注入内部 Beans -->
+    <bean id="injectTextEditor" class="cn.com.codingce.codespring.entity.InjectTextEditor">
+        <property name="InjectSpellChecker">
+            <bean id="injectspellChecker" class="cn.com.codingce.codespring.entity.InjectSpellChecker"/>
+        </property>
+    </bean>
+
+    <!-- Spring 注入集合 -->
+    <bean id="address" class="cn.com.codingce.codespring.entity.Address">
+
+        <!-- results in a setAddressList(java.util.List) call -->
+        <property name="addressList">
+            <list>
+                <value>INDIA</value>
+                <value>Pakistan</value>
+                <value>USA</value>
+                <value>USA</value>
+            </list>
+        </property>
+
+        <!-- results in a setAddressSet(java.util.Set) call -->
+        <property name="addressSet">
+            <set>
+                <value>INDIA</value>
+                <value>Pakistan</value>
+                <value>USA</value>
+                <value>USA</value>
+            </set>
+        </property>
+
+        <!-- results in a setAddressMap(java.util.Map) call -->
+        <property name="addressMap">
+            <map>
+                <entry key="1" value="INDIA"/>
+                <entry key="2" value="Pakistan"/>
+                <entry key="3" value="USA"/>
+                <entry key="4" value="USA"/>
+            </map>
+        </property>
+
+        <!-- results in a setAddressProp(java.util.Properties) call -->
+        <property name="addressProp">
+            <props>
+                <prop key="one">掌上编程</prop>
+                <prop key="two">马总</prop>
+                <prop key="three">🐧</prop>
+                <prop key="four">Java</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--正常情况下的配置-->
+<!--    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto">-->
+<!--        <property name="autoSpellChecker" ref="autospellchecker" />-->
+<!--        <property name="name" value="掌上编程"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="autospellchecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">-->
+<!--    </bean>-->
+
+    <!--自动 byName-->
+<!--    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="byName">-->
+<!--        <property name="name" value="掌上编程"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">-->
+<!--    </bean>-->
+
+    <!--自动 byType-->
+<!--    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="byType">-->
+<!--        <property name="name" value="掌上编程"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">-->
+<!--    </bean>-->
+
+    <!--Spring 由构造函数自动装配 原版-->
+<!--    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto">-->
+<!--        <constructor-arg ref="autoSpellChecker"/>-->
+<!--        <constructor-arg value="嘿嘿！我是在bean里面赋值的"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">-->
+<!--    </bean>-->
+
+    <!--由构造函数自动装配-->
+    <bean id="auto" class="cn.com.codingce.codespring.entity.Auto" autowire="constructor">
+        <constructor-arg value="嘿嘿！我是在bean里面赋值的"/>
+    </bean>
+    <bean id="autoSpellChecker" class="cn.com.codingce.codespring.entity.AutoSpellChecker">
+    </bean>
+
+    <!--Spring @Required 注释-->
+    <bean id="student" class="cn.com.codingce.codespring.entity.Student">
+        <property name="name" value="Bean中赋值"/>
+        <property name="age" value="15"/>
+    </bean>
+
+    <!-- 你可以在 XML 文件中的 setter 方法中使用 @Autowired 注释来除去 元素。当 Spring遇到一个在 setter 方法中使用的 @Autowired 注释，
+    它会在方法中视图执行 byType 自动连接。目前我的代码是手写autowire="byType"  不然报 NullPointerException
+      -->
+    <bean id="autowiredTest" class="cn.com.codingce.codespring.entity.AutowiredTest" autowire="byType">
+    </bean>
+
+    <!-- Definition for spellChecker bean -->
+    <bean id="spellCheckerAwd" class="cn.com.codingce.codespring.entity.SpellCheckerAwd">
+        <description>daw</description>
+    </bean>
+
+
+    <!-- Spring @Qualifier 注释 -->
+    <bean id="profile" class="cn.com.codingce.codespring.entity.ProfileQar">
+    </bean>
+
+    <!-- Spring @Qualifier 注释 -->
+    <bean id="qualifierTest1" class="cn.com.codingce.codespring.entity.QualifierTest">
+        <property name="name"  value="Zara" />
+        <property name="age"  value="11"/>
+    </bean>
+
+    <!-- Spring @Qualifier 注释 -->
+    <bean id="qualifierTest2" class="cn.com.codingce.codespring.entity.QualifierTest">
+        <property name="name"  value="Nuha" />
+        <property name="age"  value="2"/>
+    </bean>
+
+    <!--@Configuration 和 @Bean 注解-->
+    <beans>
+        <bean id="myEntity" class="cn.com.codingce.codespring.entity.MyEntity" />
+    </beans>
+
+    <!--@Configuration 和 @Bean 注解-->
+    <beans>
+        <bean id="myConfig" class="cn.com.codingce.codespring.config.MyConfig" />
+    </beans>
+
+</beans>

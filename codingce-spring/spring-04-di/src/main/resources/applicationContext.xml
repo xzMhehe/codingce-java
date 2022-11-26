@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="userBean.xml"/>
+
+    <!--xmlns:p="http://www.springframework.org/schema/p"    p 命名空间注入 可以直接注入属性的值 property标签操作-->
+    <bean id="user" class="cn.com.codingce.pojo.User" p:age="12" p:name="掌上编程">
+    </bean>
+
+    <!--xmlns:c="http://www.springframework.org/schema/c"   c命名空间, 通过构造器注入: construct-args
+
+        作用域scope="singleton"  默认可不写
+    -->
+    <bean id="user2" class="cn.com.codingce.pojo.User" c:age="18" c:name="人间事Life" scope="prototype"/>
+
+</beans>
