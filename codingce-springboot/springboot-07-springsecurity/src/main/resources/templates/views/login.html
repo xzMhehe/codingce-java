@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://v3.bootcss.com/examples/signin/ -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" th:href="@{https://v3.bootcss.com/favicon.ico}">
+
+    <title>Signin Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link th:href="@{/css/signin.css}" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <form class="form-signin" th:action="@{/login}" method="post">
+        <h2 class="form-signin-heading" th:text="#{login.tip}">
+
+        </h2>
+        <label for="inputUserName" class="sr-only" th:text="#{login.username}"></label>
+        <input type="text" id="inputUserName" name="username" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
+        <label for="inputPassword" class="sr-only" th:text="#{login.password}"></label>
+        <input type="password" id="inputPassword" name="password" class="form-control" th:placeholder="#{login.password}" required="">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" name="remember">[[#{login.remember}]]
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">[[#{login.btn}]]</button>
+        <p class="text-muted">2017-2021</p>
+        <a class="btn btn-sm" th:href="@{/index.html(l='zn_CN')}">中文</a>
+        <a class="btn btn-sm" th:href="@{/index.html(l='en_US')}">英文</a>
+    </form>
+
+</div> <!-- /container -->
+
+<div id="chrome_websiteIP" class="chrome_websiteIP_right">152.136.104.42</div></body></html>

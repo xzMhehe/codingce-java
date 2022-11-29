@@ -1,0 +1,27 @@
+#person:
+#  name: maxinze
+#  age: 3
+#  happy: false
+#  birth: 1998/01/01
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - code
+#    - girl
+#    - music
+#  dog:
+#    name: 阿黑
+#    age: 1
+person:
+  name: maxinze${random.uuid} # 随机uuid
+  age: ${random.int}  # 随机int
+  happy: false
+  birth: 1998/01/01
+  maps: {k1: v1,k2: v2}
+  hello: happy
+  lists:
+    - code
+    - girl
+    - music
+  dog:
+    name: ${person.hello:other}_旺财
+    age: 1

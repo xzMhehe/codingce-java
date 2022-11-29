@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    #?serverTimezone=UTC解决时区的报错
+    url: jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/mybatis?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+
+  messages:
+    basename: i18n.login
+  thymeleaf:
+    cache: false
+  mvc:
+    date-format: yyyy-MM-dd
+
+# 整合Mybatis
+mybatis:
+  type-aliases-package: cn.com.codingce.pojo
+  mapper-locations: classpath:mapper/*.xml
+
+
