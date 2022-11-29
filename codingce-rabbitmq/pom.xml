@@ -12,6 +12,7 @@
     <artifactId>codingce-rabbitmq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>codingce-rabbitmq</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
     <modules>
         <module>rabbitmq-01-hello</module>
