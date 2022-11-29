@@ -1,0 +1,8 @@
+# 项目系统级别的配置
+spring:
+  cloud:
+    config:
+      uri: http://localhost:3344  #注意： 必须先启动   3344   本地项目 导包 spring-cloud-starter-eureka-server 不然会走 8080
+      name: config-eureka # 需要从git上读取的资源名称, 不需要后缀
+      profile: dev
+      label: master

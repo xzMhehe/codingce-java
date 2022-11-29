@@ -1,0 +1,35 @@
+server:
+  port: 8001
+
+#mybatis配置
+mybatis:
+  type-aliases-package: cn.com.codingce.springcloud.pojo
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+#  configuration:
+#    map-underscore-to-camel-case: true
+
+# spring配置
+spring:
+  application:
+    name: springcloud-provider-dept # 3 个服务名称一致
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource # 数据源 德鲁伊
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cdb-q9atzwrq.bj.tencentcdb.com:10167/db01?useSSL=true
+    username: root
+    password: mxz123456
+
+# EURAKE 配置 服务注册到哪里
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7002.com:7002/eureka/, http://eureka7003.com:7003/eureka/, http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: springcloud-provider-dept-hystrix-8001 # 修改eureka上默认的描述信息
+
+# info 配置
+info:
+  app.name: codingce-springboot
+  cpmany.name: i.codingce.com.cn
+  author: xzMhehe
