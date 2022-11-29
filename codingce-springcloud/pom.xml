@@ -40,7 +40,7 @@
     <properties>
         <junit.version>4.12</junit.version>
         <lombok.version>1.16.10</lombok.version>
-        <mysql.version>8.0.11</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <druid.version>1.1.10</druid.version>
         <logbackcore.version>1.2.3</logbackcore.version>
     </properties>
