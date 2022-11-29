@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--Mybatis层编写-->
+    <!--配置数据源. 交给Spring去做-->
+    <typeAliases>
+        <package name="cn.com.codingce.pojo"/>
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="cn/com/codingce/dao/BookMapper.xml"/>
+    </mappers>
+</configuration>
