@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * @author mxz
  */
-public class Provider {
+public class DirectfProvider {
     public static void main(String[] args) throws IOException {
 
         Connection connection = RabbitMQUtils.getConnection();

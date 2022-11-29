@@ -15,7 +15,7 @@ import java.util.concurrent.TimeoutException;
  * @author mxz
  */
 @Component
-public class Provider {
+public class TopicProvider {
 
     public static void main(String[] args) throws IOException, TimeoutException {
         Connection connection = RabbitMQUtils.getConnection();
