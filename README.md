@@ -1,4 +1,3 @@
-
 ## 作者
 
 后端码匠博主, 希望所写的东西能够帮的到你
@@ -10,7 +9,7 @@
  作用:   
 
 - 温故基础、收藏可复用代码、分享资源。
-- 存放[我的技术博客](https://www.cnblogs.com/mzdljgz/)、[我的技术博客Hexo](https://codingce.com.cn/)上相关文章包含的代码。
+- 存放[博客园](https://www.cnblogs.com/mzdljgz/)、[CSDN](https://blog.csdn.net/weixin_43874301)、[自己搭建 Hexo](https://codingce.com.cn/)上相关文章包含的代码。
 
 ## 环境
 
@@ -21,15 +20,14 @@
 - 内容持续更新
 
 ## 更多项目
-Android SDK开发
-iOS SDK开发
-流媒体开发
-后期还会添加其他代码, 希望能够帮得到你☺
+- Android SDK开发
+- iOS SDK开发
+- 音视频开发
+- 后期还会添加其他代码, 希望能够帮得到你☺
 
 ## 欢迎关注
 
 关注我不迷路  **后端码匠** 
-
 
 更多精彩关注**后端码匠**公众号,更多资源等你来发掘    
 
