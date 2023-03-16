@@ -1,0 +1,138 @@
+13:26:19.180 [main] ERROR o.s.b.SpringApplication - [reportFailure,826] - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.bsh.lable.LableAdminApplication.main(LableAdminApplication.java:10)
+13:28:36.815 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+server error: such as timeout. failed to req API:/api//nacos/v1/ns/instance after all servers([127.0.0.1:8848]) tried: java.net.ConnectException: Connection refused: connect
+
+Action:
+
+please check server status
+
+13:35:04.051 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+server error: such as timeout. failed to req API:/api//nacos/v1/ns/instance after all servers([127.0.0.1:8848]) tried: java.net.ConnectException: Connection refused: connect
+
+Action:
+
+please check server status
+
+13:36:36.465 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+server error: such as timeout. failed to req API:/api//nacos/v1/ns/instance after all servers([127.0.0.1:8848]) tried: java.net.ConnectException: Connection refused: connect
+
+Action:
+
+please check server status
+
+13:37:02.367 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+server error: such as timeout. failed to req API:/api//nacos/v1/ns/instance after all servers([127.0.0.1:8848]) tried: java.net.ConnectException: Connection refused: connect
+
+Action:
+
+please check server status
+
+13:37:59.801 [main] ERROR o.s.b.SpringApplication - [reportFailure,826] - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [console]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.bsh.lable.LableAdminApplication.main(LableAdminApplication.java:10)
+13:39:18.602 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+server error: such as timeout. failed to req API:/api//nacos/v1/ns/instance after all servers([127.0.0.1:8848]) tried: java.net.ConnectException: Connection refused: connect
+
+Action:
+
+please check server status
+
+13:44:20.920 [main] ERROR o.s.b.SpringApplication - [reportFailure,826] - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:25 - no applicable action for [colorLevel], current ElementPath  is [[configuration][appender][encoder][colorLevel]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.bsh.lable.LableAdminApplication.main(LableAdminApplication.java:10)

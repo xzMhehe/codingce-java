@@ -1,0 +1,179 @@
+13:28:16.207 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:28:16.216 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:28:16.225 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 4760 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:28:16.225 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:28:19.037 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:28:19.037 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:28:19.038 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:28:19.160 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:28:19.507 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:28:19.790 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:28:36.776 [main] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:28:36.783 [main] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:28:36.784 [main] INFO  c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+13:28:36.784 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,276] - com.alibaba.nacos.spring.factory.DelegatingNamingService@7d37ee0c was destroying!
+13:28:36.785 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+13:28:36.787 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+13:34:43.801 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:34:43.806 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:34:43.816 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 11360 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:34:43.817 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:34:46.281 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:34:46.281 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:34:46.282 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:34:46.393 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:34:46.725 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:34:47.007 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:35:04.017 [main] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:35:04.024 [main] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:35:04.025 [main] INFO  c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+13:35:04.026 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,276] - com.alibaba.nacos.spring.factory.DelegatingNamingService@3bbf1c0d was destroying!
+13:35:04.026 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+13:35:04.028 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+13:36:16.287 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:36:16.291 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:36:16.303 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 21820 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:36:16.303 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:36:18.643 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:36:18.644 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:36:18.644 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:36:18.754 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:36:19.122 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:36:19.394 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:36:36.434 [main] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:36:36.439 [main] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:36:36.440 [main] INFO  c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+13:36:36.441 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,276] - com.alibaba.nacos.spring.factory.DelegatingNamingService@530ee28b was destroying!
+13:36:36.441 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+13:36:36.443 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+13:36:41.821 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:36:41.826 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:36:41.836 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 9352 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:36:41.836 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:36:44.503 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:36:44.503 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:36:44.503 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:36:44.620 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:36:44.958 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:36:45.222 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:37:02.338 [main] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:37:02.343 [main] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:37:02.344 [main] INFO  c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+13:37:02.344 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,276] - com.alibaba.nacos.spring.factory.DelegatingNamingService@2407a36c was destroying!
+13:37:02.345 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+13:37:02.347 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+13:37:21.915 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:37:21.921 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:37:21.940 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 15124 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:37:21.942 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:37:24.602 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:37:24.603 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:37:24.603 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:37:24.717 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:37:25.064 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:37:25.347 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:38:48.312 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:38:48.317 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:38:48.326 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 4492 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:38:48.327 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:38:50.631 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:38:50.631 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:38:50.632 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:38:50.743 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:38:51.056 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:38:51.313 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:38:58.576 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:38:58.617 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:38:58.627 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 10752 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:38:58.628 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:39:00.897 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:39:00.898 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:39:00.898 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:39:01.015 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:39:01.354 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:39:01.626 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:39:18.572 [main] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:39:18.578 [main] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:39:18.579 [main] INFO  c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+13:39:18.580 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,276] - com.alibaba.nacos.spring.factory.DelegatingNamingService@6b8b5020 was destroying!
+13:39:18.580 [main] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+13:39:18.582 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+13:41:20.409 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:41:20.415 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:41:20.427 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 3948 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:41:20.428 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:41:22.681 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:41:22.682 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:41:22.682 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:41:22.790 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:41:23.086 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:41:23.339 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:41:25.876 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8091"]
+13:41:25.900 [main] INFO  c.b.l.LableAdminApplication - [logStarted,61] - Started LableAdminApplication in 6.112 seconds (JVM running for 7.16)
+13:41:26.536 [boundedElastic-1] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+13:41:26.539 [boundedElastic-1] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+13:41:27.025 [RMI TCP Connection(3)-10.0.5.86] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:42:22.489 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:42:22.495 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:42:22.496 [SpringContextShutdownHook] INFO  c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+13:42:22.497 [SpringContextShutdownHook] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,276] - com.alibaba.nacos.spring.factory.DelegatingNamingService@148e8573 was destroying!
+13:42:22.498 [SpringContextShutdownHook] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+13:42:28.228 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+13:42:28.235 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+13:42:28.246 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 14028 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:42:28.247 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:42:31.563 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:42:31.564 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:42:31.565 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:42:31.808 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:42:32.182 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:42:32.481 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:42:35.243 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8091"]
+13:42:35.267 [main] INFO  c.b.l.LableAdminApplication - [logStarted,61] - Started LableAdminApplication in 7.759 seconds (JVM running for 8.835)
+13:42:35.974 [RMI TCP Connection(7)-10.0.5.86] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:42:36.355 [boundedElastic-1] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+13:42:36.356 [boundedElastic-1] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+13:43:05.455 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:43:05.467 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:43:05.470 [SpringContextShutdownHook] INFO  c.a.n.s.c.a.c.NacosValueAnnotationBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.context.annotation.config.NacosValueAnnotationBeanPostProcessor was destroying!
+13:43:05.470 [SpringContextShutdownHook] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,276] - com.alibaba.nacos.spring.factory.DelegatingNamingService@2f663e37 was destroying!
+13:43:05.470 [SpringContextShutdownHook] INFO  c.a.n.s.b.f.a.AnnotationNacosInjectedBeanPostProcessor - [destroy,288] - class com.alibaba.nacos.spring.beans.factory.annotation.AnnotationNacosInjectedBeanPostProcessor was destroying!
+13:43:15.333 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 16372 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:43:15.337 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:43:17.597 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:43:17.598 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:43:17.598 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:43:17.768 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:43:17.957 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:43:18.174 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:43:19.248 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8091"]
+13:43:19.267 [main] INFO  c.b.l.LableAdminApplication - [logStarted,61] - Started LableAdminApplication in 4.546 seconds (JVM running for 6.446)
+13:43:19.922 [RMI TCP Connection(2)-10.0.5.86] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:43:31.518 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:43:31.524 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:43:36.242 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 11616 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:43:36.246 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:43:38.400 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:43:38.400 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:43:38.401 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:43:38.572 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:43:38.740 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:43:38.999 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:43:40.242 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8091"]
+13:43:40.263 [main] INFO  c.b.l.LableAdminApplication - [logStarted,61] - Started LableAdminApplication in 4.557 seconds (JVM running for 5.716)
+13:43:41.586 [RMI TCP Connection(1)-10.0.5.86] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:44:17.095 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:44:17.101 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed
+13:44:30.776 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 15316 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+13:44:30.781 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+13:44:33.534 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+13:44:33.535 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+13:44:33.536 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13:44:33.883 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+13:44:34.226 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+13:44:34.528 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+13:44:35.803 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8091"]
+13:44:35.835 [main] INFO  c.b.l.LableAdminApplication - [logStarted,61] - Started LableAdminApplication in 5.766 seconds (JVM running for 6.945)
+13:44:36.294 [RMI TCP Connection(3)-10.0.5.86] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:44:48.294 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2029] - {dataSource-1} closing ...
+13:44:48.302 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,2101] - {dataSource-1} closed

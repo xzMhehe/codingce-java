@@ -1,0 +1,95 @@
+server:
+  port: 8091
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      username: root
+      password: 1234567890
+      url: jdbc:mysql://localhost:3306/cat_travel?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      # 初始化时建立物理连接的个数
+      initial-size: 5
+      # 最大连接池数量
+      max-active: 30
+      # 最小连接池数量
+      min-idle: 5
+      time-between-eviction-runs-millis: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      # 连接保持空闲而不被驱逐的最小时间
+      min-evictable-idle-time-millis: 300000
+      # 获取连接时最大等待时间，单位毫秒
+      max-wait: 60000
+      # 用来检测连接是否有效的sql，要求是一个查询语句
+      validation-query: SELECT 1 FROM DUAL
+
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      webStatFilter:
+        enabled: true
+      statViewServlet:
+        enabled: true
+        # 设置白名单，不填则允许所有访问
+        allow:
+        # 控制台管理用户名和密码
+        login-username: admin
+        login-password: mxzhahahaha
+      filter:
+        stat:
+          enabled: true
+          # 慢SQL记录
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+
+  #  security:
+  #    user:
+  #      name: user
+  #      password: 111111
+
+
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  thymeleaf:
+    cache: false
+
+#  redis:
+#    host: localhost
+#    port: 6379
+#    database: 1
+#    password:
+#    timeout: 20000
+
+  servlet:
+    multipart:
+      max-file-size: 9MB
+
+#uploadPathImg: /resources/static/upload/
+uploadPathImg: /Users/williamma/mxz-code/vue-pro/gd/src/main/resources/static/upload
+
+mybatis-plus:
+  type-aliases-package: com.bsh.**.entity #指定封装到实体类的包，省去书写全类名
+  mapper-locations: classpath*:/mapper/lable/*.xml #mapper配置文件的位置
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+
+logging:
+  level:
+    com.bsh.lable: debug
+
+codingce:
+  jwt:
+    header: Authorization
+    expire: 604800 #7天，秒单位
+    secret: codin3439n439n43ld9ne9343fdfer49

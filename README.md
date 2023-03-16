@@ -1,15 +1,15 @@
-## 作者
-
-后端码匠博主, 希望所写的东西能够帮的到你
-
 ## 关于
 
-`服务端（前端、运维） 技术栈 项目😜`   
+`服务端（前端、运维、音视频） 技术栈 项目😜`，希望所写的内容能够帮得到你。
 
  作用:   
 
 - 温故基础、收藏可复用代码、分享资源。
 - 存放[博客园](https://www.cnblogs.com/mzdljgz/)、[CSDN](https://blog.csdn.net/weixin_43874301)、[自己搭建 Hexo](https://codingce.com.cn/)上相关文章包含的代码。
+
+## 作者
+
+后端码匠博主，阿里云专家博主，腾讯云+社区最具潜力作者，51CTO TOP红人
 
 ## 环境
 
@@ -76,6 +76,10 @@
 ### Go
 
 [Go](https://github.com/xzMhehe/codingce-java/tree/master/codingce-go)
+
+### Python
+
+[Python]()
 
 ## 欢迎关注
 

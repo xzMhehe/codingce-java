@@ -1,0 +1,30 @@
+09:02:22.506 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+09:02:22.510 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+09:02:22.517 [main] INFO  c.b.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 19248 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+09:02:22.527 [main] INFO  c.b.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+09:02:24.767 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+09:02:24.768 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:02:24.769 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+09:02:24.886 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:02:25.197 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:02:25.444 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+09:02:28.052 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8091"]
+09:02:28.082 [main] INFO  c.b.LableAdminApplication - [logStarted,61] - Started LableAdminApplication in 6.206 seconds (JVM running for 7.627)
+09:02:29.306 [RMI TCP Connection(3)-10.0.5.86] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:02:29.630 [boundedElastic-1] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+09:02:29.632 [boundedElastic-1] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library
+09:03:09.827 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+09:03:09.832 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+09:03:09.839 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 19712 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+09:03:09.840 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+09:03:13.242 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+09:03:13.243 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:03:13.244 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+09:03:13.364 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:03:13.681 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+09:03:13.936 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+09:03:16.388 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8091"]
+09:03:16.411 [main] INFO  c.b.l.LableAdminApplication - [logStarted,61] - Started LableAdminApplication in 7.286 seconds (JVM running for 8.414)
+09:03:17.331 [RMI TCP Connection(4)-10.0.5.86] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:03:17.632 [boundedElastic-1] INFO  i.l.c.EpollProvider - [<clinit>,68] - Starting without optional epoll library
+09:03:17.634 [boundedElastic-1] INFO  i.l.c.KqueueProvider - [<clinit>,70] - Starting without optional kqueue library

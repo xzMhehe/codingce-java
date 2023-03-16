@@ -1,0 +1,28 @@
+15:31:15.354 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+15:31:15.363 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+15:31:15.373 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 18504 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+15:31:15.384 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+15:32:01.693 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+15:32:01.696 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+15:32:01.704 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 16116 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+15:32:01.705 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+15:32:04.046 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+15:32:04.047 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:32:04.047 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:32:04.182 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:32:04.561 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:32:04.828 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+15:34:09.529 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+15:34:09.532 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+15:34:09.543 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 18492 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+15:34:09.545 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+15:34:11.885 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8091"]
+15:34:11.886 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:34:11.886 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+15:34:12.017 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:34:12.400 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:34:12.703 [main] INFO  c.a.d.p.DruidDataSource - [init,994] - {dataSource-1} inited
+15:36:11.970 [main] INFO  c.a.b.n.c.u.NacosConfigPropertiesUtils - [buildNacosConfigProperties,47] - nacosConfigProperties : NacosConfigProperties{serverAddr='127.0.0.1:8848', contextPath='null', encode='null', endpoint='null', namespace='null', accessKey='null', secretKey='null', ramRoleName='null', autoRefresh=false, dataId='null', dataIds='null', group='DEFAULT_GROUP', type=null, maxRetry='null', configLongPollTimeout='null', configRetryTime='null', enableRemoteSyncConfig=false, extConfig=[], bootstrap=Bootstrap{enable=false, logEnable=false}}
+15:36:11.975 [main] INFO  c.a.b.n.c.a.NacosConfigApplicationContextInitializer - [initialize,75] - [Nacos Config Boot] : The preload configuration is not enabled
+15:36:11.985 [main] INFO  c.b.l.LableAdminApplication - [logStarting,55] - Starting LableAdminApplication on LAPTOP-4794C7RB with PID 23628 (D:\mxz-code\gitee\bsh-lable\lable-admin\target\classes started by ma in D:\mxz-code\gitee\bsh-lable)
+15:36:11.986 [main] INFO  c.b.l.LableAdminApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
