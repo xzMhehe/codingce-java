@@ -1,0 +1,1 @@
+ERROR: 2021/09/10 14:56:29 logTwo.go:43: Something has failed
