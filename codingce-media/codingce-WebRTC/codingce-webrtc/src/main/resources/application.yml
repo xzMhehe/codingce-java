@@ -1,0 +1,31 @@
+server:
+  port: 8080                        #服务器端口号
+  ssl:
+    # 证书的路径
+    key-store: classpath:webrtc.keystore
+    # 证书密码
+    key-store-password: 123456
+    # 秘钥库类型
+    key-store-type: JKS
+
+
+spring:
+  # servlet配置信息
+  servlet:
+    multipart:
+      max-file-size: 10MB             #单个文件大小限制
+      max-request-size: 100MB         #单次请求大小限制
+
+  # mvc配置信息
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true                 #开启reset风格——get、post、put、delete
+
+
+  # thymeleaf配置信息
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>codingce-webrtc</title>
+    <meta name="description" content="更多精彩关注微信公众号：后端码匠">
+    <link rel="icon" th:href="@{/static/favicon.ico}"/>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container py-3">
+    <div class="row">
+
+        <div class="col-12 col-lg-6">
+            <p>本地视频:</p>
+            <video id="localVideo" width="500px" height="300px" autoplay style="border: 1px solid black;"></video>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <p>远程视频:</p>
+            <video id="remoteVideo" width="500px" height="300px" autoplay style="border: 1px solid black;"></video>
+        </div>
+
+        <div class="col-12">
+            <div id="addRoom" class="btn btn-primary">加入房间</div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://s3.pstatp.com/cdn/expire-1-M/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" th:src="@{/static/js/webrtc-util.js}"></script>
+<script>
+    let webSocket;
+    // let url = 'wss://192.168.42.34:8080/webrtc';
+    let url = 'wss://10.0.5.86:8080/webrtc';
+    //let url = 'ws://127.0.0.1:8080/webrtc';
+
+    $(function () {
+        webSocket = new WebSocket(url);
+        webSocket.onopen = function () {
+            console.log('webSocket连接创建。。。');
+        }
+        webSocket.onclose = function () {
+        }
+        webSocket.onmessage = function (event) {
+            let data = {
+                operation: '',
+                msg: ''
+            };
+
+            data = JSON.parse(event.data);
+            // console.log(data);
+            switch (data.operation) {
+                case "into":
+                    // 加入成功
+                    if (data.msg === 'offer' ||
+                        data.msg === 'answer') {
+                        // 1、创建端点
+                        createPeerConnection();
+                        // 2、绑定 收集 candidate 的回调
+                        bindOnIceCandidate(candidate => sendMsg('send-candidate', candidate));
+                        // 3、绑定 获得 远程视频流 的回调
+                        bindOnTrack(stream => {
+                            console.log('获得远程视频流');
+                            // 显示 远程视频流
+                            let remoteVideo = document.getElementById("remoteVideo");
+                            remoteVideo.srcObject = stream;
+                            remoteVideo.play();
+                        });
+                        console.log(data.msg + '进入成功');
+
+                        // 如果是 answer, 说明 offer 和 answer 都已就绪, 触发开始消息
+                        if (data.msg == 'answer') {
+                            sendMsg('start', '')
+                        }
+                    } else if (data.msg == 'none') {
+                        alert('房间已满');
+                    }
+                    break;
+                case "start":
+                    // 先打开视频流, 在创建用于 offer 的 SDP 对象
+                    openLocalMedia(stream => {
+                        // 显示本地视频流
+                        let localVideo = document.getElementById("localVideo");
+                        localVideo.srcObject = stream;
+                        localVideo.play();
+
+                        createOffer(sdp => {
+                            console.log('创建并发送 offer')
+                            sendMsg('send-offer', sdp);
+                        });
+                    });
+
+                    break;
+                case "send-offer":
+                    // 先保存收到的 offer
+                    saveSdp(data.msg, () => {
+                        console.log('offer 保存成功');
+
+                        // 再打开音视频流
+                        openLocalMedia(stream => {
+                            let localVideo = document.getElementById("localVideo");
+                            localVideo.srcObject = stream;
+                            localVideo.play();
+
+                            // 最后创建用于 answer 的 SDP 对象
+                            createAnswer(sdp => {
+                                console.log('创建并发送 answer')
+                                sendMsg('send-answer', sdp);
+                            });
+                        });
+                    });
+                    break;
+                case "send-answer":
+                    // 保存收到的 answer
+                    saveSdp(data.msg, () => console.log('answer 保存成功'));
+                    break;
+                case "send-candidate":
+                    // 用于交换 candidate
+                    saveIceCandidate(data.msg);
+                    break;
+            }
+        }
+
+        webSocket.onerror = function (event) {
+            console.log(event)
+            console.log('webSocket连接异常。。。');
+        }
+    });
+
+    // 发送消息
+    function sendMsg(operation, msg) {
+        let data = {
+            operation: operation,
+            msg: msg
+        };
+        webSocket.send(JSON.stringify(data));
+    }
+
+    // 加入房间
+    $('#addRoom').click(function () {
+        sendMsg('into', '');
+    });
+</script>
+
+</body>
+</html>
