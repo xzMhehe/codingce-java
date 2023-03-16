@@ -50,7 +50,7 @@ api层：负责api接口层实现及整体配置。（引入service层）
 
 然后在主项目中依次创建 module
 
-![](https://raw.githubusercontent.com/xzMhehe/StaticFile_CDN/main/static/img/mo/20230316134734.png)
+![](https://raw.githubusercontent.com/xzMhehe/StaticFile_CDN/main/static/img/mo/20230316141058.png)
 
 主项目的 pom.xml 配置，引入创建的几个module
 
@@ -62,8 +62,8 @@ api层：负责api接口层实现及整体配置。（引入service层）
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
 
-<groupId>com.bsh.lable</groupId>
-<artifactId>bsh-lable</artifactId>
+<groupId>com.bsh.label</groupId>
+<artifactId>codingce-label</artifactId>
 <version>0.0.1-SNAPSHOT</version>
 <packaging>pom</packaging>
 
@@ -72,44 +72,45 @@ api层：负责api接口层实现及整体配置。（引入service层）
 
 <properties>
     <!-- 统一定义版本号 -->
-    <lable.version>0.0.1-SNAPSHOT</lable.version>
+    <label.version>0.0.1-SNAPSHOT</label.version>
     <java.version>1.8</java.version>
     <pagehelper.version>1.4.0</pagehelper.version>
 </properties>
 
 <modules>
-    <module>lable-common</module>
-    <module>lable-system</module>
-    <module>lable-framework</module>
-    <module>lable-admin</module>
+    <module>label-common</module>
+    <module>label-system</module>
+    <module>label-framework</module>
+    <module>label-api</module>
 </modules>
 
 <dependencyManagement>
 
     <dependencies>
+
         <!-- 子模块 -->
         <dependency>
-            <groupId>com.bsh.lable</groupId>
-            <artifactId>lable-common</artifactId>
-            <version>${lable.version}</version>
+            <groupId>com.bsh.label</groupId>
+            <artifactId>label-common</artifactId>
+            <version>${label.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.bsh.lable</groupId>
-            <artifactId>lable-system</artifactId>
-            <version>${lable.version}</version>
+            <groupId>com.bsh.label</groupId>
+            <artifactId>label-system</artifactId>
+            <version>${label.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.bsh.lable</groupId>
-            <artifactId>lable-framework</artifactId>
-            <version>${lable.version}</version>
+            <groupId>com.bsh.label</groupId>
+            <artifactId>label-framework</artifactId>
+            <version>${label.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.bsh.lable</groupId>
-            <artifactId>lable-admin</artifactId>
-            <version>${lable.version}</version>
+            <groupId>com.bsh.label</groupId>
+            <artifactId>label-api</artifactId>
+            <version>${label.version}</version>
         </dependency>
 
     </dependencies>
@@ -118,17 +119,17 @@ api层：负责api接口层实现及整体配置。（引入service层）
 
 
 
-lable-common
+label-common
 
 ```xml
 <parent>
-    <groupId>com.bsh.lable</groupId>
-    <artifactId>bsh-lable</artifactId>
+    <groupId>com.bsh.label</groupId>
+    <artifactId>codingce-label</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </parent>
 
-<artifactId>lable-common</artifactId>
-<name>lable-common</name>
+<artifactId>label-common</artifactId>
+<name>label-common</name>
 <description>common</description>
 
 <properties>
@@ -142,21 +143,22 @@ lable-common
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     ...
+    
 </dependencies>
 ```
 
-lable-system
+label-system
 
 ```xml
 <parent>
-    <groupId>com.bsh.lable</groupId>
-    <artifactId>bsh-lable</artifactId>
+    <groupId>com.bsh.label</groupId>
+    <artifactId>codingce-label</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </parent>
 
-<artifactId>lable-system</artifactId>
+<artifactId>label-system</artifactId>
 <version>0.0.1-SNAPSHOT</version>
-<name>lable-system</name>
+<name>label-system</name>
 <description>system</description>
 
 <properties>
@@ -166,8 +168,8 @@ lable-system
 <dependencies>
 
     <dependency>
-        <groupId>com.bsh.lable</groupId>
-        <artifactId>lable-common</artifactId>
+        <groupId>com.bsh.label</groupId>
+        <artifactId>label-common</artifactId>
     </dependency>
 
 </dependencies>
@@ -187,7 +189,9 @@ lable-system
 
 
 
+期待与你一起进步😋
 
+![](https://cdn.jsdelivr.net/gh/xzMhehe/StaticFile_CDN/static/img/202108311552149.png)
 
 
 
