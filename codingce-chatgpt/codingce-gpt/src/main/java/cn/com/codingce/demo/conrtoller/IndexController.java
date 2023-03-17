@@ -53,18 +53,19 @@ public class IndexController {
     @GetMapping(value = "/api/{content}", produces = "text/html;charset=utf-8")
     public String outWeb(@PathVariable("content") String content, HttpServletRequest request) {
         String clientIp = ServletUtil.getClientIP(request, null);
-        log.info("接口 outWeb goto content:{}, ip:{}", content, clientIp);
+        log.info("接口 outWeb goto content: {}, ip: {}", content, clientIp);
         String res = "系统思考中...";
         try {
             List<CompletionChoice> completionChoices = openAiUtil.sendComplete(content);
-            res = JSONUtil.toJsonStr(completionChoices.stream().map(CompletionChoice::getText).collect(Collectors.toList())).replaceAll("\\n", "").replaceAll("\\]", "").replaceAll("\\[", "");
+            res = JSONUtil.toJsonStr(completionChoices.stream().map(CompletionChoice::getText).collect(Collectors.toList()));
         } catch (Exception e) {
             log.error("出错了 e:{}", e.getMessage());
 
             return "抱歉服务器出错了~";
         }
-
         log.info("res:{}", res);
+        res.replaceAll("\n", "").replaceAll("\"", "").replaceAll("\\]", "").replaceAll("\\[", "");
+        log.info("replaceAll res:{}", res);
 
         return res;
     }

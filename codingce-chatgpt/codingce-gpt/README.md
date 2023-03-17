@@ -4,6 +4,11 @@
 Spring Boot ChatGPT调用demo, 直接修改 `application-dev.yml` 文件中的 `secret-key` 即可，查看地址：https://platform.openai.com/account/api-keys
 没有前端，前端需要自己实现~，可以对接钉钉~
 
+## 操作截图
+![](https://raw.githubusercontent.com/xzMhehe/StaticFile_CDN/main/static/img/mo/20230317142908.png)
+
+![](https://raw.githubusercontent.com/xzMhehe/StaticFile_CDN/main/static/img/mo/20230317142958.png)
+
 ## 作者
 
 后端码匠博主，阿里云专家博主，腾讯云+社区最具潜力作者，51CTO TOP红人
