@@ -1,4 +1,6 @@
 ## 关于
+>声明：此项目只发布于 Github，基于 MIT 协议，免费且作为开源学习使用。并且不会有任何形式的卖号、付费服务、讨论群、讨论组等行为。谨防受骗。
+
 Spring Boot ChatGPT调用demo, 直接修改 `application-dev.yml` 文件中的 `secret-key` 即可，查看地址：https://platform.openai.com/account/api-keys
 没有前端，前端需要自己实现~，可以对接钉钉~
 
