@@ -1,5 +1,6 @@
 package cn.com.codingce.fanout;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.Exchange;
 import org.springframework.amqp.rabbit.annotation.Queue;
 import org.springframework.amqp.rabbit.annotation.QueueBinding;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Component;
  * @author mxz
  */
 @Component
+@Slf4j
 public class FanoutCustomer {
 
     @RabbitListener(bindings = {
@@ -21,6 +23,7 @@ public class FanoutCustomer {
             )
     })
     public void receivel(String message) {
+        log.info("FanoutCustomer receivel message:{}", message);
         System.out.println("message1 = " + message);
     }
 
@@ -31,6 +34,8 @@ public class FanoutCustomer {
             )
     })
     public void receive2(String message) {
+        log.info("FanoutCustomer receive2 message:{}", message);
         System.out.println("message2 = " + message);
     }
+
 }

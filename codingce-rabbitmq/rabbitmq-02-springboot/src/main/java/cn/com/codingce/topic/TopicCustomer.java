@@ -1,5 +1,6 @@
 package cn.com.codingce.topic;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.Exchange;
 import org.springframework.amqp.rabbit.annotation.Queue;
 import org.springframework.amqp.rabbit.annotation.QueueBinding;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Component;
  * @author mxz
  */
 @Component
+@Slf4j
 public class TopicCustomer {
 
     @RabbitListener(bindings = {
@@ -23,6 +25,7 @@ public class TopicCustomer {
     }
     )
     public void receivel(String message) {
+        log.info("RouteCustomer receivel message:{}", message);
         System.out.println("message1" + message);
     }
 
@@ -35,6 +38,7 @@ public class TopicCustomer {
     }
     )
     public void receivel2(String message) {
+        log.info("RouteCustomer receivel2 message:{}", message);
         System.out.println("message2" + message);
     }
 }
