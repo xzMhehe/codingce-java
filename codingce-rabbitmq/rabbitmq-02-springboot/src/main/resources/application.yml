@@ -8,9 +8,9 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: test
-    password: test
-    virtual-host: /
+    username: guest
+    password: guest
+    virtual-host: /codingce
 
 
   thymeleaf.cache: false
