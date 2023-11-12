@@ -11,6 +11,9 @@ spring:
     username: guest
     password: guest
     virtual-host: /codingce
-
+    # 新版，NONE值是禁用发布确认模式，是默认值，CORRELATED值是发布消息成功到交换器后会触发回调方法
+    publisher-confirm-type: correlated
+    # 为true,则交换机处理消息到路由失败，则会返回给生产者
+    publisher-returns: true
 
   thymeleaf.cache: false
