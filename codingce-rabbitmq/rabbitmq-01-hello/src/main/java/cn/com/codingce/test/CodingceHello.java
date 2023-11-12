@@ -7,11 +7,13 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Consumer;
 import com.rabbitmq.client.DefaultConsumer;
 import com.rabbitmq.client.Envelope;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-public class HelloWorld {
+@Slf4j
+public class CodingceHello {
 
     // 队列名称
     private final static String QUEUE_NAME = "codingceHelloWorld";
@@ -32,7 +34,7 @@ public class HelloWorld {
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 String message = new String(body, StandardCharsets.UTF_8);
-                System.out.printf("customer1收到消息：%s%n", message);
+                log.info("CodingceHello Consumer customer1收到消息：{}", message);
             }
         };
         // 创建消费者
@@ -40,7 +42,7 @@ public class HelloWorld {
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 String message = new String(body, StandardCharsets.UTF_8);
-                System.out.printf("customer2收到消息：%s%n", message);
+                log.info("CodingceHello Consumer customer2收到消息：{}", message);
             }
         };
         // 监听队列并消费消息
@@ -51,7 +53,7 @@ public class HelloWorld {
     /**
      * 获取RabbitMQ连接对象
      */
-    private static Channel getChannel() throws Exception {
+    public static Channel getChannel() throws Exception {
         // 创建连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("127.0.0.1");
