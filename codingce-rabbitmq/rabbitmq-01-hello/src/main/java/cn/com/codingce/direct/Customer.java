@@ -27,7 +27,7 @@ public class Customer {
         Channel channel = connection.createChannel();
 
         // 通道绑定对象
-        channel.queueDeclare("hello", false, false, false, null);
+        channel.queueDeclare("codingceObject", false, false, false, null);
 
         // 消费消息
         // 参数1 消息队列的消息, 队列名称
