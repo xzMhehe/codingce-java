@@ -12,7 +12,7 @@ import java.io.IOException;
 
 @Slf4j
 @Component
-@RabbitListener(queues = RabbitMQConfig.QUEUE) // 监听的队列名称
+@RabbitListener(queues = RabbitMQConfig.HRA3_QUEUE) // 监听的队列名称
 public class HealthHra3MQListener {
 
 //    /**

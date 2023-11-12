@@ -17,10 +17,17 @@ public class SendController {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
+    @GetMapping("/testInterventionSend")
+    public R testInterventionSend() {
+        log.info("testInterventionSend");
+        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_INTERVENTION_NAME, "intervention.#", "新干预方案报告来了！！");
+        return R.ok();
+    }
+
     @GetMapping("/testSend")
     public R testSend() {
         log.info("testSend");
-        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_NAME, "health.#", "新HRA3报告来了！！");
+        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_HRA3_NAME, "health.#", "新HRA3报告来了！！");
         return R.ok();
     }
 
@@ -46,7 +53,7 @@ public class SendController {
                 log.error("发送失败，{}", cause);
             }
         });
-        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_NAME, "health.new", "新HRA3报告来了！！");
+        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_HRA3_NAME, "health.new", "新HRA3报告来了！！");
         return R.ok();
     }
 
@@ -60,7 +67,7 @@ public class SendController {
             log.info("returnCallback returned={}", returnedMessage);
         });
         // 这个routingKey是不存在的，它找不到这个路由，所以会出现异常从而触发上面的回调方法
-        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_NAME, "xxx.health.new", "新HRA3报告来了！！");
+        rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_HRA3_NAME, "xxx.health.new", "新HRA3报告来了！！");
         return R.ok();
     }
 
