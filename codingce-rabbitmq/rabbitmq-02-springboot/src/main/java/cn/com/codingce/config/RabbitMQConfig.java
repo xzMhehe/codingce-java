@@ -15,7 +15,7 @@ public class RabbitMQConfig {
     /**
      * 交换机名称
      */
-    public static final String EXCHANGE_NAME = "health_exchange";
+    public static final String EXCHANGE_NAME = "health_hra3_exchange";
 
     /**
      * 队列名称
@@ -24,7 +24,7 @@ public class RabbitMQConfig {
 
 
     @Bean
-    public Exchange orderExchange() {
+    public Exchange healthHra3Exchange() {
         // 创建交换机，durable代表持久化，使用Bean注入
         return ExchangeBuilder.topicExchange(EXCHANGE_NAME).durable(true).build();
     }
@@ -42,7 +42,7 @@ public class RabbitMQConfig {
      * @param exchange 上面注入的交换机Bean
      */
     @Bean
-    public Binding healthBinding(Queue queue, Exchange exchange) {
+    public Binding healthHra3Binding(Queue queue, Exchange exchange) {
         return BindingBuilder.bind(queue).to(exchange).with("health.#").noargs();
     }
 
